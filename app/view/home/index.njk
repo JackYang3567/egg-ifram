@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <title></title>
+  </head>
+  <body style="display: block; margin: 0;width: 100%;height:100%;" 
+        oncontextmenu="return false" 
+        ondragstart="return false" 
+        onselectstart ="return false">
+    <noscript>
+      <strong>很抱歉，如果没有启用Javascript，无法正常工作。请启用它以继续。</strong>
+    </noscript>
+            {% if (dir.length>0) %}
+            <ul class="news-view view">
+              {% for item in dir %}
+                <li class="item">
+                  <a href="/{{ item.name }}">{{ item.title }} {{ item.name }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+            <ul class="news-view view">
+              {% for route in utils %}
+                <li class="item">
+                  <a href="/{{ route.path }}">{{ route.title }}  {{ route.path }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+            
+            {% endif %}
+          
+            <iframe src="{{ list[0].url }}" style="border:0;width: 100%;height: 62rem;" 
+                    frameborder="0" 
+                    scrolling="no" 
+                    allowfullscreen>
+            </iframe>
+  
+    <!-- built files will be auto injected -->
+    <script src="js/jquery.min.js"></script>
+    <script>
+        function nocontextmenu()
+        {
+            if(document.all) {
+                event.cancelBubble=true;
+                event.returnvalue=false;
+                return false;
+            }
+        }
+    </script>
+  </body>
+</html>

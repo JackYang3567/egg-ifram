@@ -1,0 +1,2072 @@
+2019-04-03 16:23:59,587 ERROR 12208 [-/127.0.0.1/-/6ms GET /] nodejs.ReferenceError: ctx is not defined
+    at domains.url.urls.filter (D:\works\NodePro\egg-pro\egg-ifram\app\controller\home.js:16:67)
+    at Array.filter (<anonymous>)
+    at HomeController.index (D:\works\NodePro\egg-pro\egg-ifram\app\controller\home.js:16:25)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 12208
+hostname: PC-201902231802
+
+2019-04-03 16:24:21,274 ERROR 4092 [-/127.0.0.1/-/7ms GET /] nodejs.ReferenceError: ctx is not defined
+    at domains.url.urls.filter (D:\works\NodePro\egg-pro\egg-ifram\app\controller\home.js:16:67)
+    at Array.filter (<anonymous>)
+    at HomeController.index (D:\works\NodePro\egg-pro\egg-ifram\app\controller\home.js:16:25)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 4092
+hostname: PC-201902231802
+
+2019-04-03 16:24:22,759 ERROR 4092 [-/127.0.0.1/-/0ms GET /] nodejs.ReferenceError: ctx is not defined
+    at domains.url.urls.filter (D:\works\NodePro\egg-pro\egg-ifram\app\controller\home.js:16:67)
+    at Array.filter (<anonymous>)
+    at HomeController.index (D:\works\NodePro\egg-pro\egg-ifram\app\controller\home.js:16:25)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 4092
+hostname: PC-201902231802
+
+2019-04-03 16:24:25,830 ERROR 4092 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: ctx is not defined
+    at domains.url.urls.filter (D:\works\NodePro\egg-pro\egg-ifram\app\controller\home.js:16:67)
+    at Array.filter (<anonymous>)
+    at HomeController.index (D:\works\NodePro\egg-pro\egg-ifram\app\controller\home.js:16:25)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 4092
+hostname: PC-201902231802
+
+2019-04-03 16:24:36,079 ERROR 4092 [-/127.0.0.1/-/1ms GET /baidu] nodejs.ReferenceError: ctx is not defined
+    at domains.url.urls.filter (D:\works\NodePro\egg-pro\egg-ifram\app\controller\home.js:16:67)
+    at Array.filter (<anonymous>)
+    at HomeController.index (D:\works\NodePro\egg-pro\egg-ifram\app\controller\home.js:16:25)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 4092
+hostname: PC-201902231802
+
+2019-04-03 16:29:54,075 ERROR 1328 [-/127.0.0.1/-/6ms GET /baidu] nodejs.ReferenceError: ctx is not defined
+    at domains.url.urls.filter (D:\works\NodePro\egg-pro\egg-ifram\app\controller\home.js:16:55)
+    at Array.filter (<anonymous>)
+    at HomeController.index (D:\works\NodePro\egg-pro\egg-ifram\app\controller\home.js:16:25)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 1328
+hostname: PC-201902231802
+
+2019-04-03 16:29:55,055 ERROR 1328 [-/127.0.0.1/-/1ms GET /baidu] nodejs.ReferenceError: ctx is not defined
+    at domains.url.urls.filter (D:\works\NodePro\egg-pro\egg-ifram\app\controller\home.js:16:55)
+    at Array.filter (<anonymous>)
+    at HomeController.index (D:\works\NodePro\egg-pro\egg-ifram\app\controller\home.js:16:25)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 1328
+hostname: PC-201902231802
+
+2019-04-03 16:30:23,544 ERROR 5472 [-/127.0.0.1/-/6ms GET /baidu] nodejs.ReferenceError: ctx is not defined
+    at HomeController.index (D:\works\NodePro\egg-pro\egg-ifram\app\controller\home.js:16:20)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 5472
+hostname: PC-201902231802
+
+2019-04-03 16:30:24,312 ERROR 5472 [-/127.0.0.1/-/1ms GET /baidu] nodejs.ReferenceError: ctx is not defined
+    at HomeController.index (D:\works\NodePro\egg-pro\egg-ifram\app\controller\home.js:16:20)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 5472
+hostname: PC-201902231802
+
+2019-04-03 16:30:24,513 ERROR 5472 [-/127.0.0.1/-/0ms GET /baidu] nodejs.ReferenceError: ctx is not defined
+    at HomeController.index (D:\works\NodePro\egg-pro\egg-ifram\app\controller\home.js:16:20)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 5472
+hostname: PC-201902231802
+
+2019-04-03 16:30:24,703 ERROR 5472 [-/127.0.0.1/-/0ms GET /baidu] nodejs.ReferenceError: ctx is not defined
+    at HomeController.index (D:\works\NodePro\egg-pro\egg-ifram\app\controller\home.js:16:20)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 5472
+hostname: PC-201902231802
+
+2019-04-03 16:30:24,897 ERROR 5472 [-/127.0.0.1/-/0ms GET /baidu] nodejs.ReferenceError: ctx is not defined
+    at HomeController.index (D:\works\NodePro\egg-pro\egg-ifram\app\controller\home.js:16:20)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 5472
+hostname: PC-201902231802
+
+2019-04-03 16:30:25,081 ERROR 5472 [-/127.0.0.1/-/0ms GET /baidu] nodejs.ReferenceError: ctx is not defined
+    at HomeController.index (D:\works\NodePro\egg-pro\egg-ifram\app\controller\home.js:16:20)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 5472
+hostname: PC-201902231802
+
+2019-04-03 16:30:25,359 ERROR 5472 [-/127.0.0.1/-/0ms GET /baidu] nodejs.ReferenceError: ctx is not defined
+    at HomeController.index (D:\works\NodePro\egg-pro\egg-ifram\app\controller\home.js:16:20)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 5472
+hostname: PC-201902231802
+
+2019-04-03 16:30:37,608 ERROR 4092 [-/127.0.0.1/-/6ms GET /baidu] nodejs.ReferenceError: ctx is not defined
+    at HomeController.index (D:\works\NodePro\egg-pro\egg-ifram\app\controller\home.js:16:20)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 4092
+hostname: PC-201902231802
+
+2019-04-03 16:41:10,064 ERROR 10276 [-/127.0.0.1/-/6ms GET /baidu] nodejs.TypeError: Cannot set property '0' of undefined
+    at HomeController.index (D:\works\NodePro\egg-pro\egg-ifram\app\controller\home.js:16:22)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 10276
+hostname: PC-201902231802
+
+2019-04-03 16:44:32,841 ERROR 6280 [-/127.0.0.1/-/6ms GET /] nodejs.TypeError: Cannot set property 'url' of undefined
+    at HomeController.index (D:\works\NodePro\egg-pro\egg-ifram\app\controller\home.js:18:27)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 6280
+hostname: PC-201902231802
+
+2019-04-03 16:44:41,474 ERROR 8752 [-/127.0.0.1/-/6ms GET /] nodejs.TypeError: Cannot set property 'url' of undefined
+    at HomeController.index (D:\works\NodePro\egg-pro\egg-ifram\app\controller\home.js:18:26)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 8752
+hostname: PC-201902231802
+
+2019-04-03 16:46:18,162 ERROR 10408 [-/127.0.0.1/-/1ms GET /baidu] nodejs.TypeError: Cannot set property 'url' of undefined
+    at HomeController.index (D:\works\NodePro\egg-pro\egg-ifram\app\controller\home.js:19:32)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 10408
+hostname: PC-201902231802
+
+2019-04-03 17:01:20,935 ERROR 5984 [-/127.0.0.1/-/4ms GET /baidu] nodejs.Template render error: (D:\works\NodePro\egg-pro\egg-ifram\app\view\home\index.tpl) [Line 17, Column 17]
+  Error: Unable to call `console["log"]`, which is undefined or falsey
+  Error: Unable to call `console["log"]`, which is undefined or falsey
+    at Object._prettifyError (D:\works\NodePro\egg-pro\egg-ifram\node_modules\nunjucks\src\lib.js:36:11)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\nunjucks\src\environment.js:567:19
+    at Template.root [as rootRenderFunc] (eval at _compile (D:\works\NodePro\egg-pro\egg-ifram\node_modules\nunjucks\src\environment.js:637:18), <anonymous>:23:3)
+    at Template.render (D:\works\NodePro\egg-pro\egg-ifram\node_modules\nunjucks\src\environment.js:556:10)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\nunjucks\src\environment.js:366:27
+    at createTemplate (D:\works\NodePro\egg-pro\egg-ifram\node_modules\nunjucks\src\environment.js:315:9)
+    at handle (D:\works\NodePro\egg-pro\egg-ifram\node_modules\nunjucks\src\environment.js:327:11)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\nunjucks\src\environment.js:339:9
+    at next (D:\works\NodePro\egg-pro\egg-ifram\node_modules\nunjucks\src\lib.js:280:7)
+    at Object.asyncIter (D:\works\NodePro\egg-pro\egg-ifram\node_modules\nunjucks\src\lib.js:286:3)
+name: "Template render error"
+pid: 5984
+hostname: PC-201902231802
+
+2019-04-03 18:19:14,424 ERROR 12912 [-/127.0.0.1/-/38ms GET /qr/werwqq] nodejs.TypeError: ctx.setHeader is not a function
+    at HomeController.qr (D:\works\NodePro\egg-pro\egg-ifram\app\controller\home.js:30:9)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\works\NodePro\egg-pro\egg-ifram\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\works\NodePro\egg-pro\egg-ifram\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 12912
+hostname: PC-201902231802
+
+2019-04-04 05:59:20,069 ERROR 9893 [-/192.168.33.1/-/48ms GET /user/index] nodejs.Template render error: (/vagrant_data/nodeworks/egg-ifram/app/view/user/index.njk)
+  Error: template not found: /vagrant_data/nodeworks/egg-ifram/app/view/layouts/layouts.njk
+  Error: template not found: /vagrant_data/nodeworks/egg-ifram/app/view/layouts/layouts.njk
+    at Object._prettifyError (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:36:11)
+    at /vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:567:19
+    at eval (eval at _compile (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:637:18), <anonymous>:10:11)
+    at createTemplate (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:295:11)
+    at next (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:282:7)
+    at handle (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:329:11)
+    at /vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:339:9
+    at next (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:321:9)
+name: "Template render error"
+pid: 9893
+hostname: localhost.localdomain
+
+2019-04-04 06:01:07,800 ERROR 9971 [-/192.168.33.1/-/60ms GET /user/index] nodejs.Template render error: (/vagrant_data/nodeworks/egg-ifram/app/view/user/index.njk)
+  Error: template not found: header.njk
+  Error: template not found: header.njk
+    at Object._prettifyError (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:36:11)
+    at /vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:567:19
+    at eval (eval at _compile (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:637:18), <anonymous>:16:11)
+    at createTemplate (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:295:11)
+    at next (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:282:7)
+    at handle (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:329:11)
+    at /vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:339:9
+    at next (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:321:9)
+name: "Template render error"
+pid: 9971
+hostname: localhost.localdomain
+
+2019-04-04 06:01:09,251 ERROR 9971 [-/192.168.33.1/-/10ms GET /user/index] nodejs.Template render error: (/vagrant_data/nodeworks/egg-ifram/app/view/user/index.njk)
+  Error: template not found: header.njk
+  Error: template not found: header.njk
+    at Object._prettifyError (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:36:11)
+    at /vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:567:19
+    at eval (eval at _compile (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:637:18), <anonymous>:16:11)
+    at createTemplate (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:295:11)
+    at next (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:282:7)
+    at handle (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:329:11)
+    at /vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:339:9
+    at next (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:321:9)
+name: "Template render error"
+pid: 9971
+hostname: localhost.localdomain
+
+2019-04-04 06:03:39,915 ERROR 9971 [-/192.168.33.1/-/5ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find home/index.tpl from /vagrant_data/nodeworks/egg-ifram/app/view
+    at Map.resolve (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/view_manager.js:74:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 9971
+hostname: localhost.localdomain
+
+2019-04-04 06:03:45,684 ERROR 9971 [-/192.168.33.1/-/2ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find home/index.tpl from /vagrant_data/nodeworks/egg-ifram/app/view
+    at Map.resolve (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/view_manager.js:74:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 9971
+hostname: localhost.localdomain
+
+2019-04-04 06:07:17,242 ERROR 10076 [-/192.168.33.1/-/11ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find home/index.tpl from /vagrant_data/nodeworks/egg-ifram/app/view
+    at Map.resolve (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/view_manager.js:74:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 10076
+hostname: localhost.localdomain
+
+2019-04-04 06:07:18,597 ERROR 10076 [-/192.168.33.1/-/3ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find home/index.tpl from /vagrant_data/nodeworks/egg-ifram/app/view
+    at Map.resolve (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/view_manager.js:74:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 10076
+hostname: localhost.localdomain
+
+2019-04-04 06:07:19,708 ERROR 10076 [-/192.168.33.1/-/2ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find home/index.tpl from /vagrant_data/nodeworks/egg-ifram/app/view
+    at Map.resolve (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/view_manager.js:74:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 10076
+hostname: localhost.localdomain
+
+2019-04-04 06:08:15,616 ERROR 10150 [-/192.168.33.1/-/9ms GET /user/index] nodejs.Template render error: (/vagrant_data/nodeworks/egg-ifram/app/view/user/index.njk) [Line 1, Column 4]
+  tag name expected
+  tag name expected
+    at Object._prettifyError (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:36:11)
+    at Template.render (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:542:21)
+    at /vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:366:27
+    at createTemplate (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:315:9)
+    at handle (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:327:11)
+    at /vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:339:9
+    at next (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:360:10)
+name: "Template render error"
+pid: 10150
+hostname: localhost.localdomain
+
+2019-04-04 06:09:08,438 ERROR 10150 [-/192.168.33.1/-/3ms GET /user/index] nodejs.Template render error: (/vagrant_data/nodeworks/egg-ifram/app/view/user/index.njk) [Line 1, Column 4]
+  tag name expected
+  tag name expected
+    at Object._prettifyError (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:36:11)
+    at Template.render (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:542:21)
+    at /vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:366:27
+    at createTemplate (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:315:9)
+    at handle (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:327:11)
+    at /vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:339:9
+    at next (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:360:10)
+name: "Template render error"
+pid: 10150
+hostname: localhost.localdomain
+
+2019-04-04 06:09:09,477 ERROR 10150 [-/192.168.33.1/-/2ms GET /user/index] nodejs.Template render error: (/vagrant_data/nodeworks/egg-ifram/app/view/user/index.njk) [Line 1, Column 4]
+  tag name expected
+  tag name expected
+    at Object._prettifyError (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:36:11)
+    at Template.render (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:542:21)
+    at /vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:366:27
+    at createTemplate (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:315:9)
+    at handle (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:327:11)
+    at /vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:339:9
+    at next (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:360:10)
+name: "Template render error"
+pid: 10150
+hostname: localhost.localdomain
+
+2019-04-04 06:09:10,142 ERROR 10150 [-/192.168.33.1/-/4ms GET /user/index] nodejs.Template render error: (/vagrant_data/nodeworks/egg-ifram/app/view/user/index.njk) [Line 1, Column 4]
+  tag name expected
+  tag name expected
+    at Object._prettifyError (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:36:11)
+    at Template.render (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:542:21)
+    at /vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:366:27
+    at createTemplate (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:315:9)
+    at handle (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:327:11)
+    at /vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:339:9
+    at next (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:360:10)
+name: "Template render error"
+pid: 10150
+hostname: localhost.localdomain
+
+2019-04-04 06:09:10,372 ERROR 10150 [-/192.168.33.1/-/2ms GET /user/index] nodejs.Template render error: (/vagrant_data/nodeworks/egg-ifram/app/view/user/index.njk) [Line 1, Column 4]
+  tag name expected
+  tag name expected
+    at Object._prettifyError (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:36:11)
+    at Template.render (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:542:21)
+    at /vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:366:27
+    at createTemplate (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:315:9)
+    at handle (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:327:11)
+    at /vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:339:9
+    at next (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:360:10)
+name: "Template render error"
+pid: 10150
+hostname: localhost.localdomain
+
+2019-04-04 06:09:10,583 ERROR 10150 [-/192.168.33.1/-/2ms GET /user/index] nodejs.Template render error: (/vagrant_data/nodeworks/egg-ifram/app/view/user/index.njk) [Line 1, Column 4]
+  tag name expected
+  tag name expected
+    at Object._prettifyError (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:36:11)
+    at Template.render (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:542:21)
+    at /vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:366:27
+    at createTemplate (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:315:9)
+    at handle (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:327:11)
+    at /vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:339:9
+    at next (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:360:10)
+name: "Template render error"
+pid: 10150
+hostname: localhost.localdomain
+
+2019-04-04 06:11:40,732 ERROR 10232 [-/192.168.33.1/-/59ms GET /user/index] nodejs.Template render error: (/vagrant_data/nodeworks/egg-ifram/app/view/user/index.njk) [Line 1, Column 4]
+  tag name expected
+  tag name expected
+    at Object._prettifyError (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:36:11)
+    at Template.render (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:542:21)
+    at /vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:366:27
+    at createTemplate (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:315:9)
+    at handle (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:327:11)
+    at /vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:339:9
+    at next (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:360:10)
+name: "Template render error"
+pid: 10232
+hostname: localhost.localdomain
+
+2019-04-04 06:11:41,494 ERROR 10232 [-/192.168.33.1/-/4ms GET /user/index] nodejs.Template render error: (/vagrant_data/nodeworks/egg-ifram/app/view/user/index.njk) [Line 1, Column 4]
+  tag name expected
+  tag name expected
+    at Object._prettifyError (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:36:11)
+    at Template.render (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:542:21)
+    at /vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:366:27
+    at createTemplate (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:315:9)
+    at handle (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:327:11)
+    at /vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:339:9
+    at next (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:360:10)
+name: "Template render error"
+pid: 10232
+hostname: localhost.localdomain
+
+2019-04-04 06:13:01,886 ERROR 10232 [-/192.168.33.1/-/11ms GET /user/index] nodejs.Template render error: (/vagrant_data/nodeworks/egg-ifram/app/view/user/index.njk)
+  Error: template not found: header.njk
+  Error: template not found: header.njk
+    at Object._prettifyError (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:36:11)
+    at /vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:567:19
+    at eval (eval at _compile (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:637:18), <anonymous>:16:11)
+    at createTemplate (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:295:11)
+    at next (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:282:7)
+    at handle (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:329:11)
+    at /vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:339:9
+    at next (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/vagrant_data/nodeworks/egg-ifram/node_modules/nunjucks/src/environment.js:321:9)
+name: "Template render error"
+pid: 10232
+hostname: localhost.localdomain
+
+2019-04-04 07:53:40,924 ERROR 11093 [-/192.168.33.1/-/8ms GET /admin/welcome] nodejs.AssertionError [ERR_ASSERTION]: Can't find user/welcome.njk from /vagrant_data/nodeworks/egg-ifram/app/view
+    at Map.resolve (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/view_manager.js:74:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 11093
+hostname: localhost.localdomain
+
+2019-04-04 07:53:45,481 ERROR 11093 [-/192.168.33.1/-/4ms GET /admin/welcome] nodejs.AssertionError [ERR_ASSERTION]: Can't find user/welcome.njk from /vagrant_data/nodeworks/egg-ifram/app/view
+    at Map.resolve (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/view_manager.js:74:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 11093
+hostname: localhost.localdomain
+
+2019-04-04 07:53:48,064 ERROR 11093 [-/192.168.33.1/-/2ms GET /admin/welcome] nodejs.AssertionError [ERR_ASSERTION]: Can't find user/welcome.njk from /vagrant_data/nodeworks/egg-ifram/app/view
+    at Map.resolve (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/view_manager.js:74:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 11093
+hostname: localhost.localdomain
+
+2019-04-04 07:53:56,701 ERROR 11093 [-/192.168.33.1/-/2ms GET /admin/welcome] nodejs.AssertionError [ERR_ASSERTION]: Can't find user/welcome.njk from /vagrant_data/nodeworks/egg-ifram/app/view
+    at Map.resolve (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/view_manager.js:74:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 11093
+hostname: localhost.localdomain
+
+2019-04-04 08:18:33,969 ERROR 11385 [-/192.168.33.1/-/3ms GET /admin/welcome] nodejs.ReferenceError: Now is not defined
+    at AdminController.welcome (/vagrant_data/nodeworks/egg-ifram/app/controller/admin.js:34:22)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 11385
+hostname: localhost.localdomain
+
+2019-04-04 08:18:35,918 ERROR 11385 [-/192.168.33.1/-/0ms GET /admin/welcome] nodejs.ReferenceError: Now is not defined
+    at AdminController.welcome (/vagrant_data/nodeworks/egg-ifram/app/controller/admin.js:34:22)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 11385
+hostname: localhost.localdomain
+
+2019-04-04 08:18:37,229 ERROR 11385 [-/192.168.33.1/-/0ms GET /admin/welcome] nodejs.ReferenceError: Now is not defined
+    at AdminController.welcome (/vagrant_data/nodeworks/egg-ifram/app/controller/admin.js:34:22)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 11385
+hostname: localhost.localdomain
+
+2019-04-04 09:43:30,502 ERROR 13405 [-/192.168.33.1/-/12ms GET /admin] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 13405
+hostname: localhost.localdomain
+
+2019-04-04 09:45:53,710 ERROR 13595 [-/192.168.33.1/-/19ms GET /admin] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 13595
+hostname: localhost.localdomain
+
+2019-04-04 09:45:54,521 ERROR 13595 [-/192.168.33.1/-/1ms GET /admin] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 13595
+hostname: localhost.localdomain
+
+2019-04-04 09:46:10,001 ERROR 13595 [-/192.168.33.1/-/3ms GET /admin] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 13595
+hostname: localhost.localdomain
+
+2019-04-04 09:49:04,584 ERROR 13869 [-/192.168.33.1/-/16ms GET /admin] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 13869
+hostname: localhost.localdomain
+
+2019-04-04 09:49:05,824 ERROR 13869 [-/192.168.33.1/-/1ms GET /admin] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 13869
+hostname: localhost.localdomain
+
+2019-04-04 09:49:08,952 ERROR 13869 [-/192.168.33.1/-/1ms GET /admin/] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 13869
+hostname: localhost.localdomain
+
+2019-04-04 09:49:09,879 ERROR 13869 [-/192.168.33.1/-/1ms GET /admin/] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 13869
+hostname: localhost.localdomain
+
+2019-04-04 09:49:13,271 ERROR 13869 [-/192.168.33.1/-/1ms GET /admin] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 13869
+hostname: localhost.localdomain
+
+2019-04-04 09:49:13,474 ERROR 13869 [-/192.168.33.1/-/1ms GET /admin] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 13869
+hostname: localhost.localdomain
+
+2019-04-04 09:51:14,392 ERROR 14139 [-/192.168.33.1/-/15ms GET /admin] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 14139
+hostname: localhost.localdomain
+
+2019-04-04 09:51:14,981 ERROR 14139 [-/192.168.33.1/-/3ms GET /admin] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 14139
+hostname: localhost.localdomain
+
+2019-04-04 09:55:48,322 ERROR 14498 [-/192.168.33.1/-/15ms GET /admin] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 14498
+hostname: localhost.localdomain
+
+2019-04-04 09:55:49,504 ERROR 14498 [-/192.168.33.1/-/2ms GET /admin] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 14498
+hostname: localhost.localdomain
+
+2019-04-04 09:55:50,119 ERROR 14498 [-/192.168.33.1/-/1ms GET /admin] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 14498
+hostname: localhost.localdomain
+
+2019-04-04 09:55:50,320 ERROR 14498 [-/192.168.33.1/-/1ms GET /admin] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 14498
+hostname: localhost.localdomain
+
+2019-04-04 11:30:43,708 ERROR 19248 [-/192.168.33.1/-/7ms GET /admin/welcome] nodejs.TypeError: Cannot read property 'title' of null
+    at AdminController.welcome (/vagrant_data/nodeworks/egg-ifram/app/controller/admin.js:35:23)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 19248
+hostname: localhost.localdomain
+
+2019-04-04 11:30:53,973 ERROR 19248 [-/192.168.33.1/-/2ms GET /admin/welcome] nodejs.TypeError: Cannot read property 'title' of null
+    at AdminController.welcome (/vagrant_data/nodeworks/egg-ifram/app/controller/admin.js:35:23)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 19248
+hostname: localhost.localdomain
+
+2019-04-09 04:23:24,157 ERROR 8477 [-/192.168.33.1/-/6ms GET /admin/welcome] nodejs.ReferenceError: context is not defined
+    at AdminController.welcome (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:42:48)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 8477
+hostname: localhost.localdomain
+
+2019-04-09 04:24:21,448 ERROR 8491 [-/192.168.33.1/-/12ms GET /admin/welcome] nodejs.ReferenceError: context is not defined
+    at AdminController.welcome (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:43:48)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 8491
+hostname: localhost.localdomain
+
+2019-04-09 05:40:42,326 ERROR 8875 [-/192.168.33.1/-/9ms GET /admin/welcome] nodejs.ReferenceError: context is not defined
+    at AdminController.welcome (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:43:48)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 8875
+hostname: localhost.localdomain
+
+2019-04-09 05:46:54,553 ERROR 8911 [-/192.168.33.1/-/17ms GET /captcha/1?str] nodejs.TypeError: app.redis.set is not a function
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:35:25)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 8911
+hostname: localhost.localdomain
+
+2019-04-09 05:47:30,250 ERROR 8911 [-/192.168.33.1/-/3ms GET /captcha/0] nodejs.TypeError: app.redis.set is not a function
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:40:25)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 8911
+hostname: localhost.localdomain
+
+2019-04-09 05:54:22,169 ERROR 9009 [-/192.168.33.1/-/14ms GET /captcha/0] nodejs.TypeError: app.redis.set is not a function
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:40:25)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9009
+hostname: localhost.localdomain
+
+2019-04-09 05:54:25,176 ERROR 9009 [-/192.168.33.1/-/4ms GET /captcha/0] nodejs.TypeError: app.redis.set is not a function
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:40:25)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9009
+hostname: localhost.localdomain
+
+2019-04-09 05:54:26,568 ERROR 9009 [-/192.168.33.1/-/5ms GET /captcha/0] nodejs.TypeError: app.redis.set is not a function
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:40:25)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9009
+hostname: localhost.localdomain
+
+2019-04-09 05:56:01,383 ERROR 9009 [-/192.168.33.1/-/4ms GET /captcha/0] nodejs.TypeError: app.redis.set is not a function
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:40:25)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9009
+hostname: localhost.localdomain
+
+2019-04-09 05:56:28,212 ERROR 9026 [-/192.168.33.1/-/24ms GET /captcha/0] nodejs.TypeError: app.redis.set is not a function
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:41:25)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9026
+hostname: localhost.localdomain
+
+2019-04-09 06:10:24,178 ERROR 9255 [-/192.168.33.1/-/33ms GET /captcha/0] nodejs.ReferenceError: captchaText is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:46:36)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9255
+hostname: localhost.localdomain
+
+2019-04-09 06:10:31,059 ERROR 9255 [-/192.168.33.1/-/14ms GET /captcha/0] nodejs.ReferenceError: captchaText is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:46:36)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9255
+hostname: localhost.localdomain
+
+2019-04-09 06:11:15,433 ERROR 9330 [-/192.168.33.1/-/28ms GET /captcha/0] nodejs.TypeError: app.redis.set is not a function
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:41:25)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9330
+hostname: localhost.localdomain
+
+2019-04-09 06:17:56,530 ERROR 9422 [-/192.168.33.1/-/20ms GET /captcha/0] nodejs.ReferenceError: redis is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:41:9)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9422
+hostname: localhost.localdomain
+
+2019-04-09 06:20:19,168 ERROR 9422 [-/192.168.33.1/-/6ms GET /captcha/0] nodejs.ReferenceError: redis is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:41:9)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9422
+hostname: localhost.localdomain
+
+2019-04-09 06:20:21,072 ERROR 9422 [-/192.168.33.1/-/7ms GET /captcha/0] nodejs.ReferenceError: redis is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:41:9)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9422
+hostname: localhost.localdomain
+
+2019-04-09 06:20:59,572 ERROR 9445 [-/192.168.33.1/-/16ms GET /captcha/0] nodejs.ReferenceError: redis is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:41:9)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9445
+hostname: localhost.localdomain
+
+2019-04-09 06:21:45,197 ERROR 9445 [-/192.168.33.1/-/3ms GET /captcha/0] nodejs.ReferenceError: redis is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:41:9)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9445
+hostname: localhost.localdomain
+
+2019-04-09 06:22:01,123 ERROR 9459 [-/192.168.33.1/-/23ms GET /captcha/0] nodejs.ReferenceError: redis is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:41:9)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9459
+hostname: localhost.localdomain
+
+2019-04-09 06:23:15,502 ERROR 9475 [-/192.168.33.1/-/26ms GET /captcha/0] nodejs.ReferenceError: redis is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:41:9)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9475
+hostname: localhost.localdomain
+
+2019-04-09 06:23:18,342 ERROR 9475 [-/192.168.33.1/-/7ms GET /captcha/0] nodejs.ReferenceError: redis is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:41:9)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9475
+hostname: localhost.localdomain
+
+2019-04-09 06:25:01,729 ERROR 9493 [-/192.168.33.1/-/22ms GET /captcha/0] nodejs.ReferenceError: redis is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:41:9)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9493
+hostname: localhost.localdomain
+
+2019-04-09 06:25:09,533 ERROR 9493 [-/192.168.33.1/-/4ms GET /captcha/0] nodejs.ReferenceError: redis is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:41:9)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9493
+hostname: localhost.localdomain
+
+2019-04-09 06:25:11,264 ERROR 9493 [-/192.168.33.1/-/3ms GET /captcha/0] nodejs.ReferenceError: redis is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:41:9)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 9493
+hostname: localhost.localdomain
+
+2019-04-09 07:00:52,689 ERROR 9827 [-/192.168.33.1/-/22ms GET /captcha/0] nodejs.ReferenceError: redis is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:42:9)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+
+pid: 9827
+hostname: localhost.localdomain
+
+2019-04-09 07:01:24,224 ERROR 9827 [-/192.168.33.1/-/7ms GET /captcha/0] nodejs.ReferenceError: redis is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:42:9)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+
+pid: 9827
+hostname: localhost.localdomain
+
+2019-04-09 07:01:28,092 ERROR 9861 [-/192.168.33.1/-/18ms GET /captcha/0] nodejs.ReferenceError: redis is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:46:23)
+
+pid: 9861
+hostname: localhost.localdomain
+
+2019-04-09 07:02:07,742 ERROR 9876 [-/192.168.33.1/-/15ms GET /captcha/0] nodejs.ReferenceError: redis is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:46:23)
+
+pid: 9876
+hostname: localhost.localdomain
+
+2019-04-09 07:02:33,614 ERROR 9888 [-/192.168.33.1/-/30ms GET /captcha/0] nodejs.ReferenceError: redis is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:46:23)
+
+pid: 9888
+hostname: localhost.localdomain
+
+2019-04-09 07:02:34,514 ERROR 9888 [-/192.168.33.1/-/6ms GET /captcha/0] nodejs.ReferenceError: redis is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:46:23)
+
+pid: 9888
+hostname: localhost.localdomain
+
+2019-04-09 07:02:34,737 ERROR 9888 [-/192.168.33.1/-/4ms GET /captcha/0] nodejs.ReferenceError: redis is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:46:23)
+
+pid: 9888
+hostname: localhost.localdomain
+
+2019-04-09 07:03:14,249 ERROR 9901 [-/192.168.33.1/-/32ms GET /captcha/0] nodejs.ReferenceError: redis is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:46:23)
+
+pid: 9901
+hostname: localhost.localdomain
+
+2019-04-09 07:13:30,950 ERROR 9915 [-/192.168.33.1/-/10ms GET /captcha/1?str] nodejs.ReferenceError: redis is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:37:9)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+
+pid: 9915
+hostname: localhost.localdomain
+
+2019-04-09 07:13:33,993 ERROR 9915 [-/192.168.33.1/-/8ms GET /captcha/1?str] nodejs.ReferenceError: redis is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:37:9)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+
+pid: 9915
+hostname: localhost.localdomain
+
+2019-04-09 07:13:35,187 ERROR 9915 [-/192.168.33.1/-/4ms GET /captcha/1?str] nodejs.ReferenceError: redis is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:37:9)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+
+pid: 9915
+hostname: localhost.localdomain
+
+2019-04-09 07:13:35,916 ERROR 9915 [-/192.168.33.1/-/10ms GET /captcha/1?str] nodejs.ReferenceError: redis is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:37:9)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+
+pid: 9915
+hostname: localhost.localdomain
+
+2019-04-09 07:13:36,551 ERROR 9915 [-/192.168.33.1/-/8ms GET /captcha/1?str] nodejs.ReferenceError: redis is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:37:9)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+
+pid: 9915
+hostname: localhost.localdomain
+
+2019-04-09 07:13:37,049 ERROR 9915 [-/192.168.33.1/-/6ms GET /captcha/1?str] nodejs.ReferenceError: redis is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:37:9)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+
+pid: 9915
+hostname: localhost.localdomain
+
+2019-04-09 07:15:23,504 ERROR 9915 [-/192.168.33.1/-/6ms GET /captcha/1?str] nodejs.ReferenceError: redis is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:37:9)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+
+pid: 9915
+hostname: localhost.localdomain
+
+2019-04-09 07:15:24,928 ERROR 9915 [-/192.168.33.1/-/5ms GET /captcha/1?str=15547905240000.4359019608857375] nodejs.ReferenceError: redis is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:37:9)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+
+pid: 9915
+hostname: localhost.localdomain
+
+2019-04-09 07:15:25,877 ERROR 9915 [-/192.168.33.1/-/3ms GET /captcha/1?str=15547905250000.5784803301525041] nodejs.ReferenceError: redis is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:37:9)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+
+pid: 9915
+hostname: localhost.localdomain
+
+2019-04-09 07:15:38,660 ERROR 9915 [-/192.168.33.1/-/4ms GET /captcha/1?str] nodejs.ReferenceError: redis is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:37:9)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+
+pid: 9915
+hostname: localhost.localdomain
+
+2019-04-09 07:15:47,617 ERROR 9915 [-/192.168.33.1/-/4ms GET /captcha/1] nodejs.ReferenceError: redis is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:37:9)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+
+pid: 9915
+hostname: localhost.localdomain
+
+2019-04-09 07:15:57,818 ERROR 9915 [-/192.168.33.1/-/6ms GET /captcha/1] nodejs.ReferenceError: redis is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:37:9)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+
+pid: 9915
+hostname: localhost.localdomain
+
+2019-04-09 07:16:05,066 ERROR 9915 [-/192.168.33.1/-/6ms GET /captcha/1] nodejs.ReferenceError: redis is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:37:9)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+
+pid: 9915
+hostname: localhost.localdomain
+
+2019-04-09 07:19:17,970 ERROR 9915 [-/192.168.33.1/-/8ms GET /captcha/1] nodejs.ReferenceError: redis is not defined
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:37:9)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+
+pid: 9915
+hostname: localhost.localdomain
+
+2019-04-09 07:19:19,842 ERROR 9978 [-/192.168.33.1/-/18ms GET /captcha/1] nodejs.ReplyError: ERR syntax error
+    at JavascriptRedisParser.returnError (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/ioredis/lib/redis/parser.js:24:25)
+    at JavascriptRedisParser.execute (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/redis-parser/lib/parser.js:572:12)
+    at Socket.<anonymous> (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/ioredis/lib/redis/event_handler.js:107:22)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)
+From previous event:
+    at Command.initPromise (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/ioredis/lib/command.js:63:18)
+    at new Command (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/ioredis/lib/command.js:51:8)
+    at Redis.set (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/ioredis/lib/commander.js:131:29)
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:36:25)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+name: "ReplyError"
+message: "ERR syntax error"
+command: {"name":"set","args":["captcha:signin","y23L","60"]}
+pid: 9978
+hostname: localhost.localdomain
+
+2019-04-09 07:19:26,136 ERROR 9978 [-/192.168.33.1/-/7ms GET /captcha/1] nodejs.ReplyError: ERR syntax error
+    at JavascriptRedisParser.returnError (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/ioredis/lib/redis/parser.js:24:25)
+    at JavascriptRedisParser.execute (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/redis-parser/lib/parser.js:572:12)
+    at Socket.<anonymous> (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/ioredis/lib/redis/event_handler.js:107:22)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)
+From previous event:
+    at Command.initPromise (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/ioredis/lib/command.js:63:18)
+    at new Command (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/ioredis/lib/command.js:51:8)
+    at Redis.set (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/ioredis/lib/commander.js:131:29)
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:36:25)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+name: "ReplyError"
+message: "ERR syntax error"
+command: {"name":"set","args":["captcha:signin","nMEK","60"]}
+pid: 9978
+hostname: localhost.localdomain
+
+2019-04-09 07:20:44,242 ERROR 9994 [-/192.168.33.1/-/34ms GET /captcha/1] nodejs.ReplyError: ERR syntax error
+    at JavascriptRedisParser.returnError (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/ioredis/lib/redis/parser.js:24:25)
+    at JavascriptRedisParser.execute (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/redis-parser/lib/parser.js:572:12)
+    at Socket.<anonymous> (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/ioredis/lib/redis/event_handler.js:107:22)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)
+From previous event:
+    at Command.initPromise (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/ioredis/lib/command.js:63:18)
+    at new Command (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/ioredis/lib/command.js:51:8)
+    at Redis.set (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/ioredis/lib/commander.js:131:29)
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:37:25)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+name: "ReplyError"
+message: "ERR syntax error"
+command: {"name":"set","args":["captcha:signin","5Hqp","60"]}
+pid: 9994
+hostname: localhost.localdomain
+
+2019-04-09 07:22:21,094 ERROR 9994 [-/192.168.33.1/-/7ms GET /captcha/1] nodejs.ReplyError: ERR syntax error
+    at JavascriptRedisParser.returnError (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/ioredis/lib/redis/parser.js:24:25)
+    at JavascriptRedisParser.execute (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/redis-parser/lib/parser.js:572:12)
+    at Socket.<anonymous> (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/ioredis/lib/redis/event_handler.js:107:22)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)
+From previous event:
+    at Command.initPromise (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/ioredis/lib/command.js:63:18)
+    at new Command (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/ioredis/lib/command.js:51:8)
+    at Redis.set (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/ioredis/lib/commander.js:131:29)
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:37:25)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+name: "ReplyError"
+message: "ERR syntax error"
+command: {"name":"set","args":["captcha:signin","XNRD","60"]}
+pid: 9994
+hostname: localhost.localdomain
+
+2019-04-09 07:25:04,887 ERROR 10033 [-/192.168.33.1/-/23ms GET /captcha/0] nodejs.ReplyError: ERR syntax error
+    at JavascriptRedisParser.returnError (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/ioredis/lib/redis/parser.js:24:25)
+    at JavascriptRedisParser.execute (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/redis-parser/lib/parser.js:572:12)
+    at Socket.<anonymous> (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/ioredis/lib/redis/event_handler.js:107:22)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)
+From previous event:
+    at Command.initPromise (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/ioredis/lib/command.js:63:18)
+    at new Command (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/ioredis/lib/command.js:51:8)
+    at Redis.set (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/ioredis/lib/commander.js:131:29)
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:40:25)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+name: "ReplyError"
+message: "ERR syntax error"
+command: {"name":"set","args":["captcha:signup","WGFY","","60"]}
+pid: 10033
+hostname: localhost.localdomain
+
+2019-04-09 07:25:10,890 ERROR 10033 [-/192.168.33.1/-/5ms GET /captcha/1] nodejs.ReplyError: ERR syntax error
+    at JavascriptRedisParser.returnError (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/ioredis/lib/redis/parser.js:24:25)
+    at JavascriptRedisParser.execute (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/redis-parser/lib/parser.js:572:12)
+    at Socket.<anonymous> (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/ioredis/lib/redis/event_handler.js:107:22)
+    at Socket.emit (events.js:197:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:145:17)
+From previous event:
+    at Command.initPromise (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/ioredis/lib/command.js:63:18)
+    at new Command (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/ioredis/lib/command.js:51:8)
+    at Redis.set (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-redis/node_modules/ioredis/lib/commander.js:131:29)
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:37:25)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+name: "ReplyError"
+message: "ERR syntax error"
+command: {"name":"set","args":["captcha:signin","EFvR","","60"]}
+pid: 10033
+hostname: localhost.localdomain
+
+2019-04-09 07:28:17,385 ERROR 10055 [-/192.168.33.1/-/33ms GET /captcha/1] nodejs.TypeError: app.redis.SETEX is not a function
+    at UtilsController.captcha (/vagrant_data/nodeworks/egg-ifram_1/app/controller/utils.js:37:25)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+
+pid: 10055
+hostname: localhost.localdomain
+
+2019-04-09 08:54:15,097 ERROR 8177 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'sync' of undefined
+    at app.beforeStart (/vagrant_data/nodeworks/egg-ifram_1/app.js:5:25)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+    at process.runNextTicks [as _tickCallback] (internal/process/next_tick.js:51:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:804:11)
+    at internal/main/run_main_module.js:21:11
+
+pid: 8177
+hostname: localhost.localdomain
+
+2019-04-09 08:55:10,294 ERROR 8253 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot read property 'sync' of undefined
+    at app.beforeStart (/vagrant_data/nodeworks/egg-ifram_1/app.js:5:25)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+    at process.runNextTicks [as _tickCallback] (internal/process/next_tick.js:51:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:804:11)
+    at internal/main/run_main_module.js:21:11
+
+pid: 8253
+hostname: localhost.localdomain
+
+2019-04-09 09:07:05,473 ERROR 8096 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot read property 'sync' of undefined
+    at app.beforeStart (/vagrant_data/nodeworks/egg-ifram_1/app.js:5:25)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+    at process.runNextTicks [as _tickCallback] (internal/process/next_tick.js:51:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:804:11)
+    at internal/main/run_main_module.js:21:11
+
+pid: 8096
+hostname: localhost.localdomain
+
+2019-04-09 09:30:49,374 INFO 9560 [egg-sequelize](28ms) Executed (default): SELECT 1+1 AS result
+2019-04-09 09:30:49,375 INFO 9560 [egg-sequelize](20ms) Executed (default): SELECT 1+1 AS result
+2019-04-09 09:33:29,728 INFO 9774 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-04-09 09:33:29,731 INFO 9774 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2019-04-09 09:33:29,740 INFO 9774 [egg-sequelize](9ms) Executed (default): DROP TABLE IF EXISTS "users" CASCADE;
+2019-04-09 09:33:29,743 INFO 9774 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS "users" CASCADE;
+2019-04-09 09:33:29,810 INFO 9774 [egg-sequelize](63ms) Executed (default): CREATE TABLE IF NOT EXISTS "users" ("id"   SERIAL , "login" VARCHAR(255), "name" VARCHAR(30), "password" VARCHAR(32), "age" INTEGER, "last_sign_in_at" TIMESTAMP WITH TIME ZONE, "created_at" TIMESTAMP WITH TIME ZONE, "updated_at" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("id"));
+2019-04-09 09:33:29,828 INFO 9774 [egg-sequelize](17ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'users' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-04-09 09:34:48,489 INFO 9860 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-04-09 09:34:48,491 INFO 9860 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-04-09 09:34:48,509 INFO 9860 [egg-sequelize](18ms) Executed (default): DROP TABLE IF EXISTS "users" CASCADE;
+2019-04-09 09:34:48,513 INFO 9860 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS "users" CASCADE;
+2019-04-09 09:34:48,523 INFO 9860 [egg-sequelize](7ms) Executed (default): CREATE TABLE IF NOT EXISTS "users" ("id"   SERIAL , "login" VARCHAR(255), "name" VARCHAR(30), "password" VARCHAR(32), "age" INTEGER, "last_sign_in_at" TIMESTAMP WITH TIME ZONE, "created_at" TIMESTAMP WITH TIME ZONE, "updated_at" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("id"));
+2019-04-09 09:34:48,533 INFO 9860 [egg-sequelize](8ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'users' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-04-09 11:30:11,369 INFO 10574 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-04-09 11:30:11,373 INFO 10574 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-04-09 11:30:11,440 INFO 10574 [egg-sequelize](67ms) Executed (default): DROP TABLE IF EXISTS "Users" CASCADE;
+2019-04-09 11:30:11,444 INFO 10574 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS "Users" CASCADE;
+2019-04-09 11:30:11,466 ERROR 10574 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeDatabaseError: type "tinyint" does not exist
+    at Query.formatError (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:363:16)
+    at query.catch.err (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:86:18)
+From previous event:
+    at Query.run (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:79:23)
+    at Promise.try.then.connection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:454:28)
+    at Promise.all.tap.then (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/query-interface.js:262:35)
+From previous event:
+    at Promise.all.then.results (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/query-interface.js:261:12)
+From previous event:
+    at QueryInterface.createTable (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/query-interface.js:195:36)
+    at Promise.try.then.then (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:1128:39)
+From previous event:
+    at Function.sync (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:1128:8)
+    at Promise.each.model (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:719:50)
+From previous event:
+    at Promise.try.then.then (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:719:22)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at Sequelize.sync (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:706:8)
+    at app.beforeStart (/vagrant_data/nodeworks/egg-ifram_1/app.js:11:25)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+    at process.runNextTicks [as _tickCallback] (internal/process/next_tick.js:51:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:804:11)
+    at internal/main/run_main_module.js:21:11
+name: "SequelizeDatabaseError"
+parent: {"name":"error","length":95,"severity":"ERROR","code":"42704","position":"183","file":"parse_type.c","line":"257","routine":"typenameType","sql":"CREATE TABLE IF NOT EXISTS \"Users\" (\"id\"   SERIAL , \"email\" VARCHAR(40), \"password\" VARCHAR(255), \"username\" VARCHAR(40), \"weibo\" VARCHAR(40), \"weixin\" VARCHAR(40), \"receive_remote\" TINYINT(1) DEFAULT 0, \"email_verifyed\" TINYINT(1) DEFAULT 0, \"avatar\" VARCHAR(40), \"created_at\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updated_at\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"}
+original: {"name":"error","length":95,"severity":"ERROR","code":"42704","position":"183","file":"parse_type.c","line":"257","routine":"typenameType","sql":"CREATE TABLE IF NOT EXISTS \"Users\" (\"id\"   SERIAL , \"email\" VARCHAR(40), \"password\" VARCHAR(255), \"username\" VARCHAR(40), \"weibo\" VARCHAR(40), \"weixin\" VARCHAR(40), \"receive_remote\" TINYINT(1) DEFAULT 0, \"email_verifyed\" TINYINT(1) DEFAULT 0, \"avatar\" VARCHAR(40), \"created_at\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updated_at\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"}
+sql: "CREATE TABLE IF NOT EXISTS \"Users\" (\"id\"   SERIAL , \"email\" VARCHAR(40), \"password\" VARCHAR(255), \"username\" VARCHAR(40), \"weibo\" VARCHAR(40), \"weixin\" VARCHAR(40), \"receive_remote\" TINYINT(1) DEFAULT 0, \"email_verifyed\" TINYINT(1) DEFAULT 0, \"avatar\" VARCHAR(40), \"created_at\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updated_at\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"
+pid: 10574
+hostname: localhost.localdomain
+
+2019-04-09 11:37:09,960 INFO 10684 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-04-09 11:37:09,963 INFO 10684 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-04-09 11:37:09,963 INFO 10684 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS "Users" CASCADE;
+2019-04-09 11:37:09,967 INFO 10684 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS "Users" CASCADE;
+2019-04-09 11:37:09,994 ERROR 10684 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeDatabaseError: type "tinyint" does not exist
+    at Query.formatError (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:363:16)
+    at query.catch.err (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:86:18)
+From previous event:
+    at Query.run (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:79:23)
+    at Promise.try.then.connection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:454:28)
+    at Promise.all.tap.then (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/query-interface.js:262:35)
+From previous event:
+    at Promise.all.then.results (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/query-interface.js:261:12)
+From previous event:
+    at QueryInterface.createTable (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/query-interface.js:195:36)
+    at Promise.try.then.then (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:1128:39)
+From previous event:
+    at Function.sync (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:1128:8)
+    at Promise.each.model (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:719:50)
+From previous event:
+    at Promise.try.then.then (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:719:22)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at Sequelize.sync (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:706:8)
+    at app.beforeStart (/vagrant_data/nodeworks/egg-ifram_1/app.js:11:25)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+    at process.runNextTicks [as _tickCallback] (internal/process/next_tick.js:51:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:804:11)
+    at internal/main/run_main_module.js:21:11
+name: "SequelizeDatabaseError"
+parent: {"name":"error","length":95,"severity":"ERROR","code":"42704","position":"183","file":"parse_type.c","line":"257","routine":"typenameType","sql":"CREATE TABLE IF NOT EXISTS \"Users\" (\"id\"   SERIAL , \"email\" VARCHAR(40), \"password\" VARCHAR(255), \"username\" VARCHAR(40), \"weibo\" VARCHAR(40), \"weixin\" VARCHAR(40), \"receive_remote\" TINYINT(1) DEFAULT 0, \"email_verifyed\" TINYINT(1) DEFAULT 0, \"avatar\" VARCHAR(40), \"created_at\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updated_at\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"}
+original: {"name":"error","length":95,"severity":"ERROR","code":"42704","position":"183","file":"parse_type.c","line":"257","routine":"typenameType","sql":"CREATE TABLE IF NOT EXISTS \"Users\" (\"id\"   SERIAL , \"email\" VARCHAR(40), \"password\" VARCHAR(255), \"username\" VARCHAR(40), \"weibo\" VARCHAR(40), \"weixin\" VARCHAR(40), \"receive_remote\" TINYINT(1) DEFAULT 0, \"email_verifyed\" TINYINT(1) DEFAULT 0, \"avatar\" VARCHAR(40), \"created_at\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updated_at\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"}
+sql: "CREATE TABLE IF NOT EXISTS \"Users\" (\"id\"   SERIAL , \"email\" VARCHAR(40), \"password\" VARCHAR(255), \"username\" VARCHAR(40), \"weibo\" VARCHAR(40), \"weixin\" VARCHAR(40), \"receive_remote\" TINYINT(1) DEFAULT 0, \"email_verifyed\" TINYINT(1) DEFAULT 0, \"avatar\" VARCHAR(40), \"created_at\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updated_at\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"
+pid: 10684
+hostname: localhost.localdomain
+
+2019-04-10 01:11:32,361 INFO 8069 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-04-10 01:11:32,366 INFO 8069 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-04-10 01:11:32,370 INFO 8069 [egg-sequelize](10ms) Executed (default): DROP TABLE IF EXISTS "Users" CASCADE;
+2019-04-10 01:11:32,377 INFO 8069 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS "Users" CASCADE;
+2019-04-10 01:11:32,391 ERROR 8069 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeDatabaseError: type "tinyint" does not exist
+    at Query.formatError (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:363:16)
+    at query.catch.err (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:86:18)
+From previous event:
+    at Query.run (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:79:23)
+    at Promise.try.then.connection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:454:28)
+    at Promise.all.tap.then (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/query-interface.js:262:35)
+From previous event:
+    at Promise.all.then.results (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/query-interface.js:261:12)
+From previous event:
+    at QueryInterface.createTable (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/query-interface.js:195:36)
+    at Promise.try.then.then (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:1128:39)
+From previous event:
+    at Function.sync (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:1128:8)
+    at Promise.each.model (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:719:50)
+From previous event:
+    at Promise.try.then.then (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:719:22)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at Sequelize.sync (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:706:8)
+    at app.beforeStart (/vagrant_data/nodeworks/egg-ifram_1/app.js:11:25)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+    at process.runNextTicks [as _tickCallback] (internal/process/next_tick.js:51:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:804:11)
+    at internal/main/run_main_module.js:21:11
+name: "SequelizeDatabaseError"
+parent: {"name":"error","length":95,"severity":"ERROR","code":"42704","position":"183","file":"parse_type.c","line":"257","routine":"typenameType","sql":"CREATE TABLE IF NOT EXISTS \"Users\" (\"id\"   SERIAL , \"email\" VARCHAR(40), \"password\" VARCHAR(255), \"username\" VARCHAR(40), \"weibo\" VARCHAR(40), \"weixin\" VARCHAR(40), \"receive_remote\" TINYINT(1) DEFAULT 0, \"email_verifyed\" TINYINT(1) DEFAULT 0, \"avatar\" VARCHAR(40), \"created_at\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updated_at\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"}
+original: {"name":"error","length":95,"severity":"ERROR","code":"42704","position":"183","file":"parse_type.c","line":"257","routine":"typenameType","sql":"CREATE TABLE IF NOT EXISTS \"Users\" (\"id\"   SERIAL , \"email\" VARCHAR(40), \"password\" VARCHAR(255), \"username\" VARCHAR(40), \"weibo\" VARCHAR(40), \"weixin\" VARCHAR(40), \"receive_remote\" TINYINT(1) DEFAULT 0, \"email_verifyed\" TINYINT(1) DEFAULT 0, \"avatar\" VARCHAR(40), \"created_at\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updated_at\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"}
+sql: "CREATE TABLE IF NOT EXISTS \"Users\" (\"id\"   SERIAL , \"email\" VARCHAR(40), \"password\" VARCHAR(255), \"username\" VARCHAR(40), \"weibo\" VARCHAR(40), \"weixin\" VARCHAR(40), \"receive_remote\" TINYINT(1) DEFAULT 0, \"email_verifyed\" TINYINT(1) DEFAULT 0, \"avatar\" VARCHAR(40), \"created_at\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updated_at\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"
+pid: 8069
+hostname: localhost.localdomain
+
+2019-04-10 01:14:13,944 INFO 8389 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-04-10 01:14:13,946 INFO 8389 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2019-04-10 01:14:13,947 INFO 8389 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS "Users" CASCADE;
+2019-04-10 01:14:13,950 INFO 8389 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS "Users" CASCADE;
+2019-04-10 01:14:13,972 ERROR 8389 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeDatabaseError: type "tinyint" does not exist
+    at Query.formatError (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:363:16)
+    at query.catch.err (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:86:18)
+From previous event:
+    at Query.run (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:79:23)
+    at Promise.try.then.connection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:454:28)
+    at Promise.all.tap.then (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/query-interface.js:262:35)
+From previous event:
+    at Promise.all.then.results (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/query-interface.js:261:12)
+From previous event:
+    at QueryInterface.createTable (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/query-interface.js:195:36)
+    at Promise.try.then.then (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:1128:39)
+From previous event:
+    at Function.sync (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:1128:8)
+    at Promise.each.model (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:719:50)
+From previous event:
+    at Promise.try.then.then (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:719:22)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at Sequelize.sync (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:706:8)
+    at app.beforeStart (/vagrant_data/nodeworks/egg-ifram_1/app.js:11:25)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+    at process.runNextTicks [as _tickCallback] (internal/process/next_tick.js:51:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:804:11)
+    at internal/main/run_main_module.js:21:11
+name: "SequelizeDatabaseError"
+parent: {"name":"error","length":95,"severity":"ERROR","code":"42704","position":"183","file":"parse_type.c","line":"257","routine":"typenameType","sql":"CREATE TABLE IF NOT EXISTS \"Users\" (\"id\"   SERIAL , \"email\" VARCHAR(40), \"password\" VARCHAR(255), \"username\" VARCHAR(40), \"weibo\" VARCHAR(40), \"weixin\" VARCHAR(40), \"receive_remote\" TINYINT(1) DEFAULT 0, \"email_verifyed\" TINYINT(1) DEFAULT 0, \"avatar\" VARCHAR(40), \"created_at\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updated_at\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"}
+original: {"name":"error","length":95,"severity":"ERROR","code":"42704","position":"183","file":"parse_type.c","line":"257","routine":"typenameType","sql":"CREATE TABLE IF NOT EXISTS \"Users\" (\"id\"   SERIAL , \"email\" VARCHAR(40), \"password\" VARCHAR(255), \"username\" VARCHAR(40), \"weibo\" VARCHAR(40), \"weixin\" VARCHAR(40), \"receive_remote\" TINYINT(1) DEFAULT 0, \"email_verifyed\" TINYINT(1) DEFAULT 0, \"avatar\" VARCHAR(40), \"created_at\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updated_at\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"}
+sql: "CREATE TABLE IF NOT EXISTS \"Users\" (\"id\"   SERIAL , \"email\" VARCHAR(40), \"password\" VARCHAR(255), \"username\" VARCHAR(40), \"weibo\" VARCHAR(40), \"weixin\" VARCHAR(40), \"receive_remote\" TINYINT(1) DEFAULT 0, \"email_verifyed\" TINYINT(1) DEFAULT 0, \"avatar\" VARCHAR(40), \"created_at\" TIMESTAMP WITH TIME ZONE NOT NULL, \"updated_at\" TIMESTAMP WITH TIME ZONE NOT NULL, PRIMARY KEY (\"id\"));"
+pid: 8389
+hostname: localhost.localdomain
+

@@ -9,7 +9,8 @@
             <hr class="hr15">
             <input name="password" lay-verify="required" placeholder="密码"  type="password" class="layui-input">
             <hr class="hr15">           
-             <input name="captcha" lay-verify="required" placeholder="验证码"  type="text" class="layui-input" style="width:150px">  <img id="img-captcha" onclick="getCaptcha();" src="/captcha/0?str" class="captcha" />
+             <input name="captcha" lay-verify="required" placeholder="验证码"  type="text" class="layui-input" style="width:150px"> 
+              <img id="img-captcha" onclick="getCaptcha();" src="/captcha/1?str" class="captcha" />
             <hr class="hr15">
             <span> 请填写图片中的字符，不区分大小写  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" onclick="getCaptcha();">看不清楚？换张图片</a></span>
             <hr class="hr15">
@@ -20,7 +21,7 @@
     </div>
     <script>
      function getCaptcha(){
-        var imgpath= `/captcha/0?str=${Date.parse(new Date())}${Math.random()}`
+        var imgpath= `/captcha/1?str=${Date.parse(new Date())}${Math.random()}`
         $("#img-captcha").attr("src",imgpath)  
       }
     </script>

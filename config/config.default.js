@@ -31,6 +31,45 @@ module.exports = appInfo => {
     encrypt: true,
   };
 
+  config.redis = {
+    client: {
+      port: 6379,          // Redis port
+      host: '127.0.0.1',   // Redis host
+      password: '',
+      db: 0,
+    },
+  };
+
+   config.sequelize = {
+     
+     datasources: [
+      {
+        dialect: 'postgres', // support: mysql, mariadb, postgres, mssql
+        
+        database: 'egg_db',
+        host: '127.0.0.1',
+        port: 5432,//3306,//
+        username: 'root',
+        password: 'myroot',
+        delegate: 'model', // load all models to app.model and ctx.model
+        baseDir: 'model',  // load models from `app/model/*.js`
+        // other sequelize configurations
+      },
+      {
+        dialect: 'postgres', // support: mysql, mariadb, postgres, mssql        
+        database: 'egg_db_admin',
+        host: '127.0.0.1',
+        port: 5432,//3306,//
+        username: 'root',
+        password: 'myroot',
+        delegate: 'admninModel', // load all models to app.adminModel and ctx.adminModel
+        baseDir: 'admin_model',  // load models from `app/admin_model/*.js`
+        // other sequelize configurations
+      },
+    ],
+  };
+  
+
   config.view = {
     defaultViewEngine: 'nunjucks',
     mapping: {

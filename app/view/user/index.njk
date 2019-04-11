@@ -22,7 +22,7 @@
       </div>
       <xblock>
         <button class="layui-btn layui-btn-danger" onclick="delAll()"><i class="layui-icon"></i>批量删除</button>
-        <button class="layui-btn" onclick="x_admin_show('添加用户','./member-add.html',600,400)"><i class="layui-icon"></i>添加</button>
+        <button class="layui-btn" onclick="x_admin_show('添加用户','/user/new',600,400)"><i class="layui-icon"></i>添加</button>
         <span class="x-right" style="line-height:40px">共有数据：88 条</span>
       </xblock>
       <table class="layui-table x-admin">
@@ -49,24 +49,24 @@
             </td>
             <td>{{ user.id }}</td>
             <td>{{ user.username }}</td>
-            <td>男</td>
-            <td>13000000000</td>
+            <td>{{ user.gender }}</td>
+            <td>{{ user.mobile_phone }}</td>
             <td>{{ user.email }}</td>
-            <td>北京市 海淀区</td>
-            <td>2017-01-01 11:11:42</td>
+            <td>{{ user.address }}</td>
+            <td>{{ user.created_at }}</td>
             <td class="td-status">
               <span class="layui-btn layui-btn-normal layui-btn-mini">已启用</span></td>
             <td class="td-manage">
               <a onclick="member_stop(this,'10001')" href="javascript:;"  title="启用">
                 <i class="layui-icon">&#xe601;</i>
               </a>
-              <a title="编辑"  onclick="x_admin_show('编辑','member-edit.html',600,400)" href="javascript:;">
+              <a title="编辑"  onclick="x_admin_show('编辑','/user/0/{{ user.id }}',600,600)" href="javascript:;">
                 <i class="layui-icon">&#xe642;</i>
               </a>
-              <a onclick="x_admin_show('修改密码','member-password.html',600,400)" title="修改密码" href="javascript:;">
+              <a onclick="x_admin_show('修改密码','/user/1/{{ user.id }}',600,400)" title="修改密码" href="javascript:;">
                 <i class="layui-icon">&#xe631;</i>
               </a>
-              <a title="删除" onclick="member_del(this,'要删除的id')" href="javascript:;">
+              <a title="删除" onclick="member_del(this,'{{ user.id }}')" href="javascript:;">
                 <i class="layui-icon">&#xe640;</i>
               </a>
             </td>
@@ -130,8 +130,27 @@
       function member_del(obj,id){
           layer.confirm('确认要删除吗？',function(index){
               //发异步删除数据
-              $(obj).parents("tr").remove();
+               let data =  $(".layui-form").serialize();
+               $.ajax({
+                  url:`/user/${id}`,
+                  type:"delete",
+                  dataType:"json",
+                  timeout:10000,
+                  data:data,
+                  success:function(res){
+                      if(res.code == 0){
+                         
+                        }
+                        else{
+                     }
+                  }
+              });
+               
+             // $(obj).parents("tr").remove();
+
               layer.msg('已删除!',{icon:1,time:1000});
+              parent.location.reload();
+              
           });
       }
 
@@ -147,13 +166,23 @@
             $(".layui-form-checked").not('.header').parents('tr').remove();
         });
       }
+
+      function delUser() {
+       let data =  $(".layui-form").serialize();
+        $.ajax({
+            url:`/user/${$("#user-id").val()}`,
+            type:"delete",
+            dataType:"json",
+            timeout:10000,
+            data:data,
+            success:function(data){
+                //callback(data);
+               console.log("====",data)
+            }
+        });
+     }
     </script>
-    <script>var _hmt = _hmt || []; (function() {
-        var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?b393d153aeb26b46e9431fabaf0f6190";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-      })();</script>
+   
   </body>
 
 </html>

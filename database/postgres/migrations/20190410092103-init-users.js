@@ -17,27 +17,55 @@ module.exports = {
       username: {
         type: Sequelize.STRING
       },
+      gender: {
+        allowNull: false,
+        defaultValue: 0,
+        type: Sequelize.INTEGER
+      },
+      mobile_phone:{
+        allowNull: true,
+        type:Sequelize.BIGINT
+      },
+      address: {
+        allowNull: true,
+        type: Sequelize.STRING
+      },
+      status:{
+        allowNull: true,
+        defaultValue: 0,
+        type: Sequelize.INTEGER
+      },
       weibo: {
+        allowNull: true,
+        defaultValue: '',
         type: Sequelize.STRING
       },
       weixin: {
+        allowNull: true,
+        defaultValue: '',
         type: Sequelize.STRING
       },
       receive_remote: {
+        allowNull: true,
         type: Sequelize.BOOLEAN
       },
       email_verifyed: {
+        allowNull: true,
         type: Sequelize.BOOLEAN
       },
       avatar: {
+        allowNull: true,
+        defaultValue: '',
         type: Sequelize.STRING
       },
       created_at: {
-        allowNull: false,
+        
+        defaultValue: Sequelize.NOW,
         type: Sequelize.DATE
       },
       updated_at: {
-        allowNull: false,
+        
+        defaultValue: Sequelize.NOW,
         type: Sequelize.DATE
       }
     });

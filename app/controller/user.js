@@ -20,15 +20,15 @@ class UserController extends Controller {
 
   async editUserForm() {
     let  context = { 
-      title: '修改用户信息',
+      opt: 0,
+      title: '',           
       users: []
-     }
+   }
     const { ctx, app } = this;
-    const { id } = {...ctx.params, ...ctx.query} 
-    //console.log('editUserForm toInt(id)===>',toInt(id));
+    const { type, id } = {...ctx.params, ...ctx.query} 
     const users =  await ctx.model.User.findById(toInt(id));
+    context.opt = type
     context.users.push(users)
-    // console.log('editUserForm context===>',context);
     await ctx.render('user/edit.njk', context);
     
   }
@@ -36,25 +36,23 @@ class UserController extends Controller {
    * 列表
    */
   async index() {
-    const { ctx,app } = this;
-    
-    const users =  await ctx.model.User.findAll({attributes:{ exclude: ['created_at','updated_at'] }});
+    const { ctx,app } = this;    
+    //const users =  await ctx.model.User.findAll({attributes:{ exclude: ['created_at','updated_at'] }});
+    const users =  await ctx.model.User.findAll({});
     let  context = { 
         title: '',           
         users: []
      }
      
-        if(ctx.params.id){
+     if(ctx.params.id){
             context.title = '用户信息';
             context.users  = users.filter((item,index, arr) => item.id == ctx.params.id);
-        }else{
+     }else{
             context.title = '用户列表';
             context.users = users;
-       }
+     }
      await ctx.render('user/index.njk', context);
-
-    // ctx.body = users
-    
+    // ctx.body = users    
   }
 
   
@@ -67,7 +65,6 @@ class UserController extends Controller {
     const { id } = {...ctx.params, ...ctx.query} 
     console.log('toInt(id)===>',toInt(id));
     const users =  await ctx.model.User.findById(toInt(id));
-    
     ctx.body = users
   }
 
@@ -75,6 +72,10 @@ class UserController extends Controller {
    * 新建email: '13708013567@163.com',
     password: utils.md5('123456'),
     username: 'admin456',
+    gender: 1,
+    mobile_phone:13808013567,
+    address: "星光路1号",
+    status: 0,
     weibo: 'dsfsd',
     weixin: 'sdfasd',
     receive_remote: false,
@@ -85,12 +86,14 @@ class UserController extends Controller {
    */
   async create() {
     const ctx = this.ctx;
-    const { email, password,username,weibo,weixin,receive_remote,email_verifyed,avatar } = ctx.request.body;
-    const _user = {email, password,username,weibo,weixin,receive_remote:true,email_verifyed:false,avatar,created_at: new Date(),
-                   updated_at: new Date()}
-     const user = await ctx.model.User.create(_user);
+    const { email, password, username } = ctx.request.body;
+   
+    const _user = {email, password,username}
+    const user = await ctx.model.User.create(_user);
+    const resJosn = {code:0,msge:"操作成功！"}
     ctx.status = 201;
-    ctx.body = user;
+
+    ctx.body = resJosn;
   }
 
   /**
@@ -98,7 +101,7 @@ class UserController extends Controller {
    */
   async update() {
     const ctx = this.ctx;
-    const id = toInt(ctx.params.id);
+    const { type, id } = {...ctx.params, ...ctx.query} 
     console.log('update ===>',toInt(id));
     const user = await ctx.model.User.findById(id);
     if (!user) {
@@ -126,7 +129,11 @@ class UserController extends Controller {
       return;
     }
     await user.destroy();
+ 
+    const resJosn = {code:0,msge:"操作成功！"}
     ctx.status = 200;
+
+    ctx.body = resJosn;
   }
   
 }

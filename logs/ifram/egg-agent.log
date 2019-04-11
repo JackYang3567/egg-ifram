@@ -3589,3 +3589,135 @@ hostname: localhost.localdomain
 2019-04-11 06:44:12,099 INFO 10727 [egg-watcher:agent] watcher start success
 2019-04-11 06:44:12,165 INFO 10727 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
 2019-04-11 06:44:12,185 INFO 10727 [egg:core] dump config after ready, 18ms
+2019-04-11 08:23:03,392 INFO 11283 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-04-11 08:23:05,070 INFO 11283 [egg:core] dump config after load, 14ms
+2019-04-11 08:23:05,182 INFO 11283 [egg-watcher] Start watching: ["/vagrant_data/nodeworks/egg-ifram_1/app","/vagrant_data/nodeworks/egg-ifram_1/config","/vagrant_data/nodeworks/egg-ifram_1/mocks","/vagrant_data/nodeworks/egg-ifram_1/mocks_proxy","/vagrant_data/nodeworks/egg-ifram_1/app.js"]
+2019-04-11 08:23:05,182 INFO 11283 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/app"
+2019-04-11 08:23:05,183 INFO 11283 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/config"
+2019-04-11 08:23:05,183 INFO 11283 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/mocks"
+2019-04-11 08:23:05,184 INFO 11283 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/mocks_proxy"
+2019-04-11 08:23:05,184 INFO 11283 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/app.js"
+2019-04-11 08:23:05,184 INFO 11283 [egg-watcher:agent] watcher start success
+2019-04-11 08:23:05,259 INFO 11283 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-04-11 08:23:05,279 INFO 11283 [egg:core] dump config after ready, 16ms
+2019-04-11 08:50:14,213 INFO 11491 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-04-11 08:50:15,847 INFO 11491 [egg:core] dump config after load, 8ms
+2019-04-11 08:50:15,980 INFO 11491 [egg-watcher] Start watching: ["/vagrant_data/nodeworks/egg-ifram_1/app","/vagrant_data/nodeworks/egg-ifram_1/config","/vagrant_data/nodeworks/egg-ifram_1/mocks","/vagrant_data/nodeworks/egg-ifram_1/mocks_proxy","/vagrant_data/nodeworks/egg-ifram_1/app.js"]
+2019-04-11 08:50:15,980 INFO 11491 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/app"
+2019-04-11 08:50:15,981 INFO 11491 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/config"
+2019-04-11 08:50:15,981 INFO 11491 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/mocks"
+2019-04-11 08:50:15,981 INFO 11491 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/mocks_proxy"
+2019-04-11 08:50:15,981 INFO 11491 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/app.js"
+2019-04-11 08:50:15,982 INFO 11491 [egg-watcher:agent] watcher start success
+2019-04-11 08:50:16,047 INFO 11491 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-04-11 08:50:16,072 INFO 11491 [egg:core] dump config after ready, 19ms
+2019-04-11 09:03:29,625 INFO 11649 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-04-11 09:03:31,199 INFO 11649 [egg:core] dump config after load, 7ms
+2019-04-11 09:03:31,299 INFO 11649 [egg-watcher] Start watching: ["/vagrant_data/nodeworks/egg-ifram_1/app","/vagrant_data/nodeworks/egg-ifram_1/config","/vagrant_data/nodeworks/egg-ifram_1/mocks","/vagrant_data/nodeworks/egg-ifram_1/mocks_proxy","/vagrant_data/nodeworks/egg-ifram_1/app.js"]
+2019-04-11 09:03:31,299 INFO 11649 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/app"
+2019-04-11 09:03:31,301 INFO 11649 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/config"
+2019-04-11 09:03:31,301 INFO 11649 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/mocks"
+2019-04-11 09:03:31,301 INFO 11649 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/mocks_proxy"
+2019-04-11 09:03:31,302 INFO 11649 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/app.js"
+2019-04-11 09:03:31,302 INFO 11649 [egg-watcher:agent] watcher start success
+2019-04-11 09:03:31,368 INFO 11649 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-04-11 09:03:31,395 INFO 11649 [egg:core] dump config after ready, 18ms
+2019-04-11 10:09:32,022 INFO 12027 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-04-11 10:09:36,327 INFO 12027 [egg:core] dump config after load, 22ms
+2019-04-11 10:09:36,554 INFO 12027 [egg-watcher] Start watching: ["/vagrant_data/nodeworks/egg-ifram_1/app","/vagrant_data/nodeworks/egg-ifram_1/config","/vagrant_data/nodeworks/egg-ifram_1/mocks","/vagrant_data/nodeworks/egg-ifram_1/mocks_proxy","/vagrant_data/nodeworks/egg-ifram_1/app.js"]
+2019-04-11 10:09:36,554 INFO 12027 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/app"
+2019-04-11 10:09:36,555 INFO 12027 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/config"
+2019-04-11 10:09:36,555 INFO 12027 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/mocks"
+2019-04-11 10:09:36,556 INFO 12027 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/mocks_proxy"
+2019-04-11 10:09:36,556 INFO 12027 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/app.js"
+2019-04-11 10:09:36,557 INFO 12027 [egg-watcher:agent] watcher start success
+2019-04-11 10:09:36,636 INFO 12027 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-04-11 10:09:36,657 INFO 12027 [egg:core] dump config after ready, 18ms
+2019-04-11 10:11:44,118 INFO 12116 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-04-11 10:11:45,777 INFO 12116 [egg:core] dump config after load, 9ms
+2019-04-11 10:11:45,874 INFO 12116 [egg-watcher] Start watching: ["/vagrant_data/nodeworks/egg-ifram_1/app","/vagrant_data/nodeworks/egg-ifram_1/config","/vagrant_data/nodeworks/egg-ifram_1/mocks","/vagrant_data/nodeworks/egg-ifram_1/mocks_proxy","/vagrant_data/nodeworks/egg-ifram_1/app.js"]
+2019-04-11 10:11:45,875 INFO 12116 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/app"
+2019-04-11 10:11:45,875 INFO 12116 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/config"
+2019-04-11 10:11:45,875 INFO 12116 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/mocks"
+2019-04-11 10:11:45,876 INFO 12116 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/mocks_proxy"
+2019-04-11 10:11:45,876 INFO 12116 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/app.js"
+2019-04-11 10:11:45,876 INFO 12116 [egg-watcher:agent] watcher start success
+2019-04-11 10:11:45,964 INFO 12116 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-04-11 10:11:45,992 INFO 12116 [egg:core] dump config after ready, 22ms
+2019-04-11 10:15:56,047 INFO 12211 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-04-11 10:15:57,713 INFO 12211 [egg:core] dump config after load, 7ms
+2019-04-11 10:15:57,826 INFO 12211 [egg-watcher] Start watching: ["/vagrant_data/nodeworks/egg-ifram_1/app","/vagrant_data/nodeworks/egg-ifram_1/config","/vagrant_data/nodeworks/egg-ifram_1/mocks","/vagrant_data/nodeworks/egg-ifram_1/mocks_proxy","/vagrant_data/nodeworks/egg-ifram_1/app.js"]
+2019-04-11 10:15:57,826 INFO 12211 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/app"
+2019-04-11 10:15:57,826 INFO 12211 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/config"
+2019-04-11 10:15:57,827 INFO 12211 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/mocks"
+2019-04-11 10:15:57,827 INFO 12211 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/mocks_proxy"
+2019-04-11 10:15:57,827 INFO 12211 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/app.js"
+2019-04-11 10:15:57,828 INFO 12211 [egg-watcher:agent] watcher start success
+2019-04-11 10:15:57,899 INFO 12211 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-04-11 10:15:57,929 INFO 12211 [egg:core] dump config after ready, 25ms
+2019-04-11 10:53:25,858 INFO 12635 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-04-11 10:53:27,427 INFO 12635 [egg:core] dump config after load, 6ms
+2019-04-11 10:53:27,529 INFO 12635 [egg-watcher] Start watching: ["/vagrant_data/nodeworks/egg-ifram_1/app","/vagrant_data/nodeworks/egg-ifram_1/config","/vagrant_data/nodeworks/egg-ifram_1/mocks","/vagrant_data/nodeworks/egg-ifram_1/mocks_proxy","/vagrant_data/nodeworks/egg-ifram_1/app.js"]
+2019-04-11 10:53:27,529 INFO 12635 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/app"
+2019-04-11 10:53:27,529 INFO 12635 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/config"
+2019-04-11 10:53:27,530 INFO 12635 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/mocks"
+2019-04-11 10:53:27,530 INFO 12635 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/mocks_proxy"
+2019-04-11 10:53:27,530 INFO 12635 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/app.js"
+2019-04-11 10:53:27,531 INFO 12635 [egg-watcher:agent] watcher start success
+2019-04-11 10:53:27,608 INFO 12635 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-04-11 10:53:27,632 INFO 12635 [egg:core] dump config after ready, 21ms
+2019-04-11 10:54:51,657 INFO 12745 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-04-11 10:54:53,276 INFO 12745 [egg:core] dump config after load, 7ms
+2019-04-11 10:54:53,378 INFO 12745 [egg-watcher] Start watching: ["/vagrant_data/nodeworks/egg-ifram_1/app","/vagrant_data/nodeworks/egg-ifram_1/config","/vagrant_data/nodeworks/egg-ifram_1/mocks","/vagrant_data/nodeworks/egg-ifram_1/mocks_proxy","/vagrant_data/nodeworks/egg-ifram_1/app.js"]
+2019-04-11 10:54:53,378 INFO 12745 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/app"
+2019-04-11 10:54:53,378 INFO 12745 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/config"
+2019-04-11 10:54:53,379 INFO 12745 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/mocks"
+2019-04-11 10:54:53,379 INFO 12745 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/mocks_proxy"
+2019-04-11 10:54:53,379 INFO 12745 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/app.js"
+2019-04-11 10:54:53,380 INFO 12745 [egg-watcher:agent] watcher start success
+2019-04-11 10:54:53,453 INFO 12745 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-04-11 10:54:53,470 INFO 12745 [egg:core] dump config after ready, 12ms
+2019-04-11 11:09:33,730 INFO 12908 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-04-11 11:09:35,317 INFO 12908 [egg:core] dump config after load, 7ms
+2019-04-11 11:09:35,410 INFO 12908 [egg-watcher] Start watching: ["/vagrant_data/nodeworks/egg-ifram_1/app","/vagrant_data/nodeworks/egg-ifram_1/config","/vagrant_data/nodeworks/egg-ifram_1/mocks","/vagrant_data/nodeworks/egg-ifram_1/mocks_proxy","/vagrant_data/nodeworks/egg-ifram_1/app.js"]
+2019-04-11 11:09:35,410 INFO 12908 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/app"
+2019-04-11 11:09:35,410 INFO 12908 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/config"
+2019-04-11 11:09:35,411 INFO 12908 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/mocks"
+2019-04-11 11:09:35,411 INFO 12908 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/mocks_proxy"
+2019-04-11 11:09:35,411 INFO 12908 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/app.js"
+2019-04-11 11:09:35,411 INFO 12908 [egg-watcher:agent] watcher start success
+2019-04-11 11:09:35,488 INFO 12908 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-04-11 11:09:35,514 INFO 12908 [egg:core] dump config after ready, 21ms
+2019-04-11 11:15:28,901 INFO 13016 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-04-11 11:15:30,484 INFO 13016 [egg:core] dump config after load, 8ms
+2019-04-11 11:15:30,614 INFO 13016 [egg-watcher] Start watching: ["/vagrant_data/nodeworks/egg-ifram_1/app","/vagrant_data/nodeworks/egg-ifram_1/config","/vagrant_data/nodeworks/egg-ifram_1/mocks","/vagrant_data/nodeworks/egg-ifram_1/mocks_proxy","/vagrant_data/nodeworks/egg-ifram_1/app.js"]
+2019-04-11 11:15:30,614 INFO 13016 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/app"
+2019-04-11 11:15:30,614 INFO 13016 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/config"
+2019-04-11 11:15:30,615 INFO 13016 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/mocks"
+2019-04-11 11:15:30,615 INFO 13016 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/mocks_proxy"
+2019-04-11 11:15:30,616 INFO 13016 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/app.js"
+2019-04-11 11:15:30,616 INFO 13016 [egg-watcher:agent] watcher start success
+2019-04-11 11:15:30,702 INFO 13016 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-04-11 11:15:30,725 INFO 13016 [egg:core] dump config after ready, 19ms
+2019-04-11 11:20:09,727 INFO 13113 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-04-11 11:20:11,268 INFO 13113 [egg:core] dump config after load, 6ms
+2019-04-11 11:20:11,368 INFO 13113 [egg-watcher] Start watching: ["/vagrant_data/nodeworks/egg-ifram_1/app","/vagrant_data/nodeworks/egg-ifram_1/config","/vagrant_data/nodeworks/egg-ifram_1/mocks","/vagrant_data/nodeworks/egg-ifram_1/mocks_proxy","/vagrant_data/nodeworks/egg-ifram_1/app.js"]
+2019-04-11 11:20:11,368 INFO 13113 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/app"
+2019-04-11 11:20:11,369 INFO 13113 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/config"
+2019-04-11 11:20:11,369 INFO 13113 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/mocks"
+2019-04-11 11:20:11,370 INFO 13113 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/mocks_proxy"
+2019-04-11 11:20:11,370 INFO 13113 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/app.js"
+2019-04-11 11:20:11,370 INFO 13113 [egg-watcher:agent] watcher start success
+2019-04-11 11:20:11,443 INFO 13113 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-04-11 11:20:11,465 INFO 13113 [egg:core] dump config after ready, 17ms
+2019-04-11 12:07:08,012 INFO 13428 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-04-11 12:07:09,566 INFO 13428 [egg:core] dump config after load, 7ms
+2019-04-11 12:07:09,658 INFO 13428 [egg-watcher] Start watching: ["/vagrant_data/nodeworks/egg-ifram_1/app","/vagrant_data/nodeworks/egg-ifram_1/config","/vagrant_data/nodeworks/egg-ifram_1/mocks","/vagrant_data/nodeworks/egg-ifram_1/mocks_proxy","/vagrant_data/nodeworks/egg-ifram_1/app.js"]
+2019-04-11 12:07:09,658 INFO 13428 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/app"
+2019-04-11 12:07:09,658 INFO 13428 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/config"
+2019-04-11 12:07:09,659 INFO 13428 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/mocks"
+2019-04-11 12:07:09,659 INFO 13428 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/mocks_proxy"
+2019-04-11 12:07:09,660 INFO 13428 [egg-watcher] Start watching: "/vagrant_data/nodeworks/egg-ifram_1/app.js"
+2019-04-11 12:07:09,661 INFO 13428 [egg-watcher:agent] watcher start success
+2019-04-11 12:07:09,733 INFO 13428 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-04-11 12:07:09,758 INFO 13428 [egg:core] dump config after ready, 19ms

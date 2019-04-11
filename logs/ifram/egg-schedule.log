@@ -922,3 +922,51 @@
 2019-04-11 06:44:16,334 INFO 10741 [egg-schedule]: register schedule /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
 2019-04-11 06:44:18,381 INFO 10727 [Timer] /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 62141623ms at 2019-04-12 00:00:00.004
 2019-04-11 06:44:18,382 INFO 10727 [Timer] /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 62142619ms at 2019-04-12 00:00:01.001
+2019-04-11 08:23:09,594 INFO 11297 [egg-schedule]: register schedule /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-11 08:23:09,594 INFO 11297 [egg-schedule]: register schedule /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-04-11 08:23:11,715 INFO 11283 [Timer] /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 56208287ms at 2019-04-12 00:00:00.002
+2019-04-11 08:23:11,716 INFO 11283 [Timer] /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 56209285ms at 2019-04-12 00:00:01.001
+2019-04-11 08:50:20,473 INFO 11505 [egg-schedule]: register schedule /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-11 08:50:20,473 INFO 11505 [egg-schedule]: register schedule /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-04-11 08:50:22,576 INFO 11491 [Timer] /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 54577427ms at 2019-04-12 00:00:00.002
+2019-04-11 08:50:22,576 INFO 11491 [Timer] /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 54578424ms at 2019-04-12 00:00:01.000
+2019-04-11 09:03:35,580 INFO 11663 [egg-schedule]: register schedule /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-11 09:03:35,580 INFO 11663 [egg-schedule]: register schedule /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-04-11 09:03:37,525 INFO 11649 [Timer] /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 53782478ms at 2019-04-12 00:00:00.003
+2019-04-11 09:03:37,526 INFO 11649 [Timer] /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 53783475ms at 2019-04-12 00:00:01.001
+2019-04-11 10:09:42,207 INFO 12041 [egg-schedule]: register schedule /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-11 10:09:42,207 INFO 12041 [egg-schedule]: register schedule /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-04-11 10:09:45,311 INFO 12027 [Timer] /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 49814692ms at 2019-04-12 00:00:00.003
+2019-04-11 10:09:45,311 INFO 12027 [Timer] /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 49815689ms at 2019-04-12 00:00:01.000
+2019-04-11 10:11:50,283 INFO 12130 [egg-schedule]: register schedule /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-11 10:11:50,283 INFO 12130 [egg-schedule]: register schedule /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-04-11 10:11:52,294 INFO 12116 [Timer] /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 49687710ms at 2019-04-12 00:00:00.004
+2019-04-11 10:11:52,295 INFO 12116 [Timer] /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 49688706ms at 2019-04-12 00:00:01.001
+2019-04-11 10:16:02,424 INFO 12226 [egg-schedule]: register schedule /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-11 10:16:02,424 INFO 12226 [egg-schedule]: register schedule /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-04-11 10:16:04,384 INFO 12211 [Timer] /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 49435618ms at 2019-04-12 00:00:00.002
+2019-04-11 10:16:04,384 INFO 12211 [Timer] /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 49436616ms at 2019-04-12 00:00:01.000
+2019-04-11 10:53:31,832 INFO 12650 [egg-schedule]: register schedule /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-11 10:53:31,832 INFO 12650 [egg-schedule]: register schedule /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-04-11 10:53:33,892 INFO 12635 [Timer] /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 47186110ms at 2019-04-12 00:00:00.002
+2019-04-11 10:53:33,893 INFO 12635 [Timer] /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 47187108ms at 2019-04-12 00:00:01.001
+2019-04-11 10:54:57,835 INFO 12759 [egg-schedule]: register schedule /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-11 10:54:57,835 INFO 12759 [egg-schedule]: register schedule /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-04-11 10:54:59,872 INFO 12745 [Timer] /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 47100131ms at 2019-04-12 00:00:00.003
+2019-04-11 10:54:59,872 INFO 12745 [Timer] /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 47101128ms at 2019-04-12 00:00:01.000
+2019-04-11 11:09:39,654 INFO 12922 [egg-schedule]: register schedule /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-11 11:09:39,654 INFO 12922 [egg-schedule]: register schedule /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-04-11 11:09:41,673 INFO 12908 [Timer] /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 46218337ms at 2019-04-12 00:00:00.010
+2019-04-11 11:09:41,673 INFO 12908 [Timer] /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 46219327ms at 2019-04-12 00:00:01.000
+2019-04-11 11:15:34,982 INFO 13030 [egg-schedule]: register schedule /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-11 11:15:34,982 INFO 13030 [egg-schedule]: register schedule /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-04-11 11:15:37,060 INFO 13016 [Timer] /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 45862943ms at 2019-04-12 00:00:00.003
+2019-04-11 11:15:37,061 INFO 13016 [Timer] /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 45863940ms at 2019-04-12 00:00:01.001
+2019-04-11 11:20:15,731 INFO 13128 [egg-schedule]: register schedule /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-11 11:20:15,732 INFO 13128 [egg-schedule]: register schedule /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-04-11 11:20:17,790 INFO 13113 [Timer] /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 45582212ms at 2019-04-12 00:00:00.002
+2019-04-11 11:20:17,791 INFO 13113 [Timer] /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 45583210ms at 2019-04-12 00:00:01.001
+2019-04-11 12:07:13,971 INFO 13442 [egg-schedule]: register schedule /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-11 12:07:13,971 INFO 13442 [egg-schedule]: register schedule /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-04-11 12:07:16,018 INFO 13428 [Timer] /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 42763984ms at 2019-04-12 00:00:00.002
+2019-04-11 12:07:16,019 INFO 13428 [Timer] /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 42764982ms at 2019-04-12 00:00:01.001

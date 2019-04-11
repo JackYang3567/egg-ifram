@@ -32,6 +32,8 @@ flush privileges; //刷新系统权限表
 
 //5, npx sequelize db:seed:all
 
+## https://itbilu.com/nodejs/npm/V1PExztfb.html#definition-dataType
+
 ### 1、初始化 Migrations 配置文件和目录
 ```
 npx sequelize init:config

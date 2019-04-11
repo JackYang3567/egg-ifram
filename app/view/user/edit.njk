@@ -1,34 +1,123 @@
-{%  extends "../layouts/base.njk"  %}
+{%  extends "../layouts/admincomm.njk"  %}
 {% block body %} 
-  <div class="login layui-anim layui-anim-up">
-        <div class="message">修改用户信息</div>
-        <div id="darkbannerwrap"></div>
-      
-        <form id="edit-user" class="layui-form" action="/user/{{ users[0].id}}">
-            <input  id="user-id" readOnly  type="hidden" value="{{ users[0].id}}"/>
-            <input name="email" placeholder="邮箱" readOnly  type="text" value="{{ users[0].email}}" lay-verify="required" class="layui-input" >
-            <hr class="hr15">
-            <input name="username" placeholder="用户名"  type="text" value="{{ users[0].username}}" lay-verify="required" class="layui-input" >
-            <hr class="hr15">
+   <div class="x-body">
+       
+        {% if (opt==0) %}
+
+ <form class="layui-form">
+          <div class="layui-form-item">
+              <label for="L_email" class="layui-form-label">
+                  <span class="x-red">*</span>邮箱
+              </label>
+              <div class="layui-input-inline">
+                  <input type="text" id="L_email" name="email" required="" lay-verify="email"
+                  autocomplete="off" class="layui-input">
+              </div>
+              <div class="layui-form-mid layui-word-aux">
+                  <span class="x-red">*</span>将会成为您唯一的登入名
+              </div>
+          </div>
+          <div class="layui-form-item">
+              <label for="L_username" class="layui-form-label">
+                  <span class="x-red">*</span>昵称
+              </label>
+              <div class="layui-input-inline">
+                  <input type="text" id="L_username" name="username" required="" lay-verify="nikename"
+                  autocomplete="off" class="layui-input">
+              </div>
+          </div>
+          <div class="layui-form-item">
+              <label for="L_pass" class="layui-form-label">
+                  <span class="x-red">*</span>性别
+              </label>
+              <div class="layui-input-inline">
+               <input type="radio" name="gender" lay-skin="primary" title="男" id="L_pass" value="1" name="gender" required="" lay-verify="gender"
+                  autocomplete="off" class="layui-input" checked="">
+                 
+              
+                  <input type="radio" id="L_pass_0" name="gender"  title="女" value="0"  required="" lay-verify="gender"
+                  autocomplete="off" class="layui-input"> 
+              </div>
              
-            <input name="weibo" placeholder="微博"  type="text" value="{{ users[0].weibo}}" lay-verify="required" class="layui-input" >
-            <hr class="hr15">
-            <input name="weixin" placeholder="微信"  type="text" value="{{ users[0].weixin}}" lay-verify="required" class="layui-input" >
-            <hr class="hr15">
-            <input name="receive_remote" lay-verify="required" value="{{ users[0].receive_remote}}" placeholder="receive_remote"  type="text" class="layui-input">
-            <hr class="hr15">  
+          </div>
+          <div class="layui-form-item">
+              <label for="L_mobile_phone" class="layui-form-label">
+                  <span class="x-red">*</span>手机号
+              </label>
+              <div class="layui-input-inline">
+                  <input type="number" id="L_mobile_phones" name="mobile_phone" required="" lay-verify="mobile_phone"
+                  autocomplete="off" class="layui-input">
+              </div>
+          </div>
 
-            <input name="email_verifyed" lay-verify="required" value="{{ users[0].email_verifyed}}" placeholder="email_verifyed"  type="text" class="layui-input">
-            <hr class="hr15">   
+          <div class="layui-form-item">
+              <label for="L_address" class="layui-form-label">
+                 地址
+              </label>
+              <div class="layui-input-inline">
+                  <input type="text" id="L_address" name="address" required="" lay-verify="address"
+                  autocomplete="off" class="layui-input">
+              </div>
+          </div>
 
-            <input name="avatar" lay-verify="required" placeholder="avatar" value="{{ users[0].avatar}}"  type="text" class="layui-input">
-            <hr class="hr15">           
-           
-             <input value="保存" onclick="saveUser();" lay-submit lay-filter="login" style="width:100%;" type="button">
-              <input value="删除" onclick="delUser();" lay-submit lay-filter="login" style="width:100%;" type="button">
-            <hr class="hr20" >
-          
-        </form>
+          <div class="layui-form-item">
+              <label for="L_repass" class="layui-form-label">
+              </label>
+              <button  class="layui-btn" lay-filter="add" lay-submit="">
+                  保存
+              </button>
+          </div>
+      </form>
+        {% else %}
+ <form class="layui-form">
+          <div class="layui-form-item">
+              <label for="L_username" class="layui-form-label">
+                  昵称
+              </label>
+              <div class="layui-input-inline">
+                  <input type="text" id="L_username" name="username" disabled="" value="{{ users[0].username }}" class="layui-input">
+              </div>
+          </div>
+          <div class="layui-form-item">
+              <label for="L_repass" class="layui-form-label">
+                  <span class="x-red">*</span>旧密码
+              </label>
+              <div class="layui-input-inline">
+                  <input type="password" id="L_repass" name="oldpass" required="" lay-verify="required"
+                  autocomplete="off" class="layui-input">
+              </div>
+          </div>
+          <div class="layui-form-item">
+              <label for="L_pass" class="layui-form-label">
+                  <span class="x-red">*</span>新密码
+              </label>
+              <div class="layui-input-inline">
+                  <input type="password" id="L_pass" name="newpass" required="" lay-verify="required"
+                  autocomplete="off" class="layui-input">
+              </div>
+              <div class="layui-form-mid layui-word-aux">
+                  6到16个字符
+              </div>
+          </div>
+          <div class="layui-form-item">
+              <label for="L_repass" class="layui-form-label">
+                  <span class="x-red">*</span>确认密码
+              </label>
+              <div class="layui-input-inline">
+                  <input type="password" id="L_repass" name="repass" required="" lay-verify="required"
+                  autocomplete="off" class="layui-input">
+              </div>
+          </div>
+          <div class="layui-form-item">
+              <label for="L_repass" class="layui-form-label">
+              </label>
+              <button  class="layui-btn" lay-filter="save" lay-submit="">
+                  保存
+              </button>
+          </div>
+      </form>
+        {% endif %}
+        
     </div>
     <script>
       function saveUser() {
@@ -48,20 +137,7 @@
         });
       }
      
-     function delUser() {
-       let data =  $("#edit-user").serialize();
-        $.ajax({
-            url:`/user/${$("#user-id").val()}`,
-            type:"delete",
-            dataType:"json",
-            timeout:10000,
-            data:data,
-            success:function(data){
-                //callback(data);
-               console.log("====",data)
-            }
-        });
-     }
+     
     
     </script>
 {% endblock %}    

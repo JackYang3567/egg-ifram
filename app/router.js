@@ -15,8 +15,8 @@ module.exports = app => {
   router.get('/user', controller.user.index);
   router.post('/user', controller.user.create);
   router.get('/user/new', controller.user.newUserForm);
-  router.get('/user/:id', controller.user.editUserForm);
-  router.put('/user/:id', controller.user.update);
+  router.get('/user/:type/:id', controller.user.editUserForm);
+  router.put('/user/:id', controller.user.update); // type:0,编辑个人信息，1：修改密码
   router.delete('/user/:id',controller.user.destroy)
 
   router.get('/', controller.home.index);

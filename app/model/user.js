@@ -3,7 +3,7 @@
 const bcrypt = require('bcrypt')
 
 module.exports = (app, model) => {
-  const { INTEGER, STRING, BOOLEAN,DATE} = app.Sequelize
+  const { INTEGER, STRING, BOOLEAN,DATE,BIGINT,NOW} = app.Sequelize
   const User = app.model.define('User', {
     id: { type: INTEGER, primaryKey: true, autoIncrement: true },
     email: {
@@ -14,6 +14,20 @@ module.exports = (app, model) => {
     },
     username: {
       type: STRING
+    },
+    gender: {
+      defaultValue: 0,
+      type: INTEGER
+    },
+    mobile_phone:{
+      type:BIGINT
+    },
+    address: {
+      type: STRING
+    },
+    status:{
+      defaultValue: 0,
+      type: INTEGER
     },
     weibo: {
       type: STRING
@@ -31,11 +45,13 @@ module.exports = (app, model) => {
       type: STRING
     },
     created_at: {
-      allowNull: false,
+     
+      defaultValue: NOW,
       type: DATE
     },
     updated_at: {
-      allowNull: false,
+    
+      defaultValue: NOW,
       type: DATE
     }
   })

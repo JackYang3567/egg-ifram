@@ -4,7 +4,8 @@ const bcrypt = require('bcrypt')
 
 module.exports = (app, model) => {
   const { INTEGER, STRING, BOOLEAN,DATE} = app.Sequelize
-  const User = model.define('User', {
+  const User = app.model.define('User', {
+    id: { type: INTEGER, primaryKey: true, autoIncrement: true },
     email: {
       type: STRING
     },
@@ -29,11 +30,11 @@ module.exports = (app, model) => {
     avatar: {
       type: STRING
     },
-    createdAt: {
+    created_at: {
       allowNull: false,
       type: DATE
     },
-    updatedAt: {
+    updated_at: {
       allowNull: false,
       type: DATE
     }
@@ -72,6 +73,8 @@ module.exports = (app, model) => {
       }
       return false
     }
+
+ 
 
     return User;
   };

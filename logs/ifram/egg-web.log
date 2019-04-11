@@ -5929,3 +5929,883 @@ hostname: localhost.localdomain
 2019-04-10 01:14:13,882 INFO 8389 [egg-watcher:application] watcher start success
 2019-04-10 01:14:13,926 INFO 8389 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 01:14:13 GMT+0100 (British Summer Time)
 2019-04-10 01:14:13,994 INFO 8389 [egg:core] dump config after ready, 18ms
+2019-04-10 06:55:53,437 INFO 12948 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 06:55:53,523 INFO 12948 [egg-multipart] stream mode enable
+2019-04-10 06:55:54,103 INFO 12948 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 06:55:55,988 INFO 12948 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 06:55:55,999 INFO 12948 [egg-security] use csrf middleware
+2019-04-10 06:55:56,007 INFO 12948 [egg-security] use methodnoallow middleware
+2019-04-10 06:55:56,009 INFO 12948 [egg-security] use noopen middleware
+2019-04-10 06:55:56,015 INFO 12948 [egg-security] use nosniff middleware
+2019-04-10 06:55:56,017 INFO 12948 [egg-security] use xssProtection middleware
+2019-04-10 06:55:56,021 INFO 12948 [egg-security] use xframe middleware
+2019-04-10 06:55:56,023 INFO 12948 [egg-security] use dta middleware
+2019-04-10 06:55:56,023 INFO 12948 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 06:55:56,261 INFO 12948 [egg:core] dump config after load, 11ms
+2019-04-10 06:55:56,304 INFO 12948 [egg-redis] client connect success
+2019-04-10 06:55:56,363 INFO 12948 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 06:55:56 GMT+0100 (British Summer Time)
+2019-04-10 06:55:56,367 INFO 12948 [egg-watcher:application] watcher start success
+2019-04-10 06:57:18,234 INFO 13035 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 06:57:18,311 INFO 13035 [egg-multipart] stream mode enable
+2019-04-10 06:57:18,717 INFO 13035 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 06:57:20,082 INFO 13035 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 06:57:20,093 INFO 13035 [egg-security] use csrf middleware
+2019-04-10 06:57:20,098 INFO 13035 [egg-security] use methodnoallow middleware
+2019-04-10 06:57:20,099 INFO 13035 [egg-security] use noopen middleware
+2019-04-10 06:57:20,104 INFO 13035 [egg-security] use nosniff middleware
+2019-04-10 06:57:20,106 INFO 13035 [egg-security] use xssProtection middleware
+2019-04-10 06:57:20,108 INFO 13035 [egg-security] use xframe middleware
+2019-04-10 06:57:20,110 INFO 13035 [egg-security] use dta middleware
+2019-04-10 06:57:20,110 INFO 13035 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 06:57:20,195 INFO 13035 [egg:core] dump config after load, 8ms
+2019-04-10 06:57:20,225 INFO 13035 [egg-redis] client connect success
+2019-04-10 06:57:20,241 INFO 13035 [egg-watcher:application] watcher start success
+2019-04-10 06:57:20,280 INFO 13035 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 06:57:20 GMT+0100 (British Summer Time)
+2019-04-10 06:57:20,307 INFO 13035 [egg:core] dump config after ready, 10ms
+2019-04-10 06:57:45,955 INFO 13035 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-04-10 06:58:42,145 INFO 13121 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 06:58:42,224 INFO 13121 [egg-multipart] stream mode enable
+2019-04-10 06:58:42,560 INFO 13121 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 06:58:43,843 INFO 13121 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 06:58:43,853 INFO 13121 [egg-security] use csrf middleware
+2019-04-10 06:58:43,858 INFO 13121 [egg-security] use methodnoallow middleware
+2019-04-10 06:58:43,860 INFO 13121 [egg-security] use noopen middleware
+2019-04-10 06:58:43,865 INFO 13121 [egg-security] use nosniff middleware
+2019-04-10 06:58:43,866 INFO 13121 [egg-security] use xssProtection middleware
+2019-04-10 06:58:43,868 INFO 13121 [egg-security] use xframe middleware
+2019-04-10 06:58:43,870 INFO 13121 [egg-security] use dta middleware
+2019-04-10 06:58:43,870 INFO 13121 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 06:58:43,955 INFO 13121 [egg:core] dump config after load, 8ms
+2019-04-10 06:58:43,975 INFO 13121 [egg-redis] client connect success
+2019-04-10 06:58:44,005 INFO 13121 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 06:58:43 GMT+0100 (British Summer Time)
+2019-04-10 06:58:44,043 INFO 13121 [egg-watcher:application] watcher start success
+2019-04-10 06:59:37,782 INFO 13207 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 06:59:37,870 INFO 13207 [egg-multipart] stream mode enable
+2019-04-10 06:59:38,224 INFO 13207 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 06:59:39,508 INFO 13207 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 06:59:39,517 INFO 13207 [egg-security] use csrf middleware
+2019-04-10 06:59:39,522 INFO 13207 [egg-security] use methodnoallow middleware
+2019-04-10 06:59:39,524 INFO 13207 [egg-security] use noopen middleware
+2019-04-10 06:59:39,529 INFO 13207 [egg-security] use nosniff middleware
+2019-04-10 06:59:39,531 INFO 13207 [egg-security] use xssProtection middleware
+2019-04-10 06:59:39,532 INFO 13207 [egg-security] use xframe middleware
+2019-04-10 06:59:39,534 INFO 13207 [egg-security] use dta middleware
+2019-04-10 06:59:39,534 INFO 13207 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 06:59:39,620 INFO 13207 [egg:core] dump config after load, 10ms
+2019-04-10 06:59:39,639 INFO 13207 [egg-redis] client connect success
+2019-04-10 06:59:39,671 INFO 13207 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 06:59:39 GMT+0100 (British Summer Time)
+2019-04-10 06:59:39,673 INFO 13207 [egg-watcher:application] watcher start success
+2019-04-10 06:59:39,703 INFO 13207 [egg:core] dump config after ready, 10ms
+2019-04-10 06:59:45,731 INFO 13207 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-04-10 07:06:58,444 INFO 13343 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 07:06:58,521 INFO 13343 [egg-multipart] stream mode enable
+2019-04-10 07:06:58,870 INFO 13343 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 07:07:00,125 INFO 13343 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 07:07:00,134 INFO 13343 [egg-security] use csrf middleware
+2019-04-10 07:07:00,139 INFO 13343 [egg-security] use methodnoallow middleware
+2019-04-10 07:07:00,141 INFO 13343 [egg-security] use noopen middleware
+2019-04-10 07:07:00,146 INFO 13343 [egg-security] use nosniff middleware
+2019-04-10 07:07:00,148 INFO 13343 [egg-security] use xssProtection middleware
+2019-04-10 07:07:00,150 INFO 13343 [egg-security] use xframe middleware
+2019-04-10 07:07:00,151 INFO 13343 [egg-security] use dta middleware
+2019-04-10 07:07:00,151 INFO 13343 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 07:07:00,239 INFO 13343 [egg:core] dump config after load, 9ms
+2019-04-10 07:07:00,258 INFO 13343 [egg-redis] client connect success
+2019-04-10 07:07:00,283 INFO 13343 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 07:07:00 GMT+0100 (British Summer Time)
+2019-04-10 07:07:00,297 INFO 13343 [egg-watcher:application] watcher start success
+2019-04-10 07:07:00,326 INFO 13343 [egg:core] dump config after ready, 11ms
+2019-04-10 07:39:37,319 INFO 13647 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 07:39:37,399 INFO 13647 [egg-multipart] stream mode enable
+2019-04-10 07:39:37,758 INFO 13647 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 07:39:39,103 INFO 13647 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 07:39:39,118 INFO 13647 [egg-security] use csrf middleware
+2019-04-10 07:39:39,127 INFO 13647 [egg-security] use methodnoallow middleware
+2019-04-10 07:39:39,129 INFO 13647 [egg-security] use noopen middleware
+2019-04-10 07:39:39,138 INFO 13647 [egg-security] use nosniff middleware
+2019-04-10 07:39:39,141 INFO 13647 [egg-security] use xssProtection middleware
+2019-04-10 07:39:39,144 INFO 13647 [egg-security] use xframe middleware
+2019-04-10 07:39:39,146 INFO 13647 [egg-security] use dta middleware
+2019-04-10 07:39:39,146 INFO 13647 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 07:39:39,264 INFO 13647 [egg:core] dump config after load, 11ms
+2019-04-10 07:39:39,286 INFO 13647 [egg-redis] client connect success
+2019-04-10 07:39:39,326 INFO 13647 [egg-watcher:application] watcher start success
+2019-04-10 07:39:39,327 INFO 13647 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 07:39:39 GMT+0100 (British Summer Time)
+2019-04-10 07:39:39,360 INFO 13647 [egg:core] dump config after ready, 12ms
+2019-04-10 07:41:07,545 INFO 13734 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 07:41:07,620 INFO 13734 [egg-multipart] stream mode enable
+2019-04-10 07:41:07,968 INFO 13734 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 07:41:09,283 INFO 13734 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 07:41:09,293 INFO 13734 [egg-security] use csrf middleware
+2019-04-10 07:41:09,298 INFO 13734 [egg-security] use methodnoallow middleware
+2019-04-10 07:41:09,300 INFO 13734 [egg-security] use noopen middleware
+2019-04-10 07:41:09,305 INFO 13734 [egg-security] use nosniff middleware
+2019-04-10 07:41:09,306 INFO 13734 [egg-security] use xssProtection middleware
+2019-04-10 07:41:09,308 INFO 13734 [egg-security] use xframe middleware
+2019-04-10 07:41:09,310 INFO 13734 [egg-security] use dta middleware
+2019-04-10 07:41:09,310 INFO 13734 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 07:41:09,395 INFO 13734 [egg:core] dump config after load, 9ms
+2019-04-10 07:41:09,415 INFO 13734 [egg-redis] client connect success
+2019-04-10 07:41:09,440 INFO 13734 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 07:41:09 GMT+0100 (British Summer Time)
+2019-04-10 07:41:09,450 INFO 13734 [egg-watcher:application] watcher start success
+2019-04-10 07:41:09,482 INFO 13734 [egg:core] dump config after ready, 14ms
+2019-04-10 07:42:56,591 INFO 13824 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 07:42:56,666 INFO 13824 [egg-multipart] stream mode enable
+2019-04-10 07:42:57,010 INFO 13824 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 07:42:58,268 INFO 13824 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 07:42:58,278 INFO 13824 [egg-security] use csrf middleware
+2019-04-10 07:42:58,284 INFO 13824 [egg-security] use methodnoallow middleware
+2019-04-10 07:42:58,286 INFO 13824 [egg-security] use noopen middleware
+2019-04-10 07:42:58,291 INFO 13824 [egg-security] use nosniff middleware
+2019-04-10 07:42:58,293 INFO 13824 [egg-security] use xssProtection middleware
+2019-04-10 07:42:58,295 INFO 13824 [egg-security] use xframe middleware
+2019-04-10 07:42:58,297 INFO 13824 [egg-security] use dta middleware
+2019-04-10 07:42:58,297 INFO 13824 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 07:42:58,387 INFO 13824 [egg:core] dump config after load, 8ms
+2019-04-10 07:42:58,405 INFO 13824 [egg-redis] client connect success
+2019-04-10 07:42:58,433 INFO 13824 [egg-watcher:application] watcher start success
+2019-04-10 07:42:58,444 INFO 13824 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 07:42:58 GMT+0100 (British Summer Time)
+2019-04-10 07:42:58,473 INFO 13824 [egg:core] dump config after ready, 11ms
+2019-04-10 07:50:03,558 INFO 13940 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 07:50:03,636 INFO 13940 [egg-multipart] stream mode enable
+2019-04-10 07:50:04,001 INFO 13940 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 07:50:05,343 INFO 13940 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 07:50:05,353 INFO 13940 [egg-security] use csrf middleware
+2019-04-10 07:50:05,360 INFO 13940 [egg-security] use methodnoallow middleware
+2019-04-10 07:50:05,362 INFO 13940 [egg-security] use noopen middleware
+2019-04-10 07:50:05,367 INFO 13940 [egg-security] use nosniff middleware
+2019-04-10 07:50:05,369 INFO 13940 [egg-security] use xssProtection middleware
+2019-04-10 07:50:05,371 INFO 13940 [egg-security] use xframe middleware
+2019-04-10 07:50:05,373 INFO 13940 [egg-security] use dta middleware
+2019-04-10 07:50:05,373 INFO 13940 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 07:50:05,462 INFO 13940 [egg:core] dump config after load, 8ms
+2019-04-10 07:50:05,490 INFO 13940 [egg-redis] client connect success
+2019-04-10 07:50:05,524 INFO 13940 [egg-watcher:application] watcher start success
+2019-04-10 07:50:05,526 INFO 13940 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 07:50:05 GMT+0100 (British Summer Time)
+2019-04-10 07:50:05,566 INFO 13940 [egg:core] dump config after ready, 11ms
+2019-04-10 07:50:34,108 INFO 13940 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-04-10 07:52:28,680 INFO 14034 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 07:52:28,772 INFO 14034 [egg-multipart] stream mode enable
+2019-04-10 07:52:29,107 INFO 14034 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 07:52:30,426 INFO 14034 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 07:52:30,437 INFO 14034 [egg-security] use csrf middleware
+2019-04-10 07:52:30,442 INFO 14034 [egg-security] use methodnoallow middleware
+2019-04-10 07:52:30,444 INFO 14034 [egg-security] use noopen middleware
+2019-04-10 07:52:30,449 INFO 14034 [egg-security] use nosniff middleware
+2019-04-10 07:52:30,451 INFO 14034 [egg-security] use xssProtection middleware
+2019-04-10 07:52:30,452 INFO 14034 [egg-security] use xframe middleware
+2019-04-10 07:52:30,455 INFO 14034 [egg-security] use dta middleware
+2019-04-10 07:52:30,455 INFO 14034 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 07:52:30,540 INFO 14034 [egg:core] dump config after load, 9ms
+2019-04-10 07:52:30,557 INFO 14034 [egg-redis] client connect success
+2019-04-10 07:52:30,590 INFO 14034 [egg-watcher:application] watcher start success
+2019-04-10 07:52:30,592 INFO 14034 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 07:52:30 GMT+0100 (British Summer Time)
+2019-04-10 07:52:30,621 INFO 14034 [egg:core] dump config after ready, 11ms
+2019-04-10 08:04:19,522 INFO 14255 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 08:04:19,596 INFO 14255 [egg-multipart] stream mode enable
+2019-04-10 08:04:19,953 INFO 14255 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 08:04:21,259 INFO 14255 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 08:04:21,268 INFO 14255 [egg-security] use csrf middleware
+2019-04-10 08:04:21,273 INFO 14255 [egg-security] use methodnoallow middleware
+2019-04-10 08:04:21,276 INFO 14255 [egg-security] use noopen middleware
+2019-04-10 08:04:21,281 INFO 14255 [egg-security] use nosniff middleware
+2019-04-10 08:04:21,283 INFO 14255 [egg-security] use xssProtection middleware
+2019-04-10 08:04:21,285 INFO 14255 [egg-security] use xframe middleware
+2019-04-10 08:04:21,287 INFO 14255 [egg-security] use dta middleware
+2019-04-10 08:04:21,287 INFO 14255 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 08:04:21,377 INFO 14255 [egg:core] dump config after load, 9ms
+2019-04-10 08:04:21,408 INFO 14255 [egg-redis] client connect success
+2019-04-10 08:04:21,423 INFO 14255 [egg-watcher:application] watcher start success
+2019-04-10 08:04:21,423 INFO 14255 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 08:04:21 GMT+0100 (British Summer Time)
+2019-04-10 08:04:21,461 INFO 14255 [egg:core] dump config after ready, 11ms
+2019-04-10 08:10:08,231 INFO 14363 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 08:10:08,314 INFO 14363 [egg-multipart] stream mode enable
+2019-04-10 08:10:08,668 INFO 14363 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 08:10:10,029 INFO 14363 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 08:10:10,039 INFO 14363 [egg-security] use csrf middleware
+2019-04-10 08:10:10,044 INFO 14363 [egg-security] use methodnoallow middleware
+2019-04-10 08:10:10,046 INFO 14363 [egg-security] use noopen middleware
+2019-04-10 08:10:10,053 INFO 14363 [egg-security] use nosniff middleware
+2019-04-10 08:10:10,054 INFO 14363 [egg-security] use xssProtection middleware
+2019-04-10 08:10:10,056 INFO 14363 [egg-security] use xframe middleware
+2019-04-10 08:10:10,058 INFO 14363 [egg-security] use dta middleware
+2019-04-10 08:10:10,058 INFO 14363 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 08:10:10,149 INFO 14363 [egg:core] dump config after load, 11ms
+2019-04-10 08:10:10,170 INFO 14363 [egg-redis] client connect success
+2019-04-10 08:10:10,195 INFO 14363 [egg-watcher:application] watcher start success
+2019-04-10 08:10:10,195 INFO 14363 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 08:10:10 GMT+0100 (British Summer Time)
+2019-04-10 08:10:10,236 INFO 14363 [egg:core] dump config after ready, 11ms
+2019-04-10 08:14:01,764 INFO 14463 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 08:14:01,868 INFO 14463 [egg-multipart] stream mode enable
+2019-04-10 08:14:02,188 INFO 14463 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 08:14:03,498 INFO 14463 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 08:14:03,511 INFO 14463 [egg-security] use csrf middleware
+2019-04-10 08:14:03,519 INFO 14463 [egg-security] use methodnoallow middleware
+2019-04-10 08:14:03,521 INFO 14463 [egg-security] use noopen middleware
+2019-04-10 08:14:03,529 INFO 14463 [egg-security] use nosniff middleware
+2019-04-10 08:14:03,531 INFO 14463 [egg-security] use xssProtection middleware
+2019-04-10 08:14:03,534 INFO 14463 [egg-security] use xframe middleware
+2019-04-10 08:14:03,536 INFO 14463 [egg-security] use dta middleware
+2019-04-10 08:14:03,536 INFO 14463 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 08:14:03,641 INFO 14463 [egg:core] dump config after load, 9ms
+2019-04-10 08:14:03,670 INFO 14463 [egg-redis] client connect success
+2019-04-10 08:14:03,703 INFO 14463 [egg-watcher:application] watcher start success
+2019-04-10 08:14:03,705 INFO 14463 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 08:14:03 GMT+0100 (British Summer Time)
+2019-04-10 08:14:03,735 INFO 14463 [egg:core] dump config after ready, 12ms
+2019-04-10 08:16:02,672 INFO 14552 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 08:16:02,764 INFO 14552 [egg-multipart] stream mode enable
+2019-04-10 08:16:03,196 INFO 14552 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 08:16:04,770 INFO 14552 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 08:16:04,780 INFO 14552 [egg-security] use csrf middleware
+2019-04-10 08:16:04,786 INFO 14552 [egg-security] use methodnoallow middleware
+2019-04-10 08:16:04,787 INFO 14552 [egg-security] use noopen middleware
+2019-04-10 08:16:04,792 INFO 14552 [egg-security] use nosniff middleware
+2019-04-10 08:16:04,794 INFO 14552 [egg-security] use xssProtection middleware
+2019-04-10 08:16:04,796 INFO 14552 [egg-security] use xframe middleware
+2019-04-10 08:16:04,798 INFO 14552 [egg-security] use dta middleware
+2019-04-10 08:16:04,798 INFO 14552 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 08:16:04,885 INFO 14552 [egg:core] dump config after load, 9ms
+2019-04-10 08:16:04,907 INFO 14552 [egg-redis] client connect success
+2019-04-10 08:16:04,929 INFO 14552 [egg-watcher:application] watcher start success
+2019-04-10 08:16:04,929 INFO 14552 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 08:16:04 GMT+0100 (British Summer Time)
+2019-04-10 08:16:04,976 INFO 14552 [egg:core] dump config after ready, 14ms
+2019-04-10 08:24:51,585 INFO 14674 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 08:24:51,664 INFO 14674 [egg-multipart] stream mode enable
+2019-04-10 08:24:52,037 INFO 14674 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 08:24:53,344 INFO 14674 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 08:24:53,354 INFO 14674 [egg-security] use csrf middleware
+2019-04-10 08:24:53,360 INFO 14674 [egg-security] use methodnoallow middleware
+2019-04-10 08:24:53,362 INFO 14674 [egg-security] use noopen middleware
+2019-04-10 08:24:53,368 INFO 14674 [egg-security] use nosniff middleware
+2019-04-10 08:24:53,370 INFO 14674 [egg-security] use xssProtection middleware
+2019-04-10 08:24:53,372 INFO 14674 [egg-security] use xframe middleware
+2019-04-10 08:24:53,373 INFO 14674 [egg-security] use dta middleware
+2019-04-10 08:24:53,373 INFO 14674 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 08:24:53,464 INFO 14674 [egg:core] dump config after load, 9ms
+2019-04-10 08:24:53,480 INFO 14674 [egg-redis] client connect success
+2019-04-10 08:24:53,518 INFO 14674 [egg-watcher:application] watcher start success
+2019-04-10 08:24:53,518 INFO 14674 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 08:24:53 GMT+0100 (British Summer Time)
+2019-04-10 08:24:53,548 INFO 14674 [egg:core] dump config after ready, 12ms
+2019-04-10 08:25:09,214 INFO 14674 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-04-10 08:35:40,841 INFO 14808 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 08:35:40,917 INFO 14808 [egg-multipart] stream mode enable
+2019-04-10 08:35:41,262 INFO 14808 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 08:35:42,694 INFO 14808 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 08:35:42,703 INFO 14808 [egg-security] use csrf middleware
+2019-04-10 08:35:42,710 INFO 14808 [egg-security] use methodnoallow middleware
+2019-04-10 08:35:42,712 INFO 14808 [egg-security] use noopen middleware
+2019-04-10 08:35:42,718 INFO 14808 [egg-security] use nosniff middleware
+2019-04-10 08:35:42,720 INFO 14808 [egg-security] use xssProtection middleware
+2019-04-10 08:35:42,722 INFO 14808 [egg-security] use xframe middleware
+2019-04-10 08:35:42,723 INFO 14808 [egg-security] use dta middleware
+2019-04-10 08:35:42,723 INFO 14808 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 08:35:42,813 INFO 14808 [egg:core] dump config after load, 9ms
+2019-04-10 08:35:42,834 INFO 14808 [egg-redis] client connect success
+2019-04-10 08:35:42,859 INFO 14808 [egg-watcher:application] watcher start success
+2019-04-10 08:35:42,864 INFO 14808 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 08:35:42 GMT+0100 (British Summer Time)
+2019-04-10 08:35:42,905 INFO 14808 [egg:core] dump config after ready, 14ms
+2019-04-10 08:40:20,791 INFO 14912 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 08:40:20,867 INFO 14912 [egg-multipart] stream mode enable
+2019-04-10 08:40:21,231 INFO 14912 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 08:40:22,547 INFO 14912 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 08:40:22,561 INFO 14912 [egg-security] use csrf middleware
+2019-04-10 08:40:22,568 INFO 14912 [egg-security] use methodnoallow middleware
+2019-04-10 08:40:22,570 INFO 14912 [egg-security] use noopen middleware
+2019-04-10 08:40:22,579 INFO 14912 [egg-security] use nosniff middleware
+2019-04-10 08:40:22,581 INFO 14912 [egg-security] use xssProtection middleware
+2019-04-10 08:40:22,584 INFO 14912 [egg-security] use xframe middleware
+2019-04-10 08:40:22,585 INFO 14912 [egg-security] use dta middleware
+2019-04-10 08:40:22,586 INFO 14912 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 08:40:22,713 INFO 14912 [egg:core] dump config after load, 12ms
+2019-04-10 08:40:22,743 INFO 14912 [egg-redis] client connect success
+2019-04-10 08:40:22,801 INFO 14912 [egg-watcher:application] watcher start success
+2019-04-10 08:40:22,804 INFO 14912 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 08:40:22 GMT+0100 (British Summer Time)
+2019-04-10 08:40:22,863 INFO 14912 [egg:core] dump config after ready, 21ms
+2019-04-10 08:41:06,021 INFO 14912 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-04-10 08:44:32,876 INFO 15012 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 08:44:32,951 INFO 15012 [egg-multipart] stream mode enable
+2019-04-10 08:44:33,301 INFO 15012 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 08:44:34,530 INFO 15012 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 08:44:34,539 INFO 15012 [egg-security] use csrf middleware
+2019-04-10 08:44:34,544 INFO 15012 [egg-security] use methodnoallow middleware
+2019-04-10 08:44:34,546 INFO 15012 [egg-security] use noopen middleware
+2019-04-10 08:44:34,551 INFO 15012 [egg-security] use nosniff middleware
+2019-04-10 08:44:34,553 INFO 15012 [egg-security] use xssProtection middleware
+2019-04-10 08:44:34,555 INFO 15012 [egg-security] use xframe middleware
+2019-04-10 08:44:34,556 INFO 15012 [egg-security] use dta middleware
+2019-04-10 08:44:34,556 INFO 15012 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 08:44:34,639 INFO 15012 [egg:core] dump config after load, 8ms
+2019-04-10 08:44:34,659 INFO 15012 [egg-redis] client connect success
+2019-04-10 08:44:34,692 INFO 15012 [egg-watcher:application] watcher start success
+2019-04-10 08:44:34,694 INFO 15012 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 08:44:34 GMT+0100 (British Summer Time)
+2019-04-10 08:44:34,723 INFO 15012 [egg:core] dump config after ready, 11ms
+2019-04-10 08:46:15,842 INFO 15099 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 08:46:15,930 INFO 15099 [egg-multipart] stream mode enable
+2019-04-10 08:46:16,255 INFO 15099 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 08:46:17,644 INFO 15099 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 08:46:17,657 INFO 15099 [egg-security] use csrf middleware
+2019-04-10 08:46:17,665 INFO 15099 [egg-security] use methodnoallow middleware
+2019-04-10 08:46:17,667 INFO 15099 [egg-security] use noopen middleware
+2019-04-10 08:46:17,675 INFO 15099 [egg-security] use nosniff middleware
+2019-04-10 08:46:17,677 INFO 15099 [egg-security] use xssProtection middleware
+2019-04-10 08:46:17,680 INFO 15099 [egg-security] use xframe middleware
+2019-04-10 08:46:17,682 INFO 15099 [egg-security] use dta middleware
+2019-04-10 08:46:17,682 INFO 15099 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 08:46:17,789 INFO 15099 [egg:core] dump config after load, 9ms
+2019-04-10 08:46:17,809 INFO 15099 [egg-redis] client connect success
+2019-04-10 08:46:17,845 INFO 15099 [egg-watcher:application] watcher start success
+2019-04-10 08:46:17,846 INFO 15099 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 08:46:17 GMT+0100 (British Summer Time)
+2019-04-10 08:46:17,877 INFO 15099 [egg:core] dump config after ready, 13ms
+2019-04-10 08:49:00,705 INFO 15190 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 08:49:00,785 INFO 15190 [egg-multipart] stream mode enable
+2019-04-10 08:49:01,147 INFO 15190 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 08:49:02,463 INFO 15190 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 08:49:02,473 INFO 15190 [egg-security] use csrf middleware
+2019-04-10 08:49:02,479 INFO 15190 [egg-security] use methodnoallow middleware
+2019-04-10 08:49:02,480 INFO 15190 [egg-security] use noopen middleware
+2019-04-10 08:49:02,485 INFO 15190 [egg-security] use nosniff middleware
+2019-04-10 08:49:02,487 INFO 15190 [egg-security] use xssProtection middleware
+2019-04-10 08:49:02,489 INFO 15190 [egg-security] use xframe middleware
+2019-04-10 08:49:02,490 INFO 15190 [egg-security] use dta middleware
+2019-04-10 08:49:02,490 INFO 15190 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 08:49:02,574 INFO 15190 [egg:core] dump config after load, 8ms
+2019-04-10 08:49:02,599 INFO 15190 [egg-redis] client connect success
+2019-04-10 08:49:02,615 INFO 15190 [egg-watcher:application] watcher start success
+2019-04-10 08:49:02,627 INFO 15190 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 08:49:02 GMT+0100 (British Summer Time)
+2019-04-10 08:49:02,655 INFO 15190 [egg:core] dump config after ready, 10ms
+2019-04-10 08:49:34,971 INFO 15273 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 08:49:35,074 INFO 15273 [egg-multipart] stream mode enable
+2019-04-10 08:49:35,510 INFO 15273 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 08:49:36,956 INFO 15273 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 08:49:36,969 INFO 15273 [egg-security] use csrf middleware
+2019-04-10 08:49:36,976 INFO 15273 [egg-security] use methodnoallow middleware
+2019-04-10 08:49:36,979 INFO 15273 [egg-security] use noopen middleware
+2019-04-10 08:49:36,987 INFO 15273 [egg-security] use nosniff middleware
+2019-04-10 08:49:36,989 INFO 15273 [egg-security] use xssProtection middleware
+2019-04-10 08:49:36,992 INFO 15273 [egg-security] use xframe middleware
+2019-04-10 08:49:36,994 INFO 15273 [egg-security] use dta middleware
+2019-04-10 08:49:36,994 INFO 15273 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 08:49:37,089 INFO 15273 [egg:core] dump config after load, 9ms
+2019-04-10 08:49:37,116 INFO 15273 [egg-redis] client connect success
+2019-04-10 08:49:37,133 INFO 15273 [egg-watcher:application] watcher start success
+2019-04-10 08:49:37,133 INFO 15273 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 08:49:37 GMT+0100 (British Summer Time)
+2019-04-10 08:49:37,174 INFO 15273 [egg:core] dump config after ready, 9ms
+2019-04-10 08:50:30,871 INFO 15358 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 08:50:30,950 INFO 15358 [egg-multipart] stream mode enable
+2019-04-10 08:50:31,316 INFO 15358 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 08:50:32,711 INFO 15358 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 08:50:32,721 INFO 15358 [egg-security] use csrf middleware
+2019-04-10 08:50:32,728 INFO 15358 [egg-security] use methodnoallow middleware
+2019-04-10 08:50:32,730 INFO 15358 [egg-security] use noopen middleware
+2019-04-10 08:50:32,737 INFO 15358 [egg-security] use nosniff middleware
+2019-04-10 08:50:32,739 INFO 15358 [egg-security] use xssProtection middleware
+2019-04-10 08:50:32,741 INFO 15358 [egg-security] use xframe middleware
+2019-04-10 08:50:32,743 INFO 15358 [egg-security] use dta middleware
+2019-04-10 08:50:32,743 INFO 15358 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 08:50:32,832 INFO 15358 [egg:core] dump config after load, 8ms
+2019-04-10 08:50:32,854 INFO 15358 [egg-redis] client connect success
+2019-04-10 08:50:32,885 INFO 15358 [egg-watcher:application] watcher start success
+2019-04-10 08:50:32,888 INFO 15358 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 08:50:32 GMT+0100 (British Summer Time)
+2019-04-10 08:50:32,920 INFO 15358 [egg:core] dump config after ready, 12ms
+2019-04-10 08:52:46,025 INFO 15449 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 08:52:46,104 INFO 15449 [egg-multipart] stream mode enable
+2019-04-10 08:52:46,452 INFO 15449 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 08:52:47,705 INFO 15449 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 08:52:47,715 INFO 15449 [egg-security] use csrf middleware
+2019-04-10 08:52:47,721 INFO 15449 [egg-security] use methodnoallow middleware
+2019-04-10 08:52:47,723 INFO 15449 [egg-security] use noopen middleware
+2019-04-10 08:52:47,729 INFO 15449 [egg-security] use nosniff middleware
+2019-04-10 08:52:47,731 INFO 15449 [egg-security] use xssProtection middleware
+2019-04-10 08:52:47,734 INFO 15449 [egg-security] use xframe middleware
+2019-04-10 08:52:47,736 INFO 15449 [egg-security] use dta middleware
+2019-04-10 08:52:47,736 INFO 15449 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 08:52:47,828 INFO 15449 [egg:core] dump config after load, 9ms
+2019-04-10 08:52:47,846 INFO 15449 [egg-redis] client connect success
+2019-04-10 08:52:47,873 INFO 15449 [egg-watcher:application] watcher start success
+2019-04-10 08:52:47,885 INFO 15449 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 08:52:47 GMT+0100 (British Summer Time)
+2019-04-10 08:52:47,919 INFO 15449 [egg:core] dump config after ready, 17ms
+2019-04-10 08:54:38,195 INFO 15536 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 08:54:38,275 INFO 15536 [egg-multipart] stream mode enable
+2019-04-10 08:54:38,644 INFO 15536 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 08:54:40,024 INFO 15536 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 08:54:40,033 INFO 15536 [egg-security] use csrf middleware
+2019-04-10 08:54:40,039 INFO 15536 [egg-security] use methodnoallow middleware
+2019-04-10 08:54:40,040 INFO 15536 [egg-security] use noopen middleware
+2019-04-10 08:54:40,045 INFO 15536 [egg-security] use nosniff middleware
+2019-04-10 08:54:40,047 INFO 15536 [egg-security] use xssProtection middleware
+2019-04-10 08:54:40,049 INFO 15536 [egg-security] use xframe middleware
+2019-04-10 08:54:40,051 INFO 15536 [egg-security] use dta middleware
+2019-04-10 08:54:40,051 INFO 15536 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 08:54:40,136 INFO 15536 [egg:core] dump config after load, 9ms
+2019-04-10 08:54:40,165 INFO 15536 [egg-redis] client connect success
+2019-04-10 08:54:40,178 INFO 15536 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 08:54:40 GMT+0100 (British Summer Time)
+2019-04-10 08:54:40,181 INFO 15536 [egg-watcher:application] watcher start success
+2019-04-10 08:54:40,226 INFO 15536 [egg:core] dump config after ready, 16ms
+2019-04-10 09:02:52,931 INFO 15676 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 09:02:53,009 INFO 15676 [egg-multipart] stream mode enable
+2019-04-10 09:02:53,339 INFO 15676 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 09:02:54,591 INFO 15676 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 09:02:54,601 INFO 15676 [egg-security] use csrf middleware
+2019-04-10 09:02:54,607 INFO 15676 [egg-security] use methodnoallow middleware
+2019-04-10 09:02:54,609 INFO 15676 [egg-security] use noopen middleware
+2019-04-10 09:02:54,614 INFO 15676 [egg-security] use nosniff middleware
+2019-04-10 09:02:54,616 INFO 15676 [egg-security] use xssProtection middleware
+2019-04-10 09:02:54,618 INFO 15676 [egg-security] use xframe middleware
+2019-04-10 09:02:54,620 INFO 15676 [egg-security] use dta middleware
+2019-04-10 09:02:54,620 INFO 15676 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 09:02:54,710 INFO 15676 [egg:core] dump config after load, 8ms
+2019-04-10 09:02:54,729 INFO 15676 [egg-redis] client connect success
+2019-04-10 09:02:54,758 INFO 15676 [egg-watcher:application] watcher start success
+2019-04-10 09:02:54,768 INFO 15676 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 09:02:54 GMT+0100 (British Summer Time)
+2019-04-10 09:02:54,801 INFO 15676 [egg:core] dump config after ready, 14ms
+2019-04-10 09:05:50,572 INFO 15771 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 09:05:50,660 INFO 15771 [egg-multipart] stream mode enable
+2019-04-10 09:05:50,999 INFO 15771 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 09:05:52,338 INFO 15771 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 09:05:52,348 INFO 15771 [egg-security] use csrf middleware
+2019-04-10 09:05:52,353 INFO 15771 [egg-security] use methodnoallow middleware
+2019-04-10 09:05:52,355 INFO 15771 [egg-security] use noopen middleware
+2019-04-10 09:05:52,361 INFO 15771 [egg-security] use nosniff middleware
+2019-04-10 09:05:52,363 INFO 15771 [egg-security] use xssProtection middleware
+2019-04-10 09:05:52,365 INFO 15771 [egg-security] use xframe middleware
+2019-04-10 09:05:52,367 INFO 15771 [egg-security] use dta middleware
+2019-04-10 09:05:52,367 INFO 15771 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 09:05:52,462 INFO 15771 [egg:core] dump config after load, 9ms
+2019-04-10 09:05:52,488 INFO 15771 [egg-redis] client connect success
+2019-04-10 09:05:52,503 INFO 15771 [egg-watcher:application] watcher start success
+2019-04-10 09:05:52,516 INFO 15771 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 09:05:52 GMT+0100 (British Summer Time)
+2019-04-10 09:05:52,546 INFO 15771 [egg:core] dump config after ready, 13ms
+2019-04-10 09:07:04,168 INFO 15855 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 09:07:04,250 INFO 15855 [egg-multipart] stream mode enable
+2019-04-10 09:07:04,640 INFO 15855 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 09:07:05,973 INFO 15855 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 09:07:05,985 INFO 15855 [egg-security] use csrf middleware
+2019-04-10 09:07:05,991 INFO 15855 [egg-security] use methodnoallow middleware
+2019-04-10 09:07:05,996 INFO 15855 [egg-security] use noopen middleware
+2019-04-10 09:07:06,005 INFO 15855 [egg-security] use nosniff middleware
+2019-04-10 09:07:06,008 INFO 15855 [egg-security] use xssProtection middleware
+2019-04-10 09:07:06,010 INFO 15855 [egg-security] use xframe middleware
+2019-04-10 09:07:06,014 INFO 15855 [egg-security] use dta middleware
+2019-04-10 09:07:06,014 INFO 15855 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 09:07:06,147 INFO 15855 [egg:core] dump config after load, 13ms
+2019-04-10 09:07:06,182 INFO 15855 [egg-redis] client connect success
+2019-04-10 09:07:06,219 INFO 15855 [egg-watcher:application] watcher start success
+2019-04-10 09:07:06,219 INFO 15855 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 09:07:06 GMT+0100 (British Summer Time)
+2019-04-10 09:07:06,287 INFO 15855 [egg:core] dump config after ready, 15ms
+2019-04-10 09:07:57,261 INFO 15939 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 09:07:57,336 INFO 15939 [egg-multipart] stream mode enable
+2019-04-10 09:07:57,664 INFO 15939 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 09:07:58,970 INFO 15939 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 09:07:58,981 INFO 15939 [egg-security] use csrf middleware
+2019-04-10 09:07:58,987 INFO 15939 [egg-security] use methodnoallow middleware
+2019-04-10 09:07:58,989 INFO 15939 [egg-security] use noopen middleware
+2019-04-10 09:07:58,994 INFO 15939 [egg-security] use nosniff middleware
+2019-04-10 09:07:58,996 INFO 15939 [egg-security] use xssProtection middleware
+2019-04-10 09:07:58,998 INFO 15939 [egg-security] use xframe middleware
+2019-04-10 09:07:59,000 INFO 15939 [egg-security] use dta middleware
+2019-04-10 09:07:59,000 INFO 15939 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 09:07:59,089 INFO 15939 [egg:core] dump config after load, 8ms
+2019-04-10 09:07:59,112 INFO 15939 [egg-redis] client connect success
+2019-04-10 09:07:59,143 INFO 15939 [egg-watcher:application] watcher start success
+2019-04-10 09:07:59,145 INFO 15939 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 09:07:59 GMT+0100 (British Summer Time)
+2019-04-10 09:07:59,176 INFO 15939 [egg:core] dump config after ready, 13ms
+2019-04-10 09:09:46,064 INFO 16026 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 09:09:46,144 INFO 16026 [egg-multipart] stream mode enable
+2019-04-10 09:09:46,525 INFO 16026 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 09:09:47,949 INFO 16026 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 09:09:47,960 INFO 16026 [egg-security] use csrf middleware
+2019-04-10 09:09:47,966 INFO 16026 [egg-security] use methodnoallow middleware
+2019-04-10 09:09:47,967 INFO 16026 [egg-security] use noopen middleware
+2019-04-10 09:09:47,973 INFO 16026 [egg-security] use nosniff middleware
+2019-04-10 09:09:47,974 INFO 16026 [egg-security] use xssProtection middleware
+2019-04-10 09:09:47,976 INFO 16026 [egg-security] use xframe middleware
+2019-04-10 09:09:47,978 INFO 16026 [egg-security] use dta middleware
+2019-04-10 09:09:47,978 INFO 16026 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 09:09:48,070 INFO 16026 [egg:core] dump config after load, 9ms
+2019-04-10 09:09:48,089 INFO 16026 [egg-redis] client connect success
+2019-04-10 09:09:48,108 INFO 16026 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 09:09:48 GMT+0100 (British Summer Time)
+2019-04-10 09:09:48,124 INFO 16026 [egg-watcher:application] watcher start success
+2019-04-10 09:09:48,152 INFO 16026 [egg:core] dump config after ready, 11ms
+2019-04-10 09:19:17,571 INFO 16214 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 09:19:17,662 INFO 16214 [egg-multipart] stream mode enable
+2019-04-10 09:19:18,085 INFO 16214 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 09:19:19,504 INFO 16214 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 09:19:19,513 INFO 16214 [egg-security] use csrf middleware
+2019-04-10 09:19:19,519 INFO 16214 [egg-security] use methodnoallow middleware
+2019-04-10 09:19:19,520 INFO 16214 [egg-security] use noopen middleware
+2019-04-10 09:19:19,525 INFO 16214 [egg-security] use nosniff middleware
+2019-04-10 09:19:19,528 INFO 16214 [egg-security] use xssProtection middleware
+2019-04-10 09:19:19,530 INFO 16214 [egg-security] use xframe middleware
+2019-04-10 09:19:19,531 INFO 16214 [egg-security] use dta middleware
+2019-04-10 09:19:19,531 INFO 16214 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 09:19:19,676 INFO 16214 [egg:core] dump config after load, 13ms
+2019-04-10 09:19:19,699 INFO 16214 [egg-redis] client connect success
+2019-04-10 09:19:19,740 INFO 16214 [egg-watcher:application] watcher start success
+2019-04-10 09:19:19,741 INFO 16214 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 09:19:19 GMT+0100 (British Summer Time)
+2019-04-10 09:19:19,778 INFO 16214 [egg:core] dump config after ready, 9ms
+2019-04-10 09:21:22,547 INFO 16302 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 09:21:22,623 INFO 16302 [egg-multipart] stream mode enable
+2019-04-10 09:21:22,951 INFO 16302 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 09:21:24,261 INFO 16302 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 09:21:24,271 INFO 16302 [egg-security] use csrf middleware
+2019-04-10 09:21:24,277 INFO 16302 [egg-security] use methodnoallow middleware
+2019-04-10 09:21:24,279 INFO 16302 [egg-security] use noopen middleware
+2019-04-10 09:21:24,285 INFO 16302 [egg-security] use nosniff middleware
+2019-04-10 09:21:24,287 INFO 16302 [egg-security] use xssProtection middleware
+2019-04-10 09:21:24,289 INFO 16302 [egg-security] use xframe middleware
+2019-04-10 09:21:24,290 INFO 16302 [egg-security] use dta middleware
+2019-04-10 09:21:24,290 INFO 16302 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 09:21:24,381 INFO 16302 [egg:core] dump config after load, 8ms
+2019-04-10 09:21:24,403 INFO 16302 [egg-redis] client connect success
+2019-04-10 09:21:24,426 INFO 16302 [egg-watcher:application] watcher start success
+2019-04-10 09:21:24,438 INFO 16302 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 09:21:24 GMT+0100 (British Summer Time)
+2019-04-10 09:21:24,466 INFO 16302 [egg:core] dump config after ready, 10ms
+2019-04-10 09:48:08,883 INFO 16707 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 09:48:08,957 INFO 16707 [egg-multipart] stream mode enable
+2019-04-10 09:48:09,290 INFO 16707 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 09:48:10,590 INFO 16707 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 09:48:10,601 INFO 16707 [egg-security] use csrf middleware
+2019-04-10 09:48:10,608 INFO 16707 [egg-security] use methodnoallow middleware
+2019-04-10 09:48:10,610 INFO 16707 [egg-security] use noopen middleware
+2019-04-10 09:48:10,617 INFO 16707 [egg-security] use nosniff middleware
+2019-04-10 09:48:10,619 INFO 16707 [egg-security] use xssProtection middleware
+2019-04-10 09:48:10,621 INFO 16707 [egg-security] use xframe middleware
+2019-04-10 09:48:10,623 INFO 16707 [egg-security] use dta middleware
+2019-04-10 09:48:10,623 INFO 16707 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 09:48:10,714 INFO 16707 [egg:core] dump config after load, 8ms
+2019-04-10 09:48:10,736 INFO 16707 [egg-redis] client connect success
+2019-04-10 09:48:10,773 INFO 16707 [egg-watcher:application] watcher start success
+2019-04-10 09:48:10,774 INFO 16707 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 09:48:10 GMT+0100 (British Summer Time)
+2019-04-10 09:48:10,802 INFO 16707 [egg:core] dump config after ready, 9ms
+2019-04-10 09:50:13,499 INFO 16796 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 09:50:13,576 INFO 16796 [egg-multipart] stream mode enable
+2019-04-10 09:50:13,921 INFO 16796 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 09:50:15,218 INFO 16796 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 09:50:15,228 INFO 16796 [egg-security] use csrf middleware
+2019-04-10 09:50:15,234 INFO 16796 [egg-security] use methodnoallow middleware
+2019-04-10 09:50:15,236 INFO 16796 [egg-security] use noopen middleware
+2019-04-10 09:50:15,241 INFO 16796 [egg-security] use nosniff middleware
+2019-04-10 09:50:15,243 INFO 16796 [egg-security] use xssProtection middleware
+2019-04-10 09:50:15,245 INFO 16796 [egg-security] use xframe middleware
+2019-04-10 09:50:15,246 INFO 16796 [egg-security] use dta middleware
+2019-04-10 09:50:15,246 INFO 16796 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 09:50:15,333 INFO 16796 [egg:core] dump config after load, 9ms
+2019-04-10 09:50:15,353 INFO 16796 [egg-redis] client connect success
+2019-04-10 09:50:15,389 INFO 16796 [egg-watcher:application] watcher start success
+2019-04-10 09:50:15,391 INFO 16796 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 09:50:15 GMT+0100 (British Summer Time)
+2019-04-10 09:50:15,420 INFO 16796 [egg:core] dump config after ready, 14ms
+2019-04-10 09:51:23,708 INFO 16881 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 09:51:23,789 INFO 16881 [egg-multipart] stream mode enable
+2019-04-10 09:51:24,156 INFO 16881 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 09:51:25,531 INFO 16881 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 09:51:25,541 INFO 16881 [egg-security] use csrf middleware
+2019-04-10 09:51:25,548 INFO 16881 [egg-security] use methodnoallow middleware
+2019-04-10 09:51:25,550 INFO 16881 [egg-security] use noopen middleware
+2019-04-10 09:51:25,555 INFO 16881 [egg-security] use nosniff middleware
+2019-04-10 09:51:25,557 INFO 16881 [egg-security] use xssProtection middleware
+2019-04-10 09:51:25,559 INFO 16881 [egg-security] use xframe middleware
+2019-04-10 09:51:25,561 INFO 16881 [egg-security] use dta middleware
+2019-04-10 09:51:25,561 INFO 16881 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 09:51:25,675 INFO 16881 [egg:core] dump config after load, 13ms
+2019-04-10 09:51:25,728 INFO 16881 [egg-redis] client connect success
+2019-04-10 09:51:25,745 INFO 16881 [egg-watcher:application] watcher start success
+2019-04-10 09:51:25,858 INFO 16881 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 09:51:25 GMT+0100 (British Summer Time)
+2019-04-10 09:51:25,971 INFO 16881 [egg:core] dump config after ready, 16ms
+2019-04-10 10:28:15,507 INFO 8904 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-10 10:28:15,589 INFO 8904 [egg-multipart] stream mode enable
+2019-04-10 10:28:15,921 INFO 8904 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-10 10:28:17,191 INFO 8904 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-10 10:28:17,201 INFO 8904 [egg-security] use csrf middleware
+2019-04-10 10:28:17,207 INFO 8904 [egg-security] use methodnoallow middleware
+2019-04-10 10:28:17,209 INFO 8904 [egg-security] use noopen middleware
+2019-04-10 10:28:17,215 INFO 8904 [egg-security] use nosniff middleware
+2019-04-10 10:28:17,217 INFO 8904 [egg-security] use xssProtection middleware
+2019-04-10 10:28:17,219 INFO 8904 [egg-security] use xframe middleware
+2019-04-10 10:28:17,221 INFO 8904 [egg-security] use dta middleware
+2019-04-10 10:28:17,221 INFO 8904 [egg-security] compose 7 middlewares into one security middleware
+2019-04-10 10:28:17,312 INFO 8904 [egg:core] dump config after load, 8ms
+2019-04-10 10:28:17,336 INFO 8904 [egg-redis] client connect success
+2019-04-10 10:28:17,390 INFO 8904 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 10 2019 10:28:17 GMT+0100 (British Summer Time)
+2019-04-10 10:28:17,393 INFO 8904 [egg-watcher:application] watcher start success
+2019-04-10 10:28:17,637 INFO 8904 [egg:core] dump config after ready, 20ms
+2019-04-11 02:14:21,644 INFO 8061 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-11 02:14:21,730 INFO 8061 [egg-multipart] stream mode enable
+2019-04-11 02:14:22,457 INFO 8061 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-11 02:14:24,786 INFO 8061 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-11 02:14:24,839 INFO 8061 [egg-security] use csrf middleware
+2019-04-11 02:14:24,859 INFO 8061 [egg-security] use methodnoallow middleware
+2019-04-11 02:14:24,864 INFO 8061 [egg-security] use noopen middleware
+2019-04-11 02:14:24,873 INFO 8061 [egg-security] use nosniff middleware
+2019-04-11 02:14:24,876 INFO 8061 [egg-security] use xssProtection middleware
+2019-04-11 02:14:24,879 INFO 8061 [egg-security] use xframe middleware
+2019-04-11 02:14:24,882 INFO 8061 [egg-security] use dta middleware
+2019-04-11 02:14:24,882 INFO 8061 [egg-security] compose 7 middlewares into one security middleware
+2019-04-11 02:14:25,191 INFO 8061 [egg:core] dump config after load, 9ms
+2019-04-11 02:14:25,213 INFO 8061 [egg-redis] client connect success
+2019-04-11 02:14:25,238 INFO 8061 [egg-watcher:application] watcher start success
+2019-04-11 02:14:25,263 INFO 8061 [egg-redis] instance[0] status OK, redis server currentTime: Thu Apr 11 2019 02:14:25 GMT+0100 (British Summer Time)
+2019-04-11 02:14:25,381 INFO 8061 [egg:core] dump config after ready, 14ms
+2019-04-11 02:28:54,544 INFO 8061 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-04-11 02:33:58,789 INFO 8284 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-11 02:33:58,869 INFO 8284 [egg-multipart] stream mode enable
+2019-04-11 02:33:59,264 INFO 8284 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-11 02:34:00,699 INFO 8284 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-11 02:34:00,709 INFO 8284 [egg-security] use csrf middleware
+2019-04-11 02:34:00,715 INFO 8284 [egg-security] use methodnoallow middleware
+2019-04-11 02:34:00,717 INFO 8284 [egg-security] use noopen middleware
+2019-04-11 02:34:00,722 INFO 8284 [egg-security] use nosniff middleware
+2019-04-11 02:34:00,724 INFO 8284 [egg-security] use xssProtection middleware
+2019-04-11 02:34:00,726 INFO 8284 [egg-security] use xframe middleware
+2019-04-11 02:34:00,728 INFO 8284 [egg-security] use dta middleware
+2019-04-11 02:34:00,728 INFO 8284 [egg-security] compose 7 middlewares into one security middleware
+2019-04-11 02:34:00,837 INFO 8284 [egg:core] dump config after load, 9ms
+2019-04-11 02:34:00,857 INFO 8284 [egg-redis] client connect success
+2019-04-11 02:34:00,883 INFO 8284 [egg-watcher:application] watcher start success
+2019-04-11 02:34:00,922 INFO 8284 [egg-redis] instance[0] status OK, redis server currentTime: Thu Apr 11 2019 02:34:00 GMT+0100 (British Summer Time)
+2019-04-11 02:34:00,974 INFO 8284 [egg:core] dump config after ready, 13ms
+2019-04-11 02:44:25,481 INFO 8406 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-11 02:44:25,579 INFO 8406 [egg-multipart] stream mode enable
+2019-04-11 02:44:26,077 INFO 8406 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-11 02:44:27,535 INFO 8406 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-11 02:44:27,548 INFO 8406 [egg-security] use csrf middleware
+2019-04-11 02:44:27,556 INFO 8406 [egg-security] use methodnoallow middleware
+2019-04-11 02:44:27,559 INFO 8406 [egg-security] use noopen middleware
+2019-04-11 02:44:27,564 INFO 8406 [egg-security] use nosniff middleware
+2019-04-11 02:44:27,566 INFO 8406 [egg-security] use xssProtection middleware
+2019-04-11 02:44:27,568 INFO 8406 [egg-security] use xframe middleware
+2019-04-11 02:44:27,571 INFO 8406 [egg-security] use dta middleware
+2019-04-11 02:44:27,571 INFO 8406 [egg-security] compose 7 middlewares into one security middleware
+2019-04-11 02:44:27,667 INFO 8406 [egg:core] dump config after load, 9ms
+2019-04-11 02:44:27,691 INFO 8406 [egg-redis] client connect success
+2019-04-11 02:44:27,729 INFO 8406 [egg-redis] instance[0] status OK, redis server currentTime: Thu Apr 11 2019 02:44:27 GMT+0100 (British Summer Time)
+2019-04-11 02:44:27,742 INFO 8406 [egg-watcher:application] watcher start success
+2019-04-11 02:44:27,776 INFO 8406 [egg:core] dump config after ready, 13ms
+2019-04-11 04:30:25,022 INFO 8976 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-11 04:30:25,103 INFO 8976 [egg-multipart] stream mode enable
+2019-04-11 04:30:25,496 INFO 8976 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-11 04:30:26,980 INFO 8976 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-11 04:30:26,992 INFO 8976 [egg-security] use csrf middleware
+2019-04-11 04:30:26,999 INFO 8976 [egg-security] use methodnoallow middleware
+2019-04-11 04:30:27,001 INFO 8976 [egg-security] use noopen middleware
+2019-04-11 04:30:27,008 INFO 8976 [egg-security] use nosniff middleware
+2019-04-11 04:30:27,021 INFO 8976 [egg-security] use xssProtection middleware
+2019-04-11 04:30:27,023 INFO 8976 [egg-security] use xframe middleware
+2019-04-11 04:30:27,025 INFO 8976 [egg-security] use dta middleware
+2019-04-11 04:30:27,025 INFO 8976 [egg-security] compose 7 middlewares into one security middleware
+2019-04-11 04:30:27,128 INFO 8976 [egg:core] dump config after load, 8ms
+2019-04-11 04:30:27,157 INFO 8976 [egg-redis] client connect success
+2019-04-11 04:30:27,176 INFO 8976 [egg-watcher:application] watcher start success
+2019-04-11 04:30:27,186 INFO 8976 [egg-redis] instance[0] status OK, redis server currentTime: Thu Apr 11 2019 04:30:27 GMT+0100 (British Summer Time)
+2019-04-11 04:30:27,221 INFO 8976 [egg:core] dump config after ready, 13ms
+2019-04-11 04:30:38,341 INFO 8976 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-04-11 04:51:04,500 INFO 9360 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-11 04:51:04,583 INFO 9360 [egg-multipart] stream mode enable
+2019-04-11 04:51:04,944 INFO 9360 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-11 04:51:06,393 INFO 9360 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-11 04:51:06,406 INFO 9360 [egg-security] use csrf middleware
+2019-04-11 04:51:06,413 INFO 9360 [egg-security] use methodnoallow middleware
+2019-04-11 04:51:06,415 INFO 9360 [egg-security] use noopen middleware
+2019-04-11 04:51:06,421 INFO 9360 [egg-security] use nosniff middleware
+2019-04-11 04:51:06,423 INFO 9360 [egg-security] use xssProtection middleware
+2019-04-11 04:51:06,425 INFO 9360 [egg-security] use xframe middleware
+2019-04-11 04:51:06,427 INFO 9360 [egg-security] use dta middleware
+2019-04-11 04:51:06,427 INFO 9360 [egg-security] compose 7 middlewares into one security middleware
+2019-04-11 04:51:06,541 INFO 9360 [egg:core] dump config after load, 14ms
+2019-04-11 04:51:06,574 INFO 9360 [egg-redis] client connect success
+2019-04-11 04:51:06,589 INFO 9360 [egg-watcher:application] watcher start success
+2019-04-11 04:51:06,610 INFO 9360 [egg-redis] instance[0] status OK, redis server currentTime: Thu Apr 11 2019 04:51:06 GMT+0100 (British Summer Time)
+2019-04-11 04:51:06,655 INFO 9360 [egg:core] dump config after ready, 14ms
+2019-04-11 04:53:40,218 INFO 9451 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-11 04:53:40,299 INFO 9451 [egg-multipart] stream mode enable
+2019-04-11 04:53:40,665 INFO 9451 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-11 04:53:42,067 INFO 9451 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-11 04:53:42,084 INFO 9451 [egg-security] use csrf middleware
+2019-04-11 04:53:42,090 INFO 9451 [egg-security] use methodnoallow middleware
+2019-04-11 04:53:42,092 INFO 9451 [egg-security] use noopen middleware
+2019-04-11 04:53:42,097 INFO 9451 [egg-security] use nosniff middleware
+2019-04-11 04:53:42,099 INFO 9451 [egg-security] use xssProtection middleware
+2019-04-11 04:53:42,101 INFO 9451 [egg-security] use xframe middleware
+2019-04-11 04:53:42,103 INFO 9451 [egg-security] use dta middleware
+2019-04-11 04:53:42,103 INFO 9451 [egg-security] compose 7 middlewares into one security middleware
+2019-04-11 04:53:42,196 INFO 9451 [egg:core] dump config after load, 8ms
+2019-04-11 04:53:42,222 INFO 9451 [egg-redis] client connect success
+2019-04-11 04:53:42,243 INFO 9451 [egg-watcher:application] watcher start success
+2019-04-11 04:53:42,254 INFO 9451 [egg-redis] instance[0] status OK, redis server currentTime: Thu Apr 11 2019 04:53:42 GMT+0100 (British Summer Time)
+2019-04-11 04:53:42,293 INFO 9451 [egg:core] dump config after ready, 19ms
+2019-04-11 05:00:01,741 INFO 9554 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-11 05:00:01,822 INFO 9554 [egg-multipart] stream mode enable
+2019-04-11 05:00:02,196 INFO 9554 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-11 05:00:04,007 INFO 9554 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-11 05:00:04,020 INFO 9554 [egg-security] use csrf middleware
+2019-04-11 05:00:04,026 INFO 9554 [egg-security] use methodnoallow middleware
+2019-04-11 05:00:04,028 INFO 9554 [egg-security] use noopen middleware
+2019-04-11 05:00:04,035 INFO 9554 [egg-security] use nosniff middleware
+2019-04-11 05:00:04,037 INFO 9554 [egg-security] use xssProtection middleware
+2019-04-11 05:00:04,039 INFO 9554 [egg-security] use xframe middleware
+2019-04-11 05:00:04,041 INFO 9554 [egg-security] use dta middleware
+2019-04-11 05:00:04,041 INFO 9554 [egg-security] compose 7 middlewares into one security middleware
+2019-04-11 05:00:04,151 INFO 9554 [egg:core] dump config after load, 15ms
+2019-04-11 05:00:04,180 INFO 9554 [egg-redis] client connect success
+2019-04-11 05:00:04,197 INFO 9554 [egg-watcher:application] watcher start success
+2019-04-11 05:00:04,211 INFO 9554 [egg-redis] instance[0] status OK, redis server currentTime: Thu Apr 11 2019 05:00:04 GMT+0100 (British Summer Time)
+2019-04-11 05:00:04,242 INFO 9554 [egg:core] dump config after ready, 12ms
+2019-04-11 05:41:59,536 INFO 9823 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-11 05:41:59,617 INFO 9823 [egg-multipart] stream mode enable
+2019-04-11 05:42:00,025 INFO 9823 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-11 05:42:01,529 INFO 9823 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-11 05:42:01,540 INFO 9823 [egg-security] use csrf middleware
+2019-04-11 05:42:01,546 INFO 9823 [egg-security] use methodnoallow middleware
+2019-04-11 05:42:01,548 INFO 9823 [egg-security] use noopen middleware
+2019-04-11 05:42:01,554 INFO 9823 [egg-security] use nosniff middleware
+2019-04-11 05:42:01,556 INFO 9823 [egg-security] use xssProtection middleware
+2019-04-11 05:42:01,558 INFO 9823 [egg-security] use xframe middleware
+2019-04-11 05:42:01,560 INFO 9823 [egg-security] use dta middleware
+2019-04-11 05:42:01,560 INFO 9823 [egg-security] compose 7 middlewares into one security middleware
+2019-04-11 05:42:01,657 INFO 9823 [egg:core] dump config after load, 9ms
+2019-04-11 05:42:01,698 INFO 9823 [egg-redis] client connect success
+2019-04-11 05:42:01,714 INFO 9823 [egg-watcher:application] watcher start success
+2019-04-11 05:42:01,715 INFO 9823 [egg-redis] instance[0] status OK, redis server currentTime: Thu Apr 11 2019 05:42:01 GMT+0100 (British Summer Time)
+2019-04-11 05:42:01,756 INFO 9823 [egg:core] dump config after ready, 10ms
+2019-04-11 05:43:48,194 INFO 9910 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-11 05:43:48,275 INFO 9910 [egg-multipart] stream mode enable
+2019-04-11 05:43:48,632 INFO 9910 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-11 05:43:50,033 INFO 9910 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-11 05:43:50,044 INFO 9910 [egg-security] use csrf middleware
+2019-04-11 05:43:50,050 INFO 9910 [egg-security] use methodnoallow middleware
+2019-04-11 05:43:50,052 INFO 9910 [egg-security] use noopen middleware
+2019-04-11 05:43:50,057 INFO 9910 [egg-security] use nosniff middleware
+2019-04-11 05:43:50,059 INFO 9910 [egg-security] use xssProtection middleware
+2019-04-11 05:43:50,061 INFO 9910 [egg-security] use xframe middleware
+2019-04-11 05:43:50,063 INFO 9910 [egg-security] use dta middleware
+2019-04-11 05:43:50,063 INFO 9910 [egg-security] compose 7 middlewares into one security middleware
+2019-04-11 05:43:50,157 INFO 9910 [egg:core] dump config after load, 9ms
+2019-04-11 05:43:50,187 INFO 9910 [egg-redis] client connect success
+2019-04-11 05:43:50,203 INFO 9910 [egg-watcher:application] watcher start success
+2019-04-11 05:43:50,204 INFO 9910 [egg-redis] instance[0] status OK, redis server currentTime: Thu Apr 11 2019 05:43:50 GMT+0100 (British Summer Time)
+2019-04-11 05:43:50,246 INFO 9910 [egg:core] dump config after ready, 10ms
+2019-04-11 05:44:05,135 INFO 9910 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-04-11 05:45:33,918 INFO 9995 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-11 05:45:34,007 INFO 9995 [egg-multipart] stream mode enable
+2019-04-11 05:45:34,410 INFO 9995 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-11 05:45:35,957 INFO 9995 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-11 05:45:35,968 INFO 9995 [egg-security] use csrf middleware
+2019-04-11 05:45:35,975 INFO 9995 [egg-security] use methodnoallow middleware
+2019-04-11 05:45:35,977 INFO 9995 [egg-security] use noopen middleware
+2019-04-11 05:45:35,984 INFO 9995 [egg-security] use nosniff middleware
+2019-04-11 05:45:35,986 INFO 9995 [egg-security] use xssProtection middleware
+2019-04-11 05:45:35,987 INFO 9995 [egg-security] use xframe middleware
+2019-04-11 05:45:35,989 INFO 9995 [egg-security] use dta middleware
+2019-04-11 05:45:35,989 INFO 9995 [egg-security] compose 7 middlewares into one security middleware
+2019-04-11 05:45:36,085 INFO 9995 [egg:core] dump config after load, 9ms
+2019-04-11 05:45:36,124 INFO 9995 [egg-redis] client connect success
+2019-04-11 05:45:36,154 INFO 9995 [egg-watcher:application] watcher start success
+2019-04-11 05:45:36,178 INFO 9995 [egg-redis] instance[0] status OK, redis server currentTime: Thu Apr 11 2019 05:45:36 GMT+0100 (British Summer Time)
+2019-04-11 05:45:36,209 INFO 9995 [egg:core] dump config after ready, 14ms
+2019-04-11 05:46:15,879 INFO 9995 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-04-11 05:50:23,437 INFO 10093 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-11 05:50:23,525 INFO 10093 [egg-multipart] stream mode enable
+2019-04-11 05:50:23,885 INFO 10093 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-11 05:50:25,379 INFO 10093 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-11 05:50:25,390 INFO 10093 [egg-security] use csrf middleware
+2019-04-11 05:50:25,397 INFO 10093 [egg-security] use methodnoallow middleware
+2019-04-11 05:50:25,399 INFO 10093 [egg-security] use noopen middleware
+2019-04-11 05:50:25,406 INFO 10093 [egg-security] use nosniff middleware
+2019-04-11 05:50:25,409 INFO 10093 [egg-security] use xssProtection middleware
+2019-04-11 05:50:25,411 INFO 10093 [egg-security] use xframe middleware
+2019-04-11 05:50:25,413 INFO 10093 [egg-security] use dta middleware
+2019-04-11 05:50:25,413 INFO 10093 [egg-security] compose 7 middlewares into one security middleware
+2019-04-11 05:50:25,520 INFO 10093 [egg:core] dump config after load, 8ms
+2019-04-11 05:50:25,540 INFO 10093 [egg-redis] client connect success
+2019-04-11 05:50:25,575 INFO 10093 [egg-watcher:application] watcher start success
+2019-04-11 05:50:25,578 INFO 10093 [egg-redis] instance[0] status OK, redis server currentTime: Thu Apr 11 2019 05:50:25 GMT+0100 (British Summer Time)
+2019-04-11 05:50:25,608 INFO 10093 [egg:core] dump config after ready, 11ms
+2019-04-11 05:51:07,903 INFO 10093 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-04-11 06:06:42,134 INFO 10263 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-11 06:06:42,216 INFO 10263 [egg-multipart] stream mode enable
+2019-04-11 06:06:42,606 INFO 10263 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-11 06:06:44,065 INFO 10263 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-11 06:06:44,076 INFO 10263 [egg-security] use csrf middleware
+2019-04-11 06:06:44,082 INFO 10263 [egg-security] use methodnoallow middleware
+2019-04-11 06:06:44,084 INFO 10263 [egg-security] use noopen middleware
+2019-04-11 06:06:44,090 INFO 10263 [egg-security] use nosniff middleware
+2019-04-11 06:06:44,091 INFO 10263 [egg-security] use xssProtection middleware
+2019-04-11 06:06:44,094 INFO 10263 [egg-security] use xframe middleware
+2019-04-11 06:06:44,096 INFO 10263 [egg-security] use dta middleware
+2019-04-11 06:06:44,096 INFO 10263 [egg-security] compose 7 middlewares into one security middleware
+2019-04-11 06:06:44,189 INFO 10263 [egg:core] dump config after load, 8ms
+2019-04-11 06:06:44,211 INFO 10263 [egg-redis] client connect success
+2019-04-11 06:06:44,239 INFO 10263 [egg-watcher:application] watcher start success
+2019-04-11 06:06:44,241 INFO 10263 [egg-redis] instance[0] status OK, redis server currentTime: Thu Apr 11 2019 06:06:44 GMT+0100 (British Summer Time)
+2019-04-11 06:06:44,286 INFO 10263 [egg:core] dump config after ready, 14ms
+2019-04-11 06:06:50,513 INFO 10263 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-04-11 06:18:30,291 INFO 10398 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-11 06:18:30,378 INFO 10398 [egg-multipart] stream mode enable
+2019-04-11 06:18:30,776 INFO 10398 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-11 06:18:32,215 INFO 10398 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-11 06:18:32,227 INFO 10398 [egg-security] use csrf middleware
+2019-04-11 06:18:32,233 INFO 10398 [egg-security] use methodnoallow middleware
+2019-04-11 06:18:32,235 INFO 10398 [egg-security] use noopen middleware
+2019-04-11 06:18:32,240 INFO 10398 [egg-security] use nosniff middleware
+2019-04-11 06:18:32,243 INFO 10398 [egg-security] use xssProtection middleware
+2019-04-11 06:18:32,245 INFO 10398 [egg-security] use xframe middleware
+2019-04-11 06:18:32,247 INFO 10398 [egg-security] use dta middleware
+2019-04-11 06:18:32,247 INFO 10398 [egg-security] compose 7 middlewares into one security middleware
+2019-04-11 06:18:32,344 INFO 10398 [egg:core] dump config after load, 9ms
+2019-04-11 06:18:32,367 INFO 10398 [egg-redis] client connect success
+2019-04-11 06:18:32,403 INFO 10398 [egg-watcher:application] watcher start success
+2019-04-11 06:18:32,405 INFO 10398 [egg-redis] instance[0] status OK, redis server currentTime: Thu Apr 11 2019 06:18:32 GMT+0100 (British Summer Time)
+2019-04-11 06:18:32,436 INFO 10398 [egg:core] dump config after ready, 10ms
+2019-04-11 06:21:18,386 INFO 10398 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-04-11 06:28:48,411 INFO 10518 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-11 06:28:48,502 INFO 10518 [egg-multipart] stream mode enable
+2019-04-11 06:28:48,870 INFO 10518 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-11 06:28:50,275 INFO 10518 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-11 06:28:50,285 INFO 10518 [egg-security] use csrf middleware
+2019-04-11 06:28:50,291 INFO 10518 [egg-security] use methodnoallow middleware
+2019-04-11 06:28:50,293 INFO 10518 [egg-security] use noopen middleware
+2019-04-11 06:28:50,299 INFO 10518 [egg-security] use nosniff middleware
+2019-04-11 06:28:50,301 INFO 10518 [egg-security] use xssProtection middleware
+2019-04-11 06:28:50,303 INFO 10518 [egg-security] use xframe middleware
+2019-04-11 06:28:50,305 INFO 10518 [egg-security] use dta middleware
+2019-04-11 06:28:50,305 INFO 10518 [egg-security] compose 7 middlewares into one security middleware
+2019-04-11 06:28:50,406 INFO 10518 [egg:core] dump config after load, 8ms
+2019-04-11 06:28:50,436 INFO 10518 [egg-redis] client connect success
+2019-04-11 06:28:50,479 INFO 10518 [egg-watcher:application] watcher start success
+2019-04-11 06:28:50,492 INFO 10518 [egg-redis] instance[0] status OK, redis server currentTime: Thu Apr 11 2019 06:28:50 GMT+0100 (British Summer Time)
+2019-04-11 06:28:50,523 INFO 10518 [egg:core] dump config after ready, 10ms
+2019-04-11 06:28:55,405 INFO 10518 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-04-11 06:31:27,119 INFO 10607 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-11 06:31:27,203 INFO 10607 [egg-multipart] stream mode enable
+2019-04-11 06:31:27,607 INFO 10607 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-11 06:31:29,219 INFO 10607 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-11 06:31:29,230 INFO 10607 [egg-security] use csrf middleware
+2019-04-11 06:31:29,236 INFO 10607 [egg-security] use methodnoallow middleware
+2019-04-11 06:31:29,238 INFO 10607 [egg-security] use noopen middleware
+2019-04-11 06:31:29,244 INFO 10607 [egg-security] use nosniff middleware
+2019-04-11 06:31:29,246 INFO 10607 [egg-security] use xssProtection middleware
+2019-04-11 06:31:29,248 INFO 10607 [egg-security] use xframe middleware
+2019-04-11 06:31:29,250 INFO 10607 [egg-security] use dta middleware
+2019-04-11 06:31:29,250 INFO 10607 [egg-security] compose 7 middlewares into one security middleware
+2019-04-11 06:31:29,346 INFO 10607 [egg:core] dump config after load, 9ms
+2019-04-11 06:31:29,376 INFO 10607 [egg-redis] client connect success
+2019-04-11 06:31:29,395 INFO 10607 [egg-watcher:application] watcher start success
+2019-04-11 06:31:29,395 INFO 10607 [egg-redis] instance[0] status OK, redis server currentTime: Thu Apr 11 2019 06:31:29 GMT+0100 (British Summer Time)
+2019-04-11 06:31:29,438 INFO 10607 [egg:core] dump config after ready, 13ms
+2019-04-11 06:31:30,284 INFO 10607 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-04-11 06:44:16,247 INFO 10741 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-11 06:44:16,334 INFO 10741 [egg-multipart] stream mode enable
+2019-04-11 06:44:16,712 INFO 10741 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-11 06:44:18,134 INFO 10741 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-11 06:44:18,145 INFO 10741 [egg-security] use csrf middleware
+2019-04-11 06:44:18,152 INFO 10741 [egg-security] use methodnoallow middleware
+2019-04-11 06:44:18,154 INFO 10741 [egg-security] use noopen middleware
+2019-04-11 06:44:18,161 INFO 10741 [egg-security] use nosniff middleware
+2019-04-11 06:44:18,163 INFO 10741 [egg-security] use xssProtection middleware
+2019-04-11 06:44:18,166 INFO 10741 [egg-security] use xframe middleware
+2019-04-11 06:44:18,168 INFO 10741 [egg-security] use dta middleware
+2019-04-11 06:44:18,168 INFO 10741 [egg-security] compose 7 middlewares into one security middleware
+2019-04-11 06:44:18,284 INFO 10741 [egg:core] dump config after load, 9ms
+2019-04-11 06:44:18,313 INFO 10741 [egg-redis] client connect success
+2019-04-11 06:44:18,329 INFO 10741 [egg-watcher:application] watcher start success
+2019-04-11 06:44:18,344 INFO 10741 [egg-redis] instance[0] status OK, redis server currentTime: Thu Apr 11 2019 06:44:18 GMT+0100 (British Summer Time)
+2019-04-11 06:44:18,373 INFO 10741 [egg:core] dump config after ready, 10ms
+2019-04-11 06:47:01,650 INFO 10741 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]

@@ -1,0 +1,35 @@
+{%  extends "../layouts/base.njk"  %}
+{% block body %} 
+  <div class="login layui-anim layui-anim-up">
+        <div class="message">新增用户</div>
+        <div id="darkbannerwrap"></div>
+        
+        <form method="post" class="layui-form" action="/user">
+            <input name="email" placeholder="邮箱"  type="text" lay-verify="required" class="layui-input" >
+            <hr class="hr15">
+            <input name="username" placeholder="用户名"  type="text" lay-verify="required" class="layui-input" >
+            <hr class="hr15">
+            <input name="password" lay-verify="required" placeholder="密码"  type="password" class="layui-input">
+            <hr class="hr15">   
+            <input name="weibo" placeholder="微博"  type="text" lay-verify="required" class="layui-input" >
+            <hr class="hr15">
+            <input name="weixin" placeholder="微信"  type="text" lay-verify="required" class="layui-input" >
+            <hr class="hr15">
+            <input name="receive_remote" lay-verify="required" placeholder="receive_remote"  type="text" class="layui-input">
+            <hr class="hr15">  
+
+            <input name="email_verifyed" lay-verify="required" placeholder="email_verifyed"  type="text" class="layui-input">
+            <hr class="hr15">   
+
+            <input name="avatar" lay-verify="required" placeholder="avatar"  type="text" class="layui-input">
+            <hr class="hr15">           
+           
+             <input value="保存" lay-submit lay-filter="login" style="width:100%;" type="submit">
+            <hr class="hr20" >
+          
+        </form>
+    </div>
+    <script>
+    
+    </script>
+{% endblock %}    

@@ -39,7 +39,15 @@ module.exports = appInfo => {
       db: 0,
     },
   };
-
+  config.sequelize = {
+    dialect: 'postgres',
+    database: 'egg_db',
+    host: '127.0.0.1',
+    port: '5432',
+    username: 'root',
+    password: 'root'
+  }
+/*
    config.sequelize = {
      
      datasources: [
@@ -68,7 +76,7 @@ module.exports = appInfo => {
       },
     ],
   };
-  
+ */ 
 
   config.view = {
     defaultViewEngine: 'nunjucks',

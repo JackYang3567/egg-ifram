@@ -590,7 +590,8 @@ table th, table td {
     font-size: 12px;
 }
 .x-admin-sm .layui-icon{
-    font-size: 14px;
+    font-size: 24px;
+    color:red;
 }
 .x-admin-sm .layui-nav *{
     font-size: 12px;

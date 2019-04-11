@@ -1,0 +1,67 @@
+{%  extends "../layouts/base.njk"  %}
+{% block body %} 
+  <div class="login layui-anim layui-anim-up">
+        <div class="message">修改用户信息</div>
+        <div id="darkbannerwrap"></div>
+      
+        <form id="edit-user" class="layui-form" action="/user/{{ users[0].id}}">
+            <input  id="user-id" readOnly  type="hidden" value="{{ users[0].id}}"/>
+            <input name="email" placeholder="邮箱" readOnly  type="text" value="{{ users[0].email}}" lay-verify="required" class="layui-input" >
+            <hr class="hr15">
+            <input name="username" placeholder="用户名"  type="text" value="{{ users[0].username}}" lay-verify="required" class="layui-input" >
+            <hr class="hr15">
+             
+            <input name="weibo" placeholder="微博"  type="text" value="{{ users[0].weibo}}" lay-verify="required" class="layui-input" >
+            <hr class="hr15">
+            <input name="weixin" placeholder="微信"  type="text" value="{{ users[0].weixin}}" lay-verify="required" class="layui-input" >
+            <hr class="hr15">
+            <input name="receive_remote" lay-verify="required" value="{{ users[0].receive_remote}}" placeholder="receive_remote"  type="text" class="layui-input">
+            <hr class="hr15">  
+
+            <input name="email_verifyed" lay-verify="required" value="{{ users[0].email_verifyed}}" placeholder="email_verifyed"  type="text" class="layui-input">
+            <hr class="hr15">   
+
+            <input name="avatar" lay-verify="required" placeholder="avatar" value="{{ users[0].avatar}}"  type="text" class="layui-input">
+            <hr class="hr15">           
+           
+             <input value="保存" onclick="saveUser();" lay-submit lay-filter="login" style="width:100%;" type="button">
+              <input value="删除" onclick="delUser();" lay-submit lay-filter="login" style="width:100%;" type="button">
+            <hr class="hr20" >
+          
+        </form>
+    </div>
+    <script>
+      function saveUser() {
+        let data =  $("#edit-user").serialize();
+        
+         console.log(data)
+         $.ajax({
+            url:`/user/${$("#user-id").val()}`,
+            type:"put",
+            dataType:"json",
+            timeout:10000,
+            data:data,
+            success:function(data){
+                //callback(data);
+               console.log("====",data)
+            }
+        });
+      }
+     
+     function delUser() {
+       let data =  $("#edit-user").serialize();
+        $.ajax({
+            url:`/user/${$("#user-id").val()}`,
+            type:"delete",
+            dataType:"json",
+            timeout:10000,
+            data:data,
+            success:function(data){
+                //callback(data);
+               console.log("====",data)
+            }
+        });
+     }
+    
+    </script>
+{% endblock %}    

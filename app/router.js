@@ -12,7 +12,13 @@ module.exports = app => {
   router.post('/admin/signin', controller.admin.signin);
   router.get('/admin/signout', controller.admin.signout);
 
-  router.get('/admin/user', controller.user.index);
+  router.get('/user', controller.user.index);
+  router.post('/user', controller.user.create);
+  router.get('/user/new', controller.user.newUserForm);
+  router.get('/user/:id', controller.user.editUserForm);
+  router.put('/user/:id', controller.user.update);
+  router.delete('/user/:id',controller.user.destroy)
+
   router.get('/', controller.home.index);
   router.get('/:name', controller.home.index);
   router.get('/qr/:text', controller.utils.qrcode);

@@ -32,6 +32,154 @@ flush privileges; //刷新系统权限表
 
 //5, npx sequelize db:seed:all
 
+### 1、初始化 Migrations 配置文件和目录
+```
+npx sequelize init:config
+npx sequelize init:migrations
+```
+
+### 2、修改一下 database/postgres/config.json 中的内容，将其改成我们项目中使用的数据库配置：
+```
+{
+  "development": {
+    "username": "root",
+    "password": "root",
+    "database": "egg_db",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "root",
+    "password": "root",
+    "database": "egg_db",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "root",
+    "password": "root",
+    "database": "egg_db",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
+
+```
+### 3、用Migration 文件来创建数据表
+```
+npx sequelize migration:generate --name=init-users
+```
+执行完后会在 database/migrations 目录下生成一个 migration 文件(${timestamp}-init-users.js)，我们修改它来处理初始化 users 表：
+```
+'use strict';
+module.exports = {
+  up: (queryInterface, Sequelize) => {
+    return queryInterface.createTable('Users', {
+      id: {
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        type: Sequelize.INTEGER
+      },
+      email: {
+        type: Sequelize.STRING
+      },
+      password: {
+        type: Sequelize.STRING
+      },
+      username: {
+        type: Sequelize.STRING
+      },
+      weibo: {
+        type: Sequelize.STRING
+      },
+      weixin: {
+        type: Sequelize.STRING
+      },
+      receive_remote: {
+        type: Sequelize.BOOLEAN
+      },
+      email_verifyed: {
+        type: Sequelize.BOOLEAN
+      },
+      avatar: {
+        type: Sequelize.STRING
+      },
+      created_at: {
+        allowNull: false,
+        type: Sequelize.DATE
+      },
+      updated_at: {
+        allowNull: false,
+        type: Sequelize.DATE
+      }
+    });
+  },
+  down: (queryInterface, Sequelize) => {
+    return queryInterface.dropTable('Users');
+  }
+};
+```
+### 4、执行 migrate 进行数据库变更
+```
+# 升级数据库
+npx sequelize db:migrate
+# 如果有问题需要回滚，可以通过 `db:migrate:undo` 回退一个变更
+# npx sequelize db:migrate:undo
+# 可以通过 `db:migrate:undo:all` 回退到初始状态
+# npx sequelize db:migrate:undo:all
+```
+### 5、生成测试数据文件
+```
+ npx sequelize seed:generate --name demo-user
+```
+修改生成的文件：
+```
+'use strict';
+const utils = require('utility')
+module.exports = {
+  up: (queryInterface, Sequelize) => {
+    /*
+      Add altering commands here.
+      Return a promise to correctly handle asynchronicity.
+
+      Example:
+      return queryInterface.bulkInsert('People', [{
+        name: 'John Doe',
+        isBetaMember: false
+      }], {});
+    */
+   return queryInterface.bulkInsert('Users', [{
+    email: '13808013567@163.com',
+    password: utils.md5('123456'),
+    username: 'admin',
+    weibo: 'dsfsd',
+    weixin: 'sdfasd',
+    receive_remote: false,
+    email_verifyed: true,
+    avatar: 'sdfsd',
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  }], {});
+  },
+
+  down: (queryInterface, Sequelize) => {
+    /*
+      Add reverting commands here.
+      Return a promise to correctly handle asynchronicity.
+
+      Example:
+      return queryInterface.bulkDelete('People', null, {});
+    */
+   return queryInterface.bulkDelete('Users', null, {});
+  }
+};
+
+```
+### 6、生成测试数据
+```
+ npx sequelize db:seed:all
+```
 
 
 ## QuickStart

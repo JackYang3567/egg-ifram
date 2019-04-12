@@ -36,21 +36,52 @@ class UserController extends Controller {
    * 列表
    */
   async index() {
-    const { ctx,app } = this;    
+    const { ctx,app } = this; 
+    let req = {...ctx.params, ...ctx.query}
+    let { pageSize,curPage } = {...ctx.params, ...ctx.query} 
+    if(!pageSize) pageSize = 10;
+    if(!curPage) curPage = 1;
+    let context = { 
+      totalCount: 0,
+      title: '',           
+      users: []
+    }
+   
     //const users =  await ctx.model.User.findAll({attributes:{ exclude: ['created_at','updated_at'] }});
-    const users =  await ctx.model.User.findAll({});
-    let  context = { 
-        title: '',           
-        users: []
-     }
-     
-     if(ctx.params.id){
-            context.title = '用户信息';
-            context.users  = users.filter((item,index, arr) => item.id == ctx.params.id);
-     }else{
+   // const users =  await ctx.model.User.findAll({});
+    const users =  await ctx.model.User.findAndCountAll({
+      offset: (curPage - 1)* pageSize,
+      limit: pageSize
+    });
+    
+/*
+   const users =  await ctx.model.User.findAndCountAll({
+      limit: pagesize,
+      offset: (curpage - 1) * pagesize,
+    //  where: {},
+     // order: [
+     //     ['created_at', 'DESC'],
+     // ],
+     // include: [{
+     //     model: OrderInfo,
+     //     as: 'order_info',
+     // }],
+      distinct: true
+  }).then(res => {
+    let result = {};
+    result.data = res.rows;
+    result.totalCount = res.count;
+    return result;
+  });
+
+   */
+    
+    
             context.title = '用户列表';
-            context.users = users;
-     }
+            context.users = users.rows;
+            context.totalCount = users.count;
+     
+     console.log("req=======>>",req)
      await ctx.render('user/index.njk', context);
     // ctx.body = users    
   }
@@ -121,18 +152,30 @@ class UserController extends Controller {
    */
   async destroy() {
     const ctx = this.ctx;
-    const { id } = {...ctx.params, ...ctx.query} 
+    let { id,ids } = {...ctx.params, ...ctx.query} 
     console.log('destroy toInt(id)===>',toInt(id));
-    const user = await ctx.model.User.findById(toInt(id));
-    if (!user) {
-      ctx.status = 404;
-      return;
-    }
-    await user.destroy();
- 
+    let user 
+
+    if(toInt(id)>0) { 
+      user = await ctx.model.User.findById(toInt(id))
+      if (!user) {
+        ctx.status = 404;
+        return;
+      }
+      await user.destroy();
+    }else{
+      let idArr = ids.split(',');
+      idArr.forEach( async id=>{  
+         user = await ctx.model.User.findById(toInt(id))
+         if (!user) {
+          ctx.status = 404;
+          return;
+         }
+        await user.destroy();
+      });
+    };
     const resJosn = {code:0,msge:"操作成功！"}
     ctx.status = 200;
-
     ctx.body = resJosn;
   }
   

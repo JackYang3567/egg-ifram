@@ -23,7 +23,7 @@
       <xblock>
         <button class="layui-btn layui-btn-danger" onclick="delAll()"><i class="layui-icon"></i>批量删除</button>
         <button class="layui-btn" onclick="x_admin_show('添加用户','/user/new',600,400)"><i class="layui-icon"></i>添加</button>
-        <span class="x-right" style="line-height:40px">共有数据：88 条</span>
+        <span class="x-right" style="line-height:40px">共有数据：{{  totalCount }} 条</span>
       </xblock>
       <table class="layui-table x-admin">
         <thead>
@@ -45,7 +45,7 @@
           {% for user in users %}
           <tr>
             <td>
-              <div class="layui-unselect layui-form-checkbox" lay-skin="primary" data-id='2'><i class="layui-icon">&#xe605;</i></div>
+              <div class="layui-unselect layui-form-checkbox" lay-skin="primary" data-id='{{ user.id }}'><i class="layui-icon">&#xe605;</i></div>
             </td>
             <td>{{ user.id }}</td>
             <td>{{ user.username }}</td>
@@ -75,19 +75,31 @@
           
         </tbody>
       </table>
+     
       <div class="page">
-        <div>
-          <a class="prev" href="">&lt;&lt;</a>
-          <a class="num" href="">1</a>
-          <span class="current">2</span>
-          <a class="num" href="">3</a>
-          <a class="num" href="">489</a>
-          <a class="next" href="">&gt;&gt;</a>
-        </div>
+       <div class="box" id="box"></div>
       </div>
 
     </div>
     <script>
+     let pageStart = getQueryString("curPage") || 1;// 初始页码
+     let pageSize  = 10; //每页最大记录数
+     let setTotalCount = {{ totalCount }}; //总记录数
+     let totalPage = Math.ceil(setTotalCount / pageSize); //总页数
+    
+        $('#box').paging({
+            initPageNo: pageStart, // 初始页码
+            totalPages: totalPage, //总页数
+            totalCount: '合计' + setTotalCount + '条数据', // 条目总数
+            slideSpeed: 600, // 缓动速度。单位毫秒
+            jump: true, //是否支持跳转
+            callback: function(page) { // 回调函数
+                 if(pageStart != page){
+                     window.location.href=`/user?curPage=${page}&pageSize=${pageSize}`
+                 }
+            }
+        })
+
       layui.use('laydate', function(){
         var laydate = layui.laydate;
         
@@ -129,28 +141,12 @@
       /*用户-删除*/
       function member_del(obj,id){
           layer.confirm('确认要删除吗？',function(index){
-              //发异步删除数据
-               let data =  $(".layui-form").serialize();
-               $.ajax({
-                  url:`/user/${id}`,
-                  type:"delete",
-                  dataType:"json",
-                  timeout:10000,
-                  data:data,
-                  success:function(res){
-                      if(res.code == 0){
-                         
-                        }
-                        else{
-                     }
-                  }
-              });
-               
-             // $(obj).parents("tr").remove();
-
-              layer.msg('已删除!',{icon:1,time:1000});
-              parent.location.reload();
-              
+               //发异步删除数据
+               delUser(id);
+               layer.msg('已删除!',{icon:1,time:1000},function(){
+                      window.location.reload();
+               });
+               // $(obj).parents("tr").remove();              
           });
       }
 
@@ -159,27 +155,42 @@
       function delAll (argument) {
 
         var data = tableCheck.getData();
+        if(data.length<1)
+        {
+            layer.msg('请勾选要删除的记录', {icon: 1});
+            return false;
+        }
+       let ids = data.join(',');
+       console.log('delAll data=====',data)
   
-        layer.confirm('确认要删除吗？'+data,function(index){
+        layer.confirm('确认要删除吗？'+ ids,function(index){
             //捉到所有被选中的，发异步进行删除
+            delUser(0, ids)
             layer.msg('删除成功', {icon: 1});
-            $(".layui-form-checked").not('.header').parents('tr').remove();
+           // $(".layui-form-checked").not('.header').parents('tr').remove();
+            layer.msg('已删除!',{icon:1,time:1000},function(){
+                      window.location.reload();
+            });
         });
       }
 
-      function delUser() {
-       let data =  $(".layui-form").serialize();
+      function delUser(id, ids) {
+        let data =  $(".layui-form").serialize();
         $.ajax({
-            url:`/user/${$("#user-id").val()}`,
+            url:`/user/${id}?ids=${ids}`,
             type:"delete",
             dataType:"json",
             timeout:10000,
             data:data,
             success:function(data){
-                //callback(data);
-               console.log("====",data)
+               if(res.code == 0){
+                         
+                }
+                else{
+              }
             }
         });
+        
      }
     </script>
    

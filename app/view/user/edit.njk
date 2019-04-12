@@ -129,16 +129,16 @@
         
     </div>
     <script>
+     layui.use(['form','layer'], function(){
+           $ = layui.jquery;
+          var form = layui.form
+             ,layer = layui.layer;
       $(".layui-btn").click(function(){
          saveUser()
-
-             layer.alert("操作成功", {icon: 6},function () {
-                        //关闭当前frame
-                        x_admin_close();
-                        // 可以对父窗口进行刷新 
-                        x_admin_father_reload();
-             });
+          return false;
       })
+     });
+
       function saveUser() {
         let data =  $(".layui-form").serialize();
          // alert(`/user/${$("#L_id").val()}`)
@@ -151,13 +151,19 @@
             data:data,
             success:function(res){
                if(res.code == '0'){
-                       
+                      layer.alert("操作成功", {icon: 6},function () {
+                        //关闭当前frame
+                       x_admin_close();
+                        // 可以对父窗口进行刷新 
+                       x_admin_father_reload();
+                      });
                     }
                     else{
                         console.log(res.msg);
                     }
             }
         });
+         return false;
       }
      
      

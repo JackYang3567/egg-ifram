@@ -9079,3 +9079,21 @@ hostname: localhost.localdomain
 2019-04-12 10:39:12,077 INFO 13349 [egg-redis] instance[0] status OK, redis server currentTime: Fri Apr 12 2019 10:39:12 GMT+0100 (British Summer Time)
 2019-04-12 10:39:12,113 INFO 13349 [egg:core] dump config after ready, 9ms
 2019-04-12 10:39:15,999 INFO 13349 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-04-12 10:47:25,592 INFO 13484 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-12 10:47:25,672 INFO 13484 [egg-multipart] stream mode enable
+2019-04-12 10:47:26,052 INFO 13484 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-12 10:47:27,459 INFO 13484 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-12 10:47:27,479 INFO 13484 [egg-security] use csrf middleware
+2019-04-12 10:47:27,487 INFO 13484 [egg-security] use methodnoallow middleware
+2019-04-12 10:47:27,490 INFO 13484 [egg-security] use noopen middleware
+2019-04-12 10:47:27,499 INFO 13484 [egg-security] use nosniff middleware
+2019-04-12 10:47:27,501 INFO 13484 [egg-security] use xssProtection middleware
+2019-04-12 10:47:27,504 INFO 13484 [egg-security] use xframe middleware
+2019-04-12 10:47:27,506 INFO 13484 [egg-security] use dta middleware
+2019-04-12 10:47:27,506 INFO 13484 [egg-security] compose 7 middlewares into one security middleware
+2019-04-12 10:47:27,652 INFO 13484 [egg:core] dump config after load, 9ms
+2019-04-12 10:47:27,680 INFO 13484 [egg-redis] client connect success
+2019-04-12 10:47:27,697 INFO 13484 [egg-watcher:application] watcher start success
+2019-04-12 10:47:27,697 INFO 13484 [egg-redis] instance[0] status OK, redis server currentTime: Fri Apr 12 2019 10:47:27 GMT+0100 (British Summer Time)
+2019-04-12 10:47:27,739 INFO 13484 [egg:core] dump config after ready, 12ms
+2019-04-12 10:47:35,420 INFO 13484 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]

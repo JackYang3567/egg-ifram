@@ -1,4 +1,5 @@
 'USE Strict';
+const bcrypt = require('bcrypt')
 const sd = require('silly-datetime');
 const { Controller } = require('egg');
 
@@ -33,13 +34,13 @@ class AdminController extends Controller {
 
  async welcome() {
     const { ctx } = this;
-    /*const _admin = ctx.session.admin
-    console
+    const _admin = ctx.session.admin
+    
     let  context = { 
-        title: _admin.title,           
+        title: '',           
         userName: _admin.username,
         currentTime: sd.format(new Date(), 'YYYY-MM-DD HH:mm')
-    }*/
+    }
     await this.ctx.render('admin/welcome.njk', context);
   }
 
@@ -64,13 +65,16 @@ class AdminController extends Controller {
     }
     if (ctx.request.method == "GET") { 
       // console.log("ctx.request===>>",ctx.request.method)
-		await ctx.render('admin/signin.njk', context);
+	     	await ctx.render('admin/signin.njk', context);
     }
     
     if (ctx.request.method == "POST") { 
      
-        const _admins = admins.filter((item,index, arr) => item.username == reqobj.username)
-        ctx.session.admin = _admins[0];
+        //const _admins = admins.filter((item,index, arr) => item.username == reqobj.username)
+       
+        const User = await ctx.model.User.AuthByUserName(reqobj.username,reqobj.password)
+        console.log("ctx.request=User.dataValues==>>",User.dataValues)
+        ctx.session.admin = User.dataValues;
        if(ctx.session.admin){
          ctx.redirect('/admin')
          return

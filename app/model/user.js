@@ -15,6 +15,18 @@ module.exports = (app, model) => {
     username: {
       type: STRING
     },
+    nickname:{
+      allowNull: true,
+      type: STRING
+    },
+    birthday:{
+      allowNull: true,
+      type: STRING
+    },
+    tel: {
+      type: STRING,
+      allowNull: true
+    },
     gender: {
       defaultValue: 0,
       type: INTEGER
@@ -90,7 +102,17 @@ module.exports = (app, model) => {
       return false
     }
 
- 
+    User.AuthByUserName = async function (username, password) {
+      const user = await this.findOne({
+        where: {
+          username
+        }
+      })
+      if (await bcrypt.compare(password, user.password)) {
+        return user
+      }
+      return false
+    }
 
     return User;
   };

@@ -5,12 +5,14 @@
         {% if (opt==0) %}
 
  <form class="layui-form">
+   <input type="hidden" name="opt"  value="info" class="layui-input">
+  <input type="hidden" id="L_id"  disabled="" value="{{ users[0].id }}" class="layui-input">
           <div class="layui-form-item">
               <label for="L_email" class="layui-form-label">
                   <span class="x-red">*</span>邮箱
               </label>
               <div class="layui-input-inline">
-                  <input type="text" id="L_email" name="email" required="" lay-verify="email"
+                  <input type="text" id="L_email" name="email" value="{{ users[0].email}}" required="" lay-verify="email"
                   autocomplete="off" class="layui-input">
               </div>
               <div class="layui-form-mid layui-word-aux">
@@ -18,11 +20,16 @@
               </div>
           </div>
           <div class="layui-form-item">
-              <label for="L_username" class="layui-form-label">
+              <label for="L_nickname" class="layui-form-label">
                   <span class="x-red">*</span>昵称
               </label>
               <div class="layui-input-inline">
-                  <input type="text" id="L_username" name="username" required="" lay-verify="nikename"
+                  <input type="text" 
+                  id="L_nickname" 
+                  name="nickname"  
+                  value="{{ users[0].nickname}}" 
+                  required="" 
+                  lay-verify="nickname"
                   autocomplete="off" class="layui-input">
               </div>
           </div>
@@ -45,7 +52,7 @@
                   <span class="x-red">*</span>手机号
               </label>
               <div class="layui-input-inline">
-                  <input type="number" id="L_mobile_phones" name="mobile_phone" required="" lay-verify="mobile_phone"
+                  <input type="tel" id="L_mobile_phones" name="mobile_phone" value="{{ users[0].mobile_phone}}" required="" lay-verify="mobile_phone"
                   autocomplete="off" class="layui-input">
               </div>
           </div>
@@ -55,7 +62,7 @@
                  地址
               </label>
               <div class="layui-input-inline">
-                  <input type="text" id="L_address" name="address" required="" lay-verify="address"
+                  <input type="text" id="L_address" name="address" value="{{ users[0].address}}" required="" lay-verify="address"
                   autocomplete="off" class="layui-input">
               </div>
           </div>
@@ -71,6 +78,8 @@
         {% else %}
  <form class="layui-form">
           <div class="layui-form-item">
+           <input type="hidden" name="opt"  value="pass" class="layui-input">
+              <input type="hidden" id="L_id"  disabled="" value="{{ users[0].id }}" class="layui-input">
               <label for="L_username" class="layui-form-label">
                   昵称
               </label>
@@ -120,19 +129,33 @@
         
     </div>
     <script>
+      $(".layui-btn").click(function(){
+         saveUser()
+
+             layer.alert("操作成功", {icon: 6},function () {
+                        //关闭当前frame
+                        x_admin_close();
+                        // 可以对父窗口进行刷新 
+                        x_admin_father_reload();
+             });
+      })
       function saveUser() {
-        let data =  $("#edit-user").serialize();
-        
-         console.log(data)
+        let data =  $(".layui-form").serialize();
+         // alert(`/user/${$("#L_id").val()}`)
+        // console.log(data)
          $.ajax({
-            url:`/user/${$("#user-id").val()}`,
+            url:`/user/${$("#L_id").val()}`,
             type:"put",
             dataType:"json",
             timeout:10000,
             data:data,
-            success:function(data){
-                //callback(data);
-               console.log("====",data)
+            success:function(res){
+               if(res.code == '0'){
+                       
+                    }
+                    else{
+                        console.log(res.msg);
+                    }
             }
         });
       }

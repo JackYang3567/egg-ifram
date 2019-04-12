@@ -49,17 +49,34 @@
             </td>
             <td>{{ user.id }}</td>
             <td>{{ user.username }}</td>
-            <td>{{ user.gender }}</td>
+            <td>  {% if (user.gender==1) %}
+                      男
+                    {% else %}
+                      女
+                  {% endif %}
+               </td>
             <td>{{ user.mobile_phone }}</td>
             <td>{{ user.email }}</td>
             <td>{{ user.address }}</td>
             <td>{{ user.created_at }}</td>
             <td class="td-status">
-              <span class="layui-btn layui-btn-normal layui-btn-mini">已启用</span></td>
+            {% if (user.status==1) %}
+                     <span class="layui-btn layui-btn-normal layui-btn-mini">已启用</span>
+                    {% else %}
+                     <span class="layui-btn layui-btn-normal layui-btn-mini layui-btn-disabled">已停用</span>
+                  {% endif %}
+              </td>
             <td class="td-manage">
-              <a onclick="member_stop(this,'10001')" href="javascript:;"  title="启用">
-                <i class="layui-icon">&#xe601;</i>
-              </a>
+             
+               {% if (user.status==1) %}
+                     <a onclick="member_stop(this,'{{ user.id }}')" href="javascript:;"  title="停用">
+                      <i class="layui-icon">&#xe62f;</i> 
+                    </a>
+                    {% else %}
+                    <a onclick="member_stop(this,'{{ user.id }}')" href="javascript:;"  title="启用">
+                     <i class="layui-icon">&#xe601;</i> 
+                    </a>
+                  {% endif %}
               <a title="编辑"  onclick="x_admin_show('编辑','/user/0/{{ user.id }}',600,600)" href="javascript:;">
                 <i class="layui-icon">&#xe642;</i>
               </a>
@@ -86,6 +103,8 @@
      let pageSize  = 10; //每页最大记录数
      let setTotalCount = {{ totalCount }}; //总记录数
      let totalPage = Math.ceil(setTotalCount / pageSize); //总页数
+
+     let reloadUrl = `/user?curPage=${pageStart}&pageSize=${pageSize}`; //更新后刷新当前页
     
         $('#box').paging({
             initPageNo: pageStart, // 初始页码
@@ -116,26 +135,33 @@
 
        /*用户-停用*/
       function member_stop(obj,id){
-          layer.confirm('确认要停用吗？',function(index){
-
+          layer.confirm('确认要启用吗？',function(index){
+              let props = {}
               if($(obj).attr('title')=='启用'){
 
                 //发异步把用户状态进行更改
+                 props.status = 1
+                updateUser(id, JSON.stringify(props)) 
                 $(obj).attr('title','停用')
                 $(obj).find('i').html('&#xe62f;');
 
-                $(obj).parents("tr").find(".td-status").find('span').addClass('layui-btn-disabled').html('已停用');
-                layer.msg('已停用!',{icon: 5,time:1000});
-
+               // $(obj).parents("tr").find(".td-status").find('span').addClass('layui-btn-disabled').html('已停用');
+                layer.msg('已启用!',{icon: 5,time:1000});
+                window.location.href = reloadUrl
               }else{
+                 props.status = 0
+                 updateUser(id, JSON.stringify(props)) 
+
                 $(obj).attr('title','启用')
                 $(obj).find('i').html('&#xe601;');
 
-                $(obj).parents("tr").find(".td-status").find('span').removeClass('layui-btn-disabled').html('已启用');
-                layer.msg('已启用!',{icon: 5,time:1000});
+               // $(obj).parents("tr").find(".td-status").find('span').removeClass('layui-btn-disabled').html('已启用');
+                layer.msg('已停用!',{icon: 5,time:1000});
+                window.location.href = reloadUrl
               }
               
           });
+         
       }
 
       /*用户-删除*/
@@ -144,7 +170,7 @@
                //发异步删除数据
                delUser(id);
                layer.msg('已删除!',{icon:1,time:1000},function(){
-                      window.location.reload();
+                     window.location.href = reloadUrl
                });
                // $(obj).parents("tr").remove();              
           });
@@ -169,11 +195,31 @@
             layer.msg('删除成功', {icon: 1});
            // $(".layui-form-checked").not('.header').parents('tr').remove();
             layer.msg('已删除!',{icon:1,time:1000},function(){
-                      window.location.reload();
+                     // window.location.reload();
+                      window.location.href = reloadUrl
             });
         });
       }
 
+      //更新
+       function updateUser(id, props) {
+         let data =  $(".layui-form").serialize();
+        
+         console.log(data)
+         $.ajax({
+            url:`/user/${id}?props=${props}`,
+            type:"put",
+            dataType:"json",
+            timeout:10000,
+            data:data,
+            success:function(data){
+                //callback(data);
+               console.log("====",data)
+            }
+        });
+      }
+
+      //删除
       function delUser(id, ids) {
         let data =  $(".layui-form").serialize();
         $.ajax({

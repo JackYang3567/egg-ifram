@@ -1,5 +1,5 @@
 'USE Strict';
-
+const bcrypt = require('bcrypt')
 const { Controller } = require('egg');
 
 function toInt(str) {
@@ -51,7 +51,8 @@ class UserController extends Controller {
    // const users =  await ctx.model.User.findAll({});
     const users =  await ctx.model.User.findAndCountAll({
       offset: (curPage - 1)* pageSize,
-      limit: pageSize
+      limit: pageSize,
+      order: [ ['id', 'DESC'] ]
     });
     
 /*
@@ -77,9 +78,9 @@ class UserController extends Controller {
    */
     
     
-            context.title = '用户列表';
-            context.users = users.rows;
-            context.totalCount = users.count;
+      context.title = '用户列表';
+      context.users = users.rows;
+      context.totalCount = users.count;
      
      console.log("req=======>>",req)
      await ctx.render('user/index.njk', context);
@@ -123,7 +124,6 @@ class UserController extends Controller {
     const user = await ctx.model.User.create(_user);
     const resJosn = {code:0,msge:"操作成功！"}
     ctx.status = 201;
-
     ctx.body = resJosn;
   }
 
@@ -132,20 +132,50 @@ class UserController extends Controller {
    */
   async update() {
     const ctx = this.ctx;
-    const { type, id } = {...ctx.params, ...ctx.query} 
-    console.log('update ===>',toInt(id));
-    const user = await ctx.model.User.findById(id);
+    const { id ,props} = {...ctx.params, ...ctx.query} 
+    const newinfo = ctx.request.body  
+   
+   
+    const user = await ctx.model.User.findById(toInt(id));
     if (!user) {
       ctx.status = 404;
       return;
     }
+    let _user = {}
+    let _props = props ? JSON.parse(props) : null;
+    if( _props instanceof Object){
+      console.log('is object',_props);      
+      await user.update(_props,{'where':{'id':{eq:toInt(id)}}});
 
-    const { email, password,username,weibo,weixin,receive_remote,email_verifyed,avatar } = ctx.request.body;
-    const _user = {weibo,weixin,receive_remote:true,email_verifyed:false,avatar,created_at: new Date(),
-      updated_at: new Date()}
+    }else{
+      console.log('update newinfo111==', newinfo); 
+      delete newinfo._csrf;  
+      if(newinfo.opt == 'pass') {
+        delete newinfo.opt;
+        delete newinfo.oldpass;
+        delete newinfo.repass;       
+        newinfo.password =  newinfo.newpass //await bcrypt.hash(newinfo.newpass, 10)
+        console.log('update newinfo==', newinfo);   
+        await user.update(newinfo,{'where':{'id':{eq:toInt(id)}}});
+      }
+      if(newinfo.opt == 'info') {
+        delete newinfo.opt;
+
+        console.log('update newinfo 333==', newinfo); 
+        await user.update(newinfo,{'where':{'id':{eq:toInt(id)}}}); 
+      }
+      //const { email, password,username,weibo,weixin,receive_remote,email_verifyed,avatar } = ctx.request.body;
+     
+      //_user = {weibo,weixin,receive_remote:true,email_verifyed:false,avatar,created_at: new Date(),updated_at: new Date()}
+    }
+  
     await user.update(_user);
-    ctx.body = _user;
-  }
+  
+    const resJosn = {code:0,msge:"操作成功！"}
+    ctx.status = 200;
+    ctx.body = resJosn;
+  
+}
 
   /**
    * 删除

@@ -1,7 +1,8 @@
 'use strict';
 const utils = require('utility')
+const bcrypt = require('bcrypt')
 module.exports = {
-  up: (queryInterface, Sequelize) => {
+  up: async (queryInterface, Sequelize) => {
     /*
       Add altering commands here.
       Return a promise to correctly handle asynchronicity.
@@ -14,7 +15,7 @@ module.exports = {
     */
    return queryInterface.bulkInsert('Users', [{
     email: '13008013567@163.com',
-    password: utils.md5('123456'),
+    password: await bcrypt.hash('111111', 10),
     username: 'admin0',
     gender: 1,
     mobile_phone:13008013567,
@@ -30,7 +31,7 @@ module.exports = {
   },
   {
     email: '13108013567@163.com',
-    password: utils.md5('123456'),
+    password: await bcrypt.hash('111111', 10),
     username: 'admin1',
     gender: 1,
     mobile_phone:13108013567,
@@ -46,7 +47,7 @@ module.exports = {
   },
   {
     email: '13308013567@163.com',
-    password: utils.md5('123456'),
+    password: await bcrypt.hash('111111', 10),
     username: 'admin3',
     gender: 1,
     mobile_phone:13308013567,
@@ -62,7 +63,7 @@ module.exports = {
   },
   {
     email: '13408013567@163.com',
-    password: utils.md5('123456'),
+    password: await bcrypt.hash('111111', 10),
     username: 'admin4',
     gender: 1,
     mobile_phone:13408013567,
@@ -72,7 +73,7 @@ module.exports = {
   },
   {
     email: '13508013567@163.com',
-    password: utils.md5('123456'),
+    password: await bcrypt.hash('111111', 10),
     username: 'admin5',
     gender: 1,
     mobile_phone:13508013567,
@@ -82,7 +83,7 @@ module.exports = {
   },
   {
     email: '13608013567@163.com',
-    password: utils.md5('123456'),
+    password: await bcrypt.hash('111111', 10),
     username: 'admin6',
     gender: 1,
     mobile_phone:13608013567,
@@ -92,7 +93,7 @@ module.exports = {
   },
   {
     email: '13708013567@163.com',
-    password: utils.md5('123456'),
+    password: await bcrypt.hash('111111', 10),
     username: 'admin7',
     gender: 1,
     mobile_phone:13708013567,
@@ -101,7 +102,7 @@ module.exports = {
     updated_at: new Date(),
   },{
     email: 'Jack@163.com',
-    password: utils.md5('123456'),
+    password: await bcrypt.hash('111111', 10),
     username: 'Jack123456',
     gender: 1,
     mobile_phone:13908013567,
@@ -112,7 +113,7 @@ module.exports = {
   ,
   {
     email: 'bill@163.com',
-    password: utils.md5('123456'),
+    password: await bcrypt.hash('111111', 10),
     username: 'bill123456',
     gender: 1,
     mobile_phone:13408013568,
@@ -122,7 +123,7 @@ module.exports = {
   },
   {
     email: 'obama@163.com',
-    password: utils.md5('123456'),
+    password: await bcrypt.hash('111111', 10),
     username: 'obama65433',
     gender: 1,
     mobile_phone:13508013517,
@@ -132,7 +133,7 @@ module.exports = {
   },
   {
     email: 'timthin@163.com',
-    password: utils.md5('123456'),
+    password: await bcrypt.hash('111111', 10),
     username: 'timthin123',
     gender: 1,
     mobile_phone:13698013567,
@@ -142,7 +143,7 @@ module.exports = {
   },
   {
     email: 'tomjack@163.com',
-    password: utils.md5('123456'),
+    password: await bcrypt.hash('111111', 10),
     username: 'tomjack7',
     gender: 1,
     mobile_phone:13708813567,
@@ -151,7 +152,7 @@ module.exports = {
     updated_at: new Date(),
   },{
     email: 'bicalth@163.com',
-    password: utils.md5('123456'),
+    password: await bcrypt.hash('111111', 10),
     username: 'bicalthn8',
     gender: 1,
     mobile_phone:13808017567,
@@ -162,7 +163,7 @@ module.exports = {
   ,
   {
     email: 'aitinoa@163.com',
-    password: utils.md5('123456'),
+    password: await bcrypt.hash('111111', 10),
     username: 'aitinoa494',
     gender: 1,
     mobile_phone:13408015567,
@@ -172,7 +173,7 @@ module.exports = {
   },
   {
     email: 'gaitine@163.com',
-    password: utils.md5('123456'),
+    password: await bcrypt.hash('111111', 10),
     username: 'gaitine234',
     gender: 1,
     mobile_phone:13500013567,
@@ -182,7 +183,7 @@ module.exports = {
   },
   {
     email: 'yellowche@163.com',
-    password: utils.md5('123456'),
+    password: await bcrypt.hash('111111', 10),
     username: 'yellowche',
     gender: 1,
     mobile_phone:13608013467,
@@ -192,7 +193,7 @@ module.exports = {
   },
   {
     email: 'helorewr7@163.com',
-    password: utils.md5('123456'),
+    password: await bcrypt.hash('111111', 10),
     username: 'helorewr7',
     gender: 1,
     mobile_phone:13709013567,
@@ -201,7 +202,7 @@ module.exports = {
     updated_at: new Date(),
   },{
     email: 'tainaletr@163.com',
-    password: utils.md5('123456'),
+    password: await bcrypt.hash('111111', 10),
     username: 'admtainaletrin8',
     gender: 1,
     mobile_phone:13808013767,
@@ -212,7 +213,7 @@ module.exports = {
   ,
   {
     email: 'tranpir@163.com',
-    password: utils.md5('123456'),
+    password: await bcrypt.hash('111111', 10),
     username: 'tranpir',
     gender: 1,
     mobile_phone:13708113567,
@@ -222,7 +223,7 @@ module.exports = {
   },
   {
     email: 'tonnade@163.com',
-    password: utils.md5('123456'),
+    password: await bcrypt.hash('111111', 10),
     username: 'tonnade',
     gender: 1,
     mobile_phone:15509013567,
@@ -232,7 +233,7 @@ module.exports = {
   },
   {
     email: 'mikeshon7@163.com',
-    password: utils.md5('123456'),
+    password: await bcrypt.hash('111111', 10),
     username: 'mikeshon7',
     gender: 1,
     mobile_phone:13308013537,
@@ -242,7 +243,7 @@ module.exports = {
   },
   {
     email: 'ainishe@163.com',
-    password: utils.md5('123456'),
+    password: await bcrypt.hash('111111', 10),
     username: 'ainishe',
     gender: 1,
     mobile_phone:13008013560,
@@ -251,7 +252,7 @@ module.exports = {
     updated_at: new Date(),
   },{
     email: 'betcheiow@163.com',
-    password: utils.md5('123456'),
+    password: await bcrypt.hash('111111', 10),
     username: 'betcheio',
     gender: 1,
     mobile_phone:13808012767,
@@ -262,7 +263,7 @@ module.exports = {
   ,
   {
     email: 'donhonge@163.com',
-    password: utils.md5('123456'),
+    password: await bcrypt.hash('111111', 10),
     username: 'donhonge',
     gender: 1,
     mobile_phone:13408013777,
@@ -272,7 +273,7 @@ module.exports = {
   },
   {
     email: 'jiangxiu@163.com',
-    password: utils.md5('123456'),
+    password: await bcrypt.hash('111111', 10),
     username: 'jiangxiu',
     gender: 1,
     mobile_phone:13508034567,
@@ -282,7 +283,7 @@ module.exports = {
   },
   {
     email: 'kilerer@163.com',
-    password: utils.md5('123456'),
+    password: await bcrypt.hash('111111', 10),
     username: 'kilerer',
     gender: 1,
     mobile_phone:13603213567,
@@ -292,7 +293,7 @@ module.exports = {
   },
   {
     email: 'butoueerer@163.com',
-    password: utils.md5('123456'),
+    password: await bcrypt.hash('111111', 10),
     username: 'butoueerer',
     gender: 1,
     mobile_phone:13705893567,
@@ -301,7 +302,7 @@ module.exports = {
     updated_at: new Date(),
   },{
     email: 'mnenrere@163.com',
-    password: utils.md5('123456'),
+    password: await bcrypt.hash('111111', 10),
     username: 'mnenrere',
     gender: 1,
     mobile_phone:13812313567,
@@ -312,7 +313,7 @@ module.exports = {
   ,
   {
     email: 'vicjijer@163.com',
-    password: utils.md5('123456'),
+    password: await bcrypt.hash('111111', 10),
     username: 'vicjijer',
     gender: 1,
     mobile_phone:13454013567,
@@ -322,7 +323,7 @@ module.exports = {
   },
   {
     email: 'trewrwerwf@163.com',
-    password: utils.md5('123456'),
+    password: await bcrypt.hash('111111', 10),
     username: 'trewrwerwf',
     gender: 1,
     mobile_phone:13508076567,
@@ -332,7 +333,7 @@ module.exports = {
   },
   {
     email: 'batonere@163.com',
-    password: utils.md5('123456'),
+    password: await bcrypt.hash('111111', 10),
     username: 'batonere',
     gender: 1,
     mobile_phone:13608013222,
@@ -342,7 +343,7 @@ module.exports = {
   },
   {
     email: 'qidkerew@163.com',
-    password: utils.md5('123456'),
+    password: await bcrypt.hash('111111', 10),
     username: 'qidkerew',
     gender: 1,
     mobile_phone:13703333567,
@@ -351,7 +352,7 @@ module.exports = {
     updated_at: new Date(),
   },{
     email: 'bersertrer@163.com',
-    password: utils.md5('123456'),
+    password: await bcrypt.hash('111111', 10),
     username: 'admbersertrerin8',
     gender: 1,
     mobile_phone:13804563567,

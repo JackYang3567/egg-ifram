@@ -56,7 +56,7 @@ class AdminController extends Controller {
 
   async signin() {
     const { ctx } = this;
-    const reqobj = ctx.request.body;
+    const {username,password} = ctx.request.body;
     let  context = { 
         req: ctx.request,
         bodyCss:'login-bg',
@@ -68,22 +68,23 @@ class AdminController extends Controller {
 	     	await ctx.render('admin/signin.njk', context);
     }
     
-    if (ctx.request.method == "POST") { 
-     
-        //const _admins = admins.filter((item,index, arr) => item.username == reqobj.username)
-       
-        const User = await ctx.model.User.AuthByUserName(reqobj.username,reqobj.password)
+    if (ctx.request.method == "POST") {      
+        //const _admins = admins.filter((item,index, arr) => item.username == reqobj.username)       
+        const User = await ctx.model.User.AuthByUserName(username,password)
         console.log("ctx.request=User.dataValues==>>",User.dataValues)
         ctx.session.admin = User.dataValues;
        if(ctx.session.admin){
-         ctx.redirect('/admin')
+          ctx.redirect('/admin')
          return
        }
-       ctx.redirect('/admin/signin')
-       // console.log("ctx.session.admin===>>",ctx.session.admin)
-       
-	}
-    
+       else{
+         const resJosn = {code:1,msg:"对不起！您输入用户名与密码不匹配！",data:[]}
+         ctx.status = 201;
+         ctx.body = JSON.stringify(resJosn);
+       }
+       // ctx.redirect('/admin/signin')
+       // console.log("ctx.session.admin===>>",ctx.session.admin)       
+  	}    
   }
 
   async signout() {

@@ -16425,3 +16425,123 @@ hostname: localhost.localdomain
 pid: 13349
 hostname: localhost.localdomain
 
+2019-04-15 04:53:31,922 ERROR 11508 [-/192.168.33.1/-/235ms POST /admin/signin] nodejs.TypeError: Cannot read property 'password' of null
+    at Function.User.AuthByUserName (/vagrant_data/nodeworks/egg-ifram_1/app/model/user.js:111:47)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11508
+hostname: localhost.localdomain
+
+2019-04-15 04:53:48,060 ERROR 11508 [-/192.168.33.1/-/8ms POST /admin/signin] nodejs.TypeError: Cannot read property 'password' of null
+    at Function.User.AuthByUserName (/vagrant_data/nodeworks/egg-ifram_1/app/model/user.js:111:47)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11508
+hostname: localhost.localdomain
+
+2019-04-15 05:56:43,369 ERROR 12334 [-/192.168.33.1/-/10ms GET /api/user] nodejs.TypeError: Cannot read property 'admin' of undefined
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:5:25)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dta (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xframe (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at nosniff (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/nosniff.js:8:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at noopen (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/noopen.js:8:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at notAllow (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/methodnoallow.js:21:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at csrf (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/csrf.js:22:14)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:34:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 12334
+hostname: localhost.localdomain
+
+2019-04-15 05:56:45,785 ERROR 12334 [-/192.168.33.1/-/2ms GET /admin/signin] nodejs.TypeError: Cannot read property 'admin' of undefined
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:5:25)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dta (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xframe (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at nosniff (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/nosniff.js:8:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at noopen (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/noopen.js:8:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at notAllow (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/methodnoallow.js:21:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at csrf (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/csrf.js:22:14)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:34:12
+
+pid: 12334
+hostname: localhost.localdomain
+
+2019-04-15 05:57:07,993 ERROR 12334 [-/192.168.33.1/-/2ms GET /api/user] nodejs.TypeError: Cannot read property 'admin' of undefined
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:5:25)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dta (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xframe (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at nosniff (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/nosniff.js:8:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at noopen (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/noopen.js:8:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at notAllow (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/methodnoallow.js:21:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at csrf (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/csrf.js:22:14)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:34:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 12334
+hostname: localhost.localdomain
+
+2019-04-15 06:28:49,118 ERROR 12789 [-/192.168.33.1/-/6ms GET /admin/welcome] nodejs.TypeError: Cannot read property 'username' of undefined
+    at AdminController.welcome (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:41:26)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dta (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xframe (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+
+pid: 12789
+hostname: localhost.localdomain
+

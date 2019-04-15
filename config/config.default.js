@@ -77,7 +77,11 @@ module.exports = appInfo => {
     ],
   };
  */ 
-
+config.cors = {
+  // {string|Function} origin: '*',
+  origin: '*'
+  // {string|Array} allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH'
+};
   config.view = {
     defaultViewEngine: 'nunjucks',
     mapping: {
@@ -85,8 +89,17 @@ module.exports = appInfo => {
     },
   };
   // add your middleware config here
-  config.middleware = [];
+  config.middleware = ['auth'];
 
+  // 上面中间件的配置 ip
+  config.auth = {
+    noAuthRoutes: [
+     '/api/',
+     '/captcha/',
+     '/admin/'
+    
+   ]
+}
   // add your user config here
   const userConfig = {
     // myAppName: 'egg',

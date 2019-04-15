@@ -2,8 +2,6 @@
 
 const qr = require('qr-image')
 const svgCaptcha = require('svg-captcha')
-
-
 const { Controller } = require('egg')
 
 class UtilsController extends Controller {
@@ -28,14 +26,14 @@ class UtilsController extends Controller {
   async captcha() {
     const { ctx, logger, app  } = this    
     const { type } = {...ctx.params, ...ctx.query} 
-    let captcha = svgCaptcha.create({noise:5, color: true, background: '#cc9966',ignoreChars: '0o1i'})
- 
-    if ( 1 == parseInt(type)) {
+    const captcha = svgCaptcha.create({noise:5, color: true, background: '#cc9966',ignoreChars: '0o1i'})
+    const captchaText = (captcha.text).toLowerCase()
+     if ( 1 == parseInt(type)) {
         //把登录验证码保存到redis中
-        await app.redis.setex('captcha:signin',180, captcha.text)        
+        await app.redis.setex(`captcha:signin:${captchaText}`,180, captchaText)        
     } else {
         // 注册验证码保存到redis中
-        await app.redis.setex('captcha:signup',180, captcha.text)
+        await app.redis.setex(`captcha:signup:${captchaText}`,180,  captchaText)
     }
     //req.session.captcha = captcha.text;   
     ctx.status = 200

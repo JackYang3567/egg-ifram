@@ -3,7 +3,7 @@
   <div class="login layui-anim layui-anim-up">
         <div class="message">管理登录</div>
         <div id="darkbannerwrap"></div>
-        {{ req }}
+
         <form method="post" class="layui-form" action="/admin/signin">
             <input name="username" placeholder="用户名"  type="text" lay-verify="required" class="layui-input" >
             <hr class="hr15">
@@ -14,15 +14,38 @@
             <hr class="hr15">
             <span> 请填写图片中的字符，不区分大小写  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" onclick="getCaptcha();">看不清楚？换张图片</a></span>
             <hr class="hr15">
-             <input value="登录" lay-submit lay-filter="login" style="width:100%;" type="submit">
+             <input value="登录" lay-submit lay-filter="login" onclick="signin();" style="width:100%;" type="button">
             <hr class="hr20" >
-          
+            <input name="type" placeholder="用户名"  type="hidden" value='1' class="layui-input" >
         </form>
     </div>
     <script>
      function getCaptcha(){
         var imgpath= `/captcha/1?str=${Date.parse(new Date())}${Math.random()}`
         $("#img-captcha").attr("src",imgpath)  
+      }
+
+      function signin(){
+          let data = $(".layui-form").serialize();
+          $.ajax({
+                url:'/admin/signin',
+                type:"POST",
+                data:data,
+                dataType:'JSON',
+                success:function(res){
+                  console.log(res)
+                    if(res.code == '0'){
+                       alert("登录成功");
+                    }
+                    else{
+                        alert(res.msg); 
+                        console.log(res.msg);
+                    }
+                },
+                error:function (data) {
+
+                }
+            })
       }
     </script>
 {% endblock %}    

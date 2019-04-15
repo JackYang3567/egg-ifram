@@ -77,11 +77,11 @@ module.exports = appInfo => {
     ],
   };
  */ 
-config.cors = {
-  // {string|Function} origin: '*',
-  origin: '*'
-  // {string|Array} allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH'
-};
+  config.cors = {
+    // {string|Function} origin: '*',
+    origin: '*'
+    // {string|Array} allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH'
+  };
   config.view = {
     defaultViewEngine: 'nunjucks',
     mapping: {

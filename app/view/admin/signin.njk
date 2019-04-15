@@ -7,7 +7,7 @@
         <form method="post" class="layui-form" action="/admin/signin">
             <input name="username" placeholder="用户名"  type="text" lay-verify="required" class="layui-input" >
             <hr class="hr15">
-            <input name="password" lay-verify="required" placeholder="密码"  type="password" class="layui-input">
+            <input name="password" placeholder="密码" type="password" lay-verify="required"  class="layui-input" autocomplete="on"/>
             <hr class="hr15">           
              <input name="captcha" lay-verify="required" placeholder="验证码"  type="text" class="layui-input" style="width:150px"> 
               <img id="img-captcha" onclick="getCaptcha();" src="/captcha/1?str" class="captcha" />
@@ -33,13 +33,14 @@
                 data:data,
                 dataType:'JSON',
                 success:function(res){
-                  console.log(res)
+                 
                     if(res.code == '0'){
                        alert("登录成功");
+                        window.location.href = res.data[0].url
                     }
                     else{
                         alert(res.msg); 
-                        console.log(res.msg);
+                       
                     }
                 },
                 error:function (data) {

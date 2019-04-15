@@ -2,6 +2,9 @@
 const bcrypt = require('bcrypt')
 const sd = require('silly-datetime');
 const { Controller } = require('egg');
+const BaseHandler = require('../libs/base')
+
+
 
 const admins = [
     {id: 1, username: 'admin', name: '黄老五', title: '总经理',gender: 1, address:'春天大道10号', phone:'13808013567', email: '13808013567@163.com'},
@@ -55,6 +58,7 @@ class AdminController extends Controller {
 
 
   async signin() {
+    
     const { ctx } = this;
     const {username,password} = ctx.request.body;
     let  context = { 
@@ -64,26 +68,25 @@ class AdminController extends Controller {
         users: []
     }
     if (ctx.request.method == "GET") { 
-      // console.log("ctx.request===>>",ctx.request.method)
-	     	await ctx.render('admin/signin.njk', context);
+   	   await ctx.render('admin/signin.njk', context);
     }
     
-    if (ctx.request.method == "POST") {      
-        //const _admins = admins.filter((item,index, arr) => item.username == reqobj.username)       
+    if (ctx.request.method == "POST") { 
         const User = await ctx.model.User.AuthByUserName(username,password)
-        console.log("ctx.request=User.dataValues==>>",User.dataValues)
+       // console.log("ctx.request=User.dataValues==>>",User.dataValues)
         ctx.session.admin = User.dataValues;
-       if(ctx.session.admin){
-          ctx.redirect('/admin')
-         return
+        
+       if(JSON.stringify(ctx.session.admin) != "{}"){
+          const ret =[{url:'/admin'}]
+          BaseHandler.resSuccess(ctx,ret)    
        }
        else{
-         const resJosn = {code:1,msg:"对不起！您输入用户名与密码不匹配！",data:[]}
-         ctx.status = 201;
-         ctx.body = JSON.stringify(resJosn);
+         const error_code = 1 
+         const error_message ="对不起！您输入用户名与密码不匹配！"
+         BaseHandler.resError(ctx, error_code, error_message)
        }
        // ctx.redirect('/admin/signin')
-       // console.log("ctx.session.admin===>>",ctx.session.admin)       
+      
   	}    
   }
 

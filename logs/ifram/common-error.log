@@ -1,0 +1,285 @@
+2019-04-15 09:43:29,502 ERROR 16582 [-/192.168.33.1/-/135ms POST /admin/signin] nodejs.ReferenceError: $ is not defined
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:77:8)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 16582
+hostname: localhost.localdomain
+
+2019-04-15 09:43:55,241 ERROR 16582 [-/192.168.33.1/-/90ms POST /admin/signin] nodejs.ReferenceError: $ is not defined
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:77:8)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 16582
+hostname: localhost.localdomain
+
+2019-04-15 10:48:15,779 ERROR 8258 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-15 10:48:15,782 ERROR 8258 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8258
+hostname: localhost.localdomain
+
+2019-04-15 10:48:15,844 ERROR 8258 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-15 10:48:15,844 ERROR 8258 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8258
+hostname: localhost.localdomain
+
+2019-04-15 10:48:15,946 ERROR 8258 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-15 10:48:15,946 ERROR 8258 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8258
+hostname: localhost.localdomain
+
+2019-04-15 10:48:16,099 ERROR 8258 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-15 10:48:16,100 ERROR 8258 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8258
+hostname: localhost.localdomain
+
+2019-04-15 10:48:16,304 ERROR 8258 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-15 10:48:16,304 ERROR 8258 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8258
+hostname: localhost.localdomain
+
+2019-04-15 10:48:16,560 ERROR 8258 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-15 10:48:16,560 ERROR 8258 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8258
+hostname: localhost.localdomain
+
+2019-04-15 10:48:16,863 ERROR 8258 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-15 10:48:16,864 ERROR 8258 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8258
+hostname: localhost.localdomain
+
+2019-04-15 10:48:17,216 ERROR 8258 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-15 10:48:17,216 ERROR 8258 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8258
+hostname: localhost.localdomain
+
+2019-04-15 10:48:17,626 ERROR 8258 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-15 10:48:17,626 ERROR 8258 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8258
+hostname: localhost.localdomain
+
+2019-04-15 10:48:18,078 ERROR 8258 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-15 10:48:18,078 ERROR 8258 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8258
+hostname: localhost.localdomain
+
+2019-04-15 10:48:18,581 ERROR 8258 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-15 10:48:18,581 ERROR 8258 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8258
+hostname: localhost.localdomain
+
+2019-04-15 10:48:19,140 ERROR 8258 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-15 10:48:19,141 ERROR 8258 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8258
+hostname: localhost.localdomain
+
+2019-04-15 10:48:19,744 ERROR 8258 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-15 10:48:19,744 ERROR 8258 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8258
+hostname: localhost.localdomain
+
+2019-04-15 10:48:20,398 ERROR 8258 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-15 10:48:20,399 ERROR 8258 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8258
+hostname: localhost.localdomain
+
+2019-04-15 10:48:21,102 ERROR 8258 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-15 10:48:21,103 ERROR 8258 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8258
+hostname: localhost.localdomain
+
+2019-04-15 10:48:21,855 ERROR 8258 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-15 10:48:21,855 ERROR 8258 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8258
+hostname: localhost.localdomain
+
+2019-04-15 10:48:22,658 ERROR 8258 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-15 10:48:22,659 ERROR 8258 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8258
+hostname: localhost.localdomain
+
+2019-04-15 10:48:23,513 ERROR 8258 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-15 10:48:23,514 ERROR 8258 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8258
+hostname: localhost.localdomain
+
+2019-04-15 10:48:24,419 ERROR 8258 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-15 10:48:24,420 ERROR 8258 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8258
+hostname: localhost.localdomain
+
+2019-04-15 10:48:25,372 ERROR 8258 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-15 10:48:25,372 ERROR 8258 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8258
+hostname: localhost.localdomain
+
+2019-04-15 10:51:39,634 ERROR 8349 [-/192.168.33.1/-/153ms POST /admin/signin] nodejs.ReferenceError: handlers is not defined
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:82:40)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8349
+hostname: localhost.localdomain
+
+2019-04-15 11:00:42,425 ERROR 8472 [-/192.168.33.1/-/16ms GET /admin/signin] nodejs.ReferenceError: Base is not defined
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:61:29)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:24:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dta (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xframe (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 8472
+hostname: localhost.localdomain
+

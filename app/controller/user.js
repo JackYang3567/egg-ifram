@@ -1,6 +1,7 @@
 'USE Strict';
 const bcrypt = require('bcrypt')
 const { Controller } = require('egg');
+const BaseHandler = require('../libs/base')
 
 function toInt(str) {
   if (typeof str === 'number') return str;

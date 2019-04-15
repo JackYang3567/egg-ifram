@@ -1,4 +1,5 @@
 # ifram
+https://github.com/JackYang3567/egg-ifram.git
 
 //integer,varchar,timestamp,text,boolean
 // update user set authentication_string=password("root") where user="root";

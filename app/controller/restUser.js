@@ -1,12 +1,10 @@
 'USE Strict';
 const bcrypt = require('bcrypt')
 const { Controller } = require('egg');
+const BaseHandler = require('../libs/base')
 
-function toInt(str) {
-  if (typeof str === 'number') return str;
-  if (!str) return str;
-  return parseInt(str, 10) || 0;
-}
+
+
 class RestUserController extends Controller {
    
   async newUserForm() {
@@ -26,7 +24,7 @@ class RestUserController extends Controller {
    }
     const { ctx, app } = this;
     const { type, id } = {...ctx.params, ...ctx.query} 
-    const users =  await ctx.model.User.findById(toInt(id));
+    const users =  await ctx.model.User.findById(BaseHandler.toInt(id));
     context.opt = type
     context.users.push(users)
     await ctx.render('user/edit.njk', context);
@@ -41,6 +39,7 @@ class RestUserController extends Controller {
     let { pageSize,curPage } = {...ctx.params, ...ctx.query} 
     if(!pageSize) pageSize = 10;
     if(!curPage) curPage = 1;
+    
     let context = { 
       totalCount: 0,
       title: '',           
@@ -48,46 +47,19 @@ class RestUserController extends Controller {
     }
    
     //const users =  await ctx.model.User.findAll({attributes:{ exclude: ['created_at','updated_at'] }});
-   // const users =  await ctx.model.User.findAll({});
+
     const users =  await ctx.model.User.findAndCountAll({
       offset: (curPage - 1)* pageSize,
       limit: pageSize,
       order: [ ['id', 'DESC'] ]
     });
     
-/*
-   const users =  await ctx.model.User.findAndCountAll({
-      limit: pagesize,
-      offset: (curpage - 1) * pagesize,
-    //  where: {},
-     // order: [
-     //     ['created_at', 'DESC'],
-     // ],
-     // include: [{
-     //     model: OrderInfo,
-     //     as: 'order_info',
-     // }],
-      distinct: true
-  }).then(res => {
-    let result = {};
-    result.data = res.rows;
-    result.totalCount = res.count;
-    return result;
-  });
 
-   */
-    
     
       context.title = '用户列表';
       context.users = users.rows;
       context.totalCount = users.count;
-     
-      const resJosn = {code:0,msge:"操作成功！",data:context}
-      ctx.status = 201;
-      ctx.body = JSON.stringify(resJosn);
-    // console.log("req=======>>",req)
-     //await ctx.render('user/index.njk', context);
-    // ctx.body = users    
+      BaseHandler.resSuccess(ctx,context)
   }
 
   

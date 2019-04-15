@@ -1,0 +1,81 @@
+2019-04-15 09:27:57,531 INFO 16361 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-04-15 09:37:16,211 INFO 16361 [egg-sequelize](12ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" WHERE "User"."username" = 'admin0' LIMIT 1;
+2019-04-15 09:37:44,950 INFO 16361 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" WHERE "User"."username" = 'admin0' LIMIT 1;
+2019-04-15 09:40:35,964 INFO 16493 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-04-15 09:40:48,999 INFO 16493 [egg-sequelize](2ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" WHERE "User"."username" = 'admin0' LIMIT 1;
+2019-04-15 09:43:13,049 INFO 16582 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-04-15 09:43:29,420 INFO 16582 [egg-sequelize](2ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" WHERE "User"."username" = 'admin0' LIMIT 1;
+2019-04-15 09:43:29,502 ERROR 16582 [-/192.168.33.1/-/135ms POST /admin/signin] nodejs.ReferenceError: $ is not defined
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:77:8)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 16582
+hostname: localhost.localdomain
+
+2019-04-15 09:43:55,163 INFO 16582 [egg-sequelize](2ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" WHERE "User"."username" = 'admin0' LIMIT 1;
+2019-04-15 09:43:55,241 ERROR 16582 [-/192.168.33.1/-/90ms POST /admin/signin] nodejs.ReferenceError: $ is not defined
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:77:8)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 16582
+hostname: localhost.localdomain
+
+2019-04-15 09:45:31,798 INFO 16671 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-04-15 09:45:46,443 INFO 16671 [egg-sequelize](2ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" WHERE "User"."username" = 'admin0' LIMIT 1;
+2019-04-15 09:45:54,165 INFO 16671 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" WHERE "User"."username" = 'admin0' LIMIT 1;
+2019-04-15 09:46:06,020 INFO 16671 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" WHERE "User"."username" = 'admin0' LIMIT 1;
+2019-04-15 10:04:57,398 INFO 16850 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-04-15 10:06:34,725 INFO 16850 [egg-sequelize](2ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" WHERE "User"."username" = 'admin0' LIMIT 1;
+2019-04-15 10:07:36,648 INFO 16939 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-04-15 10:08:22,079 INFO 16939 [egg-sequelize](2ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" WHERE "User"."username" = 'admin0' LIMIT 1;
+2019-04-15 10:38:02,412 INFO 17216 [egg-sequelize](7ms) Executed (default): SELECT 1+1 AS result
+2019-04-15 10:48:15,925 INFO 8258 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-04-15 10:50:23,677 INFO 8349 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-04-15 10:51:39,535 INFO 8349 [egg-sequelize](34ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" WHERE "User"."username" = 'admin0' LIMIT 1;
+2019-04-15 10:51:39,635 ERROR 8349 [-/192.168.33.1/-/153ms POST /admin/signin] nodejs.ReferenceError: handlers is not defined
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:82:40)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8349
+hostname: localhost.localdomain
+
+2019-04-15 11:00:31,650 INFO 8472 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-04-15 11:00:42,426 ERROR 8472 [-/192.168.33.1/-/16ms GET /admin/signin] nodejs.ReferenceError: Base is not defined
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:61:29)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:24:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dta (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xframe (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 8472
+hostname: localhost.localdomain
+
+2019-04-15 11:01:25,283 INFO 8578 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-04-15 11:01:52,340 INFO 8578 [egg-sequelize](16ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" WHERE "User"."username" = 'admin0' LIMIT 1;
+2019-04-15 11:14:51,198 INFO 8713 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-04-15 11:15:03,569 INFO 8713 [egg-sequelize](14ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-04-15 11:15:03,574 INFO 8713 [egg-sequelize](6ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
+2019-04-15 11:17:26,983 INFO 8713 [egg-sequelize](4ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-04-15 11:17:26,992 INFO 8713 [egg-sequelize](13ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
+2019-04-15 11:17:34,358 INFO 8713 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-04-15 11:17:34,359 INFO 8713 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
+2019-04-15 11:17:37,807 INFO 8713 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-04-15 11:17:37,809 INFO 8713 [egg-sequelize](2ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
+2019-04-15 11:17:38,995 INFO 8713 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-04-15 11:17:38,996 INFO 8713 [egg-sequelize](2ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
+2019-04-15 11:17:43,968 INFO 8713 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-04-15 11:17:43,969 INFO 8713 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;

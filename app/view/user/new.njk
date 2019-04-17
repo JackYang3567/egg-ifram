@@ -85,8 +85,8 @@
                 dataType:'JSON',
                 success:function(res){
                     console.log('res===111===>',res)
-                    if(res.code == '0'){
-                       layer.alert("增加成功", {icon: 6},function () {
+                    if(res.success){
+                       layer.alert(res.success_message, {icon: 6},function () {
                         //关闭当前frame
                         x_admin_close();
                         // 可以对父窗口进行刷新 
@@ -94,7 +94,7 @@
                        });
                     }
                     else{
-                        console.log(res.msg);
+                      alert(res.success_message)  
                     }
                 },
                 error:function (data) {

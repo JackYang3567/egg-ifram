@@ -83,7 +83,10 @@ class AdminController extends Controller {
     if (ctx.request.method == "POST") { 
         const Admin = await ctx.model.Admin.Auth(username,password)
         if(Admin){
+         // const _ss= await ctx.login('admin',[Admin.dataValues,'aaa'])
+         // console.log('_ss===>',_ss)
           ctx.session.admin = Admin.dataValues;
+         
           const data =[{url:'/admin'}]
           const success_message = "登录成功"
           BaseHandler.resSuccess(ctx, data, success_message)
@@ -103,9 +106,7 @@ class AdminController extends Controller {
      const {ctx} = this ;
     // 校验 `ctx.request.body` 是否符合我们预期的格式
     // 如果参数校验未通过，将会抛出一个 status = 422 的异常   
-    console.log('ctx.request.body======>',ctx.request.body)
     ctx.validate(createRule, ctx.request.body);
-    console.log('ctx.request.body======>','1111111')
     const { id } = {...ctx.params, ...ctx.query} 
     const { newpass, username } = ctx.request.body;
     // 调用 service 创建一个 user
@@ -119,7 +120,6 @@ class AdminController extends Controller {
   async signOut() {
     const { ctx } = this;
     ctx.session.admin = null;
-    //ctx.redirect('/admin/signin')
     ctx.logout();
     ctx.redirect(ctx.get('referer') || '/admin/signin');
   }

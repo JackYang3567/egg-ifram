@@ -1,8 +1,10 @@
 'use strict'
 const { defaultTo } = require('ramda')
-const Base = require('./base')
+//const Base = require('./base')
+const { Controller } = require('egg');
+const BaseHandler = require('../libs/base')
 
-class RESTController extends Base {
+class RESTController extends Controller {
   constructor(ctx, modelName) {
     super(ctx)
     this.model = this.ctx.model[modelName]
@@ -34,14 +36,19 @@ class RESTController extends Base {
     where.limit = defaultTo(10, split)
     info(where)
     const data = await this.model.findAll(where)
-    ctx.body = data
+    // ctx.body = data
+    const success_message = ""
+    BaseHandler.resSuccess(ctx, data, success_message)
   }
   /**
    * POST：增，创建
    */
   async create() {
     const { ctx } = this
-    ctx.body = await this.model.create(ctx.request.body)
+   // ctx.body = await this.model.create(ctx.request.body)
+    const data = await this.model.create(ctx.request.body)
+    const success_message = ""
+    BaseHandler.resSuccess(ctx, data, success_message)
   }
 
   /**
@@ -54,26 +61,36 @@ class RESTController extends Base {
         id: ctx.params.id
       }
     })
-    ctx.body = data
+   // ctx.body = data
+    const success_message = ""
+    BaseHandler.resSuccess(ctx, data, success_message)
   }
 
   /**
    * PUT: 改，更新一条记录
    */
   async update() {
-    const { id } = this.ctx.params
+    const { ctx } = this
+    const { id } = ctx.params
     const instance = await this.getInstance(id)
-    Object.assign(instance, this.ctx.request.body)
-    this.ctx.body = await instance.save()
+    Object.assign(instance, ctx.request.body)
+   // this.ctx.body = await instance.save()
+    const data =  await instance.save()
+    const success_message = ""
+    BaseHandler.resSuccess(ctx, data, success_message)
   }
   /**
    * DELETE：删，删除
    */
   async destroy() {
-    const { id } = this.ctx.params
+    const { ctx } = this
+    const { id } =  ctx.params
     const instance = await this.getInstance(id)
     console.log(instance)
-    this.ctx.body = await instance.destroy()
+    //this.ctx.body = await instance.destroy()
+    const data =  await instance.destroy()
+    const success_message = ""
+    BaseHandler.resSuccess(ctx, data, success_message)
   }
 }
 

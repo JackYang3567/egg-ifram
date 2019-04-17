@@ -150,8 +150,8 @@
             timeout:10000,
             data:data,
             success:function(res){
-               if(res.code == '0'){
-                      layer.alert("操作成功", {icon: 6},function () {
+               if(res.success){
+                      layer.alert(res.success_message, {icon: 6},function () {
                         //关闭当前frame
                        x_admin_close();
                         // 可以对父窗口进行刷新 
@@ -159,7 +159,7 @@
                       });
                     }
                     else{
-                        console.log(res.msg);
+                        console.log(res.error_message);
                     }
             }
         });

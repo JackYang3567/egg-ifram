@@ -18,22 +18,24 @@ module.exports = app => {
   app.passport.mount('github');
   router.get('/admin/signout', controller.admin.signOut);
 
+
+  app.router.resources('user', '/api/v1/user', app.controller.user);
+  /*
   router.get('/user',  controller.user.index);
   router.post('/user', controller.user.create);
   router.get('/user/new', controller.user.newUserForm);
   router.get('/user/:type/:id', controller.user.editUserForm);
   router.put('/user/:id', controller.user.update); // type:0,编辑个人信息，1：修改密码
   router.delete('/user/:id',controller.user.destroy)
-
+*/
   router.get('/', controller.home.index);
   router.get('/:name', controller.home.index);
   router.get('/qr/:text', controller.utils.qrcode);
   router.get('/captcha/:type', controller.utils.captcha); //type 0:注册，1：登录
 
   //API RESTful
-  app.router.resources('user', '/api/v1/user', app.controller.user);
 
-  
+  app.router.resources('user', '/api/v2/user', app.controller.restUser);
   /*
   router.get('/api/user', controller.restUser.index);
   router.post('/api/user', controller.restUser.create);
@@ -42,8 +44,4 @@ module.exports = app => {
   router.put('/api/user/:id', controller.restUser.update); // type:0,编辑个人信息，1：修改密码
   router.delete('/api/user/:id',controller.restUser.destroy)
   */
-
-
-  
-  
 };

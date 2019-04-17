@@ -109,20 +109,7 @@ class UserController extends Controller {
   }
 
   /**
-   * 新建email: '13708013567@163.com',
-    password: utils.md5('123456'),
-    username: 'admin456',
-    gender: 1,
-    mobile_phone:13808013567,
-    address: "星光路1号",
-    status: 0,
-    weibo: 'dsfsd',
-    weixin: 'sdfasd',
-    receive_remote: false,
-    email_verifyed: true,
-    avatar: 'sdfsd',
-    created_at: new Date(),
-    updated_at: new Date(),
+   * 创建
    */
   async create() {
     const {ctx} = this ;
@@ -133,9 +120,9 @@ class UserController extends Controller {
     // 调用 service 创建一个 user
     const user  = await ctx.service.user.create({ email, password, username })
     // 设置响应体和状态码
-    ctx.status = 201;
-    BaseHandler.resSuccess(ctx,user)
-  
+    const data =[user]
+    const success_message = "新建用户成功"
+    BaseHandler.resSuccess(ctx, data, success_message)
   }
 
   /**
@@ -145,8 +132,6 @@ class UserController extends Controller {
     const ctx = this.ctx;
     const { id ,props} = {...ctx.params, ...ctx.query} 
     const newinfo = ctx.request.body  
-   
-   
     const user = await ctx.model.User.findById(BaseHandler.toInt(id));
     if (!user) {
       ctx.status = 404;
@@ -175,17 +160,11 @@ class UserController extends Controller {
         console.log('update newinfo 333==', newinfo); 
         await user.update(newinfo,{'where':{'id':{eq: BaseHandler.toInt(id)}}}); 
       }
-      //const { email, password,username,weibo,weixin,receive_remote,email_verifyed,avatar } = ctx.request.body;
-     
-      //_user = {weibo,weixin,receive_remote:true,email_verifyed:false,avatar,created_at: new Date(),updated_at: new Date()}
     }
-  
-    await user.update(_user);
-  
-    const resJosn = {code:0,msge:"操作成功！"}
-    ctx.status = 200;
-    ctx.body = resJosn;
-  
+    await user.update(_user);    
+    const data =[user]
+    const success_message = "修改用户信息成功"
+    BaseHandler.resSuccess(ctx, data, success_message)
 }
 
   /**
@@ -215,9 +194,9 @@ class UserController extends Controller {
         await user.destroy();
       });
     };
-    const resJosn = {code:0,msge:"操作成功！"}
-    ctx.status = 200;
-    ctx.body = resJosn;
+    const data =[user]
+    const success_message = "删除用户信息成功"
+    BaseHandler.resSuccess(ctx, data, success_message)
   }
   
 }

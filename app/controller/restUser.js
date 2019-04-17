@@ -60,7 +60,9 @@ class RestUserController extends Controller {
       context.title = '用户列表';
       context.users = users.rows;
       context.totalCount = users.count;
-      BaseHandler.resSuccess(ctx,context)
+      const data = context
+      const success_message = ""
+      BaseHandler.resSuccess(ctx, data, success_message)
   }
 
   
@@ -72,35 +74,20 @@ class RestUserController extends Controller {
     const { ctx, app } = this;
     const { id } = {...ctx.params, ...ctx.query} 
     console.log('toInt(id)===>',toInt(id));
-    const users =  await ctx.model.User.findById(toInt(id));
-    ctx.body = users
+    const data =  await ctx.model.User.findById(toInt(id));
+    const success_message = ""
+    BaseHandler.resSuccess(ctx, data, success_message)
   }
 
-  /**
-   * 新建email: '13708013567@163.com',
-    password: utils.md5('123456'),
-    username: 'admin456',
-    gender: 1,
-    mobile_phone:13808013567,
-    address: "星光路1号",
-    status: 0,
-    weibo: 'dsfsd',
-    weixin: 'sdfasd',
-    receive_remote: false,
-    email_verifyed: true,
-    avatar: 'sdfsd',
-    created_at: new Date(),
-    updated_at: new Date(),
-   */
+  
   async create() {
     const ctx = this.ctx;
     const { email, password, username } = ctx.request.body;
    
     const _user = {email, password,username}
-    const user = await ctx.model.User.create(_user);
-    const resJosn = {code:0,msge:"操作成功！"}
-    ctx.status = 201;
-    ctx.body = resJosn;
+    const data = await ctx.model.User.create(_user);
+    const success_message = ""
+    BaseHandler.resSuccess(ctx, data, success_message)
   }
 
   /**
@@ -147,9 +134,9 @@ class RestUserController extends Controller {
   
     await user.update(_user);
   
-    const resJosn = {code:0,msge:"操作成功！"}
-    ctx.status = 200;
-    ctx.body = resJosn;
+    const data = user
+    const success_message = ""
+    BaseHandler.resSuccess(ctx, data, success_message)
   
 }
 
@@ -180,9 +167,9 @@ class RestUserController extends Controller {
         await user.destroy();
       });
     };
-    const resJosn = {code:0,msge:"操作成功！"}
-    ctx.status = 200;
-    ctx.body = resJosn;
+    const data = user
+    const success_message = ""
+    BaseHandler.resSuccess(ctx, data, success_message)
   }
   
 }

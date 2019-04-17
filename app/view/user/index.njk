@@ -135,7 +135,7 @@
 
        /*用户-停用*/
       function member_stop(obj,id){
-          layer.confirm('确认要启用吗？',function(index){
+          layer.confirm(`确认要${$(obj).attr('title')}吗？`,function(index){
               let props = {}
               if($(obj).attr('title')=='启用'){
 
@@ -146,7 +146,7 @@
                 $(obj).find('i').html('&#xe62f;');
 
                // $(obj).parents("tr").find(".td-status").find('span').addClass('layui-btn-disabled').html('已停用');
-                layer.msg('已启用!',{icon: 5,time:1000});
+                layer.msg('已启用!',{icon: 1,time:1000});
                 window.location.href = reloadUrl
               }else{
                  props.status = 0
@@ -212,9 +212,14 @@
             dataType:"json",
             timeout:10000,
             data:data,
-            success:function(data){
+            success:function(res){
                 //callback(data);
-               console.log("====",data)
+                if(res.success){
+                   alert(res.success_message)      
+                }
+                else{
+                   alert(res.error_message)
+              }
             }
         });
       }
@@ -228,11 +233,12 @@
             dataType:"json",
             timeout:10000,
             data:data,
-            success:function(data){
-               if(res.code == 0){
-                         
+            success:function(res){
+               if(res.success){
+                   alert(res.success_message)      
                 }
                 else{
+                   alert(res.error_message)
               }
             }
         });

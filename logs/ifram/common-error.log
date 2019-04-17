@@ -2872,3 +2872,59 @@ name: "ECONNREFUSEDError"
 pid: 8109
 hostname: localhost.localdomain
 
+2019-04-17 02:15:36,472 ERROR 9368 [-/192.168.33.1/-/85ms POST /admin/signin] nodejs.ReferenceError: admin is not defined
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:86:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9368
+hostname: localhost.localdomain
+
+2019-04-17 02:16:17,585 ERROR 9368 [-/192.168.33.1/-/94ms POST /admin/signin] nodejs.ReferenceError: admin is not defined
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:86:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9368
+hostname: localhost.localdomain
+
+2019-04-17 02:17:01,780 ERROR 9368 [-/192.168.33.1/-/81ms POST /admin/signin] nodejs.ReferenceError: admin is not defined
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:86:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9368
+hostname: localhost.localdomain
+
+2019-04-17 02:17:22,765 ERROR 9368 [-/192.168.33.1/-/92ms POST /admin/signin] nodejs.ReferenceError: admin is not defined
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:86:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9368
+hostname: localhost.localdomain
+
+2019-04-17 02:24:59,575 ERROR 9742 [-/192.168.33.1/-/129ms POST /admin/signin] nodejs.ReferenceError: admin is not defined
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:86:38)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9742
+hostname: localhost.localdomain
+
+2019-04-17 02:51:42,368 ERROR 10031 [-/192.168.33.1/-/18ms PUT /user/35] nodejs.SequelizeDatabaseError: invalid input syntax for integer: ""
+    at Query.formatError (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:363:16)
+    at query.catch.err (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:86:18)
+From previous event:
+    at Query.run (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:79:23)
+    at Promise.try.then.connection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:454:28)
+    at QueryInterface.update (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/query-interface.js:1028:27)
+    at Promise.try.then.then.then (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:3685:53)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at model.save (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:3661:8)
+    at model.update (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:3857:17)
+    at UserController.update (/vagrant_data/nodeworks/egg-ifram_1/app/controller/user.js:161:20)
+name: "SequelizeDatabaseError"
+parent: {"name":"error","length":91,"severity":"ERROR","code":"22P02","position":"62","file":"int8.c","line":"126","routine":"scanint8","sql":"UPDATE \"Users\" SET \"nickname\"='',\"gender\"='1',\"mobile_phone\"='',\"address\"='',\"updated_at\"='2019-04-17 01:51:42.355 +00:00' WHERE \"id\" = 35"}
+original: {"name":"error","length":91,"severity":"ERROR","code":"22P02","position":"62","file":"int8.c","line":"126","routine":"scanint8","sql":"UPDATE \"Users\" SET \"nickname\"='',\"gender\"='1',\"mobile_phone\"='',\"address\"='',\"updated_at\"='2019-04-17 01:51:42.355 +00:00' WHERE \"id\" = 35"}
+sql: "UPDATE \"Users\" SET \"nickname\"='',\"gender\"='1',\"mobile_phone\"='',\"address\"='',\"updated_at\"='2019-04-17 01:51:42.355 +00:00' WHERE \"id\" = 35"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 10031
+hostname: localhost.localdomain
+

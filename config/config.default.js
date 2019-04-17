@@ -23,6 +23,11 @@ module.exports = appInfo => {
   };
   // use for cookie sign key, should change to your own and keep security
   config.keys = appInfo.name + '_1554276289406_4155';
+  
+  config.passportGithub = {
+    key: 'c',
+    secret: 'd',
+  };
 
   config.session = {
     key: 'EGG_SESS',
@@ -88,10 +93,11 @@ module.exports = appInfo => {
       '.njk': 'nunjucks',
     },
   };
-  // add your middleware config here
+
+  // 此处添加中间件配置add your middleware config here
   config.middleware = ['auth'];
 
-  // 上面中间件的配置 ip
+  // 上面中间件的配置无须验证的route
   config.auth = {
     noAuthRoutes: [
      '/api/',
@@ -100,7 +106,7 @@ module.exports = appInfo => {
     
    ]
 }
-  // add your user config here
+  // 此处添加用户配置add your user config here
   const userConfig = {
     // myAppName: 'egg',
   };

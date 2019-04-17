@@ -84,6 +84,7 @@
                 data:formData.field,
                 dataType:'JSON',
                 success:function(res){
+                    console.log('res===111===>',res)
                     if(res.code == '0'){
                        layer.alert("增加成功", {icon: 6},function () {
                         //关闭当前frame

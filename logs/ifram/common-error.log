@@ -283,3 +283,2592 @@ hostname: localhost.localdomain
 pid: 8472
 hostname: localhost.localdomain
 
+2019-04-16 01:00:56,077 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:00:56,078 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:00:56,138 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:00:56,138 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:00:56,239 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:00:56,239 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:00:56,391 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:00:56,392 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:00:56,595 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:00:56,595 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:00:56,849 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:00:56,850 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:00:57,154 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:00:57,155 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:00:57,507 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:00:57,507 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:00:57,911 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:00:57,911 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:00:58,366 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:00:58,366 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:00:58,871 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:00:58,872 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:00:59,426 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:00:59,426 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:00,030 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:00,031 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:00,686 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:00,686 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:01,390 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:01,392 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:02,144 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:02,146 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:02,948 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:02,950 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:03,819 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:03,819 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:04,724 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:04,725 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:05,682 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:05,683 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:06,686 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:06,687 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:07,740 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:07,741 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:08,844 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:08,844 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:09,999 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:10,000 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:11,203 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:11,204 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:12,457 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:12,457 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:13,761 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:13,762 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:15,116 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:15,117 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:16,521 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:16,522 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:17,978 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:17,979 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:19,483 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:19,484 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:21,038 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:21,039 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:22,642 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:22,643 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:24,296 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:24,297 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:26,000 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:26,002 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:27,759 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:27,760 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:29,565 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:29,566 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:31,419 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:31,420 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:33,325 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:33,326 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:35,278 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:35,279 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:37,283 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:37,284 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:39,288 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:39,289 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:41,291 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:41,292 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:43,295 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:43,296 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:45,300 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:45,301 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:47,305 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:47,306 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:49,310 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:49,311 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:51,314 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:51,314 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:53,318 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:53,318 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:55,324 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:55,325 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:57,329 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:57,330 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:01:59,334 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:01:59,335 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:02:01,339 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:02:01,339 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:02:03,345 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:02:03,346 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:02:05,353 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:02:05,354 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:02:07,357 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:02:07,358 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:02:09,361 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:02:09,361 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:02:11,363 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:02:11,364 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:02:13,368 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:02:13,369 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:02:15,372 ERROR 8086 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-16 01:02:15,373 ERROR 8086 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8086
+hostname: localhost.localdomain
+
+2019-04-16 01:49:40,356 ERROR 9160 [-/192.168.33.1/-/157ms POST /admin/signin] nodejs.TypeError: Cannot read property 'password' of null
+    at Function.User.AuthByUserName (/vagrant_data/nodeworks/egg-ifram_1/app/model/user.js:111:47)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9160
+hostname: localhost.localdomain
+
+2019-04-16 01:49:41,428 ERROR 9160 [-/192.168.33.1/-/4ms POST /admin/signin] nodejs.TypeError: Cannot read property 'password' of null
+    at Function.User.AuthByUserName (/vagrant_data/nodeworks/egg-ifram_1/app/model/user.js:111:47)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9160
+hostname: localhost.localdomain
+
+2019-04-16 01:49:59,528 ERROR 9160 [-/192.168.33.1/-/7ms POST /admin/signin] nodejs.TypeError: Cannot read property 'password' of null
+    at Function.User.AuthByUserName (/vagrant_data/nodeworks/egg-ifram_1/app/model/user.js:111:47)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9160
+hostname: localhost.localdomain
+
+2019-04-16 01:50:00,043 ERROR 9160 [-/192.168.33.1/-/4ms POST /admin/signin] nodejs.TypeError: Cannot read property 'password' of null
+    at Function.User.AuthByUserName (/vagrant_data/nodeworks/egg-ifram_1/app/model/user.js:111:47)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9160
+hostname: localhost.localdomain
+
+2019-04-16 01:50:00,266 ERROR 9160 [-/192.168.33.1/-/3ms POST /admin/signin] nodejs.TypeError: Cannot read property 'password' of null
+    at Function.User.AuthByUserName (/vagrant_data/nodeworks/egg-ifram_1/app/model/user.js:111:47)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9160
+hostname: localhost.localdomain
+
+2019-04-16 01:50:00,626 ERROR 9160 [-/192.168.33.1/-/3ms POST /admin/signin] nodejs.TypeError: Cannot read property 'password' of null
+    at Function.User.AuthByUserName (/vagrant_data/nodeworks/egg-ifram_1/app/model/user.js:111:47)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9160
+hostname: localhost.localdomain
+
+2019-04-16 01:51:06,676 ERROR 9160 [-/192.168.33.1/-/10ms POST /admin/signin] nodejs.TypeError: Cannot read property 'password' of null
+    at Function.User.AuthByUserName (/vagrant_data/nodeworks/egg-ifram_1/app/model/user.js:111:47)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9160
+hostname: localhost.localdomain
+
+2019-04-16 04:17:14,593 ERROR 11891 [-/192.168.33.1/-/49ms POST /user] nodejs.SyntaxError: Identifier 'user' has already been declared
+    at UserController.create (/vagrant_data/nodeworks/egg-ifram_1/app/controller/user.js:141:45)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:24:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dta (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xframe (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11891
+hostname: localhost.localdomain
+
+2019-04-16 04:25:34,697 ERROR 11994 [-/192.168.33.1/-/3ms GET /user/1/34] nodejs.TypeError: Cannot read property 'some' of undefined
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:11:35)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:24:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dta (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xframe (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at nosniff (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/nosniff.js:8:11)
+
+pid: 11994
+hostname: localhost.localdomain
+
+2019-04-16 04:25:38,140 ERROR 11994 [-/192.168.33.1/-/2ms GET /user/1/34] nodejs.TypeError: Cannot read property 'some' of undefined
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:11:35)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:24:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dta (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xframe (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at nosniff (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/nosniff.js:8:11)
+
+pid: 11994
+hostname: localhost.localdomain
+
+2019-04-16 04:25:54,910 ERROR 11994 [-/192.168.33.1/-/3ms GET /user/0/34] nodejs.TypeError: Cannot read property 'some' of undefined
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:11:35)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:24:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dta (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xframe (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at nosniff (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/nosniff.js:8:11)
+
+pid: 11994
+hostname: localhost.localdomain
+
+2019-04-16 04:26:29,183 ERROR 11994 [-/192.168.33.1/-/2ms GET /user/0/34] nodejs.TypeError: Cannot read property 'some' of undefined
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:11:35)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:24:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dta (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xframe (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at nosniff (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/nosniff.js:8:11)
+
+pid: 11994
+hostname: localhost.localdomain
+
+2019-04-16 04:45:04,483 ERROR 12487 [-/192.168.33.1/-/7ms GET /user/1/35] nodejs.TypeError: Cannot read property 'indexOf' of undefined
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:14:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:24:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dta (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xframe (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at nosniff (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/nosniff.js:8:11)
+
+pid: 12487
+hostname: localhost.localdomain
+
+2019-04-16 04:48:04,544 ERROR 12580 [-/192.168.33.1/-/3ms GET /user/1/35] nodejs.TypeError: Cannot read property 'indexOf' of undefined
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:15:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:26:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dta (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xframe (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at nosniff (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/nosniff.js:8:11)
+
+pid: 12580
+hostname: localhost.localdomain
+
+2019-04-16 04:52:15,101 ERROR 12580 [-/192.168.33.1/-/2ms GET /user/1/35] nodejs.TypeError: Cannot read property 'indexOf' of undefined
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:15:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:26:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dta (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xframe (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at nosniff (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/nosniff.js:8:11)
+
+pid: 12580
+hostname: localhost.localdomain
+
+2019-04-16 04:53:05,117 ERROR 12580 [-/192.168.33.1/-/2ms GET /user/0/34] nodejs.TypeError: Cannot read property 'indexOf' of undefined
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:15:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:26:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dta (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xframe (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at nosniff (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/nosniff.js:8:11)
+
+pid: 12580
+hostname: localhost.localdomain
+
+2019-04-16 04:55:45,261 ERROR 12580 [-/192.168.33.1/-/2ms GET /user/0/35] nodejs.TypeError: Cannot read property 'indexOf' of undefined
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:15:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:26:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dta (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xframe (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at nosniff (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/nosniff.js:8:11)
+
+pid: 12580
+hostname: localhost.localdomain
+
+2019-04-16 04:56:38,702 ERROR 12580 [-/192.168.33.1/-/3ms GET /user/1/33] nodejs.TypeError: Cannot read property 'indexOf' of undefined
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:15:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:26:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dta (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xframe (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at nosniff (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/nosniff.js:8:11)
+
+pid: 12580
+hostname: localhost.localdomain
+
+2019-04-16 06:22:38,791 ERROR 13455 [-/192.168.33.1/-/5ms GET /user/1/33] nodejs.TypeError: Cannot read property 'indexOf' of undefined
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:15:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:26:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dta (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xframe (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 13455
+hostname: localhost.localdomain
+
+2019-04-16 06:24:52,376 ERROR 13543 [-/192.168.33.1/-/29ms GET /admin/] nodejs.TypeError: routes.indexOf is not a function
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:15:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dta (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xframe (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at nosniff (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/nosniff.js:8:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at noopen (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/noopen.js:8:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at notAllow (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/methodnoallow.js:21:12)
+
+pid: 13543
+hostname: localhost.localdomain
+
+2019-04-16 06:24:54,562 ERROR 13543 [-/192.168.33.1/-/2ms GET /admin/] nodejs.TypeError: routes.indexOf is not a function
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:15:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dta (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xframe (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at nosniff (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/nosniff.js:8:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at noopen (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/noopen.js:8:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at notAllow (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/methodnoallow.js:21:12)
+
+pid: 13543
+hostname: localhost.localdomain
+
+2019-04-16 06:25:01,858 ERROR 13543 [-/192.168.33.1/-/2ms GET /admin/] nodejs.TypeError: routes.indexOf is not a function
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:15:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dta (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xframe (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at nosniff (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/nosniff.js:8:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at noopen (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/noopen.js:8:11)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at notAllow (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/methodnoallow.js:21:12)
+
+pid: 13543
+hostname: localhost.localdomain
+
+2019-04-16 06:26:28,789 ERROR 13627 [-/192.168.33.1/-/3ms GET /user/1/33] nodejs.TypeError: Cannot read property 'noAuthRoutes' of undefined
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:6:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:26:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dta (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xframe (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 13627
+hostname: localhost.localdomain
+
+2019-04-16 06:28:29,158 ERROR 13716 [-/192.168.33.1/-/3ms GET /user/1/33] nodejs.TypeError: Cannot read property 'noAuthRoutes' of undefined
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:7:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dta (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xframe (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 13716
+hostname: localhost.localdomain
+
+2019-04-16 06:29:13,234 ERROR 13716 [-/192.168.33.1/-/2ms GET /user/1/33] nodejs.TypeError: Cannot read property 'noAuthRoutes' of undefined
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:7:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dta (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xframe (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 13716
+hostname: localhost.localdomain
+
+2019-04-16 06:29:38,699 ERROR 13716 [-/192.168.33.1/-/3ms GET /user/1/33] nodejs.TypeError: Cannot read property 'noAuthRoutes' of undefined
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:7:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dta (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at xframe (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 13716
+hostname: localhost.localdomain
+
+2019-04-16 07:49:05,709 ERROR 14563 [-/192.168.33.1/-/20ms GET /admin] nodejs.ReferenceError: admins is not defined
+    at AdminController.index (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:41:30)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+
+pid: 14563
+hostname: localhost.localdomain
+
+2019-04-16 07:51:50,667 ERROR 14705 [-/192.168.33.1/-/17ms GET /admin] nodejs.ReferenceError: admins is not defined
+    at AdminController.index (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:38:22)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+
+pid: 14705
+hostname: localhost.localdomain
+
+2019-04-16 07:51:54,108 ERROR 14705 [-/192.168.33.1/-/2ms GET /admin] nodejs.ReferenceError: admins is not defined
+    at AdminController.index (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:38:22)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+
+pid: 14705
+hostname: localhost.localdomain
+
+2019-04-16 07:59:59,576 ERROR 14960 [-/192.168.33.1/-/67ms POST /admin/signin] nodejs.TypeError: ctx.model.Admin.AuthByAdminName is not a function
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:68:45)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at checkCaptcha (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/checkCaptcha.js:29:19)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14960
+hostname: localhost.localdomain
+
+2019-04-16 08:00:01,153 ERROR 14960 [-/192.168.33.1/-/2ms POST /admin/signin] nodejs.TypeError: ctx.model.Admin.AuthByAdminName is not a function
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:68:45)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at checkCaptcha (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/checkCaptcha.js:29:19)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14960
+hostname: localhost.localdomain
+
+2019-04-16 08:00:01,872 ERROR 14960 [-/192.168.33.1/-/2ms POST /admin/signin] nodejs.TypeError: ctx.model.Admin.AuthByAdminName is not a function
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:68:45)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at checkCaptcha (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/checkCaptcha.js:29:19)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14960
+hostname: localhost.localdomain
+
+2019-04-16 08:00:33,850 ERROR 14960 [-/192.168.33.1/-/2ms POST /admin/signin] nodejs.TypeError: ctx.model.Admin.AuthByAdminName is not a function
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:68:45)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at checkCaptcha (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/checkCaptcha.js:29:19)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14960
+hostname: localhost.localdomain
+
+2019-04-16 09:05:15,750 ERROR 15797 [-/192.168.33.1/-/13ms GET /admin?page=1] nodejs.Template render error: (/vagrant_data/nodeworks/egg-ifram_1/app/view/admin/info.njk) [Line 41, Column 60]
+  unexpected token: %
+  unexpected token: %
+    at Object._prettifyError (/vagrant_data/nodeworks/egg-ifram_1/node_modules/nunjucks/src/lib.js:36:11)
+    at Template.render (/vagrant_data/nodeworks/egg-ifram_1/node_modules/nunjucks/src/environment.js:542:21)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/nunjucks/src/environment.js:366:27
+    at createTemplate (/vagrant_data/nodeworks/egg-ifram_1/node_modules/nunjucks/src/environment.js:315:9)
+    at handle (/vagrant_data/nodeworks/egg-ifram_1/node_modules/nunjucks/src/environment.js:327:11)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/nunjucks/src/environment.js:339:9
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/vagrant_data/nodeworks/egg-ifram_1/node_modules/nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/vagrant_data/nodeworks/egg-ifram_1/node_modules/nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/vagrant_data/nodeworks/egg-ifram_1/node_modules/nunjucks/src/environment.js:360:10)
+    at Promise (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-view-nunjucks/lib/view.js:13:25)
+    at new Promise (<anonymous>)
+    at NunjucksView.render (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-view/lib/context_view.js:70:23)
+name: "Template render error"
+pid: 15797
+hostname: localhost.localdomain
+
+2019-04-16 09:49:20,929 ERROR 8299 [-/192.168.33.1/-/72ms PUT /admin/1] nodejs.SyntaxError: Identifier 'ctx' has already been declared
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8299
+hostname: localhost.localdomain
+
+2019-04-16 09:58:33,491 ERROR 8494 [-/192.168.33.1/-/49ms PUT /admin/1] nodejs.TypeError: ctx.service.admin.create is not a function
+    at AdminController.update (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:114:44)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8494
+hostname: localhost.localdomain
+
+2019-04-16 10:06:50,176 ERROR 8494 [-/192.168.33.1/-/9ms PUT /admin/1] nodejs.TypeError: ctx.service.admin.create is not a function
+    at AdminController.update (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:114:44)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8494
+hostname: localhost.localdomain
+
+2019-04-16 10:08:34,348 ERROR 8632 [-/192.168.33.1/-/47ms PUT /admin/1] nodejs.TypeError: ctx.service.admin.create is not a function
+    at AdminController.update (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:114:44)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8632
+hostname: localhost.localdomain
+
+2019-04-16 10:09:55,202 ERROR 8716 [-/192.168.33.1/-/58ms PUT /admin/1] nodejs.ReferenceError: admin is not defined
+    at AdminService.update (/vagrant_data/nodeworks/egg-ifram_1/app/service/admin.js:11:5)
+    at AdminController.update (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:114:44)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8716
+hostname: localhost.localdomain
+
+2019-04-16 10:11:09,550 ERROR 8799 [-/192.168.33.1/-/59ms PUT /admin/1] nodejs.Error: Invalid value { eq: 'admin' }
+    at Object.escape (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sql-string.js:66:11)
+    at Object.escape (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/abstract/query-generator.js:936:22)
+    at Object._whereParseSingleValueObject (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2432:41)
+    at Object.whereItemQuery (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2136:21)
+    at Utils.getComplexKeys.forEach.prop (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1997:25)
+    at Array.forEach (<anonymous>)
+    at Object.whereItemsQuery (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1995:35)
+    at Object.whereQuery (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1968:24)
+    at Object.updateQuery (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/abstract/query-generator.js:376:19)
+    at QueryInterface.bulkUpdate (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/query-interface.js:1035:37)
+    at Promise.try.then.then.then.results (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:2822:34)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at Function.update (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:2811:8)
+    at AdminService.update (/vagrant_data/nodeworks/egg-ifram_1/app/service/admin.js:10:30)
+    at AdminController.update (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:114:44)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8799
+hostname: localhost.localdomain
+
+2019-04-16 10:17:16,066 ERROR 8902 [-/192.168.33.1/-/57ms PUT /admin/1] nodejs.Error: Invalid value { eq: 'admin' }
+    at Object.escape (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sql-string.js:66:11)
+    at Object.escape (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/abstract/query-generator.js:936:22)
+    at Object._whereParseSingleValueObject (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2432:41)
+    at Object.whereItemQuery (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2136:21)
+    at Utils.getComplexKeys.forEach.prop (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1997:25)
+    at Array.forEach (<anonymous>)
+    at Object.whereItemsQuery (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1995:35)
+    at Object.whereQuery (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1968:24)
+    at Object.updateQuery (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/abstract/query-generator.js:376:19)
+    at QueryInterface.bulkUpdate (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/query-interface.js:1035:37)
+    at Promise.try.then.then.then.results (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:2822:34)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at Function.update (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:2811:8)
+    at AdminService.update (/vagrant_data/nodeworks/egg-ifram_1/app/service/admin.js:10:30)
+    at AdminController.update (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:114:45)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8902
+hostname: localhost.localdomain
+
+2019-04-16 10:20:32,350 ERROR 8993 [-/192.168.33.1/-/62ms PUT /admin/1] nodejs.TypeError: Cannot read property 'update' of undefined
+    at AdminController.update (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:114:45)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8993
+hostname: localhost.localdomain
+
+2019-04-16 10:22:41,157 ERROR 9082 [-/192.168.33.1/-/84ms PUT /admin/1] nodejs.SequelizeDatabaseError: invalid input syntax for integer: "[object Object]"
+    at Query.formatError (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:363:16)
+    at query.catch.err (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:86:18)
+From previous event:
+    at Query.run (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:79:23)
+    at Promise.try.then.connection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:454:28)
+    at QueryInterface.bulkUpdate (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/query-interface.js:1040:27)
+    at Promise.try.then.then.then.results (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:2822:34)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at Function.update (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:2811:8)
+    at AdminService.update (/vagrant_data/nodeworks/egg-ifram_1/app/service/admin.js:10:30)
+    at AdminController.update (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:114:45)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"name":"error","length":109,"severity":"ERROR","code":"22P02","position":"119","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"UPDATE \"Admins\" SET \"username\"='admin',\"password\"='222222',\"updated_at\"='2019-04-16 09:22:41.122 +00:00' WHERE \"id\" = '[object Object]'"}
+original: {"name":"error","length":109,"severity":"ERROR","code":"22P02","position":"119","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"UPDATE \"Admins\" SET \"username\"='admin',\"password\"='222222',\"updated_at\"='2019-04-16 09:22:41.122 +00:00' WHERE \"id\" = '[object Object]'"}
+sql: "UPDATE \"Admins\" SET \"username\"='admin',\"password\"='222222',\"updated_at\"='2019-04-16 09:22:41.122 +00:00' WHERE \"id\" = '[object Object]'"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9082
+hostname: localhost.localdomain
+
+2019-04-16 10:23:22,007 ERROR 9082 [-/192.168.33.1/-/15ms PUT /admin/1] nodejs.SequelizeDatabaseError: invalid input syntax for integer: "[object Object]"
+    at Query.formatError (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:363:16)
+    at query.catch.err (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:86:18)
+From previous event:
+    at Query.run (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:79:23)
+    at Promise.try.then.connection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:454:28)
+    at QueryInterface.bulkUpdate (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/query-interface.js:1040:27)
+    at Promise.try.then.then.then.results (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:2822:34)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at Function.update (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:2811:8)
+    at AdminService.update (/vagrant_data/nodeworks/egg-ifram_1/app/service/admin.js:10:30)
+    at AdminController.update (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:114:45)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"name":"error","length":109,"severity":"ERROR","code":"22P02","position":"119","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"UPDATE \"Admins\" SET \"username\"='admin',\"password\"='222222',\"updated_at\"='2019-04-16 09:23:21.993 +00:00' WHERE \"id\" = '[object Object]'"}
+original: {"name":"error","length":109,"severity":"ERROR","code":"22P02","position":"119","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"UPDATE \"Admins\" SET \"username\"='admin',\"password\"='222222',\"updated_at\"='2019-04-16 09:23:21.993 +00:00' WHERE \"id\" = '[object Object]'"}
+sql: "UPDATE \"Admins\" SET \"username\"='admin',\"password\"='222222',\"updated_at\"='2019-04-16 09:23:21.993 +00:00' WHERE \"id\" = '[object Object]'"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9082
+hostname: localhost.localdomain
+
+2019-04-16 10:28:36,010 ERROR 9332 [-/192.168.33.1/-/76ms PUT /admin/1] nodejs.SequelizeDatabaseError: invalid input syntax for integer: "[object Object]"
+    at Query.formatError (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:363:16)
+    at query.catch.err (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:86:18)
+From previous event:
+    at Query.run (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:79:23)
+    at Promise.try.then.connection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:454:28)
+    at QueryInterface.bulkUpdate (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/query-interface.js:1040:27)
+    at Promise.try.then.then.then.results (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:2822:34)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at Function.update (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:2811:8)
+    at AdminService.update (/vagrant_data/nodeworks/egg-ifram_1/app/service/admin.js:10:30)
+    at AdminController.update (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:115:45)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"name":"error","length":109,"severity":"ERROR","code":"22P02","position":"119","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"UPDATE \"Admins\" SET \"username\"='admin',\"password\"='222222',\"updated_at\"='2019-04-16 09:28:35.983 +00:00' WHERE \"id\" = '[object Object]'"}
+original: {"name":"error","length":109,"severity":"ERROR","code":"22P02","position":"119","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"UPDATE \"Admins\" SET \"username\"='admin',\"password\"='222222',\"updated_at\"='2019-04-16 09:28:35.983 +00:00' WHERE \"id\" = '[object Object]'"}
+sql: "UPDATE \"Admins\" SET \"username\"='admin',\"password\"='222222',\"updated_at\"='2019-04-16 09:28:35.983 +00:00' WHERE \"id\" = '[object Object]'"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9332
+hostname: localhost.localdomain
+
+2019-04-16 10:37:57,761 ERROR 9610 [-/192.168.33.1/-/65ms PUT /admin/1] nodejs.SequelizeDatabaseError: invalid input syntax for integer: "[object Object]"
+    at Query.formatError (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:363:16)
+    at query.catch.err (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:86:18)
+From previous event:
+    at Query.run (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:79:23)
+    at Promise.try.then.connection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:454:28)
+    at QueryInterface.bulkUpdate (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/query-interface.js:1040:27)
+    at Promise.try.then.then.then.results (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:2822:34)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at Function.update (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:2811:8)
+    at AdminService.update (/vagrant_data/nodeworks/egg-ifram_1/app/service/admin.js:10:30)
+    at AdminController.update (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:114:45)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"name":"error","length":109,"severity":"ERROR","code":"22P02","position":"119","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"UPDATE \"Admins\" SET \"username\"='admin',\"password\"='222222',\"updated_at\"='2019-04-16 09:37:57.742 +00:00' WHERE \"id\" = '[object Object]'"}
+original: {"name":"error","length":109,"severity":"ERROR","code":"22P02","position":"119","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"UPDATE \"Admins\" SET \"username\"='admin',\"password\"='222222',\"updated_at\"='2019-04-16 09:37:57.742 +00:00' WHERE \"id\" = '[object Object]'"}
+sql: "UPDATE \"Admins\" SET \"username\"='admin',\"password\"='222222',\"updated_at\"='2019-04-16 09:37:57.742 +00:00' WHERE \"id\" = '[object Object]'"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9610
+hostname: localhost.localdomain
+
+2019-04-16 10:44:45,025 ERROR 9715 [-/192.168.33.1/-/68ms PUT /admin/1] nodejs.SequelizeDatabaseError: invalid input syntax for integer: "[object Object]"
+    at Query.formatError (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:363:16)
+    at query.catch.err (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:86:18)
+From previous event:
+    at Query.run (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:79:23)
+    at Promise.try.then.connection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:454:28)
+    at QueryInterface.bulkUpdate (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/query-interface.js:1040:27)
+    at Promise.try.then.then.then.results (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:2822:34)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at Function.update (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:2811:8)
+    at AdminService.update (/vagrant_data/nodeworks/egg-ifram_1/app/service/admin.js:11:30)
+    at AdminController.update (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:114:45)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"name":"error","length":109,"severity":"ERROR","code":"22P02","position":"119","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"UPDATE \"Admins\" SET \"username\"='admin',\"password\"='222222',\"updated_at\"='2019-04-16 09:44:45.005 +00:00' WHERE \"id\" = '[object Object]'"}
+original: {"name":"error","length":109,"severity":"ERROR","code":"22P02","position":"119","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"UPDATE \"Admins\" SET \"username\"='admin',\"password\"='222222',\"updated_at\"='2019-04-16 09:44:45.005 +00:00' WHERE \"id\" = '[object Object]'"}
+sql: "UPDATE \"Admins\" SET \"username\"='admin',\"password\"='222222',\"updated_at\"='2019-04-16 09:44:45.005 +00:00' WHERE \"id\" = '[object Object]'"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9715
+hostname: localhost.localdomain
+
+2019-04-16 10:48:50,723 ERROR 9810 [-/192.168.33.1/-/67ms PUT /admin/1] nodejs.SequelizeDatabaseError: invalid input syntax for integer: "[object Object]"
+    at Query.formatError (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:363:16)
+    at query.catch.err (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:86:18)
+From previous event:
+    at Query.run (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:79:23)
+    at Promise.try.then.connection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:454:28)
+    at QueryInterface.bulkUpdate (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/query-interface.js:1040:27)
+    at Promise.try.then.then.then.results (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:2822:34)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at Function.update (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:2811:8)
+    at AdminService.update (/vagrant_data/nodeworks/egg-ifram_1/app/service/admin.js:12:30)
+    at AdminController.update (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:115:45)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"name":"error","length":109,"severity":"ERROR","code":"22P02","position":"128","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"UPDATE \"Admins\" SET \"id\"='1',\"username\"='admin',\"password\"='222222',\"updated_at\"='2019-04-16 09:48:50.701 +00:00' WHERE \"id\" = '[object Object]'"}
+original: {"name":"error","length":109,"severity":"ERROR","code":"22P02","position":"128","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"UPDATE \"Admins\" SET \"id\"='1',\"username\"='admin',\"password\"='222222',\"updated_at\"='2019-04-16 09:48:50.701 +00:00' WHERE \"id\" = '[object Object]'"}
+sql: "UPDATE \"Admins\" SET \"id\"='1',\"username\"='admin',\"password\"='222222',\"updated_at\"='2019-04-16 09:48:50.701 +00:00' WHERE \"id\" = '[object Object]'"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9810
+hostname: localhost.localdomain
+
+2019-04-16 10:50:59,208 ERROR 9897 [-/192.168.33.1/-/70ms PUT /admin/1] nodejs.SequelizeDatabaseError: invalid input syntax for integer: "[object Object]"
+    at Query.formatError (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:363:16)
+    at query.catch.err (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:86:18)
+From previous event:
+    at Query.run (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:79:23)
+    at Promise.try.then.connection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:454:28)
+    at QueryInterface.bulkUpdate (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/query-interface.js:1040:27)
+    at Promise.try.then.then.then.results (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:2822:34)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at Function.update (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:2811:8)
+    at AdminService.update (/vagrant_data/nodeworks/egg-ifram_1/app/service/admin.js:15:30)
+    at AdminController.update (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:115:45)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"name":"error","length":109,"severity":"ERROR","code":"22P02","position":"119","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"UPDATE \"Admins\" SET \"username\"='admin',\"password\"='222222',\"updated_at\"='2019-04-16 09:50:59.185 +00:00' WHERE \"id\" = '[object Object]'"}
+original: {"name":"error","length":109,"severity":"ERROR","code":"22P02","position":"119","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"UPDATE \"Admins\" SET \"username\"='admin',\"password\"='222222',\"updated_at\"='2019-04-16 09:50:59.185 +00:00' WHERE \"id\" = '[object Object]'"}
+sql: "UPDATE \"Admins\" SET \"username\"='admin',\"password\"='222222',\"updated_at\"='2019-04-16 09:50:59.185 +00:00' WHERE \"id\" = '[object Object]'"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9897
+hostname: localhost.localdomain
+
+2019-04-16 10:53:03,693 ERROR 9983 [-/192.168.33.1/-/66ms PUT /admin/1] nodejs.SequelizeDatabaseError: invalid input syntax for integer: "[object Object]"
+    at Query.formatError (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:363:16)
+    at query.catch.err (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:86:18)
+From previous event:
+    at Query.run (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:79:23)
+    at Promise.try.then.connection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:454:28)
+    at QueryInterface.bulkUpdate (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/query-interface.js:1040:27)
+    at Promise.try.then.then.then.results (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:2822:34)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at Function.update (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:2811:8)
+    at AdminService.update (/vagrant_data/nodeworks/egg-ifram_1/app/service/admin.js:15:30)
+    at AdminController.update (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:115:45)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"name":"error","length":109,"severity":"ERROR","code":"22P02","position":"119","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"UPDATE \"Admins\" SET \"username\"='admin',\"password\"='222222',\"updated_at\"='2019-04-16 09:53:03.674 +00:00' WHERE \"id\" = '[object Object]'"}
+original: {"name":"error","length":109,"severity":"ERROR","code":"22P02","position":"119","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"UPDATE \"Admins\" SET \"username\"='admin',\"password\"='222222',\"updated_at\"='2019-04-16 09:53:03.674 +00:00' WHERE \"id\" = '[object Object]'"}
+sql: "UPDATE \"Admins\" SET \"username\"='admin',\"password\"='222222',\"updated_at\"='2019-04-16 09:53:03.674 +00:00' WHERE \"id\" = '[object Object]'"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9983
+hostname: localhost.localdomain
+
+2019-04-16 10:58:36,903 ERROR 9983 [-/192.168.33.1/-/22ms PUT /admin/1] nodejs.SequelizeDatabaseError: invalid input syntax for integer: "[object Object]"
+    at Query.formatError (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:363:16)
+    at query.catch.err (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:86:18)
+From previous event:
+    at Query.run (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:79:23)
+    at Promise.try.then.connection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:454:28)
+    at QueryInterface.bulkUpdate (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/query-interface.js:1040:27)
+    at Promise.try.then.then.then.results (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:2822:34)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at Function.update (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:2811:8)
+    at AdminService.update (/vagrant_data/nodeworks/egg-ifram_1/app/service/admin.js:15:30)
+    at AdminController.update (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:115:45)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"name":"error","length":109,"severity":"ERROR","code":"22P02","position":"119","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"UPDATE \"Admins\" SET \"username\"='admin',\"password\"='222222',\"updated_at\"='2019-04-16 09:58:36.884 +00:00' WHERE \"id\" = '[object Object]'"}
+original: {"name":"error","length":109,"severity":"ERROR","code":"22P02","position":"119","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"UPDATE \"Admins\" SET \"username\"='admin',\"password\"='222222',\"updated_at\"='2019-04-16 09:58:36.884 +00:00' WHERE \"id\" = '[object Object]'"}
+sql: "UPDATE \"Admins\" SET \"username\"='admin',\"password\"='222222',\"updated_at\"='2019-04-16 09:58:36.884 +00:00' WHERE \"id\" = '[object Object]'"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9983
+hostname: localhost.localdomain
+
+2019-04-16 11:00:23,109 ERROR 10092 [-/192.168.33.1/-/71ms PUT /admin/1] nodejs.SequelizeDatabaseError: invalid input syntax for integer: "[object Object]"
+    at Query.formatError (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:363:16)
+    at query.catch.err (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:86:18)
+From previous event:
+    at Query.run (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:79:23)
+    at Promise.try.then.connection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:454:28)
+    at QueryInterface.bulkUpdate (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/query-interface.js:1040:27)
+    at Promise.try.then.then.then.results (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:2822:34)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at Function.update (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:2811:8)
+    at AdminService.update (/vagrant_data/nodeworks/egg-ifram_1/app/service/admin.js:15:30)
+    at AdminController.update (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:115:45)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"name":"error","length":109,"severity":"ERROR","code":"22P02","position":"119","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"UPDATE \"Admins\" SET \"username\"='admin',\"password\"='222222',\"updated_at\"='2019-04-16 10:00:23.086 +00:00' WHERE \"id\" = '[object Object]'"}
+original: {"name":"error","length":109,"severity":"ERROR","code":"22P02","position":"119","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"UPDATE \"Admins\" SET \"username\"='admin',\"password\"='222222',\"updated_at\"='2019-04-16 10:00:23.086 +00:00' WHERE \"id\" = '[object Object]'"}
+sql: "UPDATE \"Admins\" SET \"username\"='admin',\"password\"='222222',\"updated_at\"='2019-04-16 10:00:23.086 +00:00' WHERE \"id\" = '[object Object]'"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 10092
+hostname: localhost.localdomain
+
+2019-04-16 11:01:58,845 ERROR 10197 [-/192.168.33.1/-/67ms PUT /admin/1] nodejs.SequelizeDatabaseError: invalid input syntax for integer: "[object Object]"
+    at Query.formatError (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:363:16)
+    at query.catch.err (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:86:18)
+From previous event:
+    at Query.run (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:79:23)
+    at Promise.try.then.connection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:454:28)
+    at QueryInterface.bulkUpdate (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/query-interface.js:1040:27)
+    at Promise.try.then.then.then.results (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:2822:34)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at Function.update (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:2811:8)
+    at AdminService.update (/vagrant_data/nodeworks/egg-ifram_1/app/service/admin.js:16:30)
+    at AdminController.update (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:115:45)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"name":"error","length":109,"severity":"ERROR","code":"22P02","position":"100","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"UPDATE \"Admins\" SET \"password\"='222222',\"updated_at\"='2019-04-16 10:01:58.824 +00:00' WHERE \"id\" = '[object Object]'"}
+original: {"name":"error","length":109,"severity":"ERROR","code":"22P02","position":"100","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"UPDATE \"Admins\" SET \"password\"='222222',\"updated_at\"='2019-04-16 10:01:58.824 +00:00' WHERE \"id\" = '[object Object]'"}
+sql: "UPDATE \"Admins\" SET \"password\"='222222',\"updated_at\"='2019-04-16 10:01:58.824 +00:00' WHERE \"id\" = '[object Object]'"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 10197
+hostname: localhost.localdomain
+
+2019-04-17 01:15:34,463 ERROR 8109 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-17 01:15:34,465 ERROR 8109 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8109
+hostname: localhost.localdomain
+
+2019-04-17 01:15:34,568 ERROR 8109 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-17 01:15:34,568 ERROR 8109 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8109
+hostname: localhost.localdomain
+
+2019-04-17 01:15:34,672 ERROR 8109 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-17 01:15:34,672 ERROR 8109 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8109
+hostname: localhost.localdomain
+
+2019-04-17 01:15:34,825 ERROR 8109 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-17 01:15:34,826 ERROR 8109 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8109
+hostname: localhost.localdomain
+
+2019-04-17 01:15:35,032 ERROR 8109 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-17 01:15:35,033 ERROR 8109 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8109
+hostname: localhost.localdomain
+
+2019-04-17 01:15:35,286 ERROR 8109 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-17 01:15:35,287 ERROR 8109 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8109
+hostname: localhost.localdomain
+
+2019-04-17 01:15:35,597 ERROR 8109 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-17 01:15:35,597 ERROR 8109 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8109
+hostname: localhost.localdomain
+
+2019-04-17 01:15:35,954 ERROR 8109 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-17 01:15:35,954 ERROR 8109 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8109
+hostname: localhost.localdomain
+
+2019-04-17 01:15:36,358 ERROR 8109 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-17 01:15:36,358 ERROR 8109 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8109
+hostname: localhost.localdomain
+
+2019-04-17 01:15:36,811 ERROR 8109 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-17 01:15:36,812 ERROR 8109 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8109
+hostname: localhost.localdomain
+
+2019-04-17 01:15:37,320 ERROR 8109 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-17 01:15:37,321 ERROR 8109 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8109
+hostname: localhost.localdomain
+
+2019-04-17 01:15:37,875 ERROR 8109 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-17 01:15:37,875 ERROR 8109 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8109
+hostname: localhost.localdomain
+
+2019-04-17 01:15:38,479 ERROR 8109 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-17 01:15:38,480 ERROR 8109 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8109
+hostname: localhost.localdomain
+
+2019-04-17 01:15:39,131 ERROR 8109 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-17 01:15:39,132 ERROR 8109 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8109
+hostname: localhost.localdomain
+
+2019-04-17 01:15:39,841 ERROR 8109 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-17 01:15:39,842 ERROR 8109 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8109
+hostname: localhost.localdomain
+
+2019-04-17 01:15:40,594 ERROR 8109 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-17 01:15:40,595 ERROR 8109 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8109
+hostname: localhost.localdomain
+
+2019-04-17 01:15:41,397 ERROR 8109 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-17 01:15:41,397 ERROR 8109 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8109
+hostname: localhost.localdomain
+
+2019-04-17 01:15:42,251 ERROR 8109 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-17 01:15:42,252 ERROR 8109 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8109
+hostname: localhost.localdomain
+
+2019-04-17 01:15:43,154 ERROR 8109 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-17 01:15:43,155 ERROR 8109 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8109
+hostname: localhost.localdomain
+
+2019-04-17 01:15:44,108 ERROR 8109 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-17 01:15:44,109 ERROR 8109 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8109
+hostname: localhost.localdomain
+
+2019-04-17 01:15:45,112 ERROR 8109 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-17 01:15:45,113 ERROR 8109 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8109
+hostname: localhost.localdomain
+
+2019-04-17 01:15:46,167 ERROR 8109 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-17 01:15:46,168 ERROR 8109 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8109
+hostname: localhost.localdomain
+
+2019-04-17 01:15:47,271 ERROR 8109 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-17 01:15:47,272 ERROR 8109 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8109
+hostname: localhost.localdomain
+
+2019-04-17 01:15:48,431 ERROR 8109 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-17 01:15:48,431 ERROR 8109 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8109
+hostname: localhost.localdomain
+
+2019-04-17 01:15:49,633 ERROR 8109 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-17 01:15:49,634 ERROR 8109 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8109
+hostname: localhost.localdomain
+
+2019-04-17 01:15:50,887 ERROR 8109 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-17 01:15:50,888 ERROR 8109 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8109
+hostname: localhost.localdomain
+
+2019-04-17 01:15:52,194 ERROR 8109 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-17 01:15:52,195 ERROR 8109 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8109
+hostname: localhost.localdomain
+
+2019-04-17 01:15:53,548 ERROR 8109 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-17 01:15:53,550 ERROR 8109 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8109
+hostname: localhost.localdomain
+
+2019-04-17 01:15:54,955 ERROR 8109 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-17 01:15:54,956 ERROR 8109 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8109
+hostname: localhost.localdomain
+
+2019-04-17 01:15:56,410 ERROR 8109 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-17 01:15:56,410 ERROR 8109 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8109
+hostname: localhost.localdomain
+
+2019-04-17 01:15:57,914 ERROR 8109 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-17 01:15:57,914 ERROR 8109 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8109
+hostname: localhost.localdomain
+
+2019-04-17 01:15:59,469 ERROR 8109 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-17 01:15:59,469 ERROR 8109 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8109
+hostname: localhost.localdomain
+

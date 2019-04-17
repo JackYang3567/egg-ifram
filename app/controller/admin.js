@@ -6,33 +6,42 @@ const BaseHandler = require('../libs/base')
 
 
 
-const admins = [
-    {id: 1, username: 'admin', name: '黄老五', title: '总经理',gender: 1, address:'春天大道10号', phone:'13808013567', email: '13808013567@163.com'},
-    {id: 2, username: 'super', name: '李老三', title: '司机',gender: 1, address:'武侯大道10号', phone:'13908013567', email: '13908013567@163.com'},
-    {id: 3, username: 'manager', name: '朱二娃', title: '程序员',gender: 1, address:'蜀都大道10号', phone:'13508013567', email: '13508013567@163.com'}
-  ]
+// 定义创建接口的请求参数规则 email, password, username
+const createRule = {
+  _csrf: 'string',
+  username:'string',
+  oldpass: 'string',
+  newpass: 'string',
+ // tab: { type: 'enum', values: [ 'ask', 'share', 'job' ], required: false },
+  repass:'string',
+  opt:{ type: 'string', values: ['pass'], required: false },
+};
 
 class AdminController extends Controller {
   async index() {
     const { ctx } = this;
-    if(!ctx.session.admin){
-      ctx.redirect('/admin/signin')
-      return
+    const { page } = {...ctx.params, ...ctx.query} 
+    let  context = {  title: '',           
+        admins: [],
+        opt: 0
     }
    
-    let  context = { 
-            title: '',           
-            admins: []
-         }
 
-        if(ctx.params.id){
-            context.title = '用户信息';
-            context.admins  = admins.filter((item,index, arr) => item.id == ctx.params.id);
-        }else{
-            context.title = '用户列表';
-            context.admins = admins;
-       }
-     await this.ctx.render('admin/index.njk', context);
+    if(!ctx.session.admin){
+     ctx.redirect('/admin/signin')
+     //ctx.session.returnTo = ctx.path;
+      return
+    }
+  
+    context.title = '用户列表';
+    context.admins.push(ctx.session.admin);
+    if(page>=0){
+        context.opt = page;
+        console.log('====context===>',context)
+      await ctx.render('admin/info.njk', context);
+      return
+     }
+    await ctx.render('admin/index.njk', context);
   }
 
  async welcome() {
@@ -72,28 +81,47 @@ class AdminController extends Controller {
     }
     
     if (ctx.request.method == "POST") { 
-        const User = await ctx.model.User.AuthByUserName(username,password)
-       // console.log("ctx.request=User.dataValues==>>",User.dataValues)
-        ctx.session.admin = User.dataValues;
-        
-       if(JSON.stringify(ctx.session.admin) != "{}"){
-          const ret =[{url:'/admin'}]
-          BaseHandler.resSuccess(ctx,ret)    
-       }
+        const Admin = await ctx.model.Admin.Auth(username,password)
+        if(Admin){
+          ctx.session.admin = Admin.dataValues;
+          const data =[{url:'/admin'}]
+          const success_message = "登录成功"
+          BaseHandler.resSuccess(ctx, data, success_message)
+        }
        else{
          const error_code = 1 
-         const error_message ="对不起！您输入用户名与密码不匹配！"
+         const error_message ="对不起！您输入的用户名与密码不匹配！"
          BaseHandler.resError(ctx, error_code, error_message)
        }
-       // ctx.redirect('/admin/signin')
-      
   	}    
   }
 
-  async signout() {
+  /**
+   * 更新
+   */
+  async update() {
+     const {ctx} = this ;
+    // 校验 `ctx.request.body` 是否符合我们预期的格式
+    // 如果参数校验未通过，将会抛出一个 status = 422 的异常   
+    console.log('ctx.request.body======>',ctx.request.body)
+    ctx.validate(createRule, ctx.request.body);
+    console.log('ctx.request.body======>','1111111')
+    const { id } = {...ctx.params, ...ctx.query} 
+    const { newpass, username } = ctx.request.body;
+    // 调用 service 创建一个 user
+    const data  = await ctx.service.admin.update({id: id, username, password: newpass})
+    // 设置响应体和状态码
+    const success_message = "密码修改成功"
+    BaseHandler.resSuccess(ctx, data, success_message)
+  
+}
+
+  async signOut() {
     const { ctx } = this;
     ctx.session.admin = null;
-    ctx.redirect('/admin/signin')
+    //ctx.redirect('/admin/signin')
+    ctx.logout();
+    ctx.redirect(ctx.get('referer') || '/admin/signin');
   }
 }
 

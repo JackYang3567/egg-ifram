@@ -49,6 +49,7 @@ class RestUserController extends Controller {
     //const users =  await ctx.model.User.findAll({attributes:{ exclude: ['created_at','updated_at'] }});
 
     const users =  await ctx.model.User.findAndCountAll({
+      attributes:{ exclude: ['password'] },
       offset: (curPage - 1)* pageSize,
       limit: pageSize,
       order: [ ['id', 'DESC'] ]

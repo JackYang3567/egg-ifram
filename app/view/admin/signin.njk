@@ -12,8 +12,10 @@
              <input name="captcha" lay-verify="required" placeholder="验证码"  type="text" class="layui-input" style="width:150px"> 
               <img id="img-captcha" onclick="getCaptcha();" src="/captcha/1?str" class="captcha" />
             <hr class="hr15">
+            
             <span> 请填写图片中的字符，不区分大小写  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" onclick="getCaptcha();">看不清楚？换张图片</a></span>
-            <hr class="hr15">
+           <span id='error-msg'></span>
+             <hr class="hr15">
              <input value="登录" lay-submit lay-filter="login" onclick="signin();" style="width:100%;" type="button">
             <hr class="hr20" >
             <input name="type" placeholder="用户名"  type="hidden" value='1' class="layui-input" >
@@ -33,18 +35,15 @@
                 data:data,
                 dataType:'JSON',
                 success:function(res){
-                 
-                    if(res.code == '0'){
-                       alert("登录成功");
+                    if(res.success){
+                        //alert(res.success_message);
                         window.location.href = res.data[0].url
-                    }
-                    else{
-                        alert(res.msg); 
-                       
+                    }else{
+                        $("#error-msg").html(res.error_message)
+                        $("#error-msg").attr('style','color:red;')
                     }
                 },
-                error:function (data) {
-
+                error:function (res) {
                 }
             })
       }

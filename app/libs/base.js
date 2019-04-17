@@ -2,17 +2,17 @@
 
 class BaseHandler{
     constructor(){
-
     }
    
     //成功输出
-    resSuccess(ctx, ret){
+    resSuccess(ctx, data,success_message=''){
         ctx.type = 'json';
         ctx.status = 200;
         ctx.body = {
-            result: true,
+            success: true,
             code: 0,
-            data: ret
+            success_message: success_message,
+            data: data
         };
     }
 
@@ -21,7 +21,7 @@ class BaseHandler{
         ctx.type = 'json';
         ctx.status = 200;
         ctx.body = {
-            result: false,
+            success: false,
             code: error_code,
             error_message: error_message
         };

@@ -6,11 +6,12 @@
         </div>
         <ul class="layui-nav left fast-add" lay-filter="">
           <li class="layui-nav-item">
-            <a href="javascript:;">+新增</a>
+            <a href="javascript:;">+基础设置</a>
             <dl class="layui-nav-child"> <!-- 二级菜单 -->
-              <dd><a onclick="x_admin_show('资讯','http://www.baidu.com')"><i class="iconfont">&#xe6a2;</i>资讯</a></dd>
-              <dd><a onclick="x_admin_show('图片','http://www.baidu.com')"><i class="iconfont">&#xe6a8;</i>图片</a></dd>
-               <dd><a onclick="x_admin_show('用户','http://www.baidu.com')"><i class="iconfont">&#xe6b8;</i>用户</a></dd>
+              <dd><a onclick="x_admin_show('菜单设置','http://www.baidu.com')"><i class="iconfont">&#xe6a2;</i>轮播图片</a></dd>
+              <dd><a onclick="x_admin_show('轮播图片','http://www.baidu.com')"><i class="iconfont">&#xe6a8;</i>轮播图片</a></dd>
+              <dd><a onclick="x_admin_show('轮播图片','http://www.baidu.com')"><i class="iconfont">&#xe6b8;</i>轮播图片</a></dd>
+              <dd><a onclick="x_admin_show('轮播图片','http://www.baidu.com')"><i class="iconfont">&#xe6b8;</i>轮播图片</a></dd>
             </dl>
           </li>
         </ul>
@@ -18,14 +19,13 @@
           <li class="layui-nav-item">
             <a href="javascript:;">admin</a>
             <dl class="layui-nav-child"> <!-- 二级菜单 -->
-              <dd><a onclick="x_admin_show('个人信息','http://www.baidu.com')">个人信息</a></dd>
-              <dd><a onclick="x_admin_show('切换帐号','http://www.baidu.com')">切换帐号</a></dd>
+              <dd><a onclick="x_admin_show('个人信息','/admin?page=1',600,600)" href="javascript:;">个人信息</a></dd>
+              <dd><a onclick="x_admin_show('修改密码','/admin?page=0',600,380)" href="javascript:;">修改密码</a></dd>
               <dd><a href="/admin/signout">退出</a></dd>
             </dl>
           </li>
           <li class="layui-nav-item to-index"><a href="/">前台首页</a></li>
         </ul>
-        
     </div>
     <!-- 顶部结束 -->
     {{ header_text }}

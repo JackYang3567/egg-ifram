@@ -1,3 +1,5 @@
+const BaseHandler = require('../libs/base')
+
 module.exports = (app) =>{
     return async function checkCaptcha (ctx, next){
         // 验证的客户端的captcha
@@ -21,9 +23,10 @@ module.exports = (app) =>{
         }
 
         if (!isHasExists) {
-             const resJosn = {code:1,msg:"对不起！您输入的验证码无效！",data:[]}
-            ctx.status = 201;
-            ctx.body = JSON.stringify(resJosn);
+            const error_code = 2
+            const error_message = "对不起！您输入的验证码无效！"
+            ctx.status = 200;
+            BaseHandler.resError(ctx, error_code, error_message)
           
           } else {
             await next();

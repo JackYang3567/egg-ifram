@@ -7,6 +7,7 @@ const BaseHandler = require('../libs/base')
 class RESTController extends Controller {
   constructor(ctx, modelName) {
     super(ctx)
+    this._modelName = modelName
     this.model = this.ctx.model[modelName]
   }
 
@@ -27,17 +28,23 @@ class RESTController extends Controller {
    * @param {array} order 排序
    * @param {object} include 表连接
    */
-  async index(ctx, where, order, include) {
+  
+   async index(ctx, where, order, include) {
+    // exclude:{ exclude: ['password'] },
     const { page, split } = ctx.query
     where = defaultTo({}, where)
-    where.order = defaultTo([], order)
+    //where.attributes = defaultTo([], { exclude: ['password'] })
+    where.order = defaultTo([], order )
     where.include = defaultTo([], include)
     where.offset = defaultTo(0, parseInt(page) * parseInt(split))
     where.limit = defaultTo(10, split)
-    info(where)
-    const data = await this.model.findAll(where)
+    // info(where)
+    //const data = await this.model.findAll(where)
+    const data = await this.model.findAndCountAll(where)
+    
+   
     // ctx.body = data
-    const success_message = ""
+    const success_message = "查询数据成功！"
     BaseHandler.resSuccess(ctx, data, success_message)
   }
   /**
@@ -83,12 +90,21 @@ class RESTController extends Controller {
    * DELETE：删，删除
    */
   async destroy() {
+    console.log('destroy===>')
     const { ctx } = this
-    const { id } =  ctx.params
-    const instance = await this.getInstance(id)
-    console.log(instance)
-    //this.ctx.body = await instance.destroy()
-    const data =  await instance.destroy()
+    let { id } = {...ctx.params} 
+    let data
+    if( id.indexOf(',')===-1){
+      let instance = await this.getInstance(BaseHandler.toInt(id))
+      data = await instance.destroy()
+    }else{
+      let idArr = id.split(',')
+      let instance
+      idArr.forEach( async id=>{  
+        instance = await this.getInstance(BaseHandler.toInt(id))
+        data = await instance.destroy()
+      });
+    };
     const success_message = ""
     BaseHandler.resSuccess(ctx, data, success_message)
   }

@@ -1,13 +1,32 @@
 'USE Strict';
+const { defaultTo } = require('ramda')
 const bcrypt = require('bcrypt')
 const { Controller } = require('egg');
 const BaseHandler = require('../libs/base')
 
+//const RestController = require('./rest')
+const RestRenderController = require('./render')
+// 定义创建接口的请求参数规则 email, password, username
+const createRule = {
+  _csrf: 'string',
+  username:'string',
+  oldpass: 'string',
+  newpass: 'string',
+ // tab: { type: 'enum', values: [ 'ask', 'share', 'job' ], required: false },
+  repass:'string',
+  opt:{ type: 'string', values: ['pass'], required: false },
+};
 
 
-class RestUserController extends Controller {
-   
-  async newUserForm() {
+class RestUserController extends RestRenderController {
+  constructor(ctx) {
+    super(ctx, 'User')
+  }
+
+  /**
+   * 新增模板页面表单
+   */
+  async new() {
     const { ctx,app } = this;
     let  context = { 
       title: '新增用户'
@@ -16,90 +35,81 @@ class RestUserController extends Controller {
     
   }
 
-  async editUserForm() {
+  /**
+   * 编辑表单页面
+   */
+  async edit() {
     let  context = { 
       opt: 0,
       title: '',           
       users: []
    }
-    const { ctx, app } = this;
-    const { type, id } = {...ctx.params, ...ctx.query} 
+    
+    const { ctx } = this;
+    const { id, page } = {...ctx.params, ...ctx.query} 
     const users =  await ctx.model.User.findById(BaseHandler.toInt(id));
-    context.opt = type
+    context.opt = parseInt(page)
+    //context.opt = type
     context.users.push(users)
+    console.log('context=====',context)
     await ctx.render('user/edit.njk', context);
     
   }
-  /**
-   * 列表
-   */
-  async index() {
-    const { ctx,app } = this; 
-    let req = {...ctx.params, ...ctx.query}
-    let { pageSize,curPage } = {...ctx.params, ...ctx.query} 
-    if(!pageSize) pageSize = 10;
-    if(!curPage) curPage = 1;
-    
-    let context = { 
-      totalCount: 0,
-      title: '',           
-      users: []
-    }
-   
+ 
+/*
+  async list() {
+    const { ctx } = this; 
+    await ctx.render('user/list.njk', {});
+  }
+*/
+
+
+/**
+ *  if(!split) split = 10;  //页面显示记录数
+ *  if(!page) page = 1;     //当前第几页
+ */
+  async index () {
+    const { ctx } = this; 
+    let { page = 1,split = 10, start, end ,username } = {...ctx.params, ...ctx.query} 
     //const users =  await ctx.model.User.findAll({attributes:{ exclude: ['created_at','updated_at'] }});
-
-    const users =  await ctx.model.User.findAndCountAll({
-      attributes:{ exclude: ['password'] },
-      offset: (curPage - 1)* pageSize,
-      limit: pageSize,
-      order: [ ['id', 'DESC'] ]
-    });
-    
-
-    
-      context.title = '用户列表';
-      context.users = users.rows;
-      context.totalCount = users.count;
-      const data = context
-      const success_message = ""
-      BaseHandler.resSuccess(ctx, data, success_message)
-  }
-
-  
-
-  /**
-   * 详情
-   */
-  async show() {
-    const { ctx, app } = this;
-    const { id } = {...ctx.params, ...ctx.query} 
-    console.log('toInt(id)===>',toInt(id));
-    const data =  await ctx.model.User.findById(toInt(id));
-    const success_message = ""
-    BaseHandler.resSuccess(ctx, data, success_message)
-  }
-
-  
-  async create() {
-    const ctx = this.ctx;
-    const { email, password, username } = ctx.request.body;
+    // const users =  await ctx.model.User.findAll({});
+    let where = {}
+    if(username) where.username = defaultTo('',  { $like: `%${username}%` }  )
    
-    const _user = {email, password,username}
-    const data = await ctx.model.User.create(_user);
-    const success_message = ""
+    //if(username) where.username = defaultTo('', username )
+    //if(start) where.username = defaultTo('', username )
+    //if(end) where.username = defaultTo('', username )
+     console.log("where=====",where)
+    const data =  await ctx.model.User.findAndCountAll({
+      attributes:{ exclude: ['password'] },
+      where: where,
+      offset: parseInt( (page - 1)* split),    
+      limit: parseInt(split),       
+      order: [ ['id', 'DESC'] ]
+    }); 
+    const success_message = "查询数据成功！"
     BaseHandler.resSuccess(ctx, data, success_message)
   }
 
-  /**
+/**
    * 更新
    */
   async update() {
     const ctx = this.ctx;
-    const { id ,props} = {...ctx.params, ...ctx.query} 
+    const { id ,props, opt} = {...ctx.params, ...ctx.query,...ctx.request.body} 
     const newinfo = ctx.request.body  
    
+    if(opt=='pass'){
+       ctx.validate(createRule, ctx.request.body);    
+       const { id, oldpass,newpass, repass, username } = {
+            ...ctx.params, 
+            ...ctx.query, 
+            ...ctx.request.body
+       } 
+    }
+    
    
-    const user = await ctx.model.User.findById(toInt(id));
+    const user = await ctx.model.User.findById(BaseHandler.toInt(id));
     if (!user) {
       ctx.status = 404;
       return;
@@ -108,7 +118,7 @@ class RestUserController extends Controller {
     let _props = props ? JSON.parse(props) : null;
     if( _props instanceof Object){
       console.log('is object',_props);      
-      await user.update(_props,{'where':{'id':{eq:toInt(id)}}});
+      await user.update(_props,{'where':{'id':{eq:BaseHandler.toInt(id)}}});
 
     }else{
       console.log('update newinfo111==', newinfo); 
@@ -119,13 +129,13 @@ class RestUserController extends Controller {
         delete newinfo.repass;       
         newinfo.password =  newinfo.newpass //await bcrypt.hash(newinfo.newpass, 10)
         console.log('update newinfo==', newinfo);   
-        await user.update(newinfo,{'where':{'id':{eq:toInt(id)}}});
+        await user.update(newinfo,{'where':{'id':{eq: BaseHandler.toInt(id)}}});
       }
       if(newinfo.opt == 'info') {
         delete newinfo.opt;
 
         console.log('update newinfo 333==', newinfo); 
-        await user.update(newinfo,{'where':{'id':{eq:toInt(id)}}}); 
+        await user.update(newinfo,{'where':{'id':{eq: BaseHandler.toInt(id)}}}); 
       }
       //const { email, password,username,weibo,weixin,receive_remote,email_verifyed,avatar } = ctx.request.body;
      
@@ -139,39 +149,8 @@ class RestUserController extends Controller {
     BaseHandler.resSuccess(ctx, data, success_message)
   
 }
-
-  /**
-   * 删除
-   */
-  async destroy() {
-    const ctx = this.ctx;
-    let { id,ids } = {...ctx.params, ...ctx.query} 
-    console.log('destroy toInt(id)===>',toInt(id));
-    let user 
-
-    if(toInt(id)>0) { 
-      user = await ctx.model.User.findById(toInt(id))
-      if (!user) {
-        ctx.status = 404;
-        return;
-      }
-      await user.destroy();
-    }else{
-      let idArr = ids.split(',');
-      idArr.forEach( async id=>{  
-         user = await ctx.model.User.findById(toInt(id))
-         if (!user) {
-          ctx.status = 404;
-          return;
-         }
-        await user.destroy();
-      });
-    };
-    const data = user
-    const success_message = ""
-    BaseHandler.resSuccess(ctx, data, success_message)
-  }
   
+    
 }
 
 module.exports = RestUserController;

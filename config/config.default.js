@@ -30,10 +30,11 @@ module.exports = appInfo => {
   };
 
   config.session = {
-    key: 'EGG_SESS',
+    key: 'EGG_SESSION_ID',//key名字
     maxAge: 24 * 3600 * 1000, // 1 天
     httpOnly: true,
-    encrypt: true,
+    encrypt: true,//加密 
+    renew:true    //最大时间范围内，刷新，自动增加最大时间
   };
 
   config.redis = {
@@ -87,6 +88,22 @@ module.exports = appInfo => {
     origin: '*'
     // {string|Array} allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH'
   };
+  config.security = {
+     
+      csrf: {
+        //针对内部 ip 关闭部分安全防范：
+        // ignore: ctx => isInnerIp(ctx.ip),
+        useSession: false,          // if useSession set to true, the secret will keep in session instead of cookie
+        ignoreJSON: false,          // skip check JSON requests if ignoreJSON set to true
+        cookieName: 'csrfToken',    // csrf token's cookie name
+        sessionName: 'csrfToken',   // csrf token's session name
+        headerName: 'x-csrf-token', // request csrf token's name in header
+        bodyName: '_csrf',          // 通过 query 传递 CSRF token 的默认字段为 _csrf
+        queryName: '_csrf',        // 通过 query 传递 CSRF token 的默认字段为 _csrf
+      },
+    
+  };
+
   config.view = {
     defaultViewEngine: 'nunjucks',
     mapping: {
@@ -99,12 +116,8 @@ module.exports = appInfo => {
 
   // 上面中间件的配置无须验证的route
   config.auth = {
-    noAuthRoutes: [
-     '/api/',
-     '/captcha/',
-     '/admin/'
-    
-   ]
+    noForbidden:['/','/qr','/api', '/captcha'],
+    noAuthRoutes: ['/unauthorization', '/admin/signin','/admin/signout' ]
 }
   // 此处添加用户配置add your user config here
   const userConfig = {

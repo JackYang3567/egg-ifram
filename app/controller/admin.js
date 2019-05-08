@@ -3,7 +3,7 @@ const bcrypt = require('bcrypt')
 const sd = require('silly-datetime');
 const { Controller } = require('egg');
 const BaseHandler = require('../libs/base')
-
+const RestController = require('./rest')
 
 
 // 定义创建接口的请求参数规则 email, password, username
@@ -18,44 +18,56 @@ const createRule = {
 };
 
 class AdminController extends Controller {
+  
+ // constructor(ctx) {
+    //super(ctx, 'Admin')
+ // }
+/**
+  * 管理员首页
+  */
   async index() {
-    const { ctx } = this;
+    const { ctx,app } = this;
     const { page } = {...ctx.params, ...ctx.query} 
+    const __session = await app.sessionStore.get(app.config.session.key)
     let  context = {  title: '',           
         admins: [],
         opt: 0
-    }
-   
-
-    if(!ctx.session.admin){
-     ctx.redirect('/admin/signin')
-     //ctx.session.returnTo = ctx.path;
-      return
-    }
-  
+    }    
+    if(!__session){
+       ctx.redirect('/admin/signin')
+       return
+    }    
     context.title = '用户列表';
-    context.admins.push(ctx.session.admin);
+    context.admins.push(__session);
+
     if(page>=0){
-        context.opt = page;
-        console.log('====context===>',context)
-      await ctx.render('admin/info.njk', context);
-      return
+       context.opt = page;
+       await ctx.render('admin/info.njk', context);
+        return
+     }else{
+      await ctx.render('admin/index.njk', context);
      }
-    await ctx.render('admin/index.njk', context);
+   
   }
 
+  /**
+  * 管理员 - 我的桌面
+  */
  async welcome() {
-    const { ctx } = this;
-    const _admin = ctx.session.admin
+    const { ctx,app } = this;
+    const __session = await app.sessionStore.get(app.config.session.key)
     
     let  context = { 
         title: '',           
-        userName: _admin.username,
+        userName: __session.username,
         currentTime: sd.format(new Date(), 'YYYY-MM-DD HH:mm')
     }
     await this.ctx.render('admin/welcome.njk', context);
   }
 
+  /**
+  * 管理员注册
+  */
   async signup() {
     const { ctx } = this;
     let  context = { 
@@ -65,10 +77,11 @@ class AdminController extends Controller {
     await ctx.render('admin/signup.njk', context);
   }
 
-
-  async signin() {
-    
-    const { ctx } = this;
+  /**
+  * 管理员登录
+  */
+  async signin() {    
+    const { ctx,app } = this;
     const {username,password} = ctx.request.body;
     let  context = { 
         req: ctx.request,
@@ -76,18 +89,18 @@ class AdminController extends Controller {
         title: 'sign in',           
         users: []
     }
+  
     if (ctx.request.method == "GET") { 
    	   await ctx.render('admin/signin.njk', context);
     }
     
     if (ctx.request.method == "POST") { 
         const Admin = await ctx.model.Admin.Auth(username,password)
+        ctx.session.admininfo = { id:Admin.dataValues.id}
+
         if(Admin){
-         // const _ss= await ctx.login('admin',[Admin.dataValues,'aaa'])
-         // console.log('_ss===>',_ss)
-          ctx.session.admin = Admin.dataValues;
-         
-          const data =[{url:'/admin'}]
+          await app.sessionStore.set(app.config.session.key, Admin.dataValues, app.config.session.maxAge)
+          const data =[{url:'/admin/'}]
           const success_message = "登录成功"
           BaseHandler.resSuccess(ctx, data, success_message)
         }
@@ -100,28 +113,49 @@ class AdminController extends Controller {
   }
 
   /**
-   * 更新
+   * 修改管理密码
    */
   async update() {
-     const {ctx} = this ;
+    const {ctx} = this ;
+    console.log('ctx.request.body==',ctx.request.body)
     // 校验 `ctx.request.body` 是否符合我们预期的格式
     // 如果参数校验未通过，将会抛出一个 status = 422 的异常   
-    ctx.validate(createRule, ctx.request.body);
-    const { id } = {...ctx.params, ...ctx.query} 
-    const { newpass, username } = ctx.request.body;
-    // 调用 service 创建一个 user
-    const data  = await ctx.service.admin.update({id: id, username, password: newpass})
-    // 设置响应体和状态码
-    const success_message = "密码修改成功"
-    BaseHandler.resSuccess(ctx, data, success_message)
-  
+    ctx.validate(createRule, ctx.request.body);    
+    const { id, oldpass,newpass, repass, username } = {
+          ...ctx.params, 
+          ...ctx.query, 
+          ...ctx.request.body
+    } 
+   const siValided = (newpass === repass) ? await ctx.model.Admin.Auth(username,oldpass) : false     
+   if(siValided )
+     {
+        await ctx.service.admin.update({id: id, username, password: newpass}) 
+       // 设置响应体和状态码
+        ctx.session.admininfo = null
+        await app.sessionStore.destroy(app.config.session.key)
+        const success_message = "密码修改成功"
+        BaseHandler.resSuccess(ctx, [{url:'/admin/signin'}], success_message)
+     }else{
+        const error_message = "旧密码错误或新旧密码不一致"
+        BaseHandler.resError(ctx,100, error_message)
+     }
 }
 
+/**
+ * 退出管理登录帐号
+ */
   async signOut() {
-    const { ctx } = this;
-    ctx.session.admin = null;
-    ctx.logout();
-    ctx.redirect(ctx.get('referer') || '/admin/signin');
+    const { ctx,app } = this
+    ctx.session.admininfo = null
+    const delOk = await app.sessionStore.destroy(app.config.session.key)
+    const __session =  await app.sessionStore.get(app.config.session.key)
+    if(!delOk || __session){
+      await app.sessionStore.destroy(app.config.session.key)
+    }
+
+    setTimeout( ()=>{
+        ctx.redirect('/admin/signin')
+    }, 1000)
   }
 }
 

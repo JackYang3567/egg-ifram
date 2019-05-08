@@ -2928,3 +2928,1613 @@ headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
 pid: 10031
 hostname: localhost.localdomain
 
+2019-04-17 04:05:10,097 ERROR 11134 [-/192.168.33.1/-/30ms GET /api/v2/user] nodejs.ReferenceError: info is not defined
+    at RestUserController.index (/vagrant_data/nodeworks/egg-ifram_1/app/controller/rest.js:37:5)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+
+pid: 11134
+hostname: localhost.localdomain
+
+2019-04-17 04:10:59,506 ERROR 11242 [-/192.168.33.1/-/23ms GET /api/v2/user] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at RestUserController.index (/vagrant_data/nodeworks/egg-ifram_1/app/controller/rest.js:38:35)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+
+pid: 11242
+hostname: localhost.localdomain
+
+2019-04-17 04:16:34,901 ERROR 11430 [-/192.168.33.1/-/20ms GET /admin/signout] nodejs.SequelizeDatabaseError: invalid input syntax for integer: "signout"
+    at Query.formatError (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:363:16)
+    at query.catch.err (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:86:18)
+From previous event:
+    at Query.run (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:79:23)
+    at Promise.try.then.connection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:454:28)
+    at QueryInterface.select (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/query-interface.js:1104:27)
+    at Promise.try.then.then.then (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:1598:34)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at Function.findAll (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:1595:8)
+    at Function.findOne (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:1752:17)
+    at AdminController.show (/vagrant_data/nodeworks/egg-ifram_1/app/controller/rest.js:59:35)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"name":"error","length":101,"severity":"ERROR","code":"22P02","position":"263","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"SELECT \"id\", \"email\", \"password\", \"username\", \"nickname\", \"birthday\", \"tel\", \"gender\", \"mobile_phone\", \"address\", \"status\", \"weibo\", \"weixin\", \"receive_remote\", \"email_verifyed\", \"avatar\", \"created_at\", \"updated_at\" FROM \"Admins\" AS \"Admin\" WHERE \"Admin\".\"id\" = 'signout';"}
+original: {"name":"error","length":101,"severity":"ERROR","code":"22P02","position":"263","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"SELECT \"id\", \"email\", \"password\", \"username\", \"nickname\", \"birthday\", \"tel\", \"gender\", \"mobile_phone\", \"address\", \"status\", \"weibo\", \"weixin\", \"receive_remote\", \"email_verifyed\", \"avatar\", \"created_at\", \"updated_at\" FROM \"Admins\" AS \"Admin\" WHERE \"Admin\".\"id\" = 'signout';"}
+sql: "SELECT \"id\", \"email\", \"password\", \"username\", \"nickname\", \"birthday\", \"tel\", \"gender\", \"mobile_phone\", \"address\", \"status\", \"weibo\", \"weixin\", \"receive_remote\", \"email_verifyed\", \"avatar\", \"created_at\", \"updated_at\" FROM \"Admins\" AS \"Admin\" WHERE \"Admin\".\"id\" = 'signout';"
+pid: 11430
+hostname: localhost.localdomain
+
+2019-04-17 04:46:42,724 ERROR 11991 [-/192.168.33.1/-/16ms GET /api/v2/user] nodejs.ReferenceError: ctx is not defined
+    at RestUserController.index (/vagrant_data/nodeworks/egg-ifram_1/app/controller/restUser.js:38:5)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+
+pid: 11991
+hostname: localhost.localdomain
+
+2019-04-17 04:46:49,927 ERROR 11991 [-/192.168.33.1/-/1ms GET /api/v2/user] nodejs.ReferenceError: ctx is not defined
+    at RestUserController.index (/vagrant_data/nodeworks/egg-ifram_1/app/controller/restUser.js:38:5)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+
+pid: 11991
+hostname: localhost.localdomain
+
+2019-04-17 04:47:34,263 ERROR 12073 [-/192.168.33.1/-/27ms GET /api/v2/user] nodejs.ReferenceError: ctx is not defined
+    at RestUserController.index (/vagrant_data/nodeworks/egg-ifram_1/app/controller/restUser.js:43:5)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+
+pid: 12073
+hostname: localhost.localdomain
+
+2019-04-17 04:47:36,836 ERROR 12073 [-/192.168.33.1/-/4ms GET /api/v2/user] nodejs.ReferenceError: ctx is not defined
+    at RestUserController.index (/vagrant_data/nodeworks/egg-ifram_1/app/controller/restUser.js:43:5)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+
+pid: 12073
+hostname: localhost.localdomain
+
+2019-04-17 04:57:40,568 ERROR 12359 [-/192.168.33.1/-/26ms GET /api/v2/user] nodejs.ReferenceError: Console is not defined
+    at RestUserController.index (/vagrant_data/nodeworks/egg-ifram_1/app/controller/restUser.js:64:6)
+    at processTicksAndRejections (internal/process/next_tick.js:81:5)
+
+pid: 12359
+hostname: localhost.localdomain
+
+2019-04-17 05:35:26,031 ERROR 12721 [-/192.168.33.1/-/32ms GET /api/v2/user/list] nodejs.SequelizeDatabaseError: invalid input syntax for integer: "list"
+    at Query.formatError (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:363:16)
+    at query.catch.err (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:86:18)
+From previous event:
+    at Query.run (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:79:23)
+    at Promise.try.then.connection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:454:28)
+    at QueryInterface.select (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/query-interface.js:1104:27)
+    at Promise.try.then.then.then (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:1598:34)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at Function.findAll (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:1595:8)
+    at Function.findOne (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:1752:17)
+    at RestUserController.show (/vagrant_data/nodeworks/egg-ifram_1/app/controller/rest.js:60:35)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"name":"error","length":98,"severity":"ERROR","code":"22P02","position":"260","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"SELECT \"id\", \"email\", \"password\", \"username\", \"nickname\", \"birthday\", \"tel\", \"gender\", \"mobile_phone\", \"address\", \"status\", \"weibo\", \"weixin\", \"receive_remote\", \"email_verifyed\", \"avatar\", \"created_at\", \"updated_at\" FROM \"Users\" AS \"User\" WHERE \"User\".\"id\" = 'list';"}
+original: {"name":"error","length":98,"severity":"ERROR","code":"22P02","position":"260","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"SELECT \"id\", \"email\", \"password\", \"username\", \"nickname\", \"birthday\", \"tel\", \"gender\", \"mobile_phone\", \"address\", \"status\", \"weibo\", \"weixin\", \"receive_remote\", \"email_verifyed\", \"avatar\", \"created_at\", \"updated_at\" FROM \"Users\" AS \"User\" WHERE \"User\".\"id\" = 'list';"}
+sql: "SELECT \"id\", \"email\", \"password\", \"username\", \"nickname\", \"birthday\", \"tel\", \"gender\", \"mobile_phone\", \"address\", \"status\", \"weibo\", \"weixin\", \"receive_remote\", \"email_verifyed\", \"avatar\", \"created_at\", \"updated_at\" FROM \"Users\" AS \"User\" WHERE \"User\".\"id\" = 'list';"
+pid: 12721
+hostname: localhost.localdomain
+
+2019-04-17 05:36:31,821 ERROR 12811 [-/192.168.33.1/-/33ms GET /api/v2/user/list] nodejs.SequelizeDatabaseError: invalid input syntax for integer: "list"
+    at Query.formatError (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:363:16)
+    at query.catch.err (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:86:18)
+From previous event:
+    at Query.run (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:79:23)
+    at Promise.try.then.connection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:454:28)
+    at QueryInterface.select (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/query-interface.js:1104:27)
+    at Promise.try.then.then.then (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:1598:34)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at Function.findAll (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:1595:8)
+    at Function.findOne (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:1752:17)
+    at RestUserController.show (/vagrant_data/nodeworks/egg-ifram_1/app/controller/rest.js:60:35)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"name":"error","length":98,"severity":"ERROR","code":"22P02","position":"260","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"SELECT \"id\", \"email\", \"password\", \"username\", \"nickname\", \"birthday\", \"tel\", \"gender\", \"mobile_phone\", \"address\", \"status\", \"weibo\", \"weixin\", \"receive_remote\", \"email_verifyed\", \"avatar\", \"created_at\", \"updated_at\" FROM \"Users\" AS \"User\" WHERE \"User\".\"id\" = 'list';"}
+original: {"name":"error","length":98,"severity":"ERROR","code":"22P02","position":"260","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"SELECT \"id\", \"email\", \"password\", \"username\", \"nickname\", \"birthday\", \"tel\", \"gender\", \"mobile_phone\", \"address\", \"status\", \"weibo\", \"weixin\", \"receive_remote\", \"email_verifyed\", \"avatar\", \"created_at\", \"updated_at\" FROM \"Users\" AS \"User\" WHERE \"User\".\"id\" = 'list';"}
+sql: "SELECT \"id\", \"email\", \"password\", \"username\", \"nickname\", \"birthday\", \"tel\", \"gender\", \"mobile_phone\", \"address\", \"status\", \"weibo\", \"weixin\", \"receive_remote\", \"email_verifyed\", \"avatar\", \"created_at\", \"updated_at\" FROM \"Users\" AS \"User\" WHERE \"User\".\"id\" = 'list';"
+pid: 12811
+hostname: localhost.localdomain
+
+2019-04-17 05:36:48,053 ERROR 12811 [-/192.168.33.1/-/20ms GET /api/v2/user/sigin] nodejs.SequelizeDatabaseError: invalid input syntax for integer: "sigin"
+    at Query.formatError (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:363:16)
+    at query.catch.err (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:86:18)
+From previous event:
+    at Query.run (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:79:23)
+    at Promise.try.then.connection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:454:28)
+    at QueryInterface.select (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/query-interface.js:1104:27)
+    at Promise.try.then.then.then (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:1598:34)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at Function.findAll (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:1595:8)
+    at Function.findOne (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:1752:17)
+    at RestUserController.show (/vagrant_data/nodeworks/egg-ifram_1/app/controller/rest.js:60:35)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"name":"error","length":99,"severity":"ERROR","code":"22P02","position":"260","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"SELECT \"id\", \"email\", \"password\", \"username\", \"nickname\", \"birthday\", \"tel\", \"gender\", \"mobile_phone\", \"address\", \"status\", \"weibo\", \"weixin\", \"receive_remote\", \"email_verifyed\", \"avatar\", \"created_at\", \"updated_at\" FROM \"Users\" AS \"User\" WHERE \"User\".\"id\" = 'sigin';"}
+original: {"name":"error","length":99,"severity":"ERROR","code":"22P02","position":"260","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"SELECT \"id\", \"email\", \"password\", \"username\", \"nickname\", \"birthday\", \"tel\", \"gender\", \"mobile_phone\", \"address\", \"status\", \"weibo\", \"weixin\", \"receive_remote\", \"email_verifyed\", \"avatar\", \"created_at\", \"updated_at\" FROM \"Users\" AS \"User\" WHERE \"User\".\"id\" = 'sigin';"}
+sql: "SELECT \"id\", \"email\", \"password\", \"username\", \"nickname\", \"birthday\", \"tel\", \"gender\", \"mobile_phone\", \"address\", \"status\", \"weibo\", \"weixin\", \"receive_remote\", \"email_verifyed\", \"avatar\", \"created_at\", \"updated_at\" FROM \"Users\" AS \"User\" WHERE \"User\".\"id\" = 'sigin';"
+pid: 12811
+hostname: localhost.localdomain
+
+2019-04-17 05:37:15,268 ERROR 12811 [-/192.168.33.1/-/31ms GET /api/v2/user/newUserForm] nodejs.SequelizeDatabaseError: invalid input syntax for integer: "newUserForm"
+    at Query.formatError (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:363:16)
+    at query.catch.err (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:86:18)
+From previous event:
+    at Query.run (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:79:23)
+    at Promise.try.then.connection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:454:28)
+    at QueryInterface.select (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/query-interface.js:1104:27)
+    at Promise.try.then.then.then (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:1598:34)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at Function.findAll (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:1595:8)
+    at Function.findOne (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:1752:17)
+    at RestUserController.show (/vagrant_data/nodeworks/egg-ifram_1/app/controller/rest.js:60:35)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"name":"error","length":105,"severity":"ERROR","code":"22P02","position":"260","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"SELECT \"id\", \"email\", \"password\", \"username\", \"nickname\", \"birthday\", \"tel\", \"gender\", \"mobile_phone\", \"address\", \"status\", \"weibo\", \"weixin\", \"receive_remote\", \"email_verifyed\", \"avatar\", \"created_at\", \"updated_at\" FROM \"Users\" AS \"User\" WHERE \"User\".\"id\" = 'newUserForm';"}
+original: {"name":"error","length":105,"severity":"ERROR","code":"22P02","position":"260","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"SELECT \"id\", \"email\", \"password\", \"username\", \"nickname\", \"birthday\", \"tel\", \"gender\", \"mobile_phone\", \"address\", \"status\", \"weibo\", \"weixin\", \"receive_remote\", \"email_verifyed\", \"avatar\", \"created_at\", \"updated_at\" FROM \"Users\" AS \"User\" WHERE \"User\".\"id\" = 'newUserForm';"}
+sql: "SELECT \"id\", \"email\", \"password\", \"username\", \"nickname\", \"birthday\", \"tel\", \"gender\", \"mobile_phone\", \"address\", \"status\", \"weibo\", \"weixin\", \"receive_remote\", \"email_verifyed\", \"avatar\", \"created_at\", \"updated_at\" FROM \"Users\" AS \"User\" WHERE \"User\".\"id\" = 'newUserForm';"
+pid: 12811
+hostname: localhost.localdomain
+
+2019-04-17 05:45:28,618 ERROR 12914 [-/192.168.33.1/-/32ms GET /api/v2/user/newUserForm] nodejs.SequelizeDatabaseError: invalid input syntax for integer: "newUserForm"
+    at Query.formatError (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:363:16)
+    at query.catch.err (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:86:18)
+From previous event:
+    at Query.run (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:79:23)
+    at Promise.try.then.connection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:454:28)
+    at QueryInterface.select (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/query-interface.js:1104:27)
+    at Promise.try.then.then.then (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:1598:34)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at Function.findAll (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:1595:8)
+    at Function.findOne (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:1752:17)
+    at RestUserController.show (/vagrant_data/nodeworks/egg-ifram_1/app/controller/rest.js:60:35)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"name":"error","length":105,"severity":"ERROR","code":"22P02","position":"260","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"SELECT \"id\", \"email\", \"password\", \"username\", \"nickname\", \"birthday\", \"tel\", \"gender\", \"mobile_phone\", \"address\", \"status\", \"weibo\", \"weixin\", \"receive_remote\", \"email_verifyed\", \"avatar\", \"created_at\", \"updated_at\" FROM \"Users\" AS \"User\" WHERE \"User\".\"id\" = 'newUserForm';"}
+original: {"name":"error","length":105,"severity":"ERROR","code":"22P02","position":"260","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"SELECT \"id\", \"email\", \"password\", \"username\", \"nickname\", \"birthday\", \"tel\", \"gender\", \"mobile_phone\", \"address\", \"status\", \"weibo\", \"weixin\", \"receive_remote\", \"email_verifyed\", \"avatar\", \"created_at\", \"updated_at\" FROM \"Users\" AS \"User\" WHERE \"User\".\"id\" = 'newUserForm';"}
+sql: "SELECT \"id\", \"email\", \"password\", \"username\", \"nickname\", \"birthday\", \"tel\", \"gender\", \"mobile_phone\", \"address\", \"status\", \"weibo\", \"weixin\", \"receive_remote\", \"email_verifyed\", \"avatar\", \"created_at\", \"updated_at\" FROM \"Users\" AS \"User\" WHERE \"User\".\"id\" = 'newUserForm';"
+pid: 12914
+hostname: localhost.localdomain
+
+2019-04-17 05:52:37,199 ERROR 13039 [-/192.168.33.1/-/32ms GET /api/v2/user/edit] nodejs.SequelizeDatabaseError: invalid input syntax for integer: "edit"
+    at Query.formatError (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:363:16)
+    at query.catch.err (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:86:18)
+From previous event:
+    at Query.run (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:79:23)
+    at Promise.try.then.connection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:454:28)
+    at QueryInterface.select (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/query-interface.js:1104:27)
+    at Promise.try.then.then.then (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:1598:34)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at Function.findAll (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:1595:8)
+    at Function.findOne (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:1752:17)
+    at RestUserController.show (/vagrant_data/nodeworks/egg-ifram_1/app/controller/rest.js:60:35)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"name":"error","length":98,"severity":"ERROR","code":"22P02","position":"260","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"SELECT \"id\", \"email\", \"password\", \"username\", \"nickname\", \"birthday\", \"tel\", \"gender\", \"mobile_phone\", \"address\", \"status\", \"weibo\", \"weixin\", \"receive_remote\", \"email_verifyed\", \"avatar\", \"created_at\", \"updated_at\" FROM \"Users\" AS \"User\" WHERE \"User\".\"id\" = 'edit';"}
+original: {"name":"error","length":98,"severity":"ERROR","code":"22P02","position":"260","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"SELECT \"id\", \"email\", \"password\", \"username\", \"nickname\", \"birthday\", \"tel\", \"gender\", \"mobile_phone\", \"address\", \"status\", \"weibo\", \"weixin\", \"receive_remote\", \"email_verifyed\", \"avatar\", \"created_at\", \"updated_at\" FROM \"Users\" AS \"User\" WHERE \"User\".\"id\" = 'edit';"}
+sql: "SELECT \"id\", \"email\", \"password\", \"username\", \"nickname\", \"birthday\", \"tel\", \"gender\", \"mobile_phone\", \"address\", \"status\", \"weibo\", \"weixin\", \"receive_remote\", \"email_verifyed\", \"avatar\", \"created_at\", \"updated_at\" FROM \"Users\" AS \"User\" WHERE \"User\".\"id\" = 'edit';"
+pid: 13039
+hostname: localhost.localdomain
+
+2019-04-17 05:53:32,702 ERROR 13136 [-/192.168.33.1/-/29ms GET /api/v2/user/edit] nodejs.SequelizeDatabaseError: invalid input syntax for integer: "edit"
+    at Query.formatError (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:363:16)
+    at query.catch.err (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:86:18)
+From previous event:
+    at Query.run (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/dialects/postgres/query.js:79:23)
+    at Promise.try.then.connection (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:558:20)
+From previous event:
+    at Promise.resolve.retryParameters (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:555:8)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/vagrant_data/nodeworks/egg-ifram_1/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/sequelize.js:454:28)
+    at QueryInterface.select (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/query-interface.js:1104:27)
+    at Promise.try.then.then.then (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:1598:34)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at Function.findAll (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:1595:8)
+    at Function.findOne (/vagrant_data/nodeworks/egg-ifram_1/node_modules/sequelize/lib/model.js:1752:17)
+    at RestUserController.show (/vagrant_data/nodeworks/egg-ifram_1/app/controller/rest.js:60:35)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:27:19)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at i18n (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"name":"error","length":98,"severity":"ERROR","code":"22P02","position":"260","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"SELECT \"id\", \"email\", \"password\", \"username\", \"nickname\", \"birthday\", \"tel\", \"gender\", \"mobile_phone\", \"address\", \"status\", \"weibo\", \"weixin\", \"receive_remote\", \"email_verifyed\", \"avatar\", \"created_at\", \"updated_at\" FROM \"Users\" AS \"User\" WHERE \"User\".\"id\" = 'edit';"}
+original: {"name":"error","length":98,"severity":"ERROR","code":"22P02","position":"260","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"SELECT \"id\", \"email\", \"password\", \"username\", \"nickname\", \"birthday\", \"tel\", \"gender\", \"mobile_phone\", \"address\", \"status\", \"weibo\", \"weixin\", \"receive_remote\", \"email_verifyed\", \"avatar\", \"created_at\", \"updated_at\" FROM \"Users\" AS \"User\" WHERE \"User\".\"id\" = 'edit';"}
+sql: "SELECT \"id\", \"email\", \"password\", \"username\", \"nickname\", \"birthday\", \"tel\", \"gender\", \"mobile_phone\", \"address\", \"status\", \"weibo\", \"weixin\", \"receive_remote\", \"email_verifyed\", \"avatar\", \"created_at\", \"updated_at\" FROM \"Users\" AS \"User\" WHERE \"User\".\"id\" = 'edit';"
+pid: 13136
+hostname: localhost.localdomain
+
+2019-04-17 06:32:48,650 ERROR 13538 [-/192.168.33.1/-/6ms GET /api/v2/user] nodejs.Template render error: (/vagrant_data/nodeworks/egg-ifram_1/app/view/user/index.njk) [Line 106, Column 40]
+  expected variable end
+  expected variable end
+    at Object._prettifyError (/vagrant_data/nodeworks/egg-ifram_1/node_modules/nunjucks/src/lib.js:36:11)
+    at Template.render (/vagrant_data/nodeworks/egg-ifram_1/node_modules/nunjucks/src/environment.js:542:21)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/nunjucks/src/environment.js:366:27
+    at createTemplate (/vagrant_data/nodeworks/egg-ifram_1/node_modules/nunjucks/src/environment.js:315:9)
+    at handle (/vagrant_data/nodeworks/egg-ifram_1/node_modules/nunjucks/src/environment.js:327:11)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/nunjucks/src/environment.js:339:9
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/nunjucks/src/lib.js:280:7)
+    at Object.asyncIter (/vagrant_data/nodeworks/egg-ifram_1/node_modules/nunjucks/src/lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (/vagrant_data/nodeworks/egg-ifram_1/node_modules/nunjucks/src/environment.js:321:9)
+    at NunjucksEnvironment.render (/vagrant_data/nodeworks/egg-ifram_1/node_modules/nunjucks/src/environment.js:360:10)
+    at Promise (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-view-nunjucks/lib/view.js:13:25)
+    at new Promise (<anonymous>)
+    at NunjucksView.render (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/vagrant_data/nodeworks/egg-ifram_1/node_modules/egg-view/lib/context_view.js:70:23)
+name: "Template render error"
+pid: 13538
+hostname: localhost.localdomain
+
+2019-04-18 15:57:53,221 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:57:53,222 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:57:53,283 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:57:53,283 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:57:53,385 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:57:53,386 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:57:53,538 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:57:53,540 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:57:53,744 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:57:53,745 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:57:53,997 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:57:53,998 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:57:54,301 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:57:54,302 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:57:54,654 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:57:54,655 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:57:55,059 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:57:55,060 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:57:55,518 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:57:55,519 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:57:56,024 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:57:56,026 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:57:56,580 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:57:56,581 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:57:57,184 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:57:57,185 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:57:57,840 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:57:57,841 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:57:58,545 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:57:58,546 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:57:59,327 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:57:59,328 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:00,136 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:00,137 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:00,992 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:00,993 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:01,898 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:01,899 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:02,852 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:02,853 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:03,858 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:03,858 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:04,912 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:04,913 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:06,017 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:06,019 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:07,173 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:07,174 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:08,377 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:08,378 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:09,629 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:09,630 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:10,935 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:10,936 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:12,288 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:12,288 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:13,692 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:13,693 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:15,145 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:15,145 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:16,646 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:16,646 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:18,197 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:18,198 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:19,800 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:19,802 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:21,456 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:21,457 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:23,160 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:23,162 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:24,921 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:24,923 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:26,726 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:26,726 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:28,579 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:28,580 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:30,483 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:30,485 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:32,436 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:32,437 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:34,439 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:34,440 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:36,442 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:36,443 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:38,448 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:38,448 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:40,452 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:40,453 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:42,455 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:42,456 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:44,458 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:44,459 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:46,462 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:46,463 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:48,464 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:48,465 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-05-08 02:55:47,259 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:47,260 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:47,319 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:47,319 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:47,419 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:47,420 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:47,574 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:47,575 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:47,778 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:47,779 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:48,031 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:48,032 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:48,335 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:48,337 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:48,689 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:48,690 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:49,094 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:49,095 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:49,548 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:49,549 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:50,052 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:50,053 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:50,607 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:50,608 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:51,212 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:51,213 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:51,865 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:51,866 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:52,570 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:52,571 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:53,324 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:53,325 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:54,128 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:54,129 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:54,984 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:54,985 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:55,887 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:55,888 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:56,841 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:56,842 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:57,844 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:57,844 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:58,897 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:58,898 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:00,000 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:56:00,000 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:01,153 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:56:01,154 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:02,357 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:56:02,358 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:03,609 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:56:03,609 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:04,911 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:56:04,911 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:06,264 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:56:06,265 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:07,669 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:56:07,670 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:09,124 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:56:09,125 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:10,631 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:56:10,632 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:12,188 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:56:12,189 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:13,791 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:56:13,791 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:15,444 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:56:15,444 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:17,150 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:56:17,151 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:18,909 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:56:18,910 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:20,716 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:56:20,717 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:22,572 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:56:22,573 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:24,475 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:56:24,476 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+

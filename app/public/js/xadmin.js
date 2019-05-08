@@ -66,8 +66,6 @@ $(function () {
         ,tabDelete: function(othis){
           //删除指定Tab项
           element.tabDelete('xbs_tab', '44'); //删除：“商品管理”
-          
-          
           othis.addClass('layui-btn-disabled');
         }
         ,tabChange: function(id){
@@ -78,8 +76,11 @@ $(function () {
 
 
     tableCheck = {
+       
         init:function  () {
+            console.log('tableCheck---init')
             $(".x-admin .layui-form-checkbox").click(function(event) {
+                alert(event)
                 if($(this).hasClass('layui-form-checked')){
                     $(this).removeClass('layui-form-checked');
                     if($(this).hasClass('header')){
@@ -94,6 +95,7 @@ $(function () {
                 
             });
         },
+       
         getData:function  () {
             var obj = $(".x-admin .layui-form-checked").not('.header');
             var arr=[];
@@ -308,7 +310,7 @@ function x_admin_show(title,url,w,h){
 
 /*关闭弹出框口*/
 function x_admin_close(){
-    var index = parent.layer.getFrameIndex(window.name);
+    let index = parent.layer.getFrameIndex(window.name);
     parent.layer.close(index);
 }
 
@@ -318,11 +320,13 @@ function x_admin_father_reload(){
 }
 
 function getQueryString(name) { 
-    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i"); 
-    var r = window.location.search.substr(1).match(reg); 
+    let reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i"); 
+    let r = window.location.search.substr(1).match(reg); 
     if (r != null) return unescape(r[2]); 
     return null; 
 } 
+
+
 
 
 

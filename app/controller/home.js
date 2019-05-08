@@ -8,7 +8,7 @@ class HomeController extends Controller {
    // ctx.body = 'Hello world';
     const utils = [
       {title: '生成二维码', ctlname: 'qrcode',path: 'qr/github.com?size=10&margin=10'},
-      {title: '生成验证码captcha/type 0:注册，1：登录', ctlname: 'captcha',path: 'captcha/0'},
+      {title: '生成验证码captcha/type 0:注册，1：登录', ctlname: 'captcha',path: 'captcha/1'},
       {title: '', ctlname: '',path: ''}
     ]
     const  urls = [

@@ -50,6 +50,11 @@ exports.passportGithub = {
   package: 'egg-passport-github',
 };
 
+exports.session = {
+  enable: true,
+  package: 'egg-session',
+};
+
 exports.security = {
  // domainWhiteList: [ 'http://192.168.33.10:8080/' ],
  //domainWhiteList: [ '*' ],

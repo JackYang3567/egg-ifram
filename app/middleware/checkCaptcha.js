@@ -1,6 +1,9 @@
 const BaseHandler = require('../libs/base')
 
 module.exports = (app) =>{
+    /**
+     * 验证码
+     */
     return async function checkCaptcha (ctx, next){
         // 验证的客户端的captcha
         const {type, captcha} = ctx.request.body;

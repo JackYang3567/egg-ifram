@@ -25,7 +25,7 @@
         <button class="layui-btn" onclick="x_admin_show('添加用户','/api/v2/user/new',600,400)"><i class="layui-icon"></i>添加</button>
         <span class="x-right" style="line-height:40px">共有数据：<span id="totalCount"></span> 条</span>
       </xblock>
-      <table class="layui-table x-admin">
+      <table class="layui-table x-admin" >
         <thead>
           <tr>
             <th>
@@ -41,8 +41,8 @@
             <th>状态</th>
             <th>操作</th></tr>
         </thead>
-       <tbody id="tbody">
-       </tbody>
+        <tbody id="tbody">
+        </tbody>
       </table>
      
       <div class="page">
@@ -57,7 +57,6 @@
     </div>
     <script>
      $(function(){
-
         let api = $("#api").val()
         let pageStart = getQueryString("curPage") || parseInt($("#pageStart").val());// 初始页码
         let pageSize  = parseInt($("#pageSize").val()); //每页最大记录数       
@@ -67,11 +66,8 @@
        
         getUserlist(reloadUrl);
         setTimeout(function() {
-           pagein(api);
-          
+           pagein(api)
         }, 300);
-
-       
        
      })
     //load info
@@ -243,41 +239,16 @@
         
      }
 
-   
-       // tableCheck.init();
-      
+    
 
      function generatorTableTr(data){
        let trStr = ``
        let gender =''
        let status = ''
-       let _status = ''
-       let counter = data.length
         trStr +=``
-         console.log(data.length)
-       for(let k=0; k<counter;k++){
-      
-            if (data[k].gender==1){
-                  gender = '男'
-               }else{
-                  gender ='女'
-             }
-            if (data[k].status==1){
-                  status = `<span class="layui-btn layui-btn-normal layui-btn-mini">已启用</span>`
-               }else{
-                  status =` <span class="layui-btn layui-btn-normal layui-btn-mini layui-btn-disabled">已停用</span>`
-             }
-
-             if (data[k].status==1){
-                  _status = ` <a onclick="member_stop(this,'${data[k].id }')" href="javascript:;"  title="停用">
-                      <i class="layui-icon">&#xe62f;</i> 
-                    </a>`
-               }else{
-                  _status =`  <a onclick="member_stop(this,'${data[k].id }')" href="javascript:;"  title="启用">
-                     <i class="layui-icon">&#xe601;</i> 
-                    </a>`
-             }
-
+       for(k in data){
+      // console.log(data[k])
+       
        trStr +=`<tr>
             <td>
               <div
@@ -285,14 +256,39 @@
             </td>
             <td>${data[k].id }</td>
             <td>${data[k].username }</td>
-            <td>${gender}</td>
+            <td>`  
+            if (data[k].gender==1){
+                  gender = '男'
+               }else{
+                  gender ='女'
+             }
+                   
+           trStr +=`${gender}</td>
             <td>${data[k].mobile_phone }</td>
             <td>${data[k].email }</td>
             <td>${data[k].address }</td>
             <td>${data[k].created_at }</td>
-            <td class="td-status">${status}</td>
-            <td class="td-manage">${_status} 
-              <a title="编辑"  onclick="x_admin_show('编辑','/api/v2/user/${data[k].id }/edit',600,600)" href="javascript:;">
+            <td class="td-status">`  
+            if (data[k].status==1){
+                  status = `<span class="layui-btn layui-btn-normal layui-btn-mini">已启用</span>`
+               }else{
+                  status =` <span class="layui-btn layui-btn-normal layui-btn-mini layui-btn-disabled">已停用</span>`
+             }
+                   
+           trStr +=`${status}</td>
+            <td class="td-manage">
+           `  
+            if (data[k].status==1){
+                  status = ` <a onclick="member_stop(this,'${data[k].id }')" href="javascript:;"  title="停用">
+                      <i class="layui-icon">&#xe62f;</i> 
+                    </a>`
+               }else{
+                  status =`  <a onclick="member_stop(this,'${data[k].id }')" href="javascript:;"  title="启用">
+                     <i class="layui-icon">&#xe601;</i> 
+                    </a>`
+             }
+                   
+           trStr +=`${gender} <a title="编辑"  onclick="x_admin_show('编辑','/api/v2/user/${data[k].id }/edit',600,600)" href="javascript:;">
                 <i class="layui-icon">&#xe642;</i>
               </a>
               <a onclick="x_admin_show('修改密码','/api/v2/user/${data[k].id }/edit',600,400)" title="修改密码" href="javascript:;">
@@ -307,7 +303,6 @@
 
       
         $("#tbody").html(trStr)
-        tableCheck.init();
      }
     </script>
    

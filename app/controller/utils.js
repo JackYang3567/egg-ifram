@@ -5,6 +5,16 @@ const svgCaptcha = require('svg-captcha')
 const { Controller } = require('egg')
 
 class UtilsController extends Controller {
+
+  async unauthorization(){
+    const { ctx, app, logger } = this;
+    let  context = { 
+         title: '401 Unauthorization',           
+         content:'401 Unauthorization'
+  }
+    await ctx.render('unauthorization.njk', context);
+  }
+
   async qrcode() {
     const { ctx, logger } = this;
     const { text, size, margin } = {...ctx.params, ...ctx.query} 

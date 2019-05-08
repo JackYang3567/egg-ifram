@@ -3282,3 +3282,1560 @@ hostname: localhost.localdomain
 2019-04-17 03:38:56,023 INFO 10813 [egg-watcher:application] watcher start success
 2019-04-17 03:38:56,055 INFO 10813 [egg:core] dump config after ready, 13ms
 2019-04-17 03:38:57,181 INFO 10813 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-04-17 04:04:53,956 INFO 11134 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-17 04:04:54,041 INFO 11134 [egg-multipart] stream mode enable
+2019-04-17 04:04:54,450 INFO 11134 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-17 04:04:55,857 INFO 11134 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-17 04:04:55,867 INFO 11134 [egg-security] use csrf middleware
+2019-04-17 04:04:55,873 INFO 11134 [egg-security] use methodnoallow middleware
+2019-04-17 04:04:55,875 INFO 11134 [egg-security] use noopen middleware
+2019-04-17 04:04:55,880 INFO 11134 [egg-security] use nosniff middleware
+2019-04-17 04:04:55,882 INFO 11134 [egg-security] use xssProtection middleware
+2019-04-17 04:04:55,884 INFO 11134 [egg-security] use xframe middleware
+2019-04-17 04:04:55,885 INFO 11134 [egg-security] use dta middleware
+2019-04-17 04:04:55,885 INFO 11134 [egg-security] compose 7 middlewares into one security middleware
+2019-04-17 04:04:56,713 INFO 11134 [egg:core] dump config after load, 16ms
+2019-04-17 04:04:56,730 INFO 11134 [egg-redis] client connect success
+2019-04-17 04:04:56,754 INFO 11134 [egg-watcher:application] watcher start success
+2019-04-17 04:04:56,760 INFO 11134 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 17 2019 04:04:56 GMT+0100 (British Summer Time)
+2019-04-17 04:04:56,799 INFO 11134 [egg:core] dump config after ready, 17ms
+2019-04-17 04:10:52,590 INFO 11242 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-17 04:10:52,672 INFO 11242 [egg-multipart] stream mode enable
+2019-04-17 04:10:53,014 INFO 11242 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-17 04:10:54,333 INFO 11242 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-17 04:10:54,342 INFO 11242 [egg-security] use csrf middleware
+2019-04-17 04:10:54,347 INFO 11242 [egg-security] use methodnoallow middleware
+2019-04-17 04:10:54,349 INFO 11242 [egg-security] use noopen middleware
+2019-04-17 04:10:54,355 INFO 11242 [egg-security] use nosniff middleware
+2019-04-17 04:10:54,357 INFO 11242 [egg-security] use xssProtection middleware
+2019-04-17 04:10:54,359 INFO 11242 [egg-security] use xframe middleware
+2019-04-17 04:10:54,364 INFO 11242 [egg-security] use dta middleware
+2019-04-17 04:10:54,364 INFO 11242 [egg-security] compose 7 middlewares into one security middleware
+2019-04-17 04:10:55,182 INFO 11242 [egg:core] dump config after load, 8ms
+2019-04-17 04:10:55,199 INFO 11242 [egg-redis] client connect success
+2019-04-17 04:10:55,222 INFO 11242 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 17 2019 04:10:55 GMT+0100 (British Summer Time)
+2019-04-17 04:10:55,224 INFO 11242 [egg-watcher:application] watcher start success
+2019-04-17 04:10:55,256 INFO 11242 [egg:core] dump config after ready, 11ms
+2019-04-17 04:12:07,610 INFO 11328 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-17 04:12:07,692 INFO 11328 [egg-multipart] stream mode enable
+2019-04-17 04:12:08,117 INFO 11328 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-17 04:12:09,469 INFO 11328 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-17 04:12:09,480 INFO 11328 [egg-security] use csrf middleware
+2019-04-17 04:12:09,486 INFO 11328 [egg-security] use methodnoallow middleware
+2019-04-17 04:12:09,488 INFO 11328 [egg-security] use noopen middleware
+2019-04-17 04:12:09,493 INFO 11328 [egg-security] use nosniff middleware
+2019-04-17 04:12:09,495 INFO 11328 [egg-security] use xssProtection middleware
+2019-04-17 04:12:09,497 INFO 11328 [egg-security] use xframe middleware
+2019-04-17 04:12:09,499 INFO 11328 [egg-security] use dta middleware
+2019-04-17 04:12:09,499 INFO 11328 [egg-security] compose 7 middlewares into one security middleware
+2019-04-17 04:12:10,392 INFO 11328 [egg:core] dump config after load, 18ms
+2019-04-17 04:12:10,409 INFO 11328 [egg-redis] client connect success
+2019-04-17 04:12:10,422 INFO 11328 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 17 2019 04:12:10 GMT+0100 (British Summer Time)
+2019-04-17 04:12:10,433 INFO 11328 [egg-watcher:application] watcher start success
+2019-04-17 04:12:10,467 INFO 11328 [egg:core] dump config after ready, 12ms
+2019-04-17 04:16:19,751 INFO 11430 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-17 04:16:19,832 INFO 11430 [egg-multipart] stream mode enable
+2019-04-17 04:16:20,185 INFO 11430 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-17 04:16:21,559 INFO 11430 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-17 04:16:21,569 INFO 11430 [egg-security] use csrf middleware
+2019-04-17 04:16:21,574 INFO 11430 [egg-security] use methodnoallow middleware
+2019-04-17 04:16:21,576 INFO 11430 [egg-security] use noopen middleware
+2019-04-17 04:16:21,581 INFO 11430 [egg-security] use nosniff middleware
+2019-04-17 04:16:21,583 INFO 11430 [egg-security] use xssProtection middleware
+2019-04-17 04:16:21,585 INFO 11430 [egg-security] use xframe middleware
+2019-04-17 04:16:21,587 INFO 11430 [egg-security] use dta middleware
+2019-04-17 04:16:21,587 INFO 11430 [egg-security] compose 7 middlewares into one security middleware
+2019-04-17 04:16:22,419 INFO 11430 [egg:core] dump config after load, 22ms
+2019-04-17 04:16:22,435 INFO 11430 [egg-redis] client connect success
+2019-04-17 04:16:22,461 INFO 11430 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 17 2019 04:16:22 GMT+0100 (British Summer Time)
+2019-04-17 04:16:22,464 INFO 11430 [egg-watcher:application] watcher start success
+2019-04-17 04:16:22,492 INFO 11430 [egg:core] dump config after ready, 10ms
+2019-04-17 04:21:37,146 INFO 11537 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-17 04:21:37,228 INFO 11537 [egg-multipart] stream mode enable
+2019-04-17 04:21:37,608 INFO 11537 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-17 04:21:39,052 INFO 11537 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-17 04:21:39,064 INFO 11537 [egg-security] use csrf middleware
+2019-04-17 04:21:39,070 INFO 11537 [egg-security] use methodnoallow middleware
+2019-04-17 04:21:39,072 INFO 11537 [egg-security] use noopen middleware
+2019-04-17 04:21:39,077 INFO 11537 [egg-security] use nosniff middleware
+2019-04-17 04:21:39,080 INFO 11537 [egg-security] use xssProtection middleware
+2019-04-17 04:21:39,083 INFO 11537 [egg-security] use xframe middleware
+2019-04-17 04:21:39,085 INFO 11537 [egg-security] use dta middleware
+2019-04-17 04:21:39,085 INFO 11537 [egg-security] compose 7 middlewares into one security middleware
+2019-04-17 04:21:40,100 INFO 11537 [egg:core] dump config after load, 9ms
+2019-04-17 04:21:40,117 INFO 11537 [egg-redis] client connect success
+2019-04-17 04:21:40,139 INFO 11537 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 17 2019 04:21:40 GMT+0100 (British Summer Time)
+2019-04-17 04:21:40,146 INFO 11537 [egg-watcher:application] watcher start success
+2019-04-17 04:21:40,176 INFO 11537 [egg:core] dump config after ready, 10ms
+2019-04-17 04:22:13,044 INFO 11537 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-04-17 04:24:38,413 INFO 11631 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-17 04:24:38,510 INFO 11631 [egg-multipart] stream mode enable
+2019-04-17 04:24:38,912 INFO 11631 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-17 04:24:40,313 INFO 11631 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-17 04:24:40,322 INFO 11631 [egg-security] use csrf middleware
+2019-04-17 04:24:40,328 INFO 11631 [egg-security] use methodnoallow middleware
+2019-04-17 04:24:40,330 INFO 11631 [egg-security] use noopen middleware
+2019-04-17 04:24:40,335 INFO 11631 [egg-security] use nosniff middleware
+2019-04-17 04:24:40,338 INFO 11631 [egg-security] use xssProtection middleware
+2019-04-17 04:24:40,345 INFO 11631 [egg-security] use xframe middleware
+2019-04-17 04:24:40,347 INFO 11631 [egg-security] use dta middleware
+2019-04-17 04:24:40,347 INFO 11631 [egg-security] compose 7 middlewares into one security middleware
+2019-04-17 04:24:41,197 INFO 11631 [egg:core] dump config after load, 9ms
+2019-04-17 04:24:41,215 INFO 11631 [egg-redis] client connect success
+2019-04-17 04:24:41,238 INFO 11631 [egg-watcher:application] watcher start success
+2019-04-17 04:24:41,241 INFO 11631 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 17 2019 04:24:41 GMT+0100 (British Summer Time)
+2019-04-17 04:24:41,275 INFO 11631 [egg:core] dump config after ready, 12ms
+2019-04-17 04:24:49,105 INFO 11631 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-04-17 04:31:26,621 INFO 11743 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-17 04:31:26,706 INFO 11743 [egg-multipart] stream mode enable
+2019-04-17 04:31:27,083 INFO 11743 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-17 04:31:28,563 INFO 11743 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-17 04:31:28,573 INFO 11743 [egg-security] use csrf middleware
+2019-04-17 04:31:28,579 INFO 11743 [egg-security] use methodnoallow middleware
+2019-04-17 04:31:28,581 INFO 11743 [egg-security] use noopen middleware
+2019-04-17 04:31:28,586 INFO 11743 [egg-security] use nosniff middleware
+2019-04-17 04:31:28,588 INFO 11743 [egg-security] use xssProtection middleware
+2019-04-17 04:31:28,590 INFO 11743 [egg-security] use xframe middleware
+2019-04-17 04:31:28,592 INFO 11743 [egg-security] use dta middleware
+2019-04-17 04:31:28,592 INFO 11743 [egg-security] compose 7 middlewares into one security middleware
+2019-04-17 04:31:29,489 INFO 11743 [egg:core] dump config after load, 9ms
+2019-04-17 04:31:29,506 INFO 11743 [egg-redis] client connect success
+2019-04-17 04:31:29,531 INFO 11743 [egg-watcher:application] watcher start success
+2019-04-17 04:31:29,532 INFO 11743 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 17 2019 04:31:29 GMT+0100 (British Summer Time)
+2019-04-17 04:31:29,561 INFO 11743 [egg:core] dump config after ready, 9ms
+2019-04-17 04:31:33,022 INFO 11743 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-04-17 04:32:33,066 INFO 11831 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-17 04:32:33,154 INFO 11831 [egg-multipart] stream mode enable
+2019-04-17 04:32:33,572 INFO 11831 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-17 04:32:35,063 INFO 11831 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-17 04:32:35,074 INFO 11831 [egg-security] use csrf middleware
+2019-04-17 04:32:35,079 INFO 11831 [egg-security] use methodnoallow middleware
+2019-04-17 04:32:35,081 INFO 11831 [egg-security] use noopen middleware
+2019-04-17 04:32:35,086 INFO 11831 [egg-security] use nosniff middleware
+2019-04-17 04:32:35,088 INFO 11831 [egg-security] use xssProtection middleware
+2019-04-17 04:32:35,090 INFO 11831 [egg-security] use xframe middleware
+2019-04-17 04:32:35,092 INFO 11831 [egg-security] use dta middleware
+2019-04-17 04:32:35,092 INFO 11831 [egg-security] compose 7 middlewares into one security middleware
+2019-04-17 04:32:35,926 INFO 11831 [egg:core] dump config after load, 9ms
+2019-04-17 04:32:35,943 INFO 11831 [egg-redis] client connect success
+2019-04-17 04:32:35,967 INFO 11831 [egg-watcher:application] watcher start success
+2019-04-17 04:32:35,970 INFO 11831 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 17 2019 04:32:35 GMT+0100 (British Summer Time)
+2019-04-17 04:32:35,999 INFO 11831 [egg:core] dump config after ready, 9ms
+2019-04-17 04:32:55,744 INFO 11831 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-04-17 04:46:39,770 INFO 11991 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-17 04:46:39,854 INFO 11991 [egg-multipart] stream mode enable
+2019-04-17 04:46:40,190 INFO 11991 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-17 04:46:41,605 INFO 11991 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-17 04:46:41,616 INFO 11991 [egg-security] use csrf middleware
+2019-04-17 04:46:41,622 INFO 11991 [egg-security] use methodnoallow middleware
+2019-04-17 04:46:41,624 INFO 11991 [egg-security] use noopen middleware
+2019-04-17 04:46:41,630 INFO 11991 [egg-security] use nosniff middleware
+2019-04-17 04:46:41,632 INFO 11991 [egg-security] use xssProtection middleware
+2019-04-17 04:46:41,634 INFO 11991 [egg-security] use xframe middleware
+2019-04-17 04:46:41,636 INFO 11991 [egg-security] use dta middleware
+2019-04-17 04:46:41,636 INFO 11991 [egg-security] compose 7 middlewares into one security middleware
+2019-04-17 04:46:42,530 INFO 11991 [egg:core] dump config after load, 10ms
+2019-04-17 04:46:42,551 INFO 11991 [egg-redis] client connect success
+2019-04-17 04:46:42,576 INFO 11991 [egg-watcher:application] watcher start success
+2019-04-17 04:46:42,579 INFO 11991 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 17 2019 04:46:42 GMT+0100 (British Summer Time)
+2019-04-17 04:46:42,611 INFO 11991 [egg:core] dump config after ready, 12ms
+2019-04-17 04:47:28,597 INFO 12073 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-17 04:47:28,695 INFO 12073 [egg-multipart] stream mode enable
+2019-04-17 04:47:29,094 INFO 12073 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-17 04:47:30,511 INFO 12073 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-17 04:47:30,522 INFO 12073 [egg-security] use csrf middleware
+2019-04-17 04:47:30,533 INFO 12073 [egg-security] use methodnoallow middleware
+2019-04-17 04:47:30,535 INFO 12073 [egg-security] use noopen middleware
+2019-04-17 04:47:30,541 INFO 12073 [egg-security] use nosniff middleware
+2019-04-17 04:47:30,543 INFO 12073 [egg-security] use xssProtection middleware
+2019-04-17 04:47:30,545 INFO 12073 [egg-security] use xframe middleware
+2019-04-17 04:47:30,547 INFO 12073 [egg-security] use dta middleware
+2019-04-17 04:47:30,547 INFO 12073 [egg-security] compose 7 middlewares into one security middleware
+2019-04-17 04:47:31,362 INFO 12073 [egg:core] dump config after load, 9ms
+2019-04-17 04:47:31,379 INFO 12073 [egg-redis] client connect success
+2019-04-17 04:47:31,403 INFO 12073 [egg-watcher:application] watcher start success
+2019-04-17 04:47:31,406 INFO 12073 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 17 2019 04:47:31 GMT+0100 (British Summer Time)
+2019-04-17 04:47:31,437 INFO 12073 [egg:core] dump config after ready, 10ms
+2019-04-17 04:48:21,448 INFO 12156 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-17 04:48:21,529 INFO 12156 [egg-multipart] stream mode enable
+2019-04-17 04:48:21,869 INFO 12156 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-17 04:48:23,255 INFO 12156 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-17 04:48:23,265 INFO 12156 [egg-security] use csrf middleware
+2019-04-17 04:48:23,271 INFO 12156 [egg-security] use methodnoallow middleware
+2019-04-17 04:48:23,273 INFO 12156 [egg-security] use noopen middleware
+2019-04-17 04:48:23,279 INFO 12156 [egg-security] use nosniff middleware
+2019-04-17 04:48:23,281 INFO 12156 [egg-security] use xssProtection middleware
+2019-04-17 04:48:23,283 INFO 12156 [egg-security] use xframe middleware
+2019-04-17 04:48:23,285 INFO 12156 [egg-security] use dta middleware
+2019-04-17 04:48:23,285 INFO 12156 [egg-security] compose 7 middlewares into one security middleware
+2019-04-17 04:48:24,112 INFO 12156 [egg:core] dump config after load, 8ms
+2019-04-17 04:48:24,129 INFO 12156 [egg-redis] client connect success
+2019-04-17 04:48:24,142 INFO 12156 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 17 2019 04:48:24 GMT+0100 (British Summer Time)
+2019-04-17 04:48:24,152 INFO 12156 [egg-watcher:application] watcher start success
+2019-04-17 04:48:24,185 INFO 12156 [egg:core] dump config after ready, 11ms
+2019-04-17 04:48:31,325 INFO 12156 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-04-17 04:56:24,908 INFO 12274 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-17 04:56:24,995 INFO 12274 [egg-multipart] stream mode enable
+2019-04-17 04:56:25,360 INFO 12274 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-17 04:56:26,802 INFO 12274 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-17 04:56:26,812 INFO 12274 [egg-security] use csrf middleware
+2019-04-17 04:56:26,817 INFO 12274 [egg-security] use methodnoallow middleware
+2019-04-17 04:56:26,819 INFO 12274 [egg-security] use noopen middleware
+2019-04-17 04:56:26,825 INFO 12274 [egg-security] use nosniff middleware
+2019-04-17 04:56:26,826 INFO 12274 [egg-security] use xssProtection middleware
+2019-04-17 04:56:26,828 INFO 12274 [egg-security] use xframe middleware
+2019-04-17 04:56:26,830 INFO 12274 [egg-security] use dta middleware
+2019-04-17 04:56:26,830 INFO 12274 [egg-security] compose 7 middlewares into one security middleware
+2019-04-17 04:56:27,781 INFO 12274 [egg:core] dump config after load, 9ms
+2019-04-17 04:56:27,800 INFO 12274 [egg-redis] client connect success
+2019-04-17 04:56:27,830 INFO 12274 [egg-watcher:application] watcher start success
+2019-04-17 04:56:27,834 INFO 12274 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 17 2019 04:56:27 GMT+0100 (British Summer Time)
+2019-04-17 04:56:27,863 INFO 12274 [egg:core] dump config after ready, 11ms
+2019-04-17 04:56:32,478 INFO 12274 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-04-17 04:57:32,750 INFO 12359 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-17 04:57:32,831 INFO 12359 [egg-multipart] stream mode enable
+2019-04-17 04:57:33,187 INFO 12359 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-17 04:57:34,629 INFO 12359 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-17 04:57:34,640 INFO 12359 [egg-security] use csrf middleware
+2019-04-17 04:57:34,647 INFO 12359 [egg-security] use methodnoallow middleware
+2019-04-17 04:57:34,649 INFO 12359 [egg-security] use noopen middleware
+2019-04-17 04:57:34,655 INFO 12359 [egg-security] use nosniff middleware
+2019-04-17 04:57:34,657 INFO 12359 [egg-security] use xssProtection middleware
+2019-04-17 04:57:34,659 INFO 12359 [egg-security] use xframe middleware
+2019-04-17 04:57:34,662 INFO 12359 [egg-security] use dta middleware
+2019-04-17 04:57:34,662 INFO 12359 [egg-security] compose 7 middlewares into one security middleware
+2019-04-17 04:57:35,531 INFO 12359 [egg:core] dump config after load, 23ms
+2019-04-17 04:57:35,547 INFO 12359 [egg-redis] client connect success
+2019-04-17 04:57:35,568 INFO 12359 [egg-watcher:application] watcher start success
+2019-04-17 04:57:35,568 INFO 12359 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 17 2019 04:57:35 GMT+0100 (British Summer Time)
+2019-04-17 04:57:35,606 INFO 12359 [egg:core] dump config after ready, 10ms
+2019-04-17 04:57:40,347 INFO 12359 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-04-17 04:58:21,209 INFO 12442 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-17 04:58:21,293 INFO 12442 [egg-multipart] stream mode enable
+2019-04-17 04:58:21,661 INFO 12442 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-17 04:58:23,119 INFO 12442 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-17 04:58:23,129 INFO 12442 [egg-security] use csrf middleware
+2019-04-17 04:58:23,134 INFO 12442 [egg-security] use methodnoallow middleware
+2019-04-17 04:58:23,137 INFO 12442 [egg-security] use noopen middleware
+2019-04-17 04:58:23,142 INFO 12442 [egg-security] use nosniff middleware
+2019-04-17 04:58:23,144 INFO 12442 [egg-security] use xssProtection middleware
+2019-04-17 04:58:23,146 INFO 12442 [egg-security] use xframe middleware
+2019-04-17 04:58:23,147 INFO 12442 [egg-security] use dta middleware
+2019-04-17 04:58:23,147 INFO 12442 [egg-security] compose 7 middlewares into one security middleware
+2019-04-17 04:58:24,009 INFO 12442 [egg:core] dump config after load, 24ms
+2019-04-17 04:58:24,025 INFO 12442 [egg-redis] client connect success
+2019-04-17 04:58:24,047 INFO 12442 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 17 2019 04:58:24 GMT+0100 (British Summer Time)
+2019-04-17 04:58:24,050 INFO 12442 [egg-watcher:application] watcher start success
+2019-04-17 04:58:24,089 INFO 12442 [egg:core] dump config after ready, 19ms
+2019-04-17 04:58:25,010 INFO 12442 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-04-17 05:34:11,081 INFO 12721 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-17 05:34:11,171 INFO 12721 [egg-multipart] stream mode enable
+2019-04-17 05:34:11,540 INFO 12721 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-17 05:34:12,915 INFO 12721 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-17 05:34:12,926 INFO 12721 [egg-security] use csrf middleware
+2019-04-17 05:34:12,932 INFO 12721 [egg-security] use methodnoallow middleware
+2019-04-17 05:34:12,934 INFO 12721 [egg-security] use noopen middleware
+2019-04-17 05:34:12,941 INFO 12721 [egg-security] use nosniff middleware
+2019-04-17 05:34:12,943 INFO 12721 [egg-security] use xssProtection middleware
+2019-04-17 05:34:12,945 INFO 12721 [egg-security] use xframe middleware
+2019-04-17 05:34:12,947 INFO 12721 [egg-security] use dta middleware
+2019-04-17 05:34:12,947 INFO 12721 [egg-security] compose 7 middlewares into one security middleware
+2019-04-17 05:34:13,930 INFO 12721 [egg:core] dump config after load, 17ms
+2019-04-17 05:34:13,949 INFO 12721 [egg-redis] client connect success
+2019-04-17 05:34:13,973 INFO 12721 [egg-watcher:application] watcher start success
+2019-04-17 05:34:13,976 INFO 12721 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 17 2019 05:34:13 GMT+0100 (British Summer Time)
+2019-04-17 05:34:14,009 INFO 12721 [egg:core] dump config after ready, 12ms
+2019-04-17 05:34:14,177 INFO 12721 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-04-17 05:36:28,641 INFO 12811 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-17 05:36:28,761 INFO 12811 [egg-multipart] stream mode enable
+2019-04-17 05:36:29,241 INFO 12811 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-17 05:36:30,694 INFO 12811 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-17 05:36:30,704 INFO 12811 [egg-security] use csrf middleware
+2019-04-17 05:36:30,710 INFO 12811 [egg-security] use methodnoallow middleware
+2019-04-17 05:36:30,713 INFO 12811 [egg-security] use noopen middleware
+2019-04-17 05:36:30,718 INFO 12811 [egg-security] use nosniff middleware
+2019-04-17 05:36:30,720 INFO 12811 [egg-security] use xssProtection middleware
+2019-04-17 05:36:30,722 INFO 12811 [egg-security] use xframe middleware
+2019-04-17 05:36:30,724 INFO 12811 [egg-security] use dta middleware
+2019-04-17 05:36:30,724 INFO 12811 [egg-security] compose 7 middlewares into one security middleware
+2019-04-17 05:36:31,640 INFO 12811 [egg:core] dump config after load, 11ms
+2019-04-17 05:36:31,660 INFO 12811 [egg-redis] client connect success
+2019-04-17 05:36:31,684 INFO 12811 [egg-watcher:application] watcher start success
+2019-04-17 05:36:31,687 INFO 12811 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 17 2019 05:36:31 GMT+0100 (British Summer Time)
+2019-04-17 05:36:31,732 INFO 12811 [egg:core] dump config after ready, 25ms
+2019-04-17 05:40:50,322 INFO 12914 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-17 05:40:50,425 INFO 12914 [egg-multipart] stream mode enable
+2019-04-17 05:40:50,910 INFO 12914 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-17 05:40:52,558 INFO 12914 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-17 05:40:52,580 INFO 12914 [egg-security] use csrf middleware
+2019-04-17 05:40:52,585 INFO 12914 [egg-security] use methodnoallow middleware
+2019-04-17 05:40:52,587 INFO 12914 [egg-security] use noopen middleware
+2019-04-17 05:40:52,594 INFO 12914 [egg-security] use nosniff middleware
+2019-04-17 05:40:52,596 INFO 12914 [egg-security] use xssProtection middleware
+2019-04-17 05:40:52,598 INFO 12914 [egg-security] use xframe middleware
+2019-04-17 05:40:52,600 INFO 12914 [egg-security] use dta middleware
+2019-04-17 05:40:52,600 INFO 12914 [egg-security] compose 7 middlewares into one security middleware
+2019-04-17 05:40:53,494 INFO 12914 [egg:core] dump config after load, 10ms
+2019-04-17 05:40:53,510 INFO 12914 [egg-redis] client connect success
+2019-04-17 05:40:53,535 INFO 12914 [egg-watcher:application] watcher start success
+2019-04-17 05:40:53,539 INFO 12914 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 17 2019 05:40:53 GMT+0100 (British Summer Time)
+2019-04-17 05:40:53,578 INFO 12914 [egg:core] dump config after ready, 19ms
+2019-04-17 05:43:46,601 INFO 12914 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-04-17 05:50:06,965 INFO 13039 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-17 05:50:07,049 INFO 13039 [egg-multipart] stream mode enable
+2019-04-17 05:50:07,448 INFO 13039 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-17 05:50:09,151 INFO 13039 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-17 05:50:09,162 INFO 13039 [egg-security] use csrf middleware
+2019-04-17 05:50:09,169 INFO 13039 [egg-security] use methodnoallow middleware
+2019-04-17 05:50:09,171 INFO 13039 [egg-security] use noopen middleware
+2019-04-17 05:50:09,177 INFO 13039 [egg-security] use nosniff middleware
+2019-04-17 05:50:09,179 INFO 13039 [egg-security] use xssProtection middleware
+2019-04-17 05:50:09,182 INFO 13039 [egg-security] use xframe middleware
+2019-04-17 05:50:09,184 INFO 13039 [egg-security] use dta middleware
+2019-04-17 05:50:09,184 INFO 13039 [egg-security] compose 7 middlewares into one security middleware
+2019-04-17 05:50:10,084 INFO 13039 [egg:core] dump config after load, 10ms
+2019-04-17 05:50:10,102 INFO 13039 [egg-redis] client connect success
+2019-04-17 05:50:10,126 INFO 13039 [egg-watcher:application] watcher start success
+2019-04-17 05:50:10,131 INFO 13039 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 17 2019 05:50:10 GMT+0100 (British Summer Time)
+2019-04-17 05:50:10,162 INFO 13039 [egg:core] dump config after ready, 14ms
+2019-04-17 05:52:26,755 INFO 13039 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-04-17 05:53:11,963 INFO 13136 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-17 05:53:12,063 INFO 13136 [egg-multipart] stream mode enable
+2019-04-17 05:53:12,553 INFO 13136 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-17 05:53:14,069 INFO 13136 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-17 05:53:14,080 INFO 13136 [egg-security] use csrf middleware
+2019-04-17 05:53:14,086 INFO 13136 [egg-security] use methodnoallow middleware
+2019-04-17 05:53:14,088 INFO 13136 [egg-security] use noopen middleware
+2019-04-17 05:53:14,094 INFO 13136 [egg-security] use nosniff middleware
+2019-04-17 05:53:14,097 INFO 13136 [egg-security] use xssProtection middleware
+2019-04-17 05:53:14,099 INFO 13136 [egg-security] use xframe middleware
+2019-04-17 05:53:14,101 INFO 13136 [egg-security] use dta middleware
+2019-04-17 05:53:14,101 INFO 13136 [egg-security] compose 7 middlewares into one security middleware
+2019-04-17 05:53:14,978 INFO 13136 [egg:core] dump config after load, 9ms
+2019-04-17 05:53:14,996 INFO 13136 [egg-redis] client connect success
+2019-04-17 05:53:15,019 INFO 13136 [egg-watcher:application] watcher start success
+2019-04-17 05:53:15,020 INFO 13136 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 17 2019 05:53:15 GMT+0100 (British Summer Time)
+2019-04-17 05:53:15,051 INFO 13136 [egg:core] dump config after ready, 10ms
+2019-04-17 05:53:48,738 INFO 13136 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-04-17 06:01:15,186 INFO 13275 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-17 06:01:15,271 INFO 13275 [egg-multipart] stream mode enable
+2019-04-17 06:01:15,671 INFO 13275 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-17 06:01:17,175 INFO 13275 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-17 06:01:17,187 INFO 13275 [egg-security] use csrf middleware
+2019-04-17 06:01:17,192 INFO 13275 [egg-security] use methodnoallow middleware
+2019-04-17 06:01:17,194 INFO 13275 [egg-security] use noopen middleware
+2019-04-17 06:01:17,201 INFO 13275 [egg-security] use nosniff middleware
+2019-04-17 06:01:17,203 INFO 13275 [egg-security] use xssProtection middleware
+2019-04-17 06:01:17,205 INFO 13275 [egg-security] use xframe middleware
+2019-04-17 06:01:17,207 INFO 13275 [egg-security] use dta middleware
+2019-04-17 06:01:17,207 INFO 13275 [egg-security] compose 7 middlewares into one security middleware
+2019-04-17 06:01:18,092 INFO 13275 [egg:core] dump config after load, 10ms
+2019-04-17 06:01:18,110 INFO 13275 [egg-redis] client connect success
+2019-04-17 06:01:18,133 INFO 13275 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 17 2019 06:01:18 GMT+0100 (British Summer Time)
+2019-04-17 06:01:18,136 INFO 13275 [egg-watcher:application] watcher start success
+2019-04-17 06:01:18,166 INFO 13275 [egg:core] dump config after ready, 9ms
+2019-04-17 06:02:00,117 INFO 13275 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-04-17 06:03:55,174 INFO 13366 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-17 06:03:55,260 INFO 13366 [egg-multipart] stream mode enable
+2019-04-17 06:03:55,710 INFO 13366 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-17 06:03:57,322 INFO 13366 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-17 06:03:57,333 INFO 13366 [egg-security] use csrf middleware
+2019-04-17 06:03:57,340 INFO 13366 [egg-security] use methodnoallow middleware
+2019-04-17 06:03:57,342 INFO 13366 [egg-security] use noopen middleware
+2019-04-17 06:03:57,347 INFO 13366 [egg-security] use nosniff middleware
+2019-04-17 06:03:57,349 INFO 13366 [egg-security] use xssProtection middleware
+2019-04-17 06:03:57,351 INFO 13366 [egg-security] use xframe middleware
+2019-04-17 06:03:57,353 INFO 13366 [egg-security] use dta middleware
+2019-04-17 06:03:57,353 INFO 13366 [egg-security] compose 7 middlewares into one security middleware
+2019-04-17 06:03:58,230 INFO 13366 [egg:core] dump config after load, 12ms
+2019-04-17 06:03:58,246 INFO 13366 [egg-redis] client connect success
+2019-04-17 06:03:58,271 INFO 13366 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 17 2019 06:03:58 GMT+0100 (British Summer Time)
+2019-04-17 06:03:58,275 INFO 13366 [egg-watcher:application] watcher start success
+2019-04-17 06:03:58,305 INFO 13366 [egg:core] dump config after ready, 11ms
+2019-04-17 06:04:06,681 INFO 13366 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-04-17 06:05:39,889 INFO 13456 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-17 06:05:39,976 INFO 13456 [egg-multipart] stream mode enable
+2019-04-17 06:05:40,350 INFO 13456 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-17 06:05:41,777 INFO 13456 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-17 06:05:41,788 INFO 13456 [egg-security] use csrf middleware
+2019-04-17 06:05:41,794 INFO 13456 [egg-security] use methodnoallow middleware
+2019-04-17 06:05:41,796 INFO 13456 [egg-security] use noopen middleware
+2019-04-17 06:05:41,802 INFO 13456 [egg-security] use nosniff middleware
+2019-04-17 06:05:41,804 INFO 13456 [egg-security] use xssProtection middleware
+2019-04-17 06:05:41,806 INFO 13456 [egg-security] use xframe middleware
+2019-04-17 06:05:41,808 INFO 13456 [egg-security] use dta middleware
+2019-04-17 06:05:41,808 INFO 13456 [egg-security] compose 7 middlewares into one security middleware
+2019-04-17 06:05:42,635 INFO 13456 [egg:core] dump config after load, 9ms
+2019-04-17 06:05:42,652 INFO 13456 [egg-redis] client connect success
+2019-04-17 06:05:42,674 INFO 13456 [egg-watcher:application] watcher start success
+2019-04-17 06:05:42,678 INFO 13456 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 17 2019 06:05:42 GMT+0100 (British Summer Time)
+2019-04-17 06:05:42,706 INFO 13456 [egg:core] dump config after ready, 10ms
+2019-04-17 06:06:22,733 INFO 13538 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-17 06:06:22,822 INFO 13538 [egg-multipart] stream mode enable
+2019-04-17 06:06:23,215 INFO 13538 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-17 06:06:24,615 INFO 13538 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-17 06:06:24,625 INFO 13538 [egg-security] use csrf middleware
+2019-04-17 06:06:24,630 INFO 13538 [egg-security] use methodnoallow middleware
+2019-04-17 06:06:24,632 INFO 13538 [egg-security] use noopen middleware
+2019-04-17 06:06:24,638 INFO 13538 [egg-security] use nosniff middleware
+2019-04-17 06:06:24,641 INFO 13538 [egg-security] use xssProtection middleware
+2019-04-17 06:06:24,642 INFO 13538 [egg-security] use xframe middleware
+2019-04-17 06:06:24,644 INFO 13538 [egg-security] use dta middleware
+2019-04-17 06:06:24,644 INFO 13538 [egg-security] compose 7 middlewares into one security middleware
+2019-04-17 06:06:25,487 INFO 13538 [egg:core] dump config after load, 10ms
+2019-04-17 06:06:25,504 INFO 13538 [egg-redis] client connect success
+2019-04-17 06:06:25,519 INFO 13538 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 17 2019 06:06:25 GMT+0100 (British Summer Time)
+2019-04-17 06:06:25,531 INFO 13538 [egg-watcher:application] watcher start success
+2019-04-17 06:06:25,560 INFO 13538 [egg:core] dump config after ready, 10ms
+2019-04-17 06:06:27,630 INFO 13538 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-04-17 07:17:46,640 INFO 14065 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-17 07:17:46,765 INFO 14065 [egg-multipart] stream mode enable
+2019-04-17 07:17:47,369 INFO 14065 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-17 07:17:49,764 INFO 14065 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-17 07:17:49,786 INFO 14065 [egg-security] use csrf middleware
+2019-04-17 07:17:49,794 INFO 14065 [egg-security] use methodnoallow middleware
+2019-04-17 07:17:49,796 INFO 14065 [egg-security] use noopen middleware
+2019-04-17 07:17:49,802 INFO 14065 [egg-security] use nosniff middleware
+2019-04-17 07:17:49,804 INFO 14065 [egg-security] use xssProtection middleware
+2019-04-17 07:17:49,806 INFO 14065 [egg-security] use xframe middleware
+2019-04-17 07:17:49,809 INFO 14065 [egg-security] use dta middleware
+2019-04-17 07:17:49,809 INFO 14065 [egg-security] compose 7 middlewares into one security middleware
+2019-04-17 07:17:50,744 INFO 14065 [egg:core] dump config after load, 10ms
+2019-04-17 07:17:50,763 INFO 14065 [egg-redis] client connect success
+2019-04-17 07:17:50,789 INFO 14065 [egg-watcher:application] watcher start success
+2019-04-17 07:17:50,871 INFO 14065 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 17 2019 07:17:50 GMT+0100 (British Summer Time)
+2019-04-17 07:17:50,943 INFO 14065 [egg:core] dump config after ready, 14ms
+2019-04-17 07:17:58,522 INFO 14065 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-04-17 10:25:19,404 INFO 15346 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-17 10:25:19,506 INFO 15346 [egg-multipart] stream mode enable
+2019-04-17 10:25:19,886 INFO 15346 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-17 10:25:21,483 INFO 15346 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-17 10:25:21,495 INFO 15346 [egg-security] use csrf middleware
+2019-04-17 10:25:21,502 INFO 15346 [egg-security] use methodnoallow middleware
+2019-04-17 10:25:21,504 INFO 15346 [egg-security] use noopen middleware
+2019-04-17 10:25:21,510 INFO 15346 [egg-security] use nosniff middleware
+2019-04-17 10:25:21,513 INFO 15346 [egg-security] use xssProtection middleware
+2019-04-17 10:25:21,515 INFO 15346 [egg-security] use xframe middleware
+2019-04-17 10:25:21,517 INFO 15346 [egg-security] use dta middleware
+2019-04-17 10:25:21,517 INFO 15346 [egg-security] compose 7 middlewares into one security middleware
+2019-04-17 10:25:22,490 INFO 15346 [egg:core] dump config after load, 18ms
+2019-04-17 10:25:22,515 INFO 15346 [egg-redis] client connect success
+2019-04-17 10:25:22,533 INFO 15346 [egg-watcher:application] watcher start success
+2019-04-17 10:25:22,565 INFO 15346 [egg-redis] instance[0] status OK, redis server currentTime: Wed Apr 17 2019 10:25:22 GMT+0100 (British Summer Time)
+2019-04-17 10:25:22,668 INFO 15346 [egg:core] dump config after ready, 12ms
+2019-04-17 10:25:34,139 INFO 15346 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-04-17 12:12:13,977 WARN 13538 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-04-18 15:57:48,448 INFO 29493 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-18 15:57:48,533 INFO 29493 [egg-multipart] stream mode enable
+2019-04-18 15:57:49,550 INFO 29493 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-18 15:57:51,646 INFO 29493 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-18 15:57:51,668 INFO 29493 [egg-security] use csrf middleware
+2019-04-18 15:57:51,683 INFO 29493 [egg-security] use methodnoallow middleware
+2019-04-18 15:57:51,684 INFO 29493 [egg-security] use noopen middleware
+2019-04-18 15:57:51,691 INFO 29493 [egg-security] use nosniff middleware
+2019-04-18 15:57:51,694 INFO 29493 [egg-security] use xssProtection middleware
+2019-04-18 15:57:51,696 INFO 29493 [egg-security] use xframe middleware
+2019-04-18 15:57:51,698 INFO 29493 [egg-security] use dta middleware
+2019-04-18 15:57:51,698 INFO 29493 [egg-security] compose 7 middlewares into one security middleware
+2019-04-18 15:57:53,196 INFO 29493 [egg:core] dump config after load, 11ms
+2019-04-18 15:57:53,221 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:57:53,224 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:57:53,258 INFO 29493 [egg-watcher:application] watcher start success
+2019-04-18 15:57:53,283 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:57:53,283 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:57:53,385 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:57:53,386 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:57:53,539 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:57:53,541 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:57:53,744 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:57:53,745 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:57:53,998 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:57:53,999 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:57:54,301 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:57:54,302 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:57:54,655 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:57:54,656 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:57:55,059 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:57:55,060 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:57:55,519 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:57:55,521 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:57:56,025 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:57:56,026 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:57:56,580 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:57:56,581 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:57:57,185 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:57:57,186 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:57:57,841 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:57:57,842 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:57:58,546 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:57:58,547 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:57:59,328 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:57:59,329 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:00,137 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:00,138 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:00,993 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:00,994 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:01,898 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:01,899 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:02,853 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:02,854 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:03,858 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:03,859 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:04,913 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:04,914 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:06,019 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:06,020 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:07,174 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:07,175 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:08,377 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:08,378 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:09,630 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:09,630 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:10,936 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:10,936 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:12,288 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:12,288 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:13,692 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:13,693 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:15,145 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:15,145 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:16,646 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:16,646 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:18,197 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:18,198 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:19,802 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:19,803 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:21,456 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:21,457 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:23,162 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:23,163 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:24,921 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:24,924 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:26,726 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:26,727 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:28,580 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:28,582 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:30,483 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:30,486 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:32,437 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:32,437 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:34,439 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:34,440 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:36,443 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:36,445 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:38,448 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:38,449 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:40,453 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:40,453 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:42,455 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:42,456 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:44,459 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:44,460 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:46,462 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:46,463 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:48,465 ERROR 29493 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-04-18 15:58:48,467 ERROR 29493 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 29493
+hostname: localhost.localdomain
+
+2019-04-18 15:58:50,472 INFO 29493 [egg-redis] client connect success
+2019-04-18 15:58:50,489 INFO 29493 [egg-redis] instance[0] status OK, redis server currentTime: Thu Apr 18 2019 15:58:50 GMT+0800 (China Standard Time)
+2019-04-18 15:58:50,509 INFO 29493 [egg:core] dump config after ready, 17ms
+2019-04-18 15:59:29,678 INFO 29812 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-18 15:59:29,800 INFO 29812 [egg-multipart] stream mode enable
+2019-04-18 15:59:30,303 INFO 29812 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-04-18 15:59:31,847 INFO 29812 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-04-18 15:59:31,859 INFO 29812 [egg-security] use csrf middleware
+2019-04-18 15:59:31,865 INFO 29812 [egg-security] use methodnoallow middleware
+2019-04-18 15:59:31,867 INFO 29812 [egg-security] use noopen middleware
+2019-04-18 15:59:31,873 INFO 29812 [egg-security] use nosniff middleware
+2019-04-18 15:59:31,875 INFO 29812 [egg-security] use xssProtection middleware
+2019-04-18 15:59:31,877 INFO 29812 [egg-security] use xframe middleware
+2019-04-18 15:59:31,879 INFO 29812 [egg-security] use dta middleware
+2019-04-18 15:59:31,879 INFO 29812 [egg-security] compose 7 middlewares into one security middleware
+2019-04-18 15:59:32,808 INFO 29812 [egg:core] dump config after load, 28ms
+2019-04-18 15:59:32,825 INFO 29812 [egg-redis] client connect success
+2019-04-18 15:59:32,866 INFO 29812 [egg-redis] instance[0] status OK, redis server currentTime: Thu Apr 18 2019 15:59:32 GMT+0800 (China Standard Time)
+2019-04-18 15:59:32,869 INFO 29812 [egg-watcher:application] watcher start success
+2019-04-18 15:59:32,900 INFO 29812 [egg:core] dump config after ready, 11ms
+2019-04-18 16:02:29,059 INFO 29812 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-05-08 02:55:41,651 INFO 8302 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-08 02:55:41,917 INFO 8302 [egg-multipart] stream mode enable
+2019-05-08 02:55:43,139 INFO 8302 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-05-08 02:55:45,421 INFO 8302 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-05-08 02:55:45,455 INFO 8302 [egg-security] use csrf middleware
+2019-05-08 02:55:45,462 INFO 8302 [egg-security] use methodnoallow middleware
+2019-05-08 02:55:45,464 INFO 8302 [egg-security] use noopen middleware
+2019-05-08 02:55:45,472 INFO 8302 [egg-security] use nosniff middleware
+2019-05-08 02:55:45,474 INFO 8302 [egg-security] use xssProtection middleware
+2019-05-08 02:55:45,476 INFO 8302 [egg-security] use xframe middleware
+2019-05-08 02:55:45,479 INFO 8302 [egg-security] use dta middleware
+2019-05-08 02:55:45,479 INFO 8302 [egg-security] compose 7 middlewares into one security middleware
+2019-05-08 02:55:47,232 INFO 8302 [egg:core] dump config after load, 28ms
+2019-05-08 02:55:47,259 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:47,261 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:47,293 INFO 8302 [egg-watcher:application] watcher start success
+2019-05-08 02:55:47,319 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:47,319 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:47,420 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:47,420 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:47,575 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:47,576 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:47,779 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:47,780 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:48,032 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:48,033 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:48,336 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:48,337 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:48,689 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:48,691 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:49,094 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:49,095 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:49,548 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:49,549 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:50,053 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:50,054 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:50,608 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:50,609 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:51,213 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:51,214 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:51,866 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:51,867 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:52,570 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:52,571 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:53,324 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:53,325 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:54,129 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:54,130 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:54,985 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:54,985 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:55,887 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:55,888 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:56,841 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:56,842 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:57,844 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:57,844 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:55:58,897 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:55:58,899 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:00,000 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:56:00,001 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:01,154 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:56:01,154 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:02,358 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:56:02,359 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:03,609 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:56:03,609 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:04,911 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:56:04,911 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:06,265 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:56:06,266 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:07,670 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:56:07,671 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:09,125 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:56:09,126 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:10,632 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:56:10,633 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:12,188 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:56:12,189 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:13,791 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:56:13,791 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:15,444 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:56:15,446 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:17,151 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:56:17,153 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:18,910 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:56:18,912 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:20,716 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:56:20,717 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:22,572 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:56:22,573 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:24,476 ERROR 8302 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-05-08 02:56:24,477 ERROR 8302 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1083:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8302
+hostname: localhost.localdomain
+
+2019-05-08 02:56:26,435 INFO 8302 [egg-redis] client connect success
+2019-05-08 02:56:26,448 INFO 8302 [egg-redis] instance[0] status OK, redis server currentTime: Wed May 08 2019 02:56:26 GMT+0100 (British Summer Time)
+2019-05-08 02:56:26,508 INFO 8302 [egg:core] dump config after ready, 49ms
+2019-05-08 02:57:05,502 INFO 8302 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]
+2019-05-08 03:10:11,279 INFO 8755 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-08 03:10:11,372 INFO 8755 [egg-multipart] stream mode enable
+2019-05-08 03:10:11,750 INFO 8755 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-05-08 03:10:13,430 INFO 8755 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-05-08 03:10:13,442 INFO 8755 [egg-security] use csrf middleware
+2019-05-08 03:10:13,448 INFO 8755 [egg-security] use methodnoallow middleware
+2019-05-08 03:10:13,450 INFO 8755 [egg-security] use noopen middleware
+2019-05-08 03:10:13,457 INFO 8755 [egg-security] use nosniff middleware
+2019-05-08 03:10:13,459 INFO 8755 [egg-security] use xssProtection middleware
+2019-05-08 03:10:13,461 INFO 8755 [egg-security] use xframe middleware
+2019-05-08 03:10:13,464 INFO 8755 [egg-security] use dta middleware
+2019-05-08 03:10:13,464 INFO 8755 [egg-security] compose 7 middlewares into one security middleware
+2019-05-08 03:10:14,363 INFO 8755 [egg:core] dump config after load, 23ms
+2019-05-08 03:10:14,406 INFO 8755 [egg-redis] client connect success
+2019-05-08 03:10:14,430 INFO 8755 [egg-watcher:application] watcher start success
+2019-05-08 03:10:14,470 INFO 8755 [egg-redis] instance[0] status OK, redis server currentTime: Wed May 08 2019 03:10:14 GMT+0100 (British Summer Time)
+2019-05-08 03:10:14,671 INFO 8755 [egg:core] dump config after ready, 23ms

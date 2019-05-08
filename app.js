@@ -8,14 +8,35 @@
 
 
  module.exports = app => {
+
   if (app.config.env === 'local' || app.config.env === 'unittest') {
      
     app.beforeStart(async () => {
      // await app.model.sync({force: true}); //是同步 model 到数据库，主要是同步数据库表和字段
-      
     });
-    
   }
+
+  app.sessionStore = {
+      async get(key) {
+        const res = await app.redis.get(key);
+        if (!res) return null;
+        return JSON.parse(res);
+      },
+
+      async set(key, value, maxAge) {
+        // maxAge not present means session cookies
+        // we can't exactly know the maxAge and just set an appropriate value like one day
+        if (!maxAge) maxAge = 24 * 60 * 60 * 1000;
+        value = JSON.stringify(value);
+        await app.redis.set(key, value, 'PX', maxAge);
+      },
+
+      async destroy(key) {
+       const res = await app.redis.del(key);
+       if (!res) return null;
+       return JSON.parse(res);
+      },
+  };
 
   app.passport.verify(async (ctx, user) => {
     // 检查用户

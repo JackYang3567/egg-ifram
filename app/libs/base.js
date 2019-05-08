@@ -2,10 +2,16 @@
 
 class BaseHandler{
     constructor(){
+
     }
    
-    //成功输出
-    resSuccess(ctx, data,success_message=''){
+    /**
+     * 成功时输出信息
+     * @param {*} ctx 
+     * @param {*} data 
+     * @param {*} success_message 
+     */
+    resSuccess (ctx, data,success_message='') {
         ctx.type = 'json';
         ctx.status = 200;
         ctx.body = {
@@ -16,8 +22,14 @@ class BaseHandler{
         };
     }
 
-    //出错输出
-    resError(ctx, error_code, error_message){
+
+    /**
+     * 出错时输出信息
+     * @param {*} ctx 
+     * @param {*} error_code 
+     * @param {*} error_message 
+     */
+    resError  (ctx, error_code, error_message) {
         ctx.type = 'json';
         ctx.status = 200;
         ctx.body = {
@@ -27,12 +39,35 @@ class BaseHandler{
         };
     }
 
-     //转换成int类型
-     toInt(str) {
+     /**
+      * 字符串转换成int类型
+      * @param {*} str 
+      */
+    toInt (str) {
         if (typeof str === 'number') return str;
         if (!str) return str;
         return parseInt(str, 10) || 0;
-     }
+    }
+
+     /**
+      * 判断一个对象是不为空
+      * @param {*} obj 输入一个对象
+      */
+    isEmptyObj (obj){ 
+        let ret = false
+        if(!obj)
+        {
+           ret = true
+           return ret
+        }
+        if (JSON.stringify(obj) == "{}"  ) {
+           ret = true
+           return ret
+        }
+        return ret
+    }
+    
+     
 }
 
 module.exports = new BaseHandler

@@ -21,7 +21,15 @@
             <input name="type" placeholder="用户名"  type="hidden" value='1' class="layui-input" >
         </form>
     </div>
+   
+{% endblock %}  
+
+{% block scripts %}
     <script>
+     
+     $(function(){
+        getCaptcha();  
+     })
      function getCaptcha(){
         var imgpath= `/captcha/1?str=${Date.parse(new Date())}${Math.random()}`
         $("#img-captcha").attr("src",imgpath)  
@@ -36,7 +44,8 @@
                 dataType:'JSON',
                 success:function(res){
                     if(res.success){
-                        //alert(res.success_message);
+                        //console.log("qqqqq====",res)
+                        //alert(res.success_message+res.data[0].url);
                         window.location.href = res.data[0].url
                     }else{
                         $("#error-msg").html(res.error_message)
@@ -48,4 +57,5 @@
             })
       }
     </script>
-{% endblock %}    
+{% endblock %}
+

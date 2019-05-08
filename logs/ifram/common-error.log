@@ -4538,3 +4538,63 @@ name: "ECONNREFUSEDError"
 pid: 8302
 hostname: localhost.localdomain
 
+2019-05-08 03:15:23,453 ERROR 8926 [-/192.168.33.1/-/166ms POST /admin/signin] nodejs.TypeError: Cannot read property 'id' of undefined
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:99:55)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8926
+hostname: localhost.localdomain
+
+2019-05-08 03:15:25,156 ERROR 8926 [-/192.168.33.1/-/77ms POST /admin/signin] nodejs.TypeError: Cannot read property 'id' of undefined
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:99:55)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8926
+hostname: localhost.localdomain
+
+2019-05-08 03:15:26,240 ERROR 8926 [-/192.168.33.1/-/73ms POST /admin/signin] nodejs.TypeError: Cannot read property 'id' of undefined
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:99:55)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8926
+hostname: localhost.localdomain
+
+2019-05-08 03:15:26,443 ERROR 8926 [-/192.168.33.1/-/75ms POST /admin/signin] nodejs.TypeError: Cannot read property 'id' of undefined
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:99:55)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8926
+hostname: localhost.localdomain
+
+2019-05-08 03:15:26,662 ERROR 8926 [-/192.168.33.1/-/72ms POST /admin/signin] nodejs.TypeError: Cannot read property 'id' of undefined
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:99:55)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8926
+hostname: localhost.localdomain
+
+2019-05-08 03:15:26,873 ERROR 8926 [-/192.168.33.1/-/74ms POST /admin/signin] nodejs.TypeError: Cannot read property 'id' of undefined
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:99:55)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8926
+hostname: localhost.localdomain
+
+2019-05-08 03:15:27,079 ERROR 8926 [-/192.168.33.1/-/72ms POST /admin/signin] nodejs.TypeError: Cannot read property 'id' of undefined
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:99:55)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8926
+hostname: localhost.localdomain
+
+2019-05-08 03:15:27,299 ERROR 8926 [-/192.168.33.1/-/76ms POST /admin/signin] nodejs.TypeError: Cannot read property 'id' of undefined
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:99:55)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8926
+hostname: localhost.localdomain
+
+2019-05-08 03:15:27,519 ERROR 8926 [-/192.168.33.1/-/72ms POST /admin/signin] nodejs.TypeError: Cannot read property 'id' of undefined
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:99:55)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8926
+hostname: localhost.localdomain
+
+2019-05-08 03:15:27,769 ERROR 8926 [-/192.168.33.1/-/74ms POST /admin/signin] nodejs.TypeError: Cannot read property 'id' of undefined
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:99:55)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8926
+hostname: localhost.localdomain
+

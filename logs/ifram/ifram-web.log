@@ -4300,3 +4300,210 @@ hostname: localhost.localdomain
 2019-05-08 03:10:29,690 INFO 8755 [egg-sequelize](6ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
 2019-05-08 03:10:34,396 INFO 8755 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
 2019-05-08 03:10:34,397 INFO 8755 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
+2019-05-08 03:15:07,582 INFO 8926 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-05-08 03:15:23,355 INFO 8926 [egg-sequelize](16ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Admins" AS "Admin" WHERE "Admin"."username" = 'admin' LIMIT 1;
+2019-05-08 03:15:23,453 ERROR 8926 [-/192.168.33.1/-/166ms POST /admin/signin] nodejs.TypeError: Cannot read property 'id' of undefined
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:99:55)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8926
+hostname: localhost.localdomain
+
+2019-05-08 03:15:25,084 INFO 8926 [egg-sequelize](0ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Admins" AS "Admin" WHERE "Admin"."username" = 'admin' LIMIT 1;
+2019-05-08 03:15:25,156 ERROR 8926 [-/192.168.33.1/-/77ms POST /admin/signin] nodejs.TypeError: Cannot read property 'id' of undefined
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:99:55)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8926
+hostname: localhost.localdomain
+
+2019-05-08 03:15:26,170 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Admins" AS "Admin" WHERE "Admin"."username" = 'admin' LIMIT 1;
+2019-05-08 03:15:26,240 ERROR 8926 [-/192.168.33.1/-/73ms POST /admin/signin] nodejs.TypeError: Cannot read property 'id' of undefined
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:99:55)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8926
+hostname: localhost.localdomain
+
+2019-05-08 03:15:26,371 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Admins" AS "Admin" WHERE "Admin"."username" = 'admin' LIMIT 1;
+2019-05-08 03:15:26,443 ERROR 8926 [-/192.168.33.1/-/75ms POST /admin/signin] nodejs.TypeError: Cannot read property 'id' of undefined
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:99:55)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8926
+hostname: localhost.localdomain
+
+2019-05-08 03:15:26,594 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Admins" AS "Admin" WHERE "Admin"."username" = 'admin' LIMIT 1;
+2019-05-08 03:15:26,662 ERROR 8926 [-/192.168.33.1/-/72ms POST /admin/signin] nodejs.TypeError: Cannot read property 'id' of undefined
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:99:55)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8926
+hostname: localhost.localdomain
+
+2019-05-08 03:15:26,802 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Admins" AS "Admin" WHERE "Admin"."username" = 'admin' LIMIT 1;
+2019-05-08 03:15:26,873 ERROR 8926 [-/192.168.33.1/-/74ms POST /admin/signin] nodejs.TypeError: Cannot read property 'id' of undefined
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:99:55)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8926
+hostname: localhost.localdomain
+
+2019-05-08 03:15:27,010 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Admins" AS "Admin" WHERE "Admin"."username" = 'admin' LIMIT 1;
+2019-05-08 03:15:27,079 ERROR 8926 [-/192.168.33.1/-/72ms POST /admin/signin] nodejs.TypeError: Cannot read property 'id' of undefined
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:99:55)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8926
+hostname: localhost.localdomain
+
+2019-05-08 03:15:27,226 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Admins" AS "Admin" WHERE "Admin"."username" = 'admin' LIMIT 1;
+2019-05-08 03:15:27,299 ERROR 8926 [-/192.168.33.1/-/76ms POST /admin/signin] nodejs.TypeError: Cannot read property 'id' of undefined
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:99:55)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8926
+hostname: localhost.localdomain
+
+2019-05-08 03:15:27,450 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Admins" AS "Admin" WHERE "Admin"."username" = 'admin' LIMIT 1;
+2019-05-08 03:15:27,519 ERROR 8926 [-/192.168.33.1/-/72ms POST /admin/signin] nodejs.TypeError: Cannot read property 'id' of undefined
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:99:55)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8926
+hostname: localhost.localdomain
+
+2019-05-08 03:15:27,698 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Admins" AS "Admin" WHERE "Admin"."username" = 'admin' LIMIT 1;
+2019-05-08 03:15:27,769 ERROR 8926 [-/192.168.33.1/-/74ms POST /admin/signin] nodejs.TypeError: Cannot read property 'id' of undefined
+    at AdminController.signin (/vagrant_data/nodeworks/egg-ifram_1/app/controller/admin.js:99:55)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8926
+hostname: localhost.localdomain
+
+2019-05-08 03:15:34,179 INFO 8926 [egg-sequelize](0ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Admins" AS "Admin" WHERE "Admin"."username" = 'admin' LIMIT 1;
+2019-05-08 03:15:50,633 INFO 8926 [egg-sequelize](13ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:15:50,634 INFO 8926 [egg-sequelize](13ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
+2019-05-08 03:15:52,365 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:15:52,367 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
+2019-05-08 03:15:59,391 INFO 8926 [egg-sequelize](4ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:15:59,392 INFO 8926 [egg-sequelize](3ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
+2019-05-08 03:16:00,790 INFO 8926 [egg-sequelize](10ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:16:00,793 INFO 8926 [egg-sequelize](13ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
+2019-05-08 03:16:04,545 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:16:04,546 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
+2019-05-08 03:20:11,621 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:20:11,622 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
+2019-05-08 03:20:11,717 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:20:11,719 INFO 8926 [egg-sequelize](3ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
+2019-05-08 03:20:13,351 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:20:13,353 INFO 8926 [egg-sequelize](3ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
+2019-05-08 03:20:13,486 INFO 8926 [egg-sequelize](12ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:20:13,488 INFO 8926 [egg-sequelize](5ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
+2019-05-08 03:20:15,373 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:20:15,374 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 10;
+2019-05-08 03:20:17,449 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 20;
+2019-05-08 03:20:17,451 INFO 8926 [egg-sequelize](4ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:20:19,062 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:20:19,062 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 30;
+2019-05-08 03:20:20,481 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:20:20,482 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 20;
+2019-05-08 03:20:21,581 INFO 8926 [egg-sequelize](0ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:20:21,582 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 10;
+2019-05-08 03:20:22,029 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:20:22,031 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
+2019-05-08 03:20:22,879 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:20:22,883 INFO 8926 [egg-sequelize](4ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 10;
+2019-05-08 03:20:23,318 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:20:23,320 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 20;
+2019-05-08 03:20:23,727 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:20:23,729 INFO 8926 [egg-sequelize](3ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 30;
+2019-05-08 03:20:28,560 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:20:28,561 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 20;
+2019-05-08 03:20:29,526 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:20:29,526 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 10;
+2019-05-08 03:20:30,110 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:20:30,111 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
+2019-05-08 03:20:30,703 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:20:30,704 INFO 8926 [egg-sequelize](0ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 20;
+2019-05-08 03:20:31,060 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:20:31,061 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 30;
+2019-05-08 03:20:32,078 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:20:32,079 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 20;
+2019-05-08 03:20:33,068 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:20:33,069 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 10;
+2019-05-08 03:20:33,484 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:20:33,485 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
+2019-05-08 03:21:28,136 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:21:28,137 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 10;
+2019-05-08 03:21:28,974 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:21:28,975 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 20;
+2019-05-08 03:21:31,543 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:21:31,544 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 30;
+2019-05-08 03:21:33,453 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:21:33,454 INFO 8926 [egg-sequelize](0ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
+2019-05-08 03:21:35,727 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:21:35,729 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 30;
+2019-05-08 03:21:51,173 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:21:51,176 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 10;
+2019-05-08 03:22:21,017 INFO 8926 [egg-sequelize](13ms) Executed (default): INSERT INTO "Users" ("id","email","password","username","gender","status","created_at","updated_at") VALUES (DEFAULT,'aaaabbb@163.com','$2b$10$7eVWw/2AroYDrCYgpls82OlnJZrd712vOaLPqdpTZZMAxMN6h1zQS','aaaabbbcc',0,0,'2019-05-08 02:22:20.917 +00:00','2019-05-08 02:22:20.918 +00:00') RETURNING *;
+2019-05-08 03:22:22,512 INFO 8926 [egg-sequelize](3ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:22:22,518 INFO 8926 [egg-sequelize](3ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
+2019-05-08 03:22:22,630 INFO 8926 [egg-sequelize](4ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:22:22,635 INFO 8926 [egg-sequelize](5ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
+2019-05-08 03:22:29,321 INFO 8926 [egg-sequelize](4ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" WHERE "User"."id" = 36;
+2019-05-08 03:22:29,339 INFO 8926 [egg-sequelize](4ms) Executed (default): UPDATE "Users" SET "status"=1,"updated_at"='2019-05-08 02:22:29.325 +00:00' WHERE "id" = 36
+2019-05-08 03:22:31,101 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:22:31,102 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
+2019-05-08 03:22:37,661 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" WHERE "User"."id" = 36;
+2019-05-08 03:22:37,669 INFO 8926 [egg-sequelize](3ms) Executed (default): UPDATE "Users" SET "status"=0,"updated_at"='2019-05-08 02:22:37.662 +00:00' WHERE "id" = 36
+2019-05-08 03:22:38,918 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:22:38,919 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
+2019-05-08 03:22:45,925 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" WHERE "User"."id" = 36;
+2019-05-08 03:22:45,931 INFO 8926 [egg-sequelize](2ms) Executed (default): DELETE FROM "Users" WHERE "id" IN (SELECT "id" FROM "Users" WHERE "id" = 36 LIMIT 1)
+2019-05-08 03:22:45,945 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:22:45,946 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
+2019-05-08 03:22:47,216 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:22:47,217 INFO 8926 [egg-sequelize](3ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
+2019-05-08 03:22:47,335 INFO 8926 [egg-sequelize](3ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:22:47,337 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
+2019-05-08 03:23:04,876 INFO 8926 [egg-sequelize](3ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" WHERE "User"."id" = 32;
+2019-05-08 03:23:04,876 INFO 8926 [egg-sequelize](8ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" WHERE "User"."id" = 35;
+2019-05-08 03:23:04,880 INFO 8926 [egg-sequelize](3ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" WHERE "User"."id" = 31;
+2019-05-08 03:23:04,881 INFO 8926 [egg-sequelize](4ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" WHERE "User"."id" = 30;
+2019-05-08 03:23:04,885 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" WHERE "User"."id" = 29;
+2019-05-08 03:23:04,885 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" WHERE "User"."id" = 28;
+2019-05-08 03:23:04,888 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" WHERE "User"."id" = 26;
+2019-05-08 03:23:04,888 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" WHERE "User"."id" = 25;
+2019-05-08 03:23:04,888 INFO 8926 [egg-sequelize](4ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" WHERE "User"."id" = 27;
+2019-05-08 03:23:04,897 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
+2019-05-08 03:23:04,898 INFO 8926 [egg-sequelize](10ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" WHERE "User"."id" = 24;
+2019-05-08 03:23:04,898 INFO 8926 [egg-sequelize](11ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:23:04,904 INFO 8926 [egg-sequelize](9ms) Executed (default): DELETE FROM "Users" WHERE "id" IN (SELECT "id" FROM "Users" WHERE "id" = 32 LIMIT 1)
+2019-05-08 03:23:04,904 INFO 8926 [egg-sequelize](9ms) Executed (default): DELETE FROM "Users" WHERE "id" IN (SELECT "id" FROM "Users" WHERE "id" = 35 LIMIT 1)
+2019-05-08 03:23:04,912 INFO 8926 [egg-sequelize](10ms) Executed (default): DELETE FROM "Users" WHERE "id" IN (SELECT "id" FROM "Users" WHERE "id" = 31 LIMIT 1)
+2019-05-08 03:23:04,912 INFO 8926 [egg-sequelize](9ms) Executed (default): DELETE FROM "Users" WHERE "id" IN (SELECT "id" FROM "Users" WHERE "id" = 30 LIMIT 1)
+2019-05-08 03:23:04,912 INFO 8926 [egg-sequelize](9ms) Executed (default): DELETE FROM "Users" WHERE "id" IN (SELECT "id" FROM "Users" WHERE "id" = 29 LIMIT 1)
+2019-05-08 03:23:04,916 INFO 8926 [egg-sequelize](6ms) Executed (default): DELETE FROM "Users" WHERE "id" IN (SELECT "id" FROM "Users" WHERE "id" = 28 LIMIT 1)
+2019-05-08 03:23:04,916 INFO 8926 [egg-sequelize](6ms) Executed (default): DELETE FROM "Users" WHERE "id" IN (SELECT "id" FROM "Users" WHERE "id" = 26 LIMIT 1)
+2019-05-08 03:23:04,927 INFO 8926 [egg-sequelize](12ms) Executed (default): DELETE FROM "Users" WHERE "id" IN (SELECT "id" FROM "Users" WHERE "id" = 27 LIMIT 1)
+2019-05-08 03:23:04,928 INFO 8926 [egg-sequelize](13ms) Executed (default): DELETE FROM "Users" WHERE "id" IN (SELECT "id" FROM "Users" WHERE "id" = 25 LIMIT 1)
+2019-05-08 03:23:04,929 INFO 8926 [egg-sequelize](14ms) Executed (default): DELETE FROM "Users" WHERE "id" IN (SELECT "id" FROM "Users" WHERE "id" = 24 LIMIT 1)
+2019-05-08 03:23:06,135 INFO 8926 [egg-sequelize](5ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:23:06,135 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
+2019-05-08 03:23:06,246 INFO 8926 [egg-sequelize](6ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:23:06,248 INFO 8926 [egg-sequelize](4ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
+2019-05-08 03:23:09,231 INFO 8926 [egg-sequelize](4ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:23:09,232 INFO 8926 [egg-sequelize](4ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 10;
+2019-05-08 03:23:09,928 INFO 8926 [egg-sequelize](3ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:23:09,928 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 20;
+2019-05-08 03:23:11,246 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:23:11,248 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
+2019-05-08 03:23:16,848 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" WHERE "User"."id" = 14;
+2019-05-08 03:23:48,822 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" WHERE "User"."id" = 14;
+2019-05-08 03:23:48,835 INFO 8926 [egg-sequelize](6ms) Executed (default): UPDATE "Users" SET "email"='aitinoa@qq.com',"nickname"='wqwqwq',"gender"='0',"address"='星光路4号qwqw',"updated_at"='2019-05-08 02:23:48.824 +00:00' WHERE "id" = 14
+2019-05-08 03:23:50,116 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" WHERE "User"."id" = 14;
+2019-05-08 03:23:50,127 INFO 8926 [egg-sequelize](5ms) Executed (default): UPDATE "Users" SET "gender"='0',"updated_at"='2019-05-08 02:23:50.117 +00:00' WHERE "id" = 14
+2019-05-08 03:23:51,710 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:23:51,712 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
+2019-05-08 03:23:51,834 INFO 8926 [egg-sequelize](4ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:23:51,838 INFO 8926 [egg-sequelize](5ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
+2019-05-08 03:23:57,580 INFO 8926 [egg-sequelize](5ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" WHERE "User"."id" = 14;
+2019-05-08 03:24:11,865 INFO 8926 [egg-sequelize](14ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" WHERE "User"."id" = 14;
+2019-05-08 03:24:11,946 INFO 8926 [egg-sequelize](3ms) Executed (default): UPDATE "Users" SET "password"='$2b$10$1VIeOLN2JGTJplC/6tMDleiR1u95weIfbDPMGEcXoKAgG9dVloNUC',"updated_at"='2019-05-08 02:24:11.867 +00:00' WHERE "id" = 14
+2019-05-08 03:24:12,466 INFO 8926 [egg-sequelize](0ms) Executed (default): SELECT "id", "email", "password", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" WHERE "User"."id" = 14;
+2019-05-08 03:24:12,547 INFO 8926 [egg-sequelize](2ms) Executed (default): UPDATE "Users" SET "password"='$2b$10$NG76GSkVsiNWxeIC9kybyurjr.4K0JmHjTFTlVzEn/2sO3qYPRxoO',"updated_at"='2019-05-08 02:24:12.468 +00:00' WHERE "id" = 14
+2019-05-08 03:24:13,914 INFO 8926 [egg-sequelize](2ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:24:13,916 INFO 8926 [egg-sequelize](1ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
+2019-05-08 03:24:14,030 INFO 8926 [egg-sequelize](4ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-08 03:24:14,032 INFO 8926 [egg-sequelize](3ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;

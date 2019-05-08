@@ -1,0 +1,276 @@
+{%  extends "../layouts/admincomm.njk"  %}
+
+{% block body %} 
+ <div class="x-nav">
+      <span class="layui-breadcrumb">
+        <a href="">首页</a>
+        <a href="">演示</a>
+        <a>
+          <cite>导航元素</cite></a>
+      </span>
+      <a class="layui-btn layui-btn-small" style="line-height:1.6em;margin-top:3px;float:right" href="javascript:location.replace(location.href);" title="刷新">
+        <i class="layui-icon" style="line-height:30px">ဂ</i></a>
+    </div>
+    <div class="x-body">
+      <div class="layui-row">
+        <form class="layui-form layui-col-md12 x-so">
+          <input class="layui-input"  autocomplete="off" placeholder="开始日" name="start" id="start">
+          <input class="layui-input"  autocomplete="off" placeholder="截止日" name="end" id="end">
+          <input type="text" name="username"  placeholder="请输入用户名" autocomplete="off" class="layui-input">
+          <button class="layui-btn"  lay-submit="" lay-filter="sreach"><i class="layui-icon">&#xe615;</i></button>
+        </form>
+      </div>
+      <xblock>
+        <button class="layui-btn layui-btn-danger" onclick="delAll()"><i class="layui-icon"></i>批量删除</button>
+        <button class="layui-btn" id="new_add" ><i class="layui-icon"></i>添加</button>
+        <span class="x-right" style="line-height:40px">共有数据：<span id="totalCount" >{{ totalCount }}</span> 条</span>
+      </xblock>
+      <table class="layui-table x-admin">
+        <thead>
+          <tr>
+            <th>
+              <div class="layui-unselect header layui-form-checkbox" lay-skin="primary"><i class="layui-icon">&#xe605;</i></div>
+            </th>
+            <th>ID</th>
+            <th>用户名</th>
+            <th>性别</th>
+            <th>手机</th>
+            <th>邮箱</th>
+            <th>地址</th>
+            <th>加入时间</th>
+            <th>状态</th>
+            <th>操作</th></tr>
+        </thead>
+       <tbody>
+         {% for user in users %}
+       <tr>
+            <td>
+              <div
+               class="layui-unselect layui-form-checkbox" lay-skin="primary" data-id='{{user.id}}'><i class="layui-icon">&#xe605;</i></div>
+            </td>
+            <td>{{user.id}} </td>
+            <td>{{user.username }} </td>
+            <td>{{user.gender}}</td>
+            <td>{{user.mobile_phone}} </td>
+            <td>{{user.email}} </td>
+            <td>{{user.address}} </td>
+            <td>{{user.created_at}} </td>
+            <td class="td-status">{{user.status}}</td>
+            <td class="td-manage">{{user._status}} 
+              <a title="编辑"  onclick="x_admin_show('编辑','/api/v2/user/{{user.id}}/edit',600,600)" href="javascript:;">
+                <i class="layui-icon">&#xe642;</i>
+              </a>
+              <a onclick="x_admin_show('修改密码','/api/v2/user/{{user.id}}/edit',600,400)" title="修改密码" href="javascript:;">
+                <i class="layui-icon">&#xe631;</i>
+              </a>
+              <a title="删除" onclick="member_del(this,'{{user.id }}')" href="javascript:;">
+                <i class="layui-icon">&#xe640;</i>
+              </a>
+            </td>
+          </tr>
+            {% endfor %}
+       </tbody>
+      </table>
+     
+      <div class="page">
+       <div class="box" id="box"></div>
+      </div>
+
+      <div style="display:none">
+        <input type="hidden" id="api" value="/api/v2/user">
+    </div>
+ {% endblock %}  
+
+
+ 
+{% block scripts %}
+    <script>
+     var totalCount = {{ totalCount }}
+     $(function(){
+        // totalCount = {{ totalCount }}
+         paging()
+
+     })
+  
+
+    function paging(){
+         
+         let api = window.location.pathname // $("#api").val()
+         let pageStart = getQueryString("curPage") || 1 //parseInt($("#pageStart").val());// 初始页码
+         let pageSize  = getQueryString("pageSize") || 10 ; //每页最大记录数       
+         let setTotalCount = totalCount ; //总记录数
+         let totalPage = Math.ceil(setTotalCount / pageSize); //总页数
+         let reloadUrl = `${api}?curPage=${pageStart}&pageSize=${pageSize}`; //更新后刷新当前页
+        
+         $('#box').paging({
+            initPageNo: pageStart, // 初始页码
+            totalPages: totalPage, //总页数
+            totalCount: '合计' + setTotalCount + '条数据', // 条目总数
+            slideSpeed: 600, // 缓动速度。单位毫秒
+            jump: true, //是否支持跳转
+            callback: function(page) { // 回调函数
+                
+                if(page!= pageStart){
+                   totalCount = {{ totalCount }}
+                   window.location.href =  `${api}?curPage=${page}&pageSize=${pageSize}`
+                   //window.location.reload();
+                }else{
+                  // window.location.href =  `${api}?curPage=${pageStart}&pageSize=${pageSize}`
+                }
+            }
+        })
+    }
+     /*
+    //load info
+     function getUserlist(reloadUrl){
+       alert(url)
+       let data = '';
+        $.ajax({
+            url:reloadUrl,
+            type:"GET",
+            dataType:"json",
+            timeout:10000,
+            data:data,
+            success:function(res){
+               if(res.success){
+                   $("#setTotalCount").val(res.data.totalCount); //总记录数
+                   $("#totalCount").html(res.data.totalCount)
+                   generatorTableTr(users)
+                }
+                else{
+                   alert(res.error_message)
+              }
+            }
+        });
+     }
+
+     */
+      layui.use('laydate', function(){
+         var laydate = layui.laydate;
+
+         //执行一个laydate实例
+         laydate.render({
+           elem: '#start' //指定元素
+        });
+
+        //执行一个laydate实例
+        laydate.render({
+           elem: '#end' //指定元素
+        });
+      });
+
+       /*用户-停用*/
+     
+      function member_stop(obj,id){
+          layer.confirm(`确认要${$(obj).attr('title')}吗？`,function(index){
+              let props = {}
+              if($(obj).attr('title')=='启用'){
+
+                //发异步把用户状态进行更改
+                 props.status = 1
+                updateUser(id, JSON.stringify(props)) 
+                $(obj).attr('title','停用')
+                $(obj).find('i').html('&#xe62f;');
+
+                // $(obj).parents("tr").find(".td-status").find('span').addClass('layui-btn-disabled').html('已停用');
+                layer.msg('已启用!',{icon: 1,time:1000});
+                window.location.href = $("#reloadUrl").val()
+              }else{
+                 props.status = 0
+                 updateUser(id, JSON.stringify(props)) 
+
+                $(obj).attr('title','启用')
+                $(obj).find('i').html('&#xe601;');
+
+                // $(obj).parents("tr").find(".td-status").find('span').removeClass('layui-btn-disabled').html('已启用');
+                layer.msg('已停用!',{icon: 5,time:1000});
+                window.location.href = $("#reloadUrl").val()
+              }              
+          });         
+      }
+
+      /*用户-删除*/
+     
+      function member_del(obj,id){
+          layer.confirm('确认要删除吗？',function(index){
+               //发异步删除数据
+               delUser(id);
+               layer.msg('已删除!',{icon:1,time:1000},function(){
+                     window.location.href =  $("#api").val()
+               });
+               // $(obj).parents("tr").remove();              
+          });
+      }
+
+
+
+      function delAll (argument) {
+
+        var data = tableCheck.getData();
+        if(data.length<1)
+        {
+            layer.msg('请勾选要删除的记录', {icon: 1});
+            return false;
+        }
+       let ids = data.join(',');
+       console.log('delAll data=====',data)
+  
+        layer.confirm('确认要删除吗？'+ ids,function(index){
+            //捉到所有被选中的，发异步进行删除
+            delUser(ids)
+            layer.msg('删除成功', {icon: 1});
+           // $(".layui-form-checked").not('.header').parents('tr').remove();
+            layer.msg('已删除!',{icon:1,time:1000},function(){
+                     // window.location.reload();
+                      window.location.href = $("#api").val()
+            });
+        });
+      }
+
+      //更新
+       function updateUser(id, props) {
+         let data =  $(".layui-form").serialize();
+        
+         console.log(data)
+         $.ajax({
+            url:`${api}/${id}?props=${props}`,
+            type:"put",
+            dataType:"json",
+            timeout:10000,
+            data:data,
+            success:function(res){
+                //callback(data);
+                if(res.success){
+                   alert(res.success_message)      
+                }
+                else{
+                   alert(res.error_message)
+              }
+            }
+        });
+      }
+
+      //删除
+      function delUser(id) {
+        
+        let api = $("#api").val()
+        let data =  $(".layui-form").serialize();
+        $.ajax({
+            url:`${api}/${id}`,
+            type:"delete",
+            dataType:"json",
+            timeout:10000,
+            data:data,
+            success:function(res){
+               if(res.success){
+                  window.location.reload();
+                }
+                else{
+                   alert(res.error_message)
+              }
+            }
+        });
+        
+     }
+    </script>
+{% endblock %}

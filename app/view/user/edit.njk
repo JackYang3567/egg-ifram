@@ -2,7 +2,7 @@
 {% block body %} 
    <div class="x-body">
        
-        {% if (opt==0) %}
+        {% if (opt == 1) %}
 
  <form class="layui-form">
    <input type="hidden" name="opt"  value="info" class="layui-input">
@@ -81,10 +81,10 @@
            <input type="hidden" name="opt"  value="pass" class="layui-input">
               <input type="hidden" id="L_id"  disabled="" value="{{ users[0].id }}" class="layui-input">
               <label for="L_username" class="layui-form-label">
-                  昵称
+                  登录名
               </label>
               <div class="layui-input-inline">
-                  <input type="text" id="L_username" name="username" disabled="" value="{{ users[0].username }}" class="layui-input">
+                  <input type="text" id="L_username" name="username" readOnly="" value="{{ users[0].username }}" class="layui-input">
               </div>
           </div>
           <div class="layui-form-item">
@@ -128,23 +128,38 @@
         {% endif %}
         
     </div>
+     <div style="display:none">
+        <input type="hidden" id="api" value="/api/v2/user">
+    </div>
     <script>
+
+    var api = $("#api").val()
+     $(function(){
+         layui.use(['form','layer'], function(){
+           $ = layui.jquery;
+          var form = layui.form
+             ,layer = layui.layer;
+        $(".layui-btn").click(function(){
+            saveUser()
+            return false;
+        })
+        });
+     })
      layui.use(['form','layer'], function(){
            $ = layui.jquery;
           var form = layui.form
              ,layer = layui.layer;
       $(".layui-btn").click(function(){
-         saveUser()
+          saveUser()
           return false;
       })
      });
 
       function saveUser() {
         let data =  $(".layui-form").serialize();
-         // alert(`/user/${$("#L_id").val()}`)
-        // console.log(data)
+          alert(data)
          $.ajax({
-            url:`/user/${$("#L_id").val()}`,
+            url:`${api}/${$("#L_id").val()}`,
             type:"put",
             dataType:"json",
             timeout:10000,
@@ -157,16 +172,16 @@
                         // 可以对父窗口进行刷新 
                        x_admin_father_reload();
                       });
+                     
                     }
                     else{
+                         layer.alert(res.error_message, {icon: 6});
                         console.log(res.error_message);
                     }
             }
         });
          return false;
       }
-     
-     
-    
+
     </script>
 {% endblock %}    

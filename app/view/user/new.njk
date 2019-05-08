@@ -79,7 +79,7 @@
           form.on('submit(add)', function(formData){
             //发异步，把数据提交给后台
               $.ajax({
-                url:'/user',
+                url:'/api/v2/user?_csrf={{ ctx.csrf | safe }}',
                 type:"POST",
                 data:formData.field,
                 dataType:'JSON',

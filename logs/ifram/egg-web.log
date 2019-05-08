@@ -4839,3 +4839,21 @@ hostname: localhost.localdomain
 2019-05-08 03:10:14,430 INFO 8755 [egg-watcher:application] watcher start success
 2019-05-08 03:10:14,470 INFO 8755 [egg-redis] instance[0] status OK, redis server currentTime: Wed May 08 2019 03:10:14 GMT+0100 (British Summer Time)
 2019-05-08 03:10:14,671 INFO 8755 [egg:core] dump config after ready, 23ms
+2019-05-08 03:15:00,121 INFO 8926 [egg:logger] init all loggers with options: {"dir":"/vagrant_data/nodeworks/egg-ifram_1/logs/ifram","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"ifram-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-08 03:15:00,284 INFO 8926 [egg-multipart] stream mode enable
+2019-05-08 03:15:00,947 INFO 8926 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-05-08 03:15:05,453 INFO 8926 [egg-static] starting static serve / -> /vagrant_data/nodeworks/egg-ifram_1/app/public
+2019-05-08 03:15:05,510 INFO 8926 [egg-security] use csrf middleware
+2019-05-08 03:15:05,540 INFO 8926 [egg-security] use methodnoallow middleware
+2019-05-08 03:15:05,556 INFO 8926 [egg-security] use noopen middleware
+2019-05-08 03:15:05,579 INFO 8926 [egg-security] use nosniff middleware
+2019-05-08 03:15:05,592 INFO 8926 [egg-security] use xssProtection middleware
+2019-05-08 03:15:05,604 INFO 8926 [egg-security] use xframe middleware
+2019-05-08 03:15:05,608 INFO 8926 [egg-security] use dta middleware
+2019-05-08 03:15:05,608 INFO 8926 [egg-security] compose 7 middlewares into one security middleware
+2019-05-08 03:15:07,433 INFO 8926 [egg:core] dump config after load, 22ms
+2019-05-08 03:15:07,497 INFO 8926 [egg-redis] client connect success
+2019-05-08 03:15:07,526 INFO 8926 [egg-redis] instance[0] status OK, redis server currentTime: Wed May 08 2019 03:15:07 GMT+0100 (British Summer Time)
+2019-05-08 03:15:07,529 INFO 8926 [egg-watcher:application] watcher start success
+2019-05-08 03:15:07,600 INFO 8926 [egg:core] dump config after ready, 14ms
+2019-05-08 03:15:08,328 INFO 8926 [egg-view-nunjucks] loading templates from ["/vagrant_data/nodeworks/egg-ifram_1/app/view"]

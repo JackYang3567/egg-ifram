@@ -1,4 +1,5 @@
 # ifram
+This project name egg-ifram_1 是后台，前端name  vueworks下的vue-demo-pro
 https://github.com/JackYang3567/egg-ifram.git
 
 //integer,varchar,timestamp,text,boolean

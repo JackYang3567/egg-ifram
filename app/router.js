@@ -38,6 +38,7 @@ module.exports = app => {
 
 
   router.get('/api/v2/user/list',controller.restUser.list);
+  router.post('/api/v2/user/signin', checkCaptcha, controller.restUser.signin);
   //API RESTful
 
    router.resources('user', '/api/v1/user', controller.user);

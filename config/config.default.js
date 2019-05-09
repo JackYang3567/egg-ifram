@@ -85,8 +85,9 @@ module.exports = appInfo => {
  */ 
   config.cors = {
     // {string|Function} origin: '*',
-    origin: '*'
-    // {string|Array} allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH'
+    origin: '*',
+    // {string|Array} 
+    allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH',
   };
   config.security = {
      
@@ -100,6 +101,7 @@ module.exports = appInfo => {
         headerName: 'x-csrf-token', // request csrf token's name in header
         bodyName: '_csrf',          // 通过 query 传递 CSRF token 的默认字段为 _csrf
         queryName: '_csrf',        // 通过 query 传递 CSRF token 的默认字段为 _csrf
+        ignoreJSON: true, // 默认为 false，当设置为 true 时，将会放过所有 content-type 为 `application/json` 的请求
       },
     
   };

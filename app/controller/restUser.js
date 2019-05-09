@@ -148,7 +148,18 @@ class RestUserController extends RestRenderController {
     const success_message = ""
     BaseHandler.resSuccess(ctx, data, success_message)
   
-}
+ }
+
+  /**
+   * 登录
+   */
+  async signin(){
+    const ctx = this.ctx;
+    const user = ctx.request.body 
+    const data = user
+    const success_message = "登录成功!"
+    BaseHandler.resSuccess(ctx, data, success_message)
+  }
   
     
 }

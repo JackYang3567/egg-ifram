@@ -5179,3 +5179,22 @@ hostname: localhost.localdomain
 2019-05-09 03:40:23,419 INFO 10470 [egg-sequelize](25ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
 2019-05-09 04:38:52,667 INFO 10470 [egg-sequelize](2ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
 2019-05-09 04:38:52,668 INFO 10470 [egg-sequelize](4ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-10 00:59:51,491 INFO 8289 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-05-10 03:10:05,215 ERROR 8289 [-/192.168.33.1/-/124ms POST /api/v2/user/signin] nodejs.TypeError: Cannot read property 'toLowerCase' of undefined
+    at checkCaptcha (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/checkCaptcha.js:13:75)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:18:26)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8289
+hostname: localhost.localdomain
+
+2019-05-10 03:11:45,053 INFO 8289 [egg-sequelize](16ms) Executed (default): SELECT count(*) AS "count" FROM "Users" AS "User";
+2019-05-10 03:11:45,054 INFO 8289 [egg-sequelize](16ms) Executed (default): SELECT "id", "email", "username", "nickname", "birthday", "tel", "gender", "mobile_phone", "address", "status", "weibo", "weixin", "receive_remote", "email_verifyed", "avatar", "created_at", "updated_at" FROM "Users" AS "User" ORDER BY "User"."id" DESC LIMIT 10 OFFSET 0;
+2019-05-10 06:07:37,286 INFO 10701 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-05-11 01:14:11,090 INFO 8298 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result

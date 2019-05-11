@@ -5450,3 +5450,17 @@ headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
 pid: 10383
 hostname: localhost.localdomain
 
+2019-05-10 03:10:05,215 ERROR 8289 [-/192.168.33.1/-/124ms POST /api/v2/user/signin] nodejs.TypeError: Cannot read property 'toLowerCase' of undefined
+    at checkCaptcha (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/checkCaptcha.js:13:75)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/vagrant_data/nodeworks/egg-ifram_1/node_modules/koa-compose/index.js:42:32)
+    at auth (/vagrant_data/nodeworks/egg-ifram_1/app/middleware/auth.js:18:26)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8289
+hostname: localhost.localdomain
+
